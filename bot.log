@@ -1,0 +1,14 @@
+10-09 15:15:37 selftest alpaca: status=ACTIVE equity=100000 market_open=True
+10-09 15:15:37 selftest calendar today: (True, datetime.time(16, 0))
+10-09 15:15:38 selftest benzinga: 5 recent headlines
+10-09 15:15:38 selftest sec SKYD filings 30d: [{'form': '8-A12B', 'date': '2026-10-09'}, {'form': 'CERT', 'date': '2026-10-09'}, {'form': '4', 'date': '2026-10-08'}]
+10-09 15:15:39 scan drop MOGU +20.6% rvol 82.8: no news 24h
+10-09 15:15:40 scan keep FSLY +17.9% rvol 2.1 | [Benzinga] Why Is Fastly Stock Soaring Friday?
+10-09 15:15:40 scan keep NVAX +17.1% rvol 3.2 | [Benzinga] A New War on Cancer? NIH's Vaccine Initiative Sparks Biotech Stock Ra
+10-09 15:15:41 scan drop DNA: negative news ([Newswire] TRexBio Announces Pricing of Initial Public Offering - Glob)
+10-09 15:15:41 scan keep CCI +13.1% rvol 3.1 | [Benzinga] Treasury Yields Reach 24-Year Highs, Telecom Stocks Sell Off: This We
+10-09 15:15:42 scan keep QNCX +10.4% rvol 5.1 | [Benzinga] Quince Therapeutics Announces Appointment Of Brigette Roberts As CEO,
+10-09 15:15:42 scan drop MMLP +9.7% rvol 2.0: no news 24h
+10-09 15:15:43 scan keep MNSO +6.8% rvol 2.2 | [Benzinga] MINISO Says Preliminary Q3 Mainland China GMV Up 25%-30% YoY, U.S. GM
+10-09 15:15:43 selftest universe=['FSLY', 'NVAX', 'CCI', 'QNCX', 'MNSO']
+10-09 15:15:43 selftest FSLY bars=346 premarket=118 stats=(25.290000915527344, 7772020.0)
