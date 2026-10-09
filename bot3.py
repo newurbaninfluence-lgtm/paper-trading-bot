@@ -4,7 +4,7 @@ half off at +1R then stop to breakeven, 4-minute signal age limit, monthly-opex 
 Usage: python3 bot3.py live            -> runs every market day
        python3 bot3.py replay YYYY-MM-DD T1,T2,...  -> replays a past day on given tickers
 No broker connection. Fills: next 1-min bar open + $0.02; stops $0.02 worse."""
-import os, sys, re, time, math, email.utils, urllib.request, datetime as dt, warnings
+import os, sys, re, json, time, math, email.utils, urllib.request, urllib.parse, datetime as dt, warnings
 import pandas as pd, yfinance as yf
 from zoneinfo import ZoneInfo
 warnings.filterwarnings("ignore")
@@ -51,20 +51,88 @@ def prev_close(t, day):
     return float(h.Close.iloc[-1]) if len(h) else None
 
 CAT = {}
-def catalyst(sym, name=""):
-    if sym in CAT: return CAT[sym]
-    try:
-        x = urllib.request.urlopen(f"https://news.google.com/rss/search?q={sym}+stock+when:1d&hl=en-US&gl=US&ceid=US:en", timeout=15).read().decode("utf-8", "ignore")
-    except Exception: CAT[sym] = None; return None
-    key = (name or sym).split()[0].lower(); cut = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=24); hits = []
+# ---------- news: primary sources first (Benzinga via Alpaca, newswires, SEC filings), Google News as fallback
+SEC_UA = os.environ.get("SEC_UA", "PaperTradingBot paper-bot@users.noreply.github.com")
+OPINION = re.compile(r"\b(why i'?m|should you|is it time|buy or sell|top \d+|stock price, news, quote|what'?s next|time to buy|could|might)\b", re.I)
+DILUTION_FORMS = {"S-1", "S-1/A", "S-3", "S-3/A", "F-1", "F-1/A", "F-3", "424B1", "424B2", "424B3", "424B4", "424B5"}
+_CIK = {}
+
+def _get(url, headers=None, timeout=15):
+    return urllib.request.urlopen(urllib.request.Request(url, headers=headers or {"User-Agent": "Mozilla/5.0"}), timeout=timeout).read().decode("utf-8", "ignore")
+
+def news_benzinga(sym=None, hours=24, limit=10):
+    k, sec = os.environ.get("ALPACA_KEY"), os.environ.get("ALPACA_SECRET")
+    if not (k and sec): return []
+    start = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    q = f"https://data.alpaca.markets/v1beta1/news?start={start}&limit={limit}&sort=desc" + (f"&symbols={sym}" if sym else "")
+    try: js = json.loads(_get(q, {"APCA-API-KEY-ID": k, "APCA-API-SECRET-KEY": sec}))
+    except Exception as e: log(f"benzinga news error {e}"); return []
+    return [dict(t=n["headline"], src="Benzinga", when=n["created_at"], syms=n.get("symbols", [])) for n in js.get("news", [])]
+
+def _rss(query, hours=24):
+    try: x = _get(f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=en-US&gl=US&ceid=US:en")
+    except Exception: return []
+    cut = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=hours); out = []
     for t, d in re.findall(r"<item>.*?<title>(.*?)</title>.*?<pubDate>(.*?)</pubDate>", x, re.S):
         try:
-            if email.utils.parsedate_to_datetime(d) < cut: continue
-        except Exception: continue
-        if sym.lower() in t.lower() or key in t.lower(): hits.append(t)
-    neg = [h for h in hits if NEG.search(h)]
-    CAT[sym] = ("NEG:" + neg[0]) if neg else (hits[0] if hits else None)
+            if email.utils.parsedate_to_datetime(d) >= cut: out.append(dict(t=t.replace("&amp;", "&"), when=d))
+        except Exception: pass
+    return out
+
+def news_wires(sym, hours=24):
+    q = f"{sym} (site:globenewswire.com OR site:prnewswire.com OR site:businesswire.com OR site:accessnewswire.com) when:2d"
+    return [dict(n, src="Newswire") for n in _rss(q, hours)]
+
+def sec_filings(sym, days=3):
+    try:
+        if not _CIK: _CIK.update({v["ticker"]: v["cik_str"] for v in json.loads(_get("https://www.sec.gov/files/company_tickers.json", {"User-Agent": SEC_UA})).values()})
+        cik = _CIK.get(sym)
+        if not cik: return []
+        rf = json.loads(_get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json", {"User-Agent": SEC_UA}))["filings"]["recent"]
+    except Exception as e:
+        log(f"sec error {sym} {str(e)[:60]}"); return []
+    cut = str(dt.date.today() - dt.timedelta(days=days))
+    return [dict(form=f, date=d) for f, d in zip(rf["form"], rf["filingDate"]) if d >= cut]
+
+def catalyst(sym, name=""):
+    if sym in CAT: return CAT[sym]
+    key = (name or sym).split()[0].lower()
+    filings = sec_filings(sym)
+    dil = [f for f in filings if f["form"] in DILUTION_FORMS]
+    if dil: CAT[sym] = f"NEG:SEC {dil[0]['form']} filed {dil[0]['date']} (possible share offering)"; return CAT[sym]
+    hits = [n for n in news_benzinga(sym) if sym in n["syms"]] + news_wires(sym)
+    if not hits:
+        hits = [dict(n, src="Google News") for n in _rss(f"{sym} stock when:1d") if (sym.lower() in n["t"].lower() or key in n["t"].lower()) and not OPINION.search(n["t"])]
+    eightk = [f for f in filings if f["form"].startswith("8-K")]
+    neg = [h for h in hits if NEG.search(h["t"])]
+    if neg: CAT[sym] = f"NEG:[{neg[0]['src']}] {neg[0]['t']}"
+    elif hits: CAT[sym] = f"[{hits[0]['src']}] {hits[0]['t']}" + (" +8-K" if eightk else "")
+    elif eightk: CAT[sym] = f"[SEC] 8-K filed {eightk[0]['date']}"
+    else: CAT[sym] = None
     return CAT[sym]
+
+# ---------- daily market brief from every side of the spectrum (AllSides-style lean labels)
+OUTLETS = [("Left", "MSNBC", "msnbc.com"), ("Left", "HuffPost", "huffpost.com"),
+           ("Lean Left", "AP", "apnews.com"), ("Lean Left", "Bloomberg", "bloomberg.com"), ("Lean Left", "New York Times", "nytimes.com"), ("Lean Left", "Axios", "axios.com"),
+           ("Center", "Reuters", "reuters.com"), ("Center", "CNBC", "cnbc.com"), ("Center", "Wall Street Journal", "wsj.com"), ("Center", "The Hill", "thehill.com"), ("Center", "Forbes", "forbes.com"),
+           ("Lean Right", "Fox Business", "foxbusiness.com"), ("Lean Right", "Washington Examiner", "washingtonexaminer.com"), ("Lean Right", "New York Post", "nypost.com"),
+           ("Right", "Fox News", "foxnews.com"), ("Right", "Breitbart", "breitbart.com"), ("Right", "Newsmax", "newsmax.com"), ("Right", "Daily Wire", "dailywire.com")]
+MKT = re.compile(r"stock|market|econom|fed\b|fed's|rate|tariff|inflation|price|jobs|earnings|dow|s&p|nasdaq|oil|dollar|bond|treasury|recession|gdp|bank|trade|ai\b", re.I)
+TOPICS = "(stocks OR \"stock market\" OR economy OR Fed OR tariffs OR inflation OR jobs)"
+
+def market_brief(day=None):
+    day = day or dt.datetime.now(ET).date(); os.makedirs(f"{BASE}/briefs", exist_ok=True)
+    lines = [f"# Market brief {day}", "", "Lean labels follow AllSides-style ratings. Read across the spectrum: where every side reports the same fact, it's likely solid; where only one side runs a story, check it before trading on it.", ""]
+    bz = news_benzinga(None, hours=16, limit=25)
+    lines += ["## Benzinga wire (no political lean, fastest)", ""] + [f"- {n['t']}" + (f" ({', '.join(n['syms'][:4])})" if n['syms'] else "") for n in bz[:15]] + [""]
+    for lean in ["Left", "Lean Left", "Center", "Lean Right", "Right"]:
+        lines += [f"## {lean}", ""]
+        for l, name, dom in OUTLETS:
+            if l != lean: continue
+            hs = [h["t"].rsplit(" - ", 1)[0] for h in _rss(f"{TOPICS} site:{dom} when:1d", 20) if MKT.search(h["t"])][:3]
+            lines += [f"**{name}**"] + ([f"- {h}" for h in hs] or ["- (no market headlines found)"]) + [""]
+    open(f"{BASE}/briefs/{day}.md", "w").write("\n".join(lines))
+    log(f"market brief written: briefs/{day}.md ({len(bz)} Benzinga items)")
 
 def scan():
     now = dt.datetime.now(ET); frac = max(0.05, min(1.0, ((now.hour - 9) * 60 + now.minute - 30) / 390)); cand = {}
@@ -355,6 +423,8 @@ def live():
                 E.eod_overnight(px, now)
             if ALP and not carry: ALP.req("DELETE", "/orders")
             if is_opex(day): log("monthly opex day: no new trades (playbook rule)")
+            try: market_brief(day)
+            except Exception as e: log(f"brief error {e}")
             U = scan(); prev = {t: prev_close(t, day) for t in U}; log(f"new day universe={U}")
             save_state(day, E, U, prev)
         if not is_opex(day) and now.time() < dt.time(10, 30) and now.minute % 15 == 0:
@@ -393,6 +463,10 @@ def selftest():
         acc = a.req("GET", "/account") or {}; clk = a.req("GET", "/clock") or {}
         log(f"selftest alpaca: status={acc.get('status')} equity={acc.get('equity')} buying_power={acc.get('buying_power')} market_open={clk.get('is_open')}")
     else: log("selftest alpaca: not configured or not paper")
+    log(f"selftest benzinga: {len(news_benzinga(None, 6, 5))} recent headlines")
+    log(f"selftest sec SKYD filings 30d: {sec_filings('SKYD', 30)[:3]}")
+    log(f"selftest wires SECZ: {[n['t'][:60] for n in news_wires('SECZ', 72)][:2]}")
+    market_brief()
     log("selftest: scanning"); U = scan(); log(f"selftest universe={U}")
     if U:
         r, pm = fetch(U[0], dt.datetime.now(ET).date()); log(f"selftest {U[0]} bars={len(r)} premarket={len(pm)}")
@@ -402,4 +476,5 @@ if __name__ == "__main__":
     if MODE == "replay": replay(dt.date.fromisoformat(sys.argv[2]), sys.argv[3].split(","))
     elif MODE == "selftest": selftest()
     elif MODE == "configure": configure()
+    elif MODE == "brief": market_brief(); git_sync("market brief")
     else: live()
