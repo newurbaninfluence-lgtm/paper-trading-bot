@@ -1,0 +1,42 @@
+name: research
+on:
+  schedule:
+    - cron: "0 13 * * 6"      # every Saturday: re-test strategies, retrain filter, update on/off list
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "trading days to backtest"
+        default: "500"
+      mode:
+        description: "run (backtest + analyze) or analyze"
+        default: "run"
+permissions:
+  contents: write
+concurrency:
+  group: research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q yfinance pandas numpy scikit-learn openpyxl
+      - name: Backtest and analyze
+        env:
+          TZ: America/New_York
+          MAX_MINUTES: "320"
+          ALPACA_KEY: ${{ secrets.KEY }}
+          ALPACA_SECRET: ${{ secrets.SECRET }}
+        run: python -W ignore research.py ${{ github.event.inputs.mode || 'run' }} ${{ github.event.inputs.days || '500' }}
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add -A research model.json strategy_status.json || true
+          git diff --cached --quiet || git commit -qm "research results $(date +%F)"
+          git push -q || (git pull -q --rebase && git push -q)

@@ -1,12 +1,13 @@
 name: paper-bot
 on:
   schedule:
-    - cron: "5 13 * * 1-5"    # morning session (9:05 ET in summer, 8:05 ET in winter)
+    - cron: "5 13 * * 1-5"    # morning session (9:05 ET summer / 8:05 ET winter)
+    - cron: "45 14 * * 1-5"   # backup start if the morning run was skipped or delayed
     - cron: "30 18 * * 1-5"   # afternoon session; queues behind the morning run
   workflow_dispatch:
     inputs:
       mode:
-        description: "live, selftest or configure"
+        description: "live, selftest, configure or brief"
         default: "selftest"
 permissions:
   contents: write
@@ -22,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -q yfinance pandas
+      - run: pip install -q yfinance pandas openpyxl
       - name: Run bot
         env:
           TZ: America/New_York
@@ -35,4 +36,4 @@ jobs:
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
-          python -W ignore bot3.py ${{ github.event.inputs.mode || 'live' }}
+          python -W ignore bot.py ${{ github.event.inputs.mode || 'live' }}
