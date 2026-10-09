@@ -1,0 +1,14 @@
+10-09 13:44:20 selftest: scanning
+10-09 13:44:21 scan keep QNCX +23.2% rvol 3.3 | QNCX Initiated Coverage by Raymond James -- Rating Set to Outper - GuruFocus
+10-09 13:44:21 scan keep FSLY +17.7% rvol 2.3 | Fastly, Inc. (FSLY) stock price, news, quote and history - Yahoo Finance UK
+10-09 13:44:22 scan keep DNA +17.7% rvol 2.7 | Ginkgo Bioworks Holdings, Inc. (DNA) Stock Price, News, Quote &amp; History - Ya
+10-09 13:44:22 scan keep NVAX +15.5% rvol 3.4 | NVAX Stock Grinds Higher As Traders Watch Volatile Rebound - Timothy Sykes
+10-09 13:44:22 scan drop MOGU +15.4% rvol 108.1: no news 24h
+10-09 13:44:23 scan keep KLRA +15.3% rvol 2.0 | Kailera Therapeutics (NASDAQ:KLRA) Shares Climb 7.6% - Time to Buy? - MarketBeat
+10-09 13:44:23 scan keep CCI +12.5% rvol 3.6 | Crown Castle Inc. (CCI) Stock Price, News, Quote &amp; History - Yahoo! Finance 
+10-09 13:44:27 scan drop SECZ +8.4% rvol 2.2: no news 24h
+10-09 13:44:27 scan drop LFT +7.5% rvol 2.3: no news 24h
+10-09 13:44:28 scan keep MNSO +6.9% rvol 2.4 | MINISO Group's Latest Business Update - Stock Titan
+10-09 13:44:28 scan keep TEVA +6.0% rvol 2.7 | Teva, Already Up 26% This Year, Surges Again On First-Of-Its-Kind Approval - Inv
+10-09 13:44:28 selftest universe=['QNCX', 'FSLY', 'DNA', 'NVAX', 'KLRA', 'CCI', 'MNSO', 'TEVA']
+10-09 13:44:28 selftest QNCX bars=40 premarket=5
