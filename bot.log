@@ -12,3 +12,25 @@
 10-09 15:15:43 scan keep MNSO +6.8% rvol 2.2 | [Benzinga] MINISO Says Preliminary Q3 Mainland China GMV Up 25%-30% YoY, U.S. GM
 10-09 15:15:43 selftest universe=['FSLY', 'NVAX', 'CCI', 'QNCX', 'MNSO']
 10-09 15:15:43 selftest FSLY bars=346 premarket=118 stats=(25.290000915527344, 7772020.0)
+10-09 16:20:11 selftest alpaca: status=ACTIVE equity=100000 market_open=False
+10-09 16:20:11 selftest calendar today: (True, datetime.time(16, 0))
+10-09 16:20:11 selftest benzinga: 5 recent headlines
+10-09 16:20:11 selftest sec SKYD filings 30d: [{'form': '8-A12B', 'date': '2026-10-09'}, {'form': 'CERT', 'date': '2026-10-09'}, {'form': '4', 'date': '2026-10-08'}]
+10-09 16:20:13 scan drop MOGU +20.1% rvol 75.4: no news 24h
+10-09 16:20:14 scan keep KLRA +16.1% rvol 2.5 | [Google News] Kailera Therapeutics, Inc. (NASDAQ:KLRA) Stock Has Average Target 
+10-09 16:20:14 scan keep FSLY +15.9% rvol 2.4 | [Benzinga] Why Is Fastly Stock Soaring Friday?
+10-09 16:20:15 scan keep NVAX +15.8% rvol 3.6 | [Benzinga] A New War on Cancer? NIH's Vaccine Initiative Sparks Biotech Stock Ra
+10-09 16:20:15 scan keep CCI +15.6% rvol 4.0 | [Benzinga] Treasury Yields Reach 24-Year Highs, Telecom Stocks Sell Off: This We
+10-09 16:20:16 scan keep SVC +15.0% rvol 10.6 | [Benzinga] Service Properties Trust Q2 2026 Earnings Call Transcript
+10-09 16:20:17 scan drop DNA: negative news ([Newswire] TRexBio Announces Pricing of Initial Public Offering - Glob)
+10-09 16:20:17 scan keep PICS +13.5% rvol 2.1 | [Newswire] HYROX America (@hyroxamerica) - Instagram
+10-09 16:20:17 scan drop PCVX: negative news (SEC 424B5 filed 2026-10-08 (possible share offering))
+10-09 16:20:18 scan drop MMLP +9.1% rvol 2.0: no news 24h
+10-09 16:20:19 scan keep ADCT +8.8% rvol 2.2 | [Google News] ADC Therapeutics Cuts Debt, Extends Runway Ahead of Key Drug Data,
+10-09 16:20:20 scan keep QDEL +8.1% rvol 2.4 | [Google News] QuidelOrtho appoints Sanjeev Sharma. QuidelOrtho stock sits 65.12 
+10-09 16:20:21 scan keep QNCX +8.1% rvol 4.8 | [Benzinga] Quince Therapeutics Announces Appointment Of Brigette Roberts As CEO,
+10-09 16:20:21 scan keep PENG +6.6% rvol 2.1 | [Newswire] BTLuxe Presents The BTLuxe Edit - Future:Legacy Conference on 28 Octo
+10-09 16:20:22 scan drop INTR: negative news ([Newswire] TRexBio Announces Pricing of Initial Public Offering - Glob)
+10-09 16:20:22 scan keep STRR +5.1% rvol 2.7 | [Google News] Star Equity CEO Jeffrey Eberwein sells $27,540 in preferred stock 
+10-09 16:20:22 selftest universe=['KLRA', 'FSLY', 'NVAX', 'CCI', 'SVC', 'PICS', 'ADCT', 'QDEL', 'QNCX', 'PENG', 'STRR']
+10-09 16:20:23 selftest KLRA bars=368 premarket=1 stats=(10.0, 1449870.0)
