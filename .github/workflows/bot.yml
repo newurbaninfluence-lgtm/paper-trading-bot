@@ -1,0 +1,34 @@
+name: paper-bot
+on:
+  schedule:
+    - cron: "5 13 * * 1-5"    # morning session (9:05 ET in summer, 8:05 ET in winter)
+    - cron: "30 18 * * 1-5"   # afternoon session; queues behind the morning run
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "live or selftest"
+        default: "selftest"
+permissions:
+  contents: write
+concurrency:
+  group: paper-bot
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q yfinance pandas
+      - name: Run bot
+        env:
+          TZ: America/New_York
+          MAX_HOURS: "5.75"
+          START_DATE: "2026-10-12"
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          python -W ignore bot3.py ${{ github.event.inputs.mode || 'live' }}
