@@ -135,6 +135,84 @@ def eod_squeeze(d, pm, chg, now):  # playbook setup C: strong close, hold overni
         return float(d.Low.iloc[-30:].min()) - 0.01, f"EOD squeeze: +{chg:.1%}, closing within 1% of HOD {hod:.2f}, hold to next open"
 STRATS = {f.__name__: f for f in [vwap_pullback, orb5, orb15, hod_break, bull_flag, afternoon_hod, pm_high_break, ema_bounce, eod_squeeze]}
 
+
+# ---------- Alpaca paper mirror: real paper orders alongside the conservative simulator
+import json, urllib.error
+class Alpaca:
+    def __init__(self):
+        ep = (os.environ.get("ALPACA_ENDPOINT") or "").rstrip("/")
+        self.base = ep[:-3] if ep.endswith("/v2") else ep
+        self.key, self.sec = os.environ.get("ALPACA_KEY"), os.environ.get("ALPACA_SECRET")
+        self.on = bool(self.base and self.key and self.sec) and "paper-api" in self.base  # paper only, never live
+        if self.base and "paper-api" not in self.base: log("ALPACA DISABLED: endpoint is not the paper endpoint")
+    def req(self, method, path, body=None):
+        r = urllib.request.Request(self.base + "/v2" + path, method=method, data=json.dumps(body).encode() if body else None,
+                                   headers={"APCA-API-KEY-ID": self.key, "APCA-API-SECRET-KEY": self.sec, "Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(r, timeout=15) as x: t = x.read(); return json.loads(t) if t else {}
+        except urllib.error.HTTPError as e:
+            log(f"alpaca {method} {path} -> {e.code} {e.read()[:200]!r}"); return None
+        except Exception as e:
+            log(f"alpaca {method} {path} error {e}"); return None
+    def enter(self, acct, pend, last, sh):
+        if not self.on or sh < 2: return
+        lim = round(last + 0.03, 2); risk = lim - pend["stop"]
+        if risk <= 0.01: return
+        tag = f"{acct}-{pend['t']}-{dt.datetime.now(ET):%m%d%H%M%S}"; ids = []
+        for i, (q, tp) in enumerate([(sh // 2, lim + risk), (sh - sh // 2, lim + 2 * risk)]):
+            o = self.req("POST", "/orders", dict(symbol=pend["t"], qty=str(q), side="buy", type="limit", limit_price=f"{lim:.2f}",
+                         time_in_force="day", order_class="bracket", client_order_id=f"{tag}-{i}",
+                         take_profit=dict(limit_price=f"{tp:.2f}"), stop_loss=dict(stop_price=f"{pend['stop']:.2f}")))
+            if o: ids.append(o["id"])
+        pend["alp"] = dict(ids=ids, sent=time.time(), limit=lim)
+        log(f"[${acct}] ALPACA paper bracket x2 sent: {sh} {pend['t']} limit {lim} (ids {len(ids)})")
+    def orders(self, p):
+        return [o for o in (self.req("GET", f"/orders/{i}?nested=true") for i in p.get("alp", {}).get("ids", [])) if o]
+    def tick(self, acct, p):  # 4-minute rule on the real order
+        a = p.get("alp")
+        if not self.on or not a or a.get("checked_fill"): return
+        os_ = self.orders(p)
+        if os_ and all(o["status"] == "filled" for o in os_): a["checked_fill"] = True; return
+        if time.time() - a["sent"] > 240:
+            for o in os_:
+                if o["status"] not in ("filled", "canceled"): self.req("DELETE", f"/orders/{o['id']}")
+            a["checked_fill"] = True; log(f"[${acct}] ALPACA entry not filled within 4 min: canceled unfilled part")
+    def breakeven(self, acct, p):
+        if not self.on or "alp" not in p or len(p["alp"]["ids"]) < 2: return
+        o = self.req("GET", f"/orders/{p['alp']['ids'][1]}?nested=true")
+        for leg in (o or {}).get("legs") or []:
+            if leg.get("type") in ("stop", "stop_limit") and leg["status"] in ("new", "accepted", "held"):
+                self.req("PATCH", f"/orders/{leg['id']}", dict(stop_price=f"{p['alp']['limit']:.2f}"))
+                log(f"[${acct}] ALPACA runner stop moved to {p['alp']['limit']}")
+    def flatten(self, acct, p):
+        if not self.on or "alp" not in p: return
+        held = 0
+        for o in self.orders(p):
+            held += float(o.get("filled_qty") or 0)
+            for leg in o.get("legs") or []:
+                held -= float(leg.get("filled_qty") or 0)
+                if leg["status"] not in ("filled", "canceled", "expired"): self.req("DELETE", f"/orders/{leg['id']}")
+            if o["status"] not in ("filled", "canceled", "expired"): self.req("DELETE", f"/orders/{o['id']}")
+        if held > 0:
+            time.sleep(1); o = self.req("POST", "/orders", dict(symbol=p["t"], qty=str(int(held)), side="sell", type="market", time_in_force="day"))
+            if o: p["alp"].setdefault("flat", []).append(o["id"]); log(f"[${acct}] ALPACA market sell {int(held)} {p['t']} to flatten")
+    def reconcile(self, acct, p, sim_pnl, day):
+        if not self.on or "alp" not in p: return
+        time.sleep(2); cost = proceeds = qin = qout = 0.0
+        for o in self.orders(p):
+            q = float(o.get("filled_qty") or 0); qin += q; cost += q * float(o.get("filled_avg_price") or 0)
+            for leg in o.get("legs") or []:
+                lq = float(leg.get("filled_qty") or 0); qout += lq; proceeds += lq * float(leg.get("filled_avg_price") or 0)
+        for fid in p["alp"].get("flat", []):
+            o = self.req("GET", f"/orders/{fid}") or {}
+            lq = float(o.get("filled_qty") or 0); qout += lq; proceeds += lq * float(o.get("filled_avg_price") or 0)
+        row = dict(date=str(day), account=acct, strategy=p["strat"], ticker=p["t"], sim_pnl=sim_pnl, alp_shares_in=qin, alp_shares_out=qout,
+                   alp_avg_entry=round(cost / qin, 4) if qin else None, alp_pnl=round(proceeds - cost, 2) if qin and qout >= qin else None,
+                   status="closed" if qin and qout >= qin else ("no fill" if not qin else "partially open"))
+        pd.DataFrame([row]).to_csv(f"{BASE}/alpaca_journal.csv", mode="a", header=not os.path.exists(f"{BASE}/alpaca_journal.csv"), index=False)
+        log(f"[${acct}] ALPACA result {p['t']}: sim ${sim_pnl} vs alpaca ${row['alp_pnl']} ({row['status']})")
+ALP = None
+
 # ---------- engine (same code for live and replay)
 class Engine:
     def __init__(self, day):
@@ -149,10 +227,15 @@ class Engine:
                 if len(nb):
                     st["pending"] = None
                     if (nb.index[0] - o["sig_time"]) > pd.Timedelta(minutes=4):
-                        log(f"[{tag}] {o['t']} skip: fill would be >4 min after signal", now); continue
+                        log(f"[{tag}] {o['t']} skip: fill would be >4 min after signal", now)
+                        if ALP: ALP.flatten(acct, o)
+                        continue
                     fill = round(float(nb.Open.iloc[0]) + SLIP, 2); risk = fill - o["stop"]
                     sh = min(int(acct * RISKPCT // risk), int(acct // fill)) if risk > 0 else 0
-                    if sh < 2: log(f"[{tag}] {o['t']} skip at fill (risk/share {risk:.2f})", now); continue
+                    if sh < 2:
+                        log(f"[{tag}] {o['t']} skip at fill (risk/share {risk:.2f})", now)
+                        if ALP: ALP.flatten(acct, o)
+                        continue
                     st["pos"] = dict(o, entry=fill, shares=sh, open_sh=sh, risk=risk, t1=round(fill + risk, 2),
                                      target=round(fill + 2 * risk, 2), stop_now=o["stop"], realized=0.0, entry_time=nb.index[0], half=False)
                     log(f"[{tag}] BUY {sh} {o['t']} @ {fill} stop {o['stop']:.2f} half@{st['pos']['t1']} tgt {st['pos']['target']} | {o['strat']} | {o['reason']}", now)
@@ -168,11 +251,16 @@ class Engine:
                         stop, why = round(sig[0], 2), sig[1]; r = float(d.Close.iloc[-1]) - stop
                         if r < 0.02 or r > 0.04 * float(d.Close.iloc[-1]): continue
                         st["pending"] = dict(t=t, strat=strat, stop=stop, sig_time=d.index[-1], reason=f"{why} | news: {(CAT.get(t) or '')[:60]}")
-                        log(f"[{tag}/{strat}] SIGNAL {t}: {why}; stop {stop}", now); break
+                        log(f"[{tag}/{strat}] SIGNAL {t}: {why}; stop {stop}", now)
+                        if ALP:
+                            lc = float(d.Close.iloc[-1]); est = lc + 0.03
+                            ALP.enter(acct, st["pending"], lc, min(int(acct * RISKPCT // max(est - stop, 0.01)), int(acct // est)))
+                        break
                     if st["pending"]: break
 
     def manage(self, acct, st, now, data):
         p = st["pos"]; d = data[p["t"]][0]; nb = d[d.index > p.get("checked", p["entry_time"] - pd.Timedelta(minutes=1))]
+        if ALP: ALP.tick(acct, p)
         for ts, b in nb.iterrows():
             p["checked"] = ts
             if b.Low <= p["stop_now"]:
@@ -180,6 +268,7 @@ class Engine:
             if not p["half"] and b.High >= p["t1"]:
                 h = p["open_sh"] // 2; p["realized"] += (p["t1"] - p["entry"]) * h; p["open_sh"] -= h; p["half"] = True
                 p["stop_now"] = p["entry"]; log(f"[${acct}] HALF OFF {h} {p['t']} @ {p['t1']} (+1R), stop to breakeven", now)
+                if ALP: ALP.breakeven(acct, p)
             if b.High >= p["target"]: return self.close(acct, st, p["target"], "target", now)
         if p["strat"] != "eod_squeeze" and now.time() >= dt.time(15, 55) and len(d):
             self.close(acct, st, round(float(d.Close.iloc[-1]) - SLIP, 2), "time", now)
@@ -190,6 +279,9 @@ class Engine:
         record(dict(date=str(self.day), account=acct, strategy=p["strat"], ticker=p["t"], shares=p["shares"], entry=p["entry"],
                     stop=p["stop"], half_at=p["t1"], target=p["target"], exit=px, exit_reason=why, pnl=pnl,
                     R=round(pnl / (acct * RISKPCT), 2), reason=p["reason"]))
+        if ALP:
+            if why in ("time", "next open"): ALP.flatten(acct, p)
+            ALP.reconcile(acct, p, pnl, self.day)
         st["pos"] = None; st["done"] = True
 
     def eod_overnight(self, next_open_px, now):
@@ -229,6 +321,9 @@ def git_sync(msg):
     subprocess.run(cmd, shell=True)
 
 def live():
+    global ALP
+    ALP = Alpaca() if Alpaca().on else None
+    log("alpaca paper mirror: " + ("ON" if ALP else "off"))
     hours = float(os.environ.get("MAX_HOURS", "0")) or None
     stop_at = time.time() + hours * 3600 if hours else None
     start_date = dt.date.fromisoformat(os.environ["START_DATE"]) if os.environ.get("START_DATE") else None
@@ -243,6 +338,7 @@ def live():
     while True:
         now = dt.datetime.now(ET)
         if stop_at and time.time() > stop_at: break
+        if stop_at and ((start_date and now.date() < start_date) or now.weekday() >= 5): log("not a trading day for this run, exiting"); break
         if now.weekday() < 5 and now.time() >= dt.time(16, 2) and E and day == now.date() and stop_at: break  # cloud: done for the day
         if (start_date and now.date() < start_date) or now.weekday() >= 5 or not (dt.time(9, 31) <= now.time() < dt.time(16, 0)):
             if stop_at and now.time() >= dt.time(16, 0): break
@@ -257,6 +353,7 @@ def live():
                     r, _ = fetch(st["pos"]["t"], day, pre=False)
                     if len(r): px[st["pos"]["t"]] = float(r.Open.iloc[0])
                 E.eod_overnight(px, now)
+            if ALP and not carry: ALP.req("DELETE", "/orders")
             if is_opex(day): log("monthly opex day: no new trades (playbook rule)")
             U = scan(); prev = {t: prev_close(t, day) for t in U}; log(f"new day universe={U}")
             save_state(day, E, U, prev)
@@ -280,6 +377,11 @@ def live():
     log("bot3 session end"); git_sync(f"bot session end {dt.datetime.now(ET):%Y-%m-%d %H:%M}")
 
 def selftest():
+    a = Alpaca()
+    if a.on:
+        acc = a.req("GET", "/account") or {}; clk = a.req("GET", "/clock") or {}
+        log(f"selftest alpaca: status={acc.get('status')} equity={acc.get('equity')} buying_power={acc.get('buying_power')} market_open={clk.get('is_open')}")
+    else: log("selftest alpaca: not configured or not paper")
     log("selftest: scanning"); U = scan(); log(f"selftest universe={U}")
     if U:
         r, pm = fetch(U[0], dt.datetime.now(ET).date()); log(f"selftest {U[0]} bars={len(r)} premarket={len(pm)}")

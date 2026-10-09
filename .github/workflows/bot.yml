@@ -28,6 +28,9 @@ jobs:
           TZ: America/New_York
           MAX_HOURS: "5.75"
           START_DATE: "2026-10-12"
+          ALPACA_ENDPOINT: ${{ secrets.ENDPOINT }}
+          ALPACA_KEY: ${{ secrets.KEY }}
+          ALPACA_SECRET: ${{ secrets.SECRET }}
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
