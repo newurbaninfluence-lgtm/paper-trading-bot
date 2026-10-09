@@ -28,3 +28,30 @@
 10-09 14:32:32 configure before: {'closing_transactions_only': False, 'disable_overnight_trading': False, 'fractional_trading': True, 'max_margin_multiplier': '4', 'no_shorting': False, 'ptp_no_exception_entry': False, 'suspend_trade': False, 'trade_confirm_email': 'all'}
 10-09 14:32:32 configure after: {'closing_transactions_only': False, 'disable_overnight_trading': False, 'fractional_trading': False, 'max_margin_multiplier': '1', 'no_shorting': True, 'ptp_no_exception_entry': False, 'suspend_trade': False, 'trade_confirm_email': 'all'}
 10-09 14:32:32 account: equity=100000 cash=100000 buying_power=100000 multiplier=1 pattern_day_trader=None shorting_enabled=False
+10-09 14:47:44 selftest alpaca: status=ACTIVE equity=100000 buying_power=100000 market_open=True
+10-09 14:47:44 selftest benzinga: 5 recent headlines
+10-09 14:47:44 sec error SKYD HTTP Error 403: Forbidden
+10-09 14:47:44 selftest sec SKYD filings 30d: []
+10-09 14:47:44 selftest wires SECZ: ['Securitize Launches Global Onchain Trading of U.S. Stocks wi', 'INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Be']
+10-09 14:47:54 market brief written: briefs/2026-10-09.md (25 Benzinga items)
+10-09 14:47:54 selftest: scanning
+10-09 14:47:55 sec error FSLY HTTP Error 403: Forbidden
+10-09 14:47:55 scan keep FSLY +18.4% rvol 2.2 | [Benzinga] 12 Information Technology Stocks Moving In Friday's Intraday Session
+10-09 14:47:55 sec error NVAX HTTP Error 403: Forbidden
+10-09 14:47:55 scan keep NVAX +17.0% rvol 3.2 | [Benzinga] Reported Earlier: 'Cancer Vaccines Are the N.I.H's Next Big Bet' - Th
+10-09 14:47:56 sec error DNA HTTP Error 403: Forbidden
+10-09 14:47:56 scan drop DNA: negative news ([Newswire] TRexBio Announces Pricing of Initial Public Offering - Glob)
+10-09 14:47:56 sec error MOGU HTTP Error 403: Forbidden
+10-09 14:47:56 scan keep MOGU +15.4% rvol 89.6 | [Benzinga] 11 Consumer Discretionary Stocks Moving In Friday's Intraday Session
+10-09 14:47:57 sec error CCI HTTP Error 403: Forbidden
+10-09 14:47:57 scan keep CCI +12.7% rvol 3.2 | [Benzinga] Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile T
+10-09 14:47:57 sec error QNCX HTTP Error 403: Forbidden
+10-09 14:47:57 scan keep QNCX +10.1% rvol 5.2 | [Benzinga] Quince Therapeutics Announces Appointment Of Brigette Roberts As CEO,
+10-09 14:47:57 sec error MNSO HTTP Error 403: Forbidden
+10-09 14:47:58 scan keep MNSO +7.2% rvol 2.2 | [Benzinga] MINISO Says Preliminary Q3 Mainland China GMV Up 25%-30% YoY, U.S. GM
+10-09 14:47:58 sec error SECZ HTTP Error 403: Forbidden
+10-09 14:47:58 scan keep SECZ +7.0% rvol 2.0 | [Benzinga] Citizens Maintains Market Outperform on Securitize Holdings, Raises P
+10-09 14:47:58 sec error TEVA HTTP Error 403: Forbidden
+10-09 14:47:58 scan keep TEVA +5.5% rvol 2.6 | [Benzinga] FDA Approves Teva's New Once-Monthly Schizophrenia Injection
+10-09 14:47:58 selftest universe=['FSLY', 'NVAX', 'MOGU', 'CCI', 'QNCX', 'MNSO', 'SECZ', 'TEVA']
+10-09 14:47:59 selftest FSLY bars=318 premarket=118
