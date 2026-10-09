@@ -413,7 +413,7 @@ def save_state(day, E, U, stats):
 
 def git_sync(msg):
     if os.environ.get("GITHUB_ACTIONS") != "true" or os.environ.get("BOT_BASE"): return
-    cmd = f'cd "{BASE}" && git add -A && (git diff --cached --quiet || git commit -qm "{msg}") && (git push -q || (git pull -q --rebase && git push -q))'
+    cmd = f'cd "{BASE}" && git add -A && (git diff --cached --quiet || git commit -qm "{msg}") && (git push -q || (git pull -q --rebase -X theirs && git push -q))'
     subprocess.run(cmd, shell=True)
 
 def market_day(day):
