@@ -25,3 +25,6 @@
 10-09 14:22:16 scan keep TEVA +6.1% rvol 2.7 | TEVA Stock Hits Fresh 52-Week High As FDA Approves Monthly Schizophrenia Shot - 
 10-09 14:22:16 selftest universe=['FSLY', 'NVAX', 'DNA', 'CCI', 'SECZ', 'MNSO', 'TEVA']
 10-09 14:22:16 selftest FSLY bars=293 premarket=118
+10-09 14:32:32 configure before: {'closing_transactions_only': False, 'disable_overnight_trading': False, 'fractional_trading': True, 'max_margin_multiplier': '4', 'no_shorting': False, 'ptp_no_exception_entry': False, 'suspend_trade': False, 'trade_confirm_email': 'all'}
+10-09 14:32:32 configure after: {'closing_transactions_only': False, 'disable_overnight_trading': False, 'fractional_trading': False, 'max_margin_multiplier': '1', 'no_shorting': True, 'ptp_no_exception_entry': False, 'suspend_trade': False, 'trade_confirm_email': 'all'}
+10-09 14:32:32 account: equity=100000 cash=100000 buying_power=100000 multiplier=1 pattern_day_trader=None shorting_enabled=False
