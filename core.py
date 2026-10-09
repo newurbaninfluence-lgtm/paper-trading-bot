@@ -163,3 +163,58 @@ def model_score(model, f):
     x += [1.0 if f["strategy"] == s else 0.0 for s in model["strats"]]
     z = model["intercept"] + sum(a * b for a, b in zip(model["coef"], x))
     return 1 / (1 + math.exp(-z))
+
+
+# ---------- variant engine: same signal, different entry/exit plans. Returns GROSS R (no costs) plus
+# cost_units = how many market-order "sides" the trade used (fractions for partial exits), so any cost
+# model can be applied later: net R = gross R - cost_units * cost_per_side($) / risk($).
+ENTRIES = ("mkt", "lim")            # mkt: buy next bar open at market; lim: limit at signal close, good for 3 bars
+PLANS = ("h2", "r3", "tr")          # h2: half at 1R + rest at 2R (current); r3: all at 3R; tr: half at 1R, trail rest on 9 EMA close
+
+
+def sim_variant(rth, i, stop, strat, entry_mode, plan, next_open=None, exit_time=T(15, 55)):
+    n = len(rth)
+    if i + 1 >= n: return None
+    o, h, l, c = (rth[k].values for k in ("Open", "High", "Low", "Close")); e9 = rth["e9"].values; idx = rth.index
+    if entry_mode == "mkt":
+        j0, px, cu = i + 1, float(o[i + 1]), 1.0
+    else:
+        lim, j0 = float(c[i]), None
+        for j in range(i + 1, min(i + 4, n)):
+            if l[j] <= lim: j0, px = j, min(float(o[j]), lim); break
+        if j0 is None: return dict(filled=0)
+        cu = 0.0
+    risk = px - stop
+    if risk < max(0.01, 0.002 * px): return None
+    t1, t2, t3 = px + risk, px + 2 * risk, px + 3 * risk
+    stop_now, half, rem, gross = stop, False, 1.0, 0.0
+    for j in range(j0, n):
+        if strat != "eod_squeeze" and idx[j].time() >= exit_time:
+            gross += rem * (c[j - 1] - px); cu += rem; return dict(filled=1, Rg=gross / risk, cu=cu, why="time", entry=px, risk=risk)
+        if l[j] <= stop_now:
+            gross += rem * (min(stop_now, o[j]) - px); cu += rem
+            return dict(filled=1, Rg=gross / risk, cu=cu, why="breakeven" if half else "stop", entry=px, risk=risk)
+        if plan == "r3":
+            if h[j] >= t3: gross += rem * (t3 - px); return dict(filled=1, Rg=gross / risk, cu=cu, why="target", entry=px, risk=risk)
+            continue
+        if not half and h[j] >= t1:
+            gross += 0.5 * (t1 - px); rem = 0.5; half = True; stop_now = px
+        if plan == "h2" and h[j] >= t2:
+            gross += rem * (t2 - px); return dict(filled=1, Rg=gross / risk, cu=cu, why="target", entry=px, risk=risk)
+        if plan == "tr" and half and j > j0 and c[j] < e9[j]:
+            gross += rem * (c[j] - px); cu += rem; return dict(filled=1, Rg=gross / risk, cu=cu, why="trail", entry=px, risk=risk)
+    last = next_open if (strat == "eod_squeeze" and next_open) else c[-1]
+    gross += rem * (last - px); cu += rem
+    return dict(filled=1, Rg=gross / risk, cu=cu, why="next open" if strat == "eod_squeeze" and next_open else "close", entry=px, risk=risk)
+
+
+def variant_cols(rth, i, stop, strat, next_open=None, exit_time=T(15, 55)):
+    """flat dict of every entry x plan variant for one signal (gross R, cost units, entry, risk)"""
+    out = {}
+    for e in ENTRIES:
+        for p in PLANS:
+            v = sim_variant(rth, i, stop, strat, e, p, next_open, exit_time); k = f"{e}_{p}"
+            if not v: out.update({f"Rg_{k}": None, f"cu_{k}": None, f"px_{k}": None, f"rk_{k}": None}); continue
+            if not v["filled"]: out.update({f"Rg_{k}": None, f"cu_{k}": None, f"px_{k}": None, f"rk_{k}": None, f"nofill_{e}": 1}); continue
+            out.update({f"Rg_{k}": round(v["Rg"], 4), f"cu_{k}": round(v["cu"], 3), f"px_{k}": round(v["entry"], 4), f"rk_{k}": round(v["risk"], 4)})
+    return out

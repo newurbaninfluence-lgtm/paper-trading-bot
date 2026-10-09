@@ -12,12 +12,14 @@ import os, sys, json, time, math, datetime as dt, urllib.request, urllib.parse, 
 from multiprocessing import Pool
 import numpy as np, pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from core import ET, RISKPCT, add_ind, STRATS, WINDOWS, MINCHG, valid_risk, features, simulate, NUM
+from core import ET, RISKPCT, add_ind, STRATS, WINDOWS, MINCHG, valid_risk, features, simulate, NUM, slip, variant_cols, ENTRIES, PLANS
 
 BASE = os.path.dirname(os.path.abspath(__file__)); OUT = f"{BASE}/research"
 DATA = "https://data.alpaca.markets"; TRADE = "https://paper-api.alpaca.markets"
 H = {"APCA-API-KEY-ID": os.environ.get("ALPACA_KEY", ""), "APCA-API-SECRET-KEY": os.environ.get("ALPACA_SECRET", "")}
 ACCOUNTS = None  # filled from bot.py at runtime
+OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "research")
+BT = os.path.join(OUT_DIR, "signals_bt_v2.csv")      # v2 adds entry/exit variants; v1 kept for reference
 NEG_WORDS = ("offering", "priced at", "dilut", "reverse split", "registered direct", "at-the-market", "delist", "bankrupt")
 _last = [0.0]
 
@@ -154,7 +156,8 @@ def sim_symbol_day(args):
             out = simulate(rth, i, stop, strat, next_open)
             if out:
                 rows.append(dict(date=str(day), time=f"{now:%H:%M}", ticker=sym, stop=stop, R=round(out["R"], 4), why=out["why"],
-                                 entry=round(out["entry"], 4), has_news=int(bool(cat)), neg_news=int(neg), **f))
+                                 entry=round(out["entry"], 4), has_news=int(bool(cat)), neg_news=int(neg), **f,
+                                 **variant_cols(rth, i, stop, strat, next_open)))
             break  # first signal of the day per strategy per symbol (same as live logger)
     return rows
 
@@ -169,7 +172,7 @@ def backtest(n_days):
     sd = daily[daily.sym == "SPY"].sort_values("date"); spy_prev = dict(zip(sd.date, sd.c.shift(1)))
     days = sorted(cands.date.unique())[-n_days:]
     log(f"{len(days)} trading days, {len(cands[cands.date.isin(days)])} candidate symbol-days")
-    path = f"{OUT}/signals_bt.csv"
+    path = BT
     done = set(pd.read_csv(path).date.astype(str)) if os.path.exists(path) else set()
     pool = Pool(max(os.cpu_count() or 2, 2)); t0 = time.time()
     for k, day in enumerate(days):
@@ -186,6 +189,64 @@ def backtest(n_days):
         if os.environ.get("MAX_MINUTES") and time.time() - t0 > 60 * float(os.environ["MAX_MINUTES"]):
             log("time budget reached, saving partial results"); break
     pool.close()
+
+
+# ---------- step 2b: measure real trading costs from SIP quotes at the moment of entry
+def spread_at(sym, ts, secs=20):
+    """median quoted spread (ask-bid)/mid in the first `secs` seconds from ts (ET minute) on the SIP feed"""
+    js = get(DATA, "/v2/stocks/quotes", dict(symbols=sym, start=ts.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+             end=(ts + dt.timedelta(seconds=secs)).astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), feed="sip", limit=1000))
+    q = ((js or {}).get("quotes") or {}).get(sym) or []
+    sp = [(x["ap"] - x["bp"]) / ((x["ap"] + x["bp"]) / 2) for x in q if x.get("bp", 0) > 0 and x.get("ap", 0) > x.get("bp", 0)]
+    return (float(np.median(sp)), len(sp)) if sp else (None, 0)
+
+
+PRICE_BANDS = [0, 5, 10, 20, 50, 1e6]; PRICE_LABELS = ["under $5", "$5-10", "$10-20", "$20-50", "$50+"]
+
+
+def measure_costs(n=1500):
+    df = pd.read_csv(BT if os.path.exists(BT) else f"{OUT}/signals_bt.csv", low_memory=False)
+    df = df.sample(min(n, len(df)), random_state=7)
+    rows = []
+    for k, r in enumerate(df.itertuples()):
+        ts = dt.datetime.combine(dt.date.fromisoformat(str(r.date)), dt.time.fromisoformat(r.time), ET)
+        sp, nq = spread_at(r.ticker, ts)
+        rows.append(dict(date=r.date, time=r.time, ticker=r.ticker, strategy=r.strategy, entry=r.entry, spread_pct=sp, quotes=nq))
+        if k % 200 == 0: log(f"spreads {k}/{len(df)}")
+    sp = pd.DataFrame(rows); sp.to_csv(f"{OUT}/spreads.csv", index=False)
+    sp = sp.dropna(subset=["spread_pct"]); sp["band"] = pd.cut(sp.entry, PRICE_BANDS, labels=PRICE_LABELS)
+    summary = {str(k): dict(n=int(len(g)), median=round(float(g.spread_pct.median()), 5), p75=round(float(g.spread_pct.quantile(0.75)), 5))
+               for k, g in sp.groupby("band", observed=True)}
+    json.dump(dict(measured=str(dt.date.today()), bands=summary), open(f"{OUT}/costs.json", "w"), indent=1)
+    log(f"costs: {summary}")
+
+
+def cost_per_side(px, model, costs):
+    """$ cost of one market-order side. pessimistic = the bot's slip(); measured = half the median quoted spread (p75 for safety)"""
+    if model == "pessimistic" or not costs: return np.maximum(0.02, 0.0015 * px)
+    b = pd.cut(px, PRICE_BANDS, labels=PRICE_LABELS).astype(str)
+    pct = b.map({k: v["p75"] for k, v in costs["bands"].items()}).astype(float).fillna(0.003)
+    return np.maximum(0.005, pct / 2 * px)
+
+
+def variant_table(df):
+    """net R of every strategy x entry x plan under both cost models"""
+    try: costs = json.load(open(f"{OUT}/costs.json"))
+    except Exception: costs = None
+    out = []
+    for e in ENTRIES:
+        for p in PLANS:
+            k = f"{e}_{p}"
+            if f"Rg_{k}" not in df: continue
+            sub = df.dropna(subset=[f"Rg_{k}"])
+            for model in (["pessimistic", "measured"] if costs else ["pessimistic"]):
+                net = sub[f"Rg_{k}"] - sub[f"cu_{k}"] * cost_per_side(sub[f"px_{k}"], model, costs) / sub[f"rk_{k}"]
+                for strat, g in net.groupby(sub.strategy):
+                    st = stats(g); half = len(g) // 2
+                    out.append(dict(strategy=strat, entry=e, plan=p, costs=model, n=st["n"], gross=round(sub.loc[g.index, f"Rg_{k}"].mean(), 3),
+                                    net=st["avgR"], t=st["t"], first_half=round(g.iloc[:half].mean(), 3), second_half=round(g.iloc[half:].mean(), 3),
+                                    fill_rate=round(len(sub[sub.strategy == strat]) / max(1, (df.strategy == strat).sum()), 2)))
+    return pd.DataFrame(out), costs
 
 
 # ---------- step 3: analysis
@@ -278,7 +339,7 @@ def plan(df, status, model):
 
 
 def analyze():
-    df = pd.read_csv(f"{OUT}/signals_bt.csv"); df["date"] = df.date.astype(str)
+    df = pd.read_csv(BT if os.path.exists(BT) else f"{OUT}/signals_bt.csv", low_memory=False); df["date"] = df.date.astype(str)
     df = df[(df.entry - df.stop) >= np.maximum(0.01, 0.002 * df.entry)]  # drop fills that gapped through the stop
     live_path = f"{BASE}/signals.csv"
     sc = scorecard(df); model = train_filter(df); st = decide_status(sc, live_path)
@@ -314,6 +375,20 @@ def analyze():
         for k, g in df.groupby(col, observed=True):
             L.append(f"| {k} | {len(g)} | {g.grossR.mean():+.3f} | {g.costR.mean():.3f} | {g.R.mean():+.3f} |")
     L += [""]
+    vt, costs = variant_table(df)
+    if len(vt):
+        vt.to_csv(f"{OUT}/variants.csv", index=False)
+        L += ["## Fixes tested: entry and exit variants", "",
+              "Entry: mkt = market order next bar (current), lim = limit at the signal close, good 3 minutes (no chase). "
+              "Plan: h2 = half at 1R, rest 2R (current); r3 = all at 3R; tr = half at 1R, trail the rest on the 9 EMA.",
+              ("Costs: measured = real SIP quoted spreads at entry time (75th percentile, so slightly conservative). " if costs else
+               "Costs: only the pessimistic model so far (run research.py costs to measure real spreads). ") + "Pessimistic = the bot's current slippage.", ""]
+        best = vt[vt.costs == ("measured" if costs else "pessimistic")].sort_values("net", ascending=False)
+        L += ["| Strategy | Entry | Plan | Trades | Fill rate | Gross R | Net R | t | 1st half | 2nd half |", "|---|---|---|---|---|---|---|---|---|---|"]
+        L += [f"| {r.strategy} | {r.entry} | {r.plan} | {r.n} | {r.fill_rate:.0%} | {r.gross:+.3f} | {r.net:+.3f} | {r.t} | {r.first_half:+.3f} | {r.second_half:+.3f} |" for r in best.head(15).itertuples()]
+        good = best[(best.net > 0.05) & (best.t > 2) & (best.first_half > 0) & (best.second_half > 0) & (best.n >= 200)]
+        L += ["", f"**Survivors (net > +0.05R, t > 2, positive in both halves, 200+ trades): {len(good)}**" +
+              ("".join(f"\n- {r.strategy} / {r.entry} / {r.plan}: {r.net:+.3f}R over {r.n} trades" for r in good.itertuples()) if len(good) else " (none yet)"), ""]
     L += ["## Path to $20/day", "", "Current 6 accounts replayed over the backtest with every live rule (1 trade/day, price cap, on/off, filter):", "",
           "| Account | $/day | Days traded | Worst day |", "|---|---|---|---|"]
     L += [f"| ${r.account} | ${r.per_day:+.2f} | {r.trade_days}/{r.days} | ${r.worst_day:.2f} |" for r in acc.itertuples()]
@@ -330,4 +405,6 @@ if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "run"
     if mode == "run":
         backtest(int(sys.argv[2]) if len(sys.argv) > 2 else 500)
+    if mode in ("run", "costs") and not os.path.exists(f"{OUT}/costs.json") or mode == "costs":
+        measure_costs(int(os.environ.get("COST_SAMPLES", "1500")))
     analyze()

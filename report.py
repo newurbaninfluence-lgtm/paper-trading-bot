@@ -19,7 +19,9 @@ def daily(base, day):
     lines += ["## Today's trades", ""]
     if len(jt):
         lines += ["| Account | Strategy | Ticker | Entry | Exit | Why | P&L | R |", "|---|---|---|---|---|---|---|---|"]
-        lines += [f"| ${r.account} | {r.strategy} | {r.ticker} | {r.entry} | {r.exit} | {r.exit_reason} | ${r.pnl:.2f} | {r.R:+.2f} |" for r in jt.itertuples()]
+        lines += [f"| ${r.account} | {r.strategy}{' (test)' if getattr(r, 'test', 0) == 1 else ''} | {r.ticker} | {r.entry} | {r.exit} | {r.exit_reason} | ${r.pnl:.2f} | {r.R:+.2f} |" for r in jt.itertuples()]
+        if "test" in jt and (jt.test == 1).any():
+            lines += ["", "(test) = strategy the backtest switched off; traded on paper only to measure live fills and timing."]
         lines += ["", f"**Day total: ${jt.pnl.sum():.2f}** across {len(jt)} trades (goal: $20/day)", ""]
     else:
         lines += ["No trades closed today.", ""]

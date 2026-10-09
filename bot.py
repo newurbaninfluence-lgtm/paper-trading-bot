@@ -5,9 +5,12 @@ Usage: python bot.py live | selftest | configure | brief | replay YYYY-MM-DD T1,
 import os, sys, re, json, time, math, email.utils, urllib.request, urllib.parse, urllib.error, pickle, subprocess, datetime as dt, warnings
 import pandas as pd, yfinance as yf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from core import (ET, RISKPCT, slip, add_ind, STRATS, WINDOWS, MINCHG, valid_risk, features, simulate, model_score)
+from core import (ET, RISKPCT, slip, add_ind, STRATS, WINDOWS, MINCHG, valid_risk, features, simulate, model_score, variant_cols)
 warnings.filterwarnings("ignore")
-BASE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.environ.get("BOT_BASE") or os.path.dirname(os.path.abspath(__file__))
+# TRADE_ALL=1: paper accounts keep trading strategies the research marked "off", to collect live fill/timing data.
+# The signal log still records the real status, and reports label these trades as test trades.
+TRADE_ALL = os.environ.get("TRADE_ALL") == "1"
 LOG, JOURNAL, SIGNALS = f"{BASE}/bot.log", f"{BASE}/journal.csv", f"{BASE}/signals.csv"
 ACCOUNTS = {200: ["pm_high_break", "vwap_pullback", "eod_squeeze"],
             250: ["orb15", "ema_bounce", "failed_breakdown", "afternoon_hod"],
@@ -24,7 +27,14 @@ def log(m, now=None):
     print(s, flush=True); open(LOG, "a").write(s + "\n")
 
 def append_csv(path, row):
-    pd.DataFrame([row]).to_csv(path, mode="a", header=not os.path.exists(path), index=False)
+    """append one row, aligned to the file's existing columns (files gain columns over time, e.g. after labeling)"""
+    if not os.path.exists(path):
+        pd.DataFrame([row]).to_csv(path, index=False); return
+    cols = list(pd.read_csv(path, nrows=0).columns)
+    if set(row) <= set(cols):
+        pd.DataFrame([row]).reindex(columns=cols).to_csv(path, mode="a", header=False, index=False)
+    else:
+        pd.concat([pd.read_csv(path, low_memory=False), pd.DataFrame([row])], ignore_index=True).to_csv(path, index=False)
 
 def load_json(name, default):
     try: return json.load(open(f"{BASE}/{name}"))
@@ -285,7 +295,7 @@ class Engine:
                 self.manage(acct, st, now, data)
             elif not st["done"]:
                 for strat in ACCOUNTS[acct]:
-                    if status.get(strat, "on") == "off": continue
+                    if status.get(strat, "on") == "off" and not TRADE_ALL: continue
                     for t, (d, pm) in data.items():
                         if t in SKIP or d.empty or t not in stats or not stats[t][0] or float(d.Close.iloc[-1]) > acct / 10: continue
                         pc, adv = stats[t]; chg = float(d.Close.iloc[-1]) / pc - 1
@@ -297,10 +307,11 @@ class Engine:
                         if not valid_risk(px, stop): continue
                         f = features(strat, d, pm, chg, now.time(), pc, adv, spy_chg, CAT.get(t), stop)
                         p = model_score(model, f); size = 0.5 if status.get(strat) == "probation" else 1.0
+                        if TRADE_ALL and status.get(strat) == "off": p = None  # test trade: no filter, full size
                         if p is not None:
                             if p < model["threshold"]: log(f"[{tag}/{strat}] {t} filtered out by model (p={p:.2f} < {model['threshold']:.2f})", now); continue
                             if p < model.get("threshold_hi", 1): size = min(size, 0.5)
-                        st["pending"] = dict(t=t, strat=strat, stop=stop, size=size, sig_time=d.index[-1], p=p,
+                        st["pending"] = dict(t=t, strat=strat, stop=stop, size=size, sig_time=d.index[-1], p=p, test=status.get(strat) == "off",
                                              reason=f"{why} | news: {(CAT.get(t) or '')[:60]}" + (f" | p={p:.2f}" if p is not None else ""))
                         log(f"[{tag}/{strat}] SIGNAL {t}: {why}; stop {stop}; size {size:.0%}", now)
                         if ALP:
@@ -331,7 +342,7 @@ class Engine:
         log(f"[${acct}] EXIT {p['open_sh']} {p['t']} @ {px} ({why}) total P&L ${pnl}", now)
         append_csv(JOURNAL, dict(date=str(self.day), account=acct, strategy=p["strat"], ticker=p["t"], shares=p["shares"], entry=p["entry"],
                                  stop=p["stop"], half_at=p["t1"], target=p["target"], exit=px, exit_reason=why, pnl=pnl,
-                                 R=round(pnl / (acct * RISKPCT), 2), size=p.get("size", 1.0), p=p.get("p"), reason=p["reason"]))
+                                 R=round(pnl / (acct * RISKPCT), 2), size=p.get("size", 1.0), p=p.get("p"), test=int(bool(p.get("test"))), reason=p["reason"]))
         if ALP:
             if why in ("time", "next open"): ALP.flatten(acct, p)
             ALP.reconcile(acct, p, pnl, self.day)
@@ -342,6 +353,21 @@ class Engine:
             p = st["pos"]
             if p and p["strat"] == "eod_squeeze" and p["t"] in next_open_px:
                 self.close(acct, st, round(next_open_px[p["t"]] - slip(next_open_px[p["t"]]), 2), "next open", now)
+
+def spread_at(sym, ts, secs=20):
+    """median SIP quoted spread (fraction of price) in the first seconds after ts; needs the 15-min SIP delay, so call after the close"""
+    k, s_ = os.environ.get("ALPACA_KEY"), os.environ.get("ALPACA_SECRET")
+    if not (k and s_): return None
+    u = lambda x: x.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    q = urllib.parse.urlencode(dict(symbols=sym, start=u(ts), end=u(ts + dt.timedelta(seconds=secs)), feed="sip", limit=1000))
+    try:
+        js = json.loads(urllib.request.urlopen(urllib.request.Request(f"https://data.alpaca.markets/v2/stocks/quotes?{q}",
+             headers={"APCA-API-KEY-ID": k, "APCA-API-SECRET-KEY": s_}), timeout=20).read())
+    except Exception as e:
+        log(f"spread {sym} error {e}"); return None
+    sp = sorted((x["ap"] - x["bp"]) / ((x["ap"] + x["bp"]) / 2) for x in (js.get("quotes") or {}).get(sym, []) if x.get("bp", 0) > 0 and x.get("ap", 0) > x["bp"])
+    return round(sp[len(sp) // 2], 5) if sp else None
+
 
 # ---------- label today's logged signals with their real outcome (after the close)
 def label_signals(day, full_bars, next_opens=None):
@@ -356,6 +382,13 @@ def label_signals(day, full_bars, next_opens=None):
         if pos < 0: continue
         out = simulate(rth, pos, r.stop, r.strategy, (next_opens or {}).get(r.ticker))
         if out: df.loc[i, "R"] = round(out["R"], 3); df.loc[i, "why"] = out["why"]; n += 1
+        for k, v in variant_cols(rth, pos, r.stop, r.strategy, (next_opens or {}).get(r.ticker)).items():
+            if k not in df: df[k] = None
+            df.loc[i, k] = v
+        if "spread_pct" not in df or pd.isna(df.loc[i, "spread_pct"]):
+            sp = spread_at(r.ticker, pd.Timestamp(r.sig_bar).to_pydatetime() + dt.timedelta(minutes=1))
+            if "spread_pct" not in df: df["spread_pct"] = None
+            df.loc[i, "spread_pct"] = sp
     df.to_csv(SIGNALS, index=False); return n
 
 def label_overnight(prev_day, today):
@@ -379,7 +412,7 @@ def save_state(day, E, U, stats):
                      U=U, stats=stats, CAT=CAT), open(STATE, "wb"))
 
 def git_sync(msg):
-    if os.environ.get("GITHUB_ACTIONS") != "true": return
+    if os.environ.get("GITHUB_ACTIONS") != "true" or os.environ.get("BOT_BASE"): return
     cmd = f'cd "{BASE}" && git add -A && (git diff --cached --quiet || git commit -qm "{msg}") && (git push -q || (git pull -q --rebase && git push -q))'
     subprocess.run(cmd, shell=True)
 
@@ -492,6 +525,16 @@ def replay(day, tickers):
         spy = data["SPY"][0]; spy_chg = float(spy.Close.iloc[-1]) / stats["SPY"][0] - 1 if len(spy) else 0
         E.step(m.to_pydatetime(), data, stats, spy_chg, model, status)
 
+def dryrun(day, tickers):
+    """full pipeline on a past day in a scratch folder: engine -> journal -> label signals (+variants, spreads) -> report"""
+    os.makedirs(BASE, exist_ok=True)
+    replay(day, tickers)
+    end_of_day(day, None, tickers)
+    for f in ("signals.csv", "journal.csv", f"reports/{day}.md"):
+        p = f"{BASE}/{f}"; print(f"\n===== {f} =====")
+        print(open(p).read()[:6000] if os.path.exists(p) else "(missing)")
+
+
 def configure():
     a = Alpaca()
     if not a.on: log("configure: alpaca not configured or not paper"); return
@@ -517,6 +560,7 @@ def selftest():
 
 if __name__ == "__main__":
     if MODE == "replay": replay(dt.date.fromisoformat(sys.argv[2]), sys.argv[3].split(","))
+    elif MODE == "dryrun": dryrun(dt.date.fromisoformat(sys.argv[2]), sys.argv[3].split(","))
     elif MODE == "selftest": selftest()
     elif MODE == "configure": configure()
     elif MODE == "brief": market_brief(); git_sync("market brief")

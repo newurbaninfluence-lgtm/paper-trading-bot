@@ -1,14 +1,17 @@
 name: paper-bot
 on:
   schedule:
-    - cron: "5 13 * * 1-5"    # morning session (9:05 ET summer / 8:05 ET winter)
-    - cron: "45 14 * * 1-5"   # backup start if the morning run was skipped or delayed
-    - cron: "30 18 * * 1-5"   # afternoon session; queues behind the morning run
+    - cron: "35 12 * * 1-5"   # morning session (8:35 ET summer / 7:35 ET winter): early so GitHub cron delays can't make it miss the open
+    - cron: "45 14 * * 1-5"   # backup start if the morning run was skipped (GitHub sometimes drops scheduled runs)
+    - cron: "15 18 * * 1-5"   # afternoon session; waits in the queue until the morning run hands off
   workflow_dispatch:
     inputs:
       mode:
-        description: "live, selftest, configure or brief"
+        description: "live, selftest, configure, brief, or dryrun (dryrun needs date + tickers below)"
         default: "selftest"
+      args:
+        description: "for dryrun: YYYY-MM-DD TICKER1,TICKER2"
+        default: ""
 permissions:
   contents: write
 concurrency:
@@ -17,9 +20,13 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 355
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Get the latest state (the previous session may have pushed after this run was queued)
+        run: git pull -q --ff-only origin main || true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -27,13 +34,15 @@ jobs:
       - name: Run bot
         env:
           TZ: America/New_York
-          MAX_HOURS: "5.75"
+          MAX_HOURS: "5.9"
           START_DATE: "2026-10-12"
+          TRADE_ALL: "1"
           ALPACA_ENDPOINT: ${{ secrets.ENDPOINT }}
           ALPACA_KEY: ${{ secrets.KEY }}
           ALPACA_SECRET: ${{ secrets.SECRET }}
           SEC_UA: ${{ vars.SEC_UA }}
+          BOT_BASE: ${{ github.event.inputs.mode == 'dryrun' && '/tmp/dryrun' || '' }}
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
-          python -W ignore bot.py ${{ github.event.inputs.mode || 'live' }}
+          python -W ignore bot.py ${{ github.event.inputs.mode || 'live' }} ${{ github.event.inputs.args }}
