@@ -31,6 +31,7 @@ jobs:
           ALPACA_ENDPOINT: ${{ secrets.ENDPOINT }}
           ALPACA_KEY: ${{ secrets.KEY }}
           ALPACA_SECRET: ${{ secrets.SECRET }}
+          SEC_UA: ${{ vars.SEC_UA }}
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
