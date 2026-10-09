@@ -376,6 +376,17 @@ def live():
     if E: save_state(day, E, U, prev)
     log("bot3 session end"); git_sync(f"bot session end {dt.datetime.now(ET):%Y-%m-%d %H:%M}")
 
+def configure():
+    a = Alpaca()
+    if not a.on: log("configure: alpaca not configured or not paper"); return
+    before = a.req("GET", "/account/configurations")
+    log(f"configure before: {before}")
+    after = a.req("PATCH", "/account/configurations", dict(max_margin_multiplier="1", no_shorting=True, fractional_trading=False))
+    log(f"configure after: {after}")
+    acc = a.req("GET", "/account") or {}
+    log(f"account: equity={acc.get('equity')} cash={acc.get('cash')} buying_power={acc.get('buying_power')} multiplier={acc.get('multiplier')} pattern_day_trader={acc.get('pattern_day_trader')} shorting_enabled={acc.get('shorting_enabled')}")
+    git_sync("configure")
+
 def selftest():
     a = Alpaca()
     if a.on:
@@ -390,4 +401,5 @@ def selftest():
 if __name__ == "__main__":
     if MODE == "replay": replay(dt.date.fromisoformat(sys.argv[2]), sys.argv[3].split(","))
     elif MODE == "selftest": selftest()
+    elif MODE == "configure": configure()
     else: live()

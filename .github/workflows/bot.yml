@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "live or selftest"
+        description: "live, selftest or configure"
         default: "selftest"
 permissions:
   contents: write
