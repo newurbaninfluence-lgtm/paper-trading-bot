@@ -55,3 +55,18 @@
 10-09 14:47:58 scan keep TEVA +5.5% rvol 2.6 | [Benzinga] FDA Approves Teva's New Once-Monthly Schizophrenia Injection
 10-09 14:47:58 selftest universe=['FSLY', 'NVAX', 'MOGU', 'CCI', 'QNCX', 'MNSO', 'SECZ', 'TEVA']
 10-09 14:47:59 selftest FSLY bars=318 premarket=118
+10-09 14:55:19 selftest alpaca: status=ACTIVE equity=100000 buying_power=100000 market_open=True
+10-09 14:55:19 selftest benzinga: 5 recent headlines
+10-09 14:55:19 selftest sec SKYD filings 30d: [{'form': '8-A12B', 'date': '2026-10-09'}, {'form': 'CERT', 'date': '2026-10-09'}, {'form': '4', 'date': '2026-10-08'}]
+10-09 14:55:20 selftest wires SECZ: ['Securitize Launches Global Onchain Trading of U.S. Stocks wi', 'INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Be']
+10-09 14:55:27 market brief written: briefs/2026-10-09.md (25 Benzinga items)
+10-09 14:55:27 selftest: scanning
+10-09 14:55:29 scan keep FSLY +18.7% rvol 2.2 | [Benzinga] Why Is Fastly Stock Soaring Friday?
+10-09 14:55:30 scan keep NVAX +17.8% rvol 3.2 | [Google News] NVAX Stock Grinds Higher As Traders Watch Volatile Rebound - Timot
+10-09 14:55:30 scan drop DNA: negative news ([Newswire] TRexBio Announces Pricing of Initial Public Offering - Glob)
+10-09 14:55:31 scan keep CCI +13.1% rvol 3.2 | [Benzinga] Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile T
+10-09 14:55:35 scan keep QNCX +9.3% rvol 5.2 | [Benzinga] Quince Therapeutics Announces Appointment Of Brigette Roberts As CEO,
+10-09 14:55:35 scan keep SECZ +7.3% rvol 2.0 | [Benzinga] Citizens Maintains Market Outperform on Securitize Holdings, Raises P
+10-09 14:55:36 scan keep MNSO +7.1% rvol 2.2 | [Benzinga] MINISO Says Preliminary Q3 Mainland China GMV Up 25%-30% YoY, U.S. GM
+10-09 14:55:36 selftest universe=['FSLY', 'NVAX', 'CCI', 'QNCX', 'SECZ', 'MNSO']
+10-09 14:55:36 selftest FSLY bars=326 premarket=118
