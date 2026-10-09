@@ -54,6 +54,7 @@ CAT = {}
 # ---------- news: primary sources first (Benzinga via Alpaca, newswires, SEC filings), Google News as fallback
 SEC_UA = os.environ.get("SEC_UA", "PaperTradingBot paper-bot@users.noreply.github.com")
 OPINION = re.compile(r"\b(why i'?m|should you|is it time|buy or sell|top \d+|stock price, news, quote|what'?s next|time to buy|could|might)\b", re.I)
+GENERIC = re.compile(r"stocks moving|reported earlier|mid-day|movers|shares are trading|why .* (shares|stock) (is|are)|short interest|unusual options|price over earnings|law firm|investigat|class action|shareholder alert|investor alert|lawsuit|rosen|pomerantz|levi & korsinsky", re.I)
 DILUTION_FORMS = {"S-1", "S-1/A", "S-3", "S-3/A", "F-1", "F-1/A", "F-3", "424B1", "424B2", "424B3", "424B4", "424B5"}
 _CIK = {}
 
@@ -100,9 +101,9 @@ def catalyst(sym, name=""):
     filings = sec_filings(sym)
     dil = [f for f in filings if f["form"] in DILUTION_FORMS]
     if dil: CAT[sym] = f"NEG:SEC {dil[0]['form']} filed {dil[0]['date']} (possible share offering)"; return CAT[sym]
-    hits = [n for n in news_benzinga(sym) if sym in n["syms"]] + news_wires(sym)
+    hits = [n for n in news_benzinga(sym) + news_wires(sym) if not GENERIC.search(n["t"]) and (n["src"] != "Benzinga" or sym in n["syms"])]
     if not hits:
-        hits = [dict(n, src="Google News") for n in _rss(f"{sym} stock when:1d") if (sym.lower() in n["t"].lower() or key in n["t"].lower()) and not OPINION.search(n["t"])]
+        hits = [dict(n, src="Google News") for n in _rss(f"{sym} stock when:1d") if (sym.lower() in n["t"].lower() or key in n["t"].lower()) and not OPINION.search(n["t"]) and not GENERIC.search(n["t"])]
     eightk = [f for f in filings if f["form"].startswith("8-K")]
     neg = [h for h in hits if NEG.search(h["t"])]
     if neg: CAT[sym] = f"NEG:[{neg[0]['src']}] {neg[0]['t']}"
