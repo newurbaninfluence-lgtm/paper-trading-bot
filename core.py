@@ -134,7 +134,7 @@ def simulate(rth, i, stop, strat, next_open=None, exit_time=T(15, 55)):
     if i + 1 >= len(rth): return None
     o, h, l, c = (rth[k].values for k in ("Open", "High", "Low", "Close")); idx = rth.index
     entry = o[i + 1] + slip(o[i + 1]); risk = entry - stop
-    if risk <= 0: return None
+    if risk < max(0.01, 0.002 * entry): return None  # fill gapped through the stop: no trade
     t1, tgt = entry + risk, entry + 2 * risk
     stop_now, half, realized, rem = stop, False, 0.0, 1.0
     for j in range(i + 1, len(rth)):

@@ -279,6 +279,7 @@ def plan(df, status, model):
 
 def analyze():
     df = pd.read_csv(f"{OUT}/signals_bt.csv"); df["date"] = df.date.astype(str)
+    df = df[(df.entry - df.stop) >= np.maximum(0.01, 0.002 * df.entry)]  # drop fills that gapped through the stop
     live_path = f"{BASE}/signals.csv"
     sc = scorecard(df); model = train_filter(df); st = decide_status(sc, live_path)
     json.dump(model, open(f"{BASE}/model.json", "w"), indent=1); json.dump(st, open(f"{BASE}/strategy_status.json", "w"), indent=1)
@@ -300,6 +301,19 @@ def analyze():
               f"Filter is **{'ON' if model['enabled'] else 'OFF (did not beat taking everything)'}**.", "",
               "Conditions that matter most (positive = helps, negative = hurts): " + ", ".join(f"{k} {v:+.2f}" for k, v in model["top_features"]), ""]
     else: L += [f"Not trained: {model.get('reason')}", ""]
+    risk = df.entry - df.stop; df["costR"] = 2 * np.maximum(0.02, 0.0015 * df.entry) / risk; df["grossR"] = df.R + df.costR
+    L += ["## Where the money goes: edge vs trading costs", "",
+          "Gross R = what the setup earned before slippage/spread. Cost R = round-trip slippage as a share of the risk. A strategy only works when gross beats cost.", "",
+          "| Strategy | Gross R | Cost R | Net R |", "|---|---|---|---|"]
+    for k, g in df.groupby("strategy"):
+        L.append(f"| {k} | {g.grossR.mean():+.3f} | {g.costR.mean():.3f} | {g.R.mean():+.3f} |")
+    df["price_band"] = pd.cut(df.entry, [0, 5, 10, 20, 50, 1e6], labels=["under $5", "$5-10", "$10-20", "$20-50", "$50+"])
+    df["stop_width"] = pd.cut(df.entry.sub(df.stop).div(df.entry), [0, 0.01, 0.02, 0.03, 1], labels=["under 1%", "1-2%", "2-3%", "3%+"])
+    for col, title in [("price_band", "By stock price"), ("stop_width", "By stop width")]:
+        L += ["", f"**{title}**", "", "| Group | Trades | Gross R | Cost R | Net R |", "|---|---|---|---|---|"]
+        for k, g in df.groupby(col, observed=True):
+            L.append(f"| {k} | {len(g)} | {g.grossR.mean():+.3f} | {g.costR.mean():.3f} | {g.R.mean():+.3f} |")
+    L += [""]
     L += ["## Path to $20/day", "", "Current 6 accounts replayed over the backtest with every live rule (1 trade/day, price cap, on/off, filter):", "",
           "| Account | $/day | Days traded | Worst day |", "|---|---|---|---|"]
     L += [f"| ${r.account} | ${r.per_day:+.2f} | {r.trade_days}/{r.days} | ${r.worst_day:.2f} |" for r in acc.itertuples()]
