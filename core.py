@@ -181,7 +181,7 @@ def sim_variant(rth, i, stop, strat, entry_mode, plan, next_open=None, exit_time
     else:
         lim, j0 = float(c[i]), None
         for j in range(i + 1, min(i + 4, n)):
-            if l[j] <= lim: j0, px = j, min(float(o[j]), lim); break
+            if o[j] <= lim or l[j] < lim - 0.01: j0, px = j, min(float(o[j]), lim); break  # touch isn't a fill: price must trade through
         if j0 is None: return dict(filled=0)
         cu = 0.0
     risk = px - stop
@@ -210,7 +210,7 @@ def sim_variant(rth, i, stop, strat, entry_mode, plan, next_open=None, exit_time
 
 def variant_cols(rth, i, stop, strat, next_open=None, exit_time=T(15, 55)):
     """flat dict of every entry x plan variant for one signal (gross R, cost units, entry, risk)"""
-    out = {}
+    out = {"nofill_mkt": 0, "nofill_lim": 0}  # fixed keys so every row has the same columns
     for e in ENTRIES:
         for p in PLANS:
             v = sim_variant(rth, i, stop, strat, e, p, next_open, exit_time); k = f"{e}_{p}"

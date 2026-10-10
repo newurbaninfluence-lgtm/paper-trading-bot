@@ -184,7 +184,10 @@ def backtest(n_days):
         spy_pc = spy_prev.get(day)
         tasks = [(r.sym, day, mb.get(r.sym), r.pc, r.adv, r.next_open if r.next_open == r.next_open else None, spy_rth, cat.get(r.sym), spy_pc) for r in c.itertuples()]
         rows = [x for part in pool.map(sim_symbol_day, tasks) for x in part]
-        if rows: pd.DataFrame(rows).to_csv(path, mode="a", header=not os.path.exists(path), index=False)
+        if rows:
+            out = pd.DataFrame(rows)
+            if os.path.exists(path): out = out.reindex(columns=list(pd.read_csv(path, nrows=0).columns))  # never misalign columns
+            out.to_csv(path, mode="a", header=not os.path.exists(path), index=False)
         if k % 10 == 0: log(f"day {k + 1}/{len(days)} {day}: {len(rows)} signals ({time.time() - t0:.0f}s)")
         if os.environ.get("MAX_MINUTES") and time.time() - t0 > 60 * float(os.environ["MAX_MINUTES"]):
             log("time budget reached, saving partial results"); break
@@ -221,11 +224,15 @@ def measure_costs(n=1500):
     log(f"costs: {summary}")
 
 
+COST_MODELS = ("bot", "spread_med", "spread_p75")
+
+
 def cost_per_side(px, model, costs):
-    """$ cost of one market-order side. pessimistic = the bot's slip(); measured = half the median quoted spread (p75 for safety)"""
-    if model == "pessimistic" or not costs: return np.maximum(0.02, 0.0015 * px)
+    """$ cost of one market-order side. bot = the bot's slip() (2c or 0.15%); spread_med / spread_p75 = half of the
+    measured SIP quoted spread at entry time (typical / worse-than-typical)"""
+    if model == "bot" or not costs: return np.maximum(0.02, 0.0015 * px)
     b = pd.cut(px, PRICE_BANDS, labels=PRICE_LABELS).astype(str)
-    pct = b.map({k: v["p75"] for k, v in costs["bands"].items()}).astype(float).fillna(0.003)
+    pct = b.map({k: v["median" if model == "spread_med" else "p75"] for k, v in costs["bands"].items()}).astype(float).fillna(0.005)
     return np.maximum(0.005, pct / 2 * px)
 
 
@@ -239,7 +246,7 @@ def variant_table(df):
             k = f"{e}_{p}"
             if f"Rg_{k}" not in df: continue
             sub = df.dropna(subset=[f"Rg_{k}"])
-            for model in (["pessimistic", "measured"] if costs else ["pessimistic"]):
+            for model in (COST_MODELS if costs else ["bot"]):
                 net = sub[f"Rg_{k}"] - sub[f"cu_{k}"] * cost_per_side(sub[f"px_{k}"], model, costs) / sub[f"rk_{k}"]
                 for strat, g in net.groupby(sub.strategy):
                     st = stats(g); half = len(g) // 2
@@ -381,12 +388,18 @@ def analyze():
         L += ["## Fixes tested: entry and exit variants", "",
               "Entry: mkt = market order next bar (current), lim = limit at the signal close, good 3 minutes (no chase). "
               "Plan: h2 = half at 1R, rest 2R (current); r3 = all at 3R; tr = half at 1R, trail the rest on the 9 EMA.",
-              ("Costs: measured = real SIP quoted spreads at entry time (75th percentile, so slightly conservative). " if costs else
-               "Costs: only the pessimistic model so far (run research.py costs to measure real spreads). ") + "Pessimistic = the bot's current slippage.", ""]
-        best = vt[vt.costs == ("measured" if costs else "pessimistic")].sort_values("net", ascending=False)
+              ("Net R below uses the typical measured spread; survivors must also stay positive with the bot's slippage and the worse (75th pct) spread." if costs else
+               "Costs: only the bot's slippage model so far (run research.py costs to measure real spreads)."), ""]
+        main = "spread_med" if costs else "bot"
+        best = vt[vt.costs == main].sort_values("net", ascending=False)
+        if costs:
+            L += ["Measured quoted spreads at entry (median / 75th pct): " + ", ".join(f"{k} {v['median']:.2%} / {v['p75']:.2%}" for k, v in costs["bands"].items()) +
+                  ". A market order pays about half the spread on the way in and half on the way out.", ""]
         L += ["| Strategy | Entry | Plan | Trades | Fill rate | Gross R | Net R | t | 1st half | 2nd half |", "|---|---|---|---|---|---|---|---|---|---|"]
         L += [f"| {r.strategy} | {r.entry} | {r.plan} | {r.n} | {r.fill_rate:.0%} | {r.gross:+.3f} | {r.net:+.3f} | {r.t} | {r.first_half:+.3f} | {r.second_half:+.3f} |" for r in best.head(15).itertuples()]
-        good = best[(best.net > 0.05) & (best.t > 2) & (best.first_half > 0) & (best.second_half > 0) & (best.n >= 200)]
+        worst = vt.groupby(["strategy", "entry", "plan"]).net.min().rename("net_worst")
+        best = best.join(worst, on=["strategy", "entry", "plan"])
+        good = best[(best.net > 0.05) & (best.t > 2) & (best.first_half > 0) & (best.second_half > 0) & (best.n >= 200) & (best.net_worst > 0)]
         L += ["", f"**Survivors (net > +0.05R, t > 2, positive in both halves, 200+ trades): {len(good)}**" +
               ("".join(f"\n- {r.strategy} / {r.entry} / {r.plan}: {r.net:+.3f}R over {r.n} trades" for r in good.itertuples()) if len(good) else " (none yet)"), ""]
     L += ["## Path to $20/day", "", "Current 6 accounts replayed over the backtest with every live rule (1 trade/day, price cap, on/off, filter):", "",

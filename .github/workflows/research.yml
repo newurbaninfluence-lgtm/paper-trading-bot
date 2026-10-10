@@ -42,4 +42,5 @@ jobs:
           git config user.email "paper-bot@users.noreply.github.com"
           git add -A research model.json strategy_status.json || true
           git diff --cached --quiet || git commit -qm "research results $(date +%F)"
+          git stash -u -q || true
           git push -q || (git pull -q --rebase -X theirs && git push -q) || (sleep 20; git pull -q --rebase -X theirs && git push -q)
