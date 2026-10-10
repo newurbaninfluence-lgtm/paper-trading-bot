@@ -6,22 +6,22 @@
   "orb5": "off",
   "afternoon_hod": "off",
   "bull_flag": "off",
-  "ema_bounce": "off",
   "failed_breakdown": "off",
-  "vwap_pullback": "off",
-  "eod_squeeze": "off"
+  "ema_bounce": "off",
+  "eod_squeeze": "off",
+  "vwap_pullback": "off"
  },
  "why": {
-  "pm_high_break": "loses -0.15R/trade over 665 trades",
-  "hod_break": "loses -0.16R/trade over 665 trades",
-  "orb15": "loses -0.17R/trade over 1339 trades",
-  "orb5": "loses -0.19R/trade over 2264 trades",
-  "afternoon_hod": "loses -0.19R/trade over 802 trades",
-  "bull_flag": "loses -0.26R/trade over 2228 trades",
-  "ema_bounce": "loses -0.26R/trade over 5276 trades",
+  "pm_high_break": "loses -0.15R/trade over 667 trades",
+  "hod_break": "loses -0.16R/trade over 666 trades",
+  "orb15": "loses -0.17R/trade over 1342 trades",
+  "orb5": "loses -0.19R/trade over 2268 trades",
+  "afternoon_hod": "loses -0.19R/trade over 803 trades",
+  "bull_flag": "loses -0.26R/trade over 2232 trades",
   "failed_breakdown": "loses -0.26R/trade over 2548 trades",
-  "vwap_pullback": "loses -0.43R/trade over 4476 trades",
-  "eod_squeeze": "loses -0.33R/trade over 739 trades"
+  "ema_bounce": "loses -0.26R/trade over 5277 trades",
+  "eod_squeeze": "loses -0.33R/trade over 739 trades",
+  "vwap_pullback": "loses -0.43R/trade over 4477 trades"
  },
  "updated": "2026-10-09"
 }
