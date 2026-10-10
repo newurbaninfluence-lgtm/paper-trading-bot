@@ -13,15 +13,15 @@
  },
  "why": {
   "pm_high_break": "loses -0.15R/trade over 667 trades",
-  "hod_break": "loses -0.16R/trade over 666 trades",
+  "hod_break": "loses -0.16R/trade over 667 trades",
   "orb15": "loses -0.17R/trade over 1342 trades",
-  "orb5": "loses -0.19R/trade over 2268 trades",
+  "orb5": "loses -0.19R/trade over 2272 trades",
   "afternoon_hod": "loses -0.19R/trade over 803 trades",
-  "bull_flag": "loses -0.26R/trade over 2232 trades",
-  "failed_breakdown": "loses -0.26R/trade over 2548 trades",
-  "ema_bounce": "loses -0.26R/trade over 5277 trades",
+  "bull_flag": "loses -0.26R/trade over 2233 trades",
+  "failed_breakdown": "loses -0.26R/trade over 2556 trades",
+  "ema_bounce": "loses -0.26R/trade over 5287 trades",
   "eod_squeeze": "loses -0.33R/trade over 739 trades",
-  "vwap_pullback": "loses -0.43R/trade over 4477 trades"
+  "vwap_pullback": "loses -0.43R/trade over 4485 trades"
  },
- "updated": "2026-10-09"
+ "updated": "2026-10-10"
 }
