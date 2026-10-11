@@ -2,7 +2,7 @@
 Same code runs the 2-year backtest and the live paper books (live = this engine replayed forward from START, rebuilt
 from data every evening, so there is no hidden state that can drift from the backtest).
 
-Strategies (signal at the close of day t, entry at the open of day t+1, market orders, costs from research/costs.json):
+Strategies (signal at the close of day t, entry at the open of day t+1, market or auction orders, costs from measured spreads):
   earn_gap  post-earnings drift: gap up 4%+ on 2.5x volume, earnings headline before the open, closes green and in the
             top half of its range. Stop = gap-day low. Plans: t20 = exit at the close 20 days later; tr10 = exit on a close
             below the 10-day low (max 40 days).
@@ -113,27 +113,47 @@ def run_signals(d, sig):
     return pd.DataFrame(rows)
 
 
-def costs_json():
-    try: return json.load(open(f"{OUT}/costs.json"))
-    except Exception: return None
+def swing_costs():
+    """measured quoted spreads for this liquid universe (research/swing_costs.json); conservative default if not measured yet"""
+    try: return json.load(open(f"{OUT}/swing_costs.json"))
+    except Exception: return dict(median=0.002, p75=0.004, n=0, note="default, not measured")
 
 
-def add_net(t, costs):
-    for m in R.COST_MODELS if costs else ["bot"]:
-        cps = R.cost_per_side(t.entry, m, costs)
-        t[f"net_{m}"] = t.Rg - 2 * cps / t.risk  # market in, market out
+def measure_spreads(sig, n=400):
+    smp = sig.sample(min(n, len(sig)), random_state=11); sp = []
+    for k, r in enumerate(smp.itertuples()):
+        v, _ = R.spread_at(r.sym, dt.datetime.combine(r.date, dt.time(15, 30), ET))
+        if v is not None: sp.append(v)
+        if k % 100 == 0: log(f"swing spreads {k}/{len(smp)}")
+    out = dict(median=round(float(np.median(sp)), 5), p75=round(float(np.percentile(sp, 75)), 5), n=len(sp), measured=str(dt.date.today()))
+    json.dump(out, open(f"{OUT}/swing_costs.json", "w"), indent=1); log(f"swing spreads: {out}"); return out
+
+
+COST_COLS = {"net_liquid": "Market orders, typical spread", "net_liquid_bad": "Market orders, bad spread",
+             "net_auction": "Open/close auction orders", "net_bot": "Bot slippage (stress test)"}
+REQUIRED = ("net_liquid", "net_liquid_bad", "net_auction")
+
+
+def add_net(t, sc):
+    """costs: market orders pay half the spread each side; auction orders (market-on-open in, market-on-close out) pay no
+    spread except when a stop fires intraday"""
+    exit_px = t.entry + t.Rg * t.risk
+    t["net_liquid"] = t.Rg - 2 * (sc["median"] / 2 * t.entry) / t.risk
+    t["net_liquid_bad"] = t.Rg - 2 * (sc["p75"] / 2 * t.entry) / t.risk
+    t["net_auction"] = t.Rg - (t.why == "stop") * (sc["p75"] / 2 * exit_px) / t.risk
+    t["net_bot"] = t.Rg - 2 * np.maximum(0.02, 0.0015 * t.entry) / t.risk
     return t
 
 
 # ---------- account books (cash account, no margin, fractional shares, 1% risk per trade)
-def books(t, start=None, plan_map=None, costs=None):
+def books(t, start=None, plan_map=None, sc=None):
     """replay every account forward; returns (closed trades, open positions).
     Cash rule: a position's money is tied up from entry until the day after it exits (T+1 settlement)."""
     plan_map = plan_map or LIVE_PLAN
     t = t[t.plan == t.strategy.map(plan_map)].copy()
     if start: t = t[t.date >= start]
     t = t.sort_values(["entry_date", "strategy", "rank"])
-    model = "spread_med" if costs else "bot"
+    sc = sc or swing_costs()
     closed, still_open = [], []
     for acct in ACCTS:
         held = []
@@ -146,7 +166,7 @@ def books(t, start=None, plan_map=None, costs=None):
                 room = acct + realized - tied
                 if room < 10: break
                 sh = min(risk_d / r.risk, room / r.entry); cost = sh * r.entry
-                cps = float(R.cost_per_side(pd.Series([r.entry]), model, costs).iloc[0])
+                cps = sc["median"] / 2 * r.entry
                 pnl = round(sh * (r.Rg * r.risk - 2 * cps), 2) if r.exit is not None else None
                 held.append(dict(account=acct, sym=r.sym, strategy=r.strategy, plan=r.plan, signal_date=r.date, entry_date=r.entry_date,
                                  entry=round(r.entry, 2), stop=round(r.stop, 2), shares=round(sh, 4), cost=round(cost, 2), exit=r.exit, why=r.why,
@@ -157,19 +177,18 @@ def books(t, start=None, plan_map=None, costs=None):
 
 
 # ---------- reports
-def strategy_table(t, costs):
-    L = ["| Strategy | Plan | Trades | Win % | Avg days | Gross R | Net R (typical spread) | Net R (bad spread) | Net R (bot slippage) | t | 1st half | 2nd half |",
-         "|---|---|---|---|---|---|---|---|---|---|---|---|"]
+def strategy_table(t):
+    L = ["| Strategy | Plan | Trades | Win % | Avg days | Gross R | " + " | ".join(COST_COLS.values()) + " | t | 1st half | 2nd half |",
+         "|---|---|---|---|---|---|" + "---|" * len(COST_COLS) + "---|---|---|"]
     res = []
-    for (s, p), g in t[t.exit.notna()].groupby(["strategy", "plan"]):
-        g = g.sort_values("date"); half = len(g) // 2
-        main = g["net_spread_med"] if costs else g["net_bot"]
-        st = R.stats(main)
-        worst = min(g[c].mean() for c in g.columns if c.startswith("net_"))
-        row = dict(strategy=s, plan=p, n=len(g), win=(main > 0).mean(), days=g.held.mean(), gross=g.Rg.mean(), net=main.mean(),
-                   bad=g.get("net_spread_p75", main).mean(), bot=g["net_bot"].mean(), t=st["t"], h1=main.iloc[:half].mean(), h2=main.iloc[half:].mean(), worst=worst)
+    for (s_, p), g in t[t.exit.notna()].groupby(["strategy", "plan"]):
+        g = g.sort_values("date"); half = len(g) // 2; main = g["net_liquid"]; st = R.stats(main)
+        row = dict(strategy=s_, plan=p, n=len(g), win=(main > 0).mean(), days=g.held.mean(), gross=g.Rg.mean(), net=main.mean(),
+                   t=st["t"], h1=main.iloc[:half].mean(), h2=main.iloc[half:].mean(), worst=min(g[c].mean() for c in REQUIRED),
+                   **{c: g[c].mean() for c in COST_COLS})
         res.append(row)
-        L.append(f"| {s} | {p} | {row['n']} | {row['win']:.0%} | {row['days']:.1f} | {row['gross']:+.3f} | {row['net']:+.3f} | {row['bad']:+.3f} | {row['bot']:+.3f} | {row['t']} | {row['h1']:+.3f} | {row['h2']:+.3f} |")
+        L.append(f"| {s_} | {p} | {row['n']} | {row['win']:.0%} | {row['days']:.1f} | {row['gross']:+.3f} | " +
+                 " | ".join(f"{row[c]:+.3f}" for c in COST_COLS) + f" | {row['t']} | {row['h1']:+.3f} | {row['h2']:+.3f} |")
     return L, pd.DataFrame(res)
 
 
@@ -185,22 +204,23 @@ def backtest(n_days=500):
     log(f"earnings-gap candidates to check for news: {len(eg_c)}")
     earn = earnings_flags(eg_c[["sym", "date"]]); log(f"earnings gaps: {len(earn)}")
     sig = signals(d_sig, earn); log(f"signals: {sig.strategy.value_counts().to_dict()}")
-    t = add_net(run_signals(d, sig), costs_json())
+    sc = measure_spreads(sig)
+    t = add_net(run_signals(d, sig), sc)
     os.makedirs(OUT, exist_ok=True); t.to_csv(f"{OUT}/swing_bt.csv", index=False)
     report(t, d, first)
 
 
 def report(t, d, first):
-    costs = costs_json()
+    sc = swing_costs()
     L = [f"# Swing strategies backtest ({dt.date.today()})", "",
          f"{t.date.nunique()} signal days from {first} to {t.date.max()}, {len(t)} simulated trades. Entry next open at market, stops fill at the worse of stop "
-         "or open (gaps count against us), costs = half the measured spread each way (from the day-trading research, which is conservative for these "
-         "liquid $20+ stocks).", "", "## Every signal, by strategy and exit plan", ""]
-    tab, res = strategy_table(t, costs); L += tab
+         f"or open (gaps count against us). Measured quoted spread for these stocks: median {sc['median']:.3%}, 75th pct {sc['p75']:.3%} "
+         f"({sc.get('n')} samples). Win % and t use typical-spread market orders. The bot-slippage column (2c or 0.15% a side) is a stress test.", "", "## Every signal, by strategy and exit plan", ""]
+    tab, res = strategy_table(t); L += tab
     good = res[(res.net > 0.05) & (res.t > 2) & (res.h1 > 0) & (res.h2 > 0) & (res.n >= 200) & (res.worst > 0)]
-    L += ["", f"**Pass the survivor test (net > +0.05R, t > 2, positive in both halves, 200+ trades, positive under every cost model): {len(good)}**"]
+    L += ["", f"**Pass the survivor test (net > +0.05R, t > 2, positive in both halves, 200+ trades, positive with market orders at typical and bad spreads and with auction orders): {len(good)}**"]
     L += [f"- {r.strategy} / {r.plan}: {r.net:+.3f}R per trade over {r.n} trades, {r.days:.1f} days average hold" for r in good.itertuples()]
-    j, _ = books(t, costs=costs)
+    j, _ = books(t, sc=sc)
     if len(j):
         nd = len([x for x in sorted(d.date.unique()) if x >= first])
         L += ["", "## Accounts replayed (live rules: 1% risk, cash only, no margin, fractional shares, earnings gaps first)", "",
@@ -223,7 +243,7 @@ def live():
     eg_c = d_sig[d_sig.liquid & (d_sig.gap >= 0.04) & (d_sig.v >= 2.5 * d_sig.adv20)]
     earn = earnings_flags(eg_c[["sym", "date"]]) if len(eg_c) else {}
     sig = signals(d_sig, earn)
-    costs = costs_json()
+    sc = swing_costs()
     t = run_signals(d, sig)
     os.makedirs(f"{BASE}/swing", exist_ok=True)
     tomorrow = sig[sig.date == last]
@@ -231,7 +251,7 @@ def live():
     L = [f"# Swing paper books ({last})", "", f"Signals at today's close (bought at the next open): "
          f"{', '.join(f'{r.sym} ({r.strategy})' for r in tomorrow.itertuples()) or 'none'}", ""]
     if len(t):
-        t = add_net(t, costs); j, o = books(t, START, costs=costs)
+        t = add_net(t, sc); j, o = books(t, START, sc=sc)
         j.to_csv(f"{BASE}/swing/journal.csv", index=False); o.to_csv(f"{BASE}/swing/open.csv", index=False)
         if len(o):
             px = d[d.date == last].set_index("sym").c

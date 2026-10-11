@@ -76,9 +76,11 @@ def universe():
 
 def daily_bars(syms, start, end):
     rows = []
+    # free data plan: SIP queries must end at least 15 minutes ago
+    end_iso = min(iso(end, "23:59"), (dt.datetime.now(dt.timezone.utc) - dt.timedelta(minutes=16)).strftime("%Y-%m-%dT%H:%M:%SZ"))
     for i in range(0, len(syms), 200):
         chunk = syms[i:i + 200]
-        bars = paged("/v2/stocks/bars", dict(symbols=",".join(chunk), timeframe="1Day", start=iso(start), end=iso(end, "23:59"),
+        bars = paged("/v2/stocks/bars", dict(symbols=",".join(chunk), timeframe="1Day", start=iso(start), end=end_iso,
                                             limit=10000, adjustment="split", feed="sip"), "bars")
         for s, bs in bars.items():
             for b in bs: rows.append((s, b["t"][:10], b["o"], b["h"], b["l"], b["c"], b["v"]))
