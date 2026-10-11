@@ -1,5 +1,5 @@
-# Swing paper books (nan)
+# Swing paper books (2026-10-09)
 
-Signals at today's close (bought at the next open): none
+Signals at today's close (bought at the next open): DNTH (trend_pb), JAZZ (trend_pb), AMBQ (trend_pb), DE (trend_pb), WT (trend_pb), ARM (trend_pb), INTW (trend_pb), SITM (trend_pb), EWS (trend_pb), AXTI (trend_pb), INTC (trend_pb), GFF (trend_pb), CHPY (trend_pb), AEHR (trend_pb), SWKS (trend_pb), SOXL (trend_pb), AGM (trend_pb), SOXX (trend_pb), FTXL (trend_pb), NEU (trend_pb), CEVA (trend_pb), BMNR (trend_pb), IESC (trend_pb), URGN (trend_pb), GRMN (trend_pb), IVZ (trend_pb), PSI (trend_pb), MBX (trend_pb), QCOM (trend_pb), SMH (trend_pb), LRCX (trend_pb), ASST (trend_pb), ING (trend_pb), BEN (trend_pb), VOYA (trend_pb), ROG (trend_pb), SOXQ (trend_pb), ROK (trend_pb), EWTX (trend_pb), AMAT (trend_pb), USD (trend_pb), AVT (trend_pb), COHU (trend_pb), MCRI (trend_pb), TVTX (trend_pb), TSMX (trend_pb), TSM (trend_pb), UMAC (trend_pb), BBVA (trend_pb), NVDL (trend_pb), NVDX (trend_pb), NVDU (trend_pb), STM (trend_pb), ROST (trend_pb), NVDA (trend_pb), MHK (trend_pb), AMDL (trend_pb), AMD (trend_pb)
 
 No positions yet.
