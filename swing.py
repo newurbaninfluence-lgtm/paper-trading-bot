@@ -23,11 +23,20 @@ START = dt.date.fromisoformat(os.environ.get("SWING_START", "2026-10-09"))  # fi
 ACCTS = [200, 250, 350, 400, 550, 1000]
 RISK = 0.01
 PLANS = {"earn_gap": ("t20", "tr10"), "trend_pb": ("sma5", "t10")}
-LIVE_PLAN = {"earn_gap": "t20", "trend_pb": "sma5"}  # plan the live books trade (the classic version of each)
+LIVE_PLAN = {"earn_gap": "t20", "trend_pb": "t10"}  # plan the live books trade (t10 tested best of the trend_pb exits)
 EARN_RX = CAT_KW["earnings"]
 
 
 def log(m): print(f"{dt.datetime.now(ET):%H:%M:%S} {m}", flush=True)
+
+
+LEV_RX = re.compile(r"\b(2x|3x|-2x|-3x|leveraged|ultra|ultrapro|inverse|daily .*(bull|bear))\b", re.I)
+
+
+def leveraged_set():
+    """leveraged / inverse ETFs (they decay and just double up the same bet): excluded from the swing universe"""
+    js = R.get(R.TRADE, "/v2/assets", dict(status="active", asset_class="us_equity")) or []
+    return {a["symbol"] for a in js if LEV_RX.search(a.get("name") or "")}
 
 
 # ---------- indicators
@@ -66,9 +75,9 @@ def earnings_flags(cands):
     return out
 
 
-def signals(d, earn):
+def signals(d, earn, exclude=()):
     """all signals (both strategies) with stop and features; signal day = t, entry next open"""
-    base = d[d.liquid & d.sma200.notna()]
+    base = d[d.liquid & d.sma200.notna() & ~d.sym.isin(set(exclude))]
     eg = base[(base.gap >= 0.04) & (base.v >= 2.5 * base.adv20) & (base.c >= base.o) & ((base.c - base.l) >= 0.5 * (base.h - base.l))].copy()
     eg["earn"] = [1 if (s, t) in earn else 0 for s, t in zip(eg.sym, eg.date)]
     eg = eg[eg.earn == 1]; eg["strategy"] = "earn_gap"; eg["stop"] = eg.l - 0.01; eg["rank"] = -eg.gap
@@ -162,14 +171,15 @@ def books(t, start=None, plan_map=None, sc=None):
             tied = sum(p["cost"] for p in held if p["exit"] is None or p["exit"] >= day)
             risk_d = (acct + realized) * RISK
             for r in todays.itertuples():
+                ex = None if pd.isna(r.exit) else r.exit
                 if any(p["sym"] == r.sym and (p["exit"] is None or p["exit"] >= day) for p in held): continue
                 room = acct + realized - tied
                 if room < 10: break
                 sh = min(risk_d / r.risk, room / r.entry); cost = sh * r.entry
                 cps = sc["median"] / 2 * r.entry
-                pnl = round(sh * (r.Rg * r.risk - 2 * cps), 2) if r.exit is not None else None
+                pnl = round(sh * (r.Rg * r.risk - 2 * cps), 2) if ex is not None else None
                 held.append(dict(account=acct, sym=r.sym, strategy=r.strategy, plan=r.plan, signal_date=r.date, entry_date=r.entry_date,
-                                 entry=round(r.entry, 2), stop=round(r.stop, 2), shares=round(sh, 4), cost=round(cost, 2), exit=r.exit, why=r.why,
+                                 entry=round(r.entry, 2), stop=round(r.stop, 2), shares=round(sh, 4), cost=round(cost, 2), exit=ex, why=r.why,
                                  held=r.held, exit_px=round(r.entry + r.Rg * r.risk, 2), pnl=pnl, R=None if pnl is None else round(pnl / risk_d, 2)))
                 tied += cost
         closed += [p for p in held if p["exit"] is not None]; still_open += [p for p in held if p["exit"] is None]
@@ -182,7 +192,8 @@ def strategy_table(t):
          "|---|---|---|---|---|---|" + "---|" * len(COST_COLS) + "---|---|---|"]
     res = []
     for (s_, p), g in t[t.exit.notna()].groupby(["strategy", "plan"]):
-        g = g.sort_values("date"); half = len(g) // 2; main = g["net_liquid"]; st = R.stats(main)
+        g = g.sort_values("date"); half = len(g) // 2; main = g["net_liquid"]
+        st = R.stats(main.groupby(g.date).mean())  # t on DAILY averages: same-day signals move together, so per-trade t overstates confidence
         row = dict(strategy=s_, plan=p, n=len(g), win=(main > 0).mean(), days=g.held.mean(), gross=g.Rg.mean(), net=main.mean(),
                    t=st["t"], h1=main.iloc[:half].mean(), h2=main.iloc[half:].mean(), worst=min(g[c].mean() for c in REQUIRED),
                    **{c: g[c].mean() for c in COST_COLS})
@@ -203,7 +214,8 @@ def backtest(n_days=500):
     eg_c = d_sig[d_sig.liquid & (d_sig.gap >= 0.04) & (d_sig.v >= 2.5 * d_sig.adv20)]
     log(f"earnings-gap candidates to check for news: {len(eg_c)}")
     earn = earnings_flags(eg_c[["sym", "date"]]); log(f"earnings gaps: {len(earn)}")
-    sig = signals(d_sig, earn); log(f"signals: {sig.strategy.value_counts().to_dict()}")
+    lev = leveraged_set(); log(f"leveraged/inverse ETFs excluded: {len(lev)}")
+    sig = signals(d_sig, earn, lev); log(f"signals: {sig.strategy.value_counts().to_dict()}")
     sc = measure_spreads(sig)
     t = add_net(run_signals(d, sig), sc)
     os.makedirs(OUT, exist_ok=True); t.to_csv(f"{OUT}/swing_bt.csv", index=False)
@@ -242,7 +254,7 @@ def live():
     d_sig = d[d.date >= START]
     eg_c = d_sig[d_sig.liquid & (d_sig.gap >= 0.04) & (d_sig.v >= 2.5 * d_sig.adv20)]
     earn = earnings_flags(eg_c[["sym", "date"]]) if len(eg_c) else {}
-    sig = signals(d_sig, earn)
+    sig = signals(d_sig, earn, leveraged_set())
     sc = swing_costs()
     t = run_signals(d, sig)
     os.makedirs(f"{BASE}/swing", exist_ok=True)
