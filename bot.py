@@ -11,6 +11,10 @@ BASE = os.environ.get("BOT_BASE") or os.path.dirname(os.path.abspath(__file__))
 # TRADE_ALL=1: paper accounts keep trading strategies the research marked "off", to collect live fill/timing data.
 # The signal log still records the real status, and reports label these trades as test trades.
 TRADE_ALL = os.environ.get("TRADE_ALL") == "1"
+# FILL_TEST=1: every logged signal also buys 1 share on the Alpaca paper account (sold at the time exit), so we get many
+# real fills a day to check the simulator's fill assumptions. Separate from the 6 accounts; results in fills_test.csv.
+FILL_TEST = os.environ.get("FILL_TEST") == "1"
+FILLS = f"{BASE}/fills_test.csv"
 LOG, JOURNAL, SIGNALS = f"{BASE}/bot.log", f"{BASE}/journal.csv", f"{BASE}/signals.csv"
 ACCOUNTS = {200: ["pm_high_break", "vwap_pullback", "eod_squeeze"],
             250: ["orb15", "ema_bounce", "failed_breakdown", "afternoon_hod"],
@@ -249,6 +253,7 @@ class Engine:
         self.day, self.exit_time = day, exit_time
         self.S = {a: {"pos": None, "pending": None, "done": False} for a in ACCOUNTS}
         self.logged = set()
+        self.ft = []  # fill-test orders (1 share per logged signal)
 
     def step(self, now, data, stats, spy_chg, model, status):
         """data[t] = (completed RTH bars, premarket bars); stats[t] = (prev_close, adv)"""
@@ -270,6 +275,11 @@ class Engine:
                 p = model_score(model, f)
                 append_csv(SIGNALS, dict(date=str(self.day), time=f"{now:%H:%M}", ticker=t, stop=stop, sig_bar=str(d.index[-1]),
                                          p=None if p is None else round(p, 3), status=status.get(strat, "on"), R=None, why=None, **f))
+                if ALP and FILL_TEST and now.time() < self.exit_time:
+                    o = ALP.req("POST", "/orders", dict(symbol=t, qty="1", side="buy", type="market", time_in_force="day",
+                                                        client_order_id=f"ft-{t}-{strat}-{now:%m%d%H%M}"[:48])) or {}
+                    self.ft.append(dict(t=t, strat=strat, sig_bar=str(d.index[-1]), sent=now.isoformat(), id=o.get("id"), sold=False))
+        if self.ft and now.time() >= self.exit_time: self.ft_close()
         # 2) accounts
         for acct, st in self.S.items():
             tag = f"${acct}"
@@ -319,6 +329,16 @@ class Engine:
                             ALP.enter(acct, st["pending"], px, shs)
                         break
                     if st["pending"]: break
+
+    def ft_close(self):
+        """time exit for fill-test shares: sell each filled share at market"""
+        for x in self.ft:
+            if x["sold"] or not x["id"] or not ALP: continue
+            o = ALP.req("GET", f"/orders/{x['id']}") or {}
+            if float(o.get("filled_qty") or 0) >= 1:
+                so = ALP.req("POST", "/orders", dict(symbol=x["t"], qty="1", side="sell", type="market", time_in_force="day")) or {}
+                x["sell_id"] = so.get("id")
+            x["sold"] = True
 
     def manage(self, acct, st, now, data):
         p = st["pos"]; d = data[p["t"]][0]; nb = d[d.index > p.get("checked", p["entry_time"] - pd.Timedelta(minutes=1))]
@@ -408,7 +428,7 @@ def label_overnight(prev_day, today):
 # ---------- live (resumable: state saved to state.pkl so cloud jobs can hand off)
 STATE = f"{BASE}/state.pkl"
 def save_state(day, E, U, stats):
-    pickle.dump(dict(day=day, S=E.S if E else None, logged=E.logged if E else set(), exit_time=E.exit_time if E else None,
+    pickle.dump(dict(day=day, S=E.S if E else None, logged=E.logged if E else set(), exit_time=E.exit_time if E else None, ft=E.ft if E else [],
                      U=U, stats=stats, CAT=CAT), open(STATE, "wb"))
 
 def git_sync(msg):
@@ -426,8 +446,33 @@ def market_day(day):
             hh, mm = map(int, cal[0]["close"].split(":")); return True, dt.time(hh, mm)
     return day.weekday() < 5, dt.time(16, 0)
 
+def fills_reconcile(day, E):
+    """compare each fill-test order with what the simulator assumed (next bar open + slippage)"""
+    if not (E and E.ft and ALP): return
+    rows, bars = [], {}
+    for x in E.ft:
+        o = ALP.req("GET", f"/orders/{x['id']}") if x.get("id") else None
+        if not o or not o.get("filled_avg_price"): continue
+        so = ALP.req("GET", f"/orders/{x['sell_id']}") if x.get("sell_id") else {}
+        if x["t"] not in bars: bars[x["t"]] = fetch(x["t"], day, pre=False)[0]
+        b = bars[x["t"]]; nxt = b[b.index > pd.Timestamp(x["sig_bar"])] if len(b) else b
+        bar_open = float(nxt.Open.iloc[0]) if len(nxt) else None
+        buy = float(o["filled_avg_price"]); sim = round(bar_open + slip(bar_open), 4) if bar_open else None
+        sell = float(so.get("filled_avg_price") or 0) or None if so else None
+        ex = b[b.index.time < E.exit_time] if len(b) else b; sim_sell = float(ex.Close.iloc[-1]) - slip(float(ex.Close.iloc[-1])) if len(ex) else None
+        rows.append(dict(date=str(day), ticker=x["t"], strategy=x["strat"], sig_bar=x["sig_bar"], sent=x["sent"], filled_at=o.get("filled_at"),
+                         alp_buy=buy, bar_open=bar_open, sim_buy=sim, buy_vs_open_pct=round((buy / bar_open - 1) * 100, 3) if bar_open else None,
+                         buy_vs_sim_pct=round((buy / sim - 1) * 100, 3) if sim else None, alp_sell=sell, sim_sell=round(sim_sell, 4) if sim_sell else None))
+    for r in rows: append_csv(FILLS, r)
+    if rows:
+        df = pd.DataFrame(rows)
+        log(f"fill test: {len(df)} fills, avg buy vs next-bar open {df.buy_vs_open_pct.mean():+.3f}%, vs simulator {df.buy_vs_sim_pct.mean():+.3f}%")
+
+
 def end_of_day(day, E, U):
     """label signals, write the daily report"""
+    try: fills_reconcile(day, E)
+    except Exception as e: log(f"fill test error {e}")
     try:
         bars = {t: fetch(t, day, pre=False)[0] for t in set(pd.read_csv(SIGNALS).query("date == @day_s", local_dict={"day_s": str(day)}).ticker)} if os.path.exists(SIGNALS) else {}
         n = label_signals(day, bars); log(f"labeled {n} signals with outcomes")
@@ -450,7 +495,7 @@ def live():
         st = pickle.load(open(STATE, "rb")); CAT.update(st.get("CAT") or {})
         day, U, stats = st["day"], st["U"], st.get("stats", {})
         if st["S"] is not None:
-            E = Engine(day, st.get("exit_time") or dt.time(15, 55)); E.S = st["S"]; E.logged = st.get("logged", set())
+            E = Engine(day, st.get("exit_time") or dt.time(15, 55)); E.S = st["S"]; E.logged = st.get("logged", set()); E.ft = st.get("ft", [])
         log(f"resumed state from {day}")
     log("bot live start" + (f" (max {hours}h)" if hours else ""))
     last_sync, today_ok = time.time(), None

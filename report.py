@@ -30,6 +30,13 @@ def daily(base, day):
         lines += ["## Simulator vs Alpaca fills", "", "| Account | Ticker | Sim P&L | Alpaca P&L | Status |", "|---|---|---|---|---|"]
         lines += [f"| ${r.account} | {r.ticker} | ${r.sim_pnl} | {'' if pd.isna(r.alp_pnl) else '$' + str(r.alp_pnl)} | {r.status} |" for r in at.itertuples()]
         lines += [""]
+    if os.path.exists(f"{base}/fills_test.csv"):
+        ft = pd.read_csv(f"{base}/fills_test.csv"); ft["date"] = ft.date.astype(str); fd = ft[ft.date == d]
+        if len(fd):
+            lines += ["## Fill test (1 share per signal on Alpaca paper)", "",
+                      f"{len(fd)} fills today. Real buy price vs the next 1-minute bar's open: {fd.buy_vs_open_pct.mean():+.3f}% on average; "
+                      f"vs the simulator's assumed fill: {fd.buy_vs_sim_pct.mean():+.3f}% (negative = real fills were better than the simulator assumes). "
+                      f"All days so far: {len(ft)} fills, {ft.buy_vs_sim_pct.mean():+.3f}% vs simulator.", ""]
     if len(st):
         lab = st.dropna(subset=["R"])
         lines += ["## Every signal today (taken or not)", "", f"{len(st)} signals, {len(lab)} labeled, average {lab.R.mean():+.2f}R" if len(lab) else f"{len(st)} signals", ""]
