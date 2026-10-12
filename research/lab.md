@@ -90,29 +90,3 @@ Survivor test for every strategy: positive after costs, t > 2 on daily results, 
 **ETF survivors: 1**
 - overnight on SMH: +0.093% per trade, 251.5 trades a year, t=3.12, worst drop -39%
 
-## Stocks-in-play opening range breakout (500 days, 2024-10-11 to 2026-10-09)
-
-| Side | Stop (x ATR) | Trades/day | Win % | Gross R | Net R | Net R (worse costs) | t (daily) | 1st half | 2nd half | Top-5 RVOL only |
-|---|---|---|---|---|---|---|---|---|---|---|
-| long | 0.1 | 7.9 | 10% | -0.221 | -0.640 | -1.059 | -11.91 | -0.769 | -0.637 | -0.801 |
-| long | 0.25 | 7.9 | 24% | -0.027 | -0.180 | -0.333 | -5.61 | -0.194 | -0.277 | -0.290 |
-| long | 0.5 | 7.9 | 39% | +0.034 | -0.032 | -0.098 | -2.59 | -0.049 | -0.107 | -0.003 |
-| short | 0.1 | 7.9 | 10% | -0.272 | -0.677 | -1.082 | -9.97 | -0.856 | -0.454 | -0.664 |
-| short | 0.25 | 7.9 | 26% | -0.047 | -0.195 | -0.342 | -4.69 | -0.311 | -0.083 | -0.183 |
-| short | 0.5 | 7.9 | 41% | +0.019 | -0.045 | -0.108 | -1.78 | -0.123 | +0.020 | -0.003 |
-
-**ORB survivors: 0**
-
-Cash-account replay, long side only (1% risk per trade, no margin):
-
-| Stop | Account | $/day | Green days | Worst day |
-|---|---|---|---|---|
-| 0.1 ATR | $200 | $-0.92 | 6% | $-4.92 |
-| 0.1 ATR | $550 | $-2.52 | 6% | $-13.52 |
-| 0.1 ATR | $1000 | $-4.58 | 6% | $-24.59 |
-| 0.25 ATR | $200 | $-0.80 | 20% | $-7.37 |
-| 0.25 ATR | $550 | $-2.21 | 20% | $-20.27 |
-| 0.25 ATR | $1000 | $-4.02 | 20% | $-36.86 |
-| 0.5 ATR | $200 | $-0.28 | 37% | $-10.66 |
-| 0.5 ATR | $550 | $-0.80 | 37% | $-29.31 |
-| 0.5 ATR | $1000 | $-1.46 | 37% | $-53.29 |
