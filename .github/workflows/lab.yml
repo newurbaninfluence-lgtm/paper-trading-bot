@@ -1,0 +1,42 @@
+name: lab
+on:
+  schedule:
+    - cron: "0 18 * * 6"      # Saturday: re-run the strategy lab with the newest week of data
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "ORB trading days"
+        default: "500"
+permissions:
+  contents: write
+concurrency:
+  group: lab
+  cancel-in-progress: false
+jobs:
+  lab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q pandas numpy
+      - name: ETF strategies
+        env: {TZ: America/New_York, ALPACA_KEY: "${{ secrets.KEY }}", ALPACA_SECRET: "${{ secrets.SECRET }}"}
+        run: python -W ignore lab.py etf
+      - name: Save ETF results
+        run: |
+          git config user.name "paper-bot"; git config user.email "paper-bot@users.noreply.github.com"
+          git add -A research; git diff --cached --quiet || git commit -qm "lab etf $(date +%F)"
+          git stash -u -q || true; git push -q || (git pull -q --rebase -X theirs && git push -q) || true
+      - name: Stocks-in-play ORB
+        env: {TZ: America/New_York, MAX_MINUTES: "280", ALPACA_KEY: "${{ secrets.KEY }}", ALPACA_SECRET: "${{ secrets.SECRET }}"}
+        run: python -W ignore lab.py orb ${{ github.event.inputs.days || '500' }}
+      - name: Save ORB results
+        if: always()
+        run: |
+          git add -A research; git diff --cached --quiet || git commit -qm "lab orb $(date +%F)"
+          git stash -u -q || true; git push -q || (git pull -q --rebase -X theirs && git push -q) || (sleep 20; git pull -q --rebase -X theirs && git push -q)
