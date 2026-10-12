@@ -4,6 +4,8 @@ on:
     - cron: "35 12 * * 1-5"   # morning session (8:35 ET summer / 7:35 ET winter): early so GitHub cron delays can't make it miss the open
     - cron: "45 14 * * 1-5"   # backup start if the morning run was skipped (GitHub sometimes drops scheduled runs)
     - cron: "15 18 * * 1-5"   # afternoon session; waits in the queue until the morning run hands off
+  push:
+    paths: [".trigger/live"]   # emergency start: commit a change to this file to launch a live session
   workflow_dispatch:
     inputs:
       mode:
