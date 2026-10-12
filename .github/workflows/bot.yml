@@ -16,6 +16,7 @@ on:
         default: ""
 permissions:
   contents: write
+  actions: write   # lets a finished session start the next one (approved by Faren 2026-10-12; GitHub cron runs hours late here)
 concurrency:
   group: paper-bot
   cancel-in-progress: false
@@ -24,6 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
+      - run: echo "START=$(date +%s)" >> $GITHUB_ENV
       - uses: actions/checkout@v4
         with:
           ref: main
@@ -48,3 +50,13 @@ jobs:
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
           python -W ignore bot.py ${{ github.event.inputs.mode || 'live' }} ${{ github.event.inputs.args }}
+      - name: Start the next session
+        if: always() && (github.event.inputs.mode || 'live') == 'live'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # OFF SWITCH: commit a file named .trigger/stop to end the chain.
+          # Only chain after a real session (>10 min), so a crash can't loop.
+          git pull -q origin main || true
+          if [ -f .trigger/stop ]; then echo "stop file present, not chaining"; exit 0; fi
+          if [ $(( $(date +%s) - START )) -gt 600 ]; then gh workflow run bot.yml -R ${{ github.repository }} -f mode=live; else echo "short run, not chaining"; fi
