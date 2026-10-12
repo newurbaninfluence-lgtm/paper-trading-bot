@@ -34,3 +34,79 @@
 10-09 16:20:22 scan keep STRR +5.1% rvol 2.7 | [Google News] Star Equity CEO Jeffrey Eberwein sells $27,540 in preferred stock 
 10-09 16:20:22 selftest universe=['KLRA', 'FSLY', 'NVAX', 'CCI', 'SVC', 'PICS', 'ADCT', 'QDEL', 'QNCX', 'PENG', 'STRR']
 10-09 16:20:23 selftest KLRA bars=368 premarket=1 stats=(10.0, 1449870.0)
+10-12 09:57:14 alpaca paper mirror: ON
+10-12 09:57:14 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-12 09:57:14 bot live start (max 5.9h)
+10-12 09:57:21 market brief written: briefs/2026-10-12.md (25 Benzinga items)
+10-12 09:57:23 scan keep TRAX +14.0% rvol 46.6 | [Benzinga] Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100  Falls as I
+10-12 09:57:23 scan keep BORR +9.1% rvol 7.0 | [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027 Visibility Tests Fa
+10-12 09:57:24 scan drop ALLT +8.3% rvol 10.4: no news 24h
+10-12 09:57:24 scan keep QNCX +8.1% rvol 65.4 | [SEC] 8-K filed 2026-10-09
+10-12 09:57:25 scan keep CCC +7.7% rvol 5.8 | [Benzinga] Why Is CCC Intelligent Solutions Stock Surging Monday?
+10-12 09:57:25 scan keep ALHC +6.8% rvol 2.7 | [Google News] Is Alignment Healthcare (ALHC) Cheap Following Its California Expa
+10-12 09:57:26 scan keep DHT +6.8% rvol 5.1 | [Benzinga] DHT Stock Hits 52-Week High - Here's Why
+10-12 09:57:26 scan keep AI +6.6% rvol 10.7 | [Benzinga] C3.Ai Shares Edges Higher Monday: What's Going On?
+10-12 09:57:27 scan keep LQDA +6.6% rvol 6.0 | [Google News] LQDA Dec 2026 32.500 call (LQDA261218C00032500) interactive stock 
+10-12 09:57:28 scan keep ENVX +6.3% rvol 7.7 | [Benzinga] US Stocks Mixed; Enovix Shares Jump
+10-12 09:57:28 scan keep ECO +5.7% rvol 3.8 | [Newswire] Parallel - Web Infrastructure for AI Agents - Parallel Web Systems
+10-12 09:57:29 scan keep FRO +5.5% rvol 4.4 | [Google News] How (FRO) Movements Inform Risk Allocation Models - Stock Traders 
+10-12 09:57:29 scan drop FIGS +4.3% rvol 3.9: no news 24h
+10-12 09:57:30 scan keep MDT +4.3% rvol 4.9 | [Benzinga] Medtronic’s Previously Announced MiniMed Share Exchange Offer Oversub
+10-12 09:57:30 scan keep ASTS +4.2% rvol 8.0 | [Benzinga] Deutsche Bank Upgrades AST SpaceMobile to Buy, Maintains Price Target
+10-12 09:57:33 new day universe=['TRAX', 'BORR', 'QNCX', 'CCC', 'ALHC', 'DHT', 'AI', 'LQDA', 'ENVX', 'ECO', 'FRO', 'MDT']
+10-12 09:57:14 [$250/failed_breakdown] SIGNAL CCC: Failed breakdown: flushed to 7.52 under opening-range low 7.54, reclaimed it; stop 7.51; size 100%
+10-12 09:57:34 [$250] ALPACA paper bracket x2 sent: 29 CCC limit 7.6 (ids 2)
+10-12 09:57:14 [$550/failed_breakdown] SIGNAL CCC: Failed breakdown: flushed to 7.52 under opening-range low 7.54, reclaimed it; stop 7.51; size 100%
+10-12 09:57:35 [$550] ALPACA paper bracket x2 sent: 64 CCC limit 7.6 (ids 2)
+10-12 09:58:02 [$250] BUY 33 CCC @ 7.57 stop 7.51 half@7.63 tgt 7.69 | failed_breakdown | Failed breakdown: flushed to 7.52 under opening-range low 7.54, reclaimed it | news: [Benzinga] Why Is CCC Intelligent Solutions Stock Surging Mo
+10-12 09:58:02 [$550] BUY 72 CCC @ 7.57 stop 7.51 half@7.63 tgt 7.69 | failed_breakdown | Failed breakdown: flushed to 7.52 under opening-range low 7.54, reclaimed it | news: [Benzinga] Why Is CCC Intelligent Solutions Stock Surging Mo
+10-12 10:00:02 scan keep TRAX +12.5% rvol 43.4 | [Benzinga] Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100  Falls as I
+10-12 10:00:02 scan keep BORR +8.7% rvol 6.6 | [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027 Visibility Tests Fa
+10-12 10:00:02 scan drop ALLT +8.2% rvol 10.2: no news 24h
+10-12 10:00:02 scan keep QNCX +8.1% rvol 58.9 | [SEC] 8-K filed 2026-10-09
+10-12 10:00:02 scan keep CCC +7.5% rvol 5.3 | [Benzinga] Why Is CCC Intelligent Solutions Stock Surging Monday?
+10-12 10:00:02 scan keep DHT +6.9% rvol 4.7 | [Benzinga] DHT Stock Hits 52-Week High - Here's Why
+10-12 10:00:02 scan keep ALHC +6.5% rvol 2.5 | [Google News] Is Alignment Healthcare (ALHC) Cheap Following Its California Expa
+10-12 10:00:02 scan keep AI +6.2% rvol 9.8 | [Benzinga] C3.Ai Shares Edges Higher Monday: What's Going On?
+10-12 10:00:02 scan keep LQDA +5.8% rvol 5.8 | [Google News] LQDA Dec 2026 32.500 call (LQDA261218C00032500) interactive stock 
+10-12 10:00:02 scan keep FRO +5.7% rvol 4.2 | [Google News] How (FRO) Movements Inform Risk Allocation Models - Stock Traders 
+10-12 10:00:02 scan keep ECO +5.6% rvol 3.6 | [Newswire] Parallel - Web Infrastructure for AI Agents - Parallel Web Systems
+10-12 10:00:02 scan keep ENVX +5.5% rvol 7.1 | [Benzinga] US Stocks Mixed; Enovix Shares Jump
+10-12 10:00:03 scan drop AIFU +5.5% rvol 2.6: no news 24h
+10-12 10:00:03 scan drop FIGS +4.8% rvol 4.0: no news 24h
+10-12 10:00:03 scan keep MDT +4.6% rvol 4.6 | [Benzinga] Medtronic’s Previously Announced MiniMed Share Exchange Offer Oversub
+10-12 10:00:04 status 200:watching 250:pos CCC 350:watching 400:watching 550:pos CCC 1000:watching
+10-12 10:06:02 [$350/bull_flag] SIGNAL ALHC: Bull flag: 3.7% pole, 0.9% flag on light vol, broke 8.07; stop 7.99; size 100%
+10-12 10:06:04 [$350] ALPACA paper bracket x2 sent: 27 ALHC limit 8.12 (ids 2)
+10-12 10:07:02 [$350] BUY 29 ALHC @ 8.11 stop 7.99 half@8.23 tgt 8.35 | bull_flag | Bull flag: 3.7% pole, 0.9% flag on light vol, broke 8.07 | news: [Google News] Is Alignment Healthcare (ALHC) Cheap Following
+10-12 10:10:04 status 200:watching 250:pos CCC 350:pos ALHC 400:watching 550:pos CCC 1000:watching
+10-12 10:11:02 [$200/vwap_pullback] SIGNAL BORR: VWAP pullback: +7.3%, dipped to VWAP 5.10, reclaimed with green bar; stop 5.09; size 100%
+10-12 10:11:04 [$200] ALPACA paper bracket x2 sent: 28 BORR limit 5.16 (ids 2)
+10-12 10:11:02 [$400/vwap_pullback] SIGNAL BORR: VWAP pullback: +7.3%, dipped to VWAP 5.10, reclaimed with green bar; stop 5.09; size 100%
+10-12 10:11:04 [$400] ALPACA paper bracket x2 sent: 57 BORR limit 5.16 (ids 2)
+10-12 10:12:02 [$200] BUY 24 BORR @ 5.17 stop 5.09 half@5.25 tgt 5.33 | vwap_pullback | VWAP pullback: +7.3%, dipped to VWAP 5.10, reclaimed with green bar | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027
+10-12 10:12:02 [$400] BUY 49 BORR @ 5.17 stop 5.09 half@5.25 tgt 5.33 | vwap_pullback | VWAP pullback: +7.3%, dipped to VWAP 5.10, reclaimed with green bar | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027
+10-12 10:15:02 scan keep TRAX +15.4% rvol 36.5 | [Benzinga] Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100  Falls as I
+10-12 10:15:02 scan keep QNCX +8.1% rvol 39.3 | [SEC] 8-K filed 2026-10-09
+10-12 10:15:02 scan keep CCC +8.0% rvol 4.3 | [Benzinga] Why Is CCC Intelligent Solutions Stock Surging Monday?
+10-12 10:15:02 scan keep BORR +7.7% rvol 6.5 | [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027 Visibility Tests Fa
+10-12 10:15:02 scan drop ALLT +7.4% rvol 8.9: no news 24h
+10-12 10:15:02 scan drop FIGS +7.2% rvol 3.4: no news 24h
+10-12 10:15:02 scan keep ALHC +6.7% rvol 2.3 | [Google News] Is Alignment Healthcare (ALHC) Cheap Following Its California Expa
+10-12 10:15:02 scan keep DHT +6.5% rvol 4.0 | [Benzinga] DHT Stock Hits 52-Week High - Here's Why
+10-12 10:15:02 scan keep FRO +5.8% rvol 3.7 | [Google News] How (FRO) Movements Inform Risk Allocation Models - Stock Traders 
+10-12 10:15:02 scan keep ASTS +5.5% rvol 6.2 | [Benzinga] Deutsche Bank Upgrades AST SpaceMobile to Buy, Maintains Price Target
+10-12 10:15:02 scan keep ECO +5.4% rvol 3.0 | [Newswire] Parallel - Web Infrastructure for AI Agents - Parallel Web Systems
+10-12 10:15:02 scan keep ENVX +4.9% rvol 5.3 | [Benzinga] US Stocks Mixed; Enovix Shares Jump
+10-12 10:15:02 scan keep LQDA +4.8% rvol 4.5 | [Google News] LQDA Dec 2026 32.500 call (LQDA261218C00032500) interactive stock 
+10-12 10:17:02 [$250] HALF OFF 16 CCC @ 7.63 (+1R), stop to breakeven
+10-12 10:17:02 [$550] HALF OFF 36 CCC @ 7.63 (+1R), stop to breakeven
+10-12 10:18:02 [$200] EXIT 24 BORR @ 5.05 (stop) total P&L $-2.88
+10-12 10:18:05 [$200] ALPACA result BORR: sim $-2.88 vs alpaca $-1.12 (closed)
+10-12 10:18:02 [$250] EXIT 17 CCC @ 7.69 (target) total P&L $3.0
+10-12 10:18:07 [$250] ALPACA result CCC: sim $3.0 vs alpaca $-1.16 (closed)
+10-12 10:18:02 [$400] EXIT 49 BORR @ 5.05 (stop) total P&L $-5.88
+10-12 10:18:09 [$400] ALPACA result BORR: sim $-5.88 vs alpaca $-2.28 (closed)
+10-12 10:18:02 [$550] EXIT 36 CCC @ 7.69 (target) total P&L $6.48
+10-12 10:18:12 [$550] ALPACA result CCC: sim $6.48 vs alpaca $-2.56 (closed)
+10-12 10:20:04 status 200:done 250:done 350:pos ALHC 400:done 550:done 1000:watching

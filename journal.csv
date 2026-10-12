@@ -1,0 +1,5 @@
+date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,pnl,R,size,p,test,reason
+2026-10-12,200,vwap_pullback,BORR,24,5.17,5.09,5.25,5.33,5.05,stop,-2.88,-1.44,1.0,,1,"VWAP pullback: +7.3%, dipped to VWAP 5.10, reclaimed with green bar | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027"
+2026-10-12,250,failed_breakdown,CCC,33,7.57,7.51,7.63,7.69,7.69,target,3.0,1.2,1.0,,1,"Failed breakdown: flushed to 7.52 under opening-range low 7.54, reclaimed it | news: [Benzinga] Why Is CCC Intelligent Solutions Stock Surging Mo"
+2026-10-12,400,vwap_pullback,BORR,49,5.17,5.09,5.25,5.33,5.05,stop,-5.88,-1.47,1.0,,1,"VWAP pullback: +7.3%, dipped to VWAP 5.10, reclaimed with green bar | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027"
+2026-10-12,550,failed_breakdown,CCC,72,7.57,7.51,7.63,7.69,7.69,target,6.48,1.18,1.0,,1,"Failed breakdown: flushed to 7.52 under opening-range low 7.54, reclaimed it | news: [Benzinga] Why Is CCC Intelligent Solutions Stock Surging Mo"

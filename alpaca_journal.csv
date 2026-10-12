@@ -1,0 +1,5 @@
+date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,alp_pnl,status
+2026-10-12,200,vwap_pullback,BORR,-2.88,28.0,28.0,5.13,-1.12,closed
+2026-10-12,250,failed_breakdown,CCC,3.0,29.0,29.0,7.56,-1.16,closed
+2026-10-12,400,vwap_pullback,BORR,-5.88,57.0,57.0,5.13,-2.28,closed
+2026-10-12,550,failed_breakdown,CCC,6.48,64.0,64.0,7.56,-2.56,closed
