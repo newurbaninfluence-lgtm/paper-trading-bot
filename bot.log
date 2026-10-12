@@ -146,3 +146,10 @@
 10-12 15:40:04 status 200:done 250:done 350:done 400:done 550:done 1000:watching
 10-12 15:50:04 status 200:done 250:done 350:done 400:done 550:done 1000:watching
 10-12 15:52:02 bot session end
+10-12 15:52:30 alpaca paper mirror: ON
+10-12 15:52:30 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-12 15:52:30 resumed state from 2026-10-12
+10-12 15:52:30 bot live start (max 5.9h)
+10-12 16:02:05 labeled 19 signals with outcomes
+10-12 16:02:05 daily report written
+10-12 16:02:05 bot session end
