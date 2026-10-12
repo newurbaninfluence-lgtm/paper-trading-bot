@@ -110,3 +110,8 @@
 10-12 10:18:02 [$550] EXIT 36 CCC @ 7.69 (target) total P&L $6.48
 10-12 10:18:12 [$550] ALPACA result CCC: sim $6.48 vs alpaca $-2.56 (closed)
 10-12 10:20:04 status 200:done 250:done 350:pos ALHC 400:done 550:done 1000:watching
+10-12 10:30:04 status 200:done 250:done 350:pos ALHC 400:done 550:done 1000:watching
+10-12 10:40:04 status 200:done 250:done 350:pos ALHC 400:done 550:done 1000:watching
+10-12 10:50:02 [$350] EXIT 29 ALHC @ 7.95 (stop) total P&L $-4.64
+10-12 10:50:06 [$350] ALPACA result ALHC: sim $-4.64 vs alpaca $-3.24 (closed)
+10-12 10:50:06 status 200:done 250:done 350:done 400:done 550:done 1000:watching
