@@ -137,16 +137,23 @@ def orb_day(day, cands, mb, cps_pct):
         if j0 is None: continue
         entry = max(level, o[j0]) if side == 1 else min(level, o[j0])
         for k in KS:
-            risk = k * r.atr14; stop = entry - side * risk; why = "close"; x = c[-1]
-            for j in range(j0, len(rest)):
-                if (l[j] <= stop) if side == 1 else (h[j] >= stop):
-                    x = min(stop, o[j]) if side == 1 else max(stop, o[j]); why = "stop"
-                    if j == j0: x = stop  # same bar as entry: assume stop (conservative)
-                    break
-            gross = side * (x - entry) / risk
+            risk = k * r.atr14; stop = entry - side * risk
+            # 1-minute bars can't tell whether the entry bar touched the stop before or after the breakout, so run both:
+            # conservative = any touch in the entry bar is a stop; optimistic = entry bar only stops if it CLOSES past the stop
+            res = {}
+            for mode in ("cons", "opt"):
+                why, x = "close", c[-1]
+                for j in range(j0, len(rest)):
+                    hit = (l[j] <= stop) if side == 1 else (h[j] >= stop)
+                    if j == j0 and mode == "opt": hit = (c[j] <= stop) if side == 1 else (c[j] >= stop)
+                    if hit:
+                        x = stop if j == j0 else (min(stop, o[j]) if side == 1 else max(stop, o[j])); why = "stop"; break
+                res[mode] = (side * (x - entry) / risk, why)
+            gross, why = res["cons"]; gross_opt, why_opt = res["opt"]
             cost_sides = 1 + (1 if why == "stop" else 0)  # stop-in and stop-out pay the spread; the close is an auction
             out.append(dict(date=day, sym=r.sym, side="long" if side == 1 else "short", k=k, rank=rank, rvol=round(rv, 2), entry=round(entry, 4),
-                            risk=round(risk, 4), why=why, Rg=round(gross, 4), cost_R=round(cost_sides * cps_pct(entry) * entry / risk, 4)))
+                            risk=round(risk, 4), why=why, Rg=round(gross, 4), cost_R=round(cost_sides * cps_pct(entry) * entry / risk, 4),
+                            Rg_opt=round(gross_opt, 4), cost_R_opt=round((1 + (why_opt == "stop")) * cps_pct(entry) * entry / risk, 4)))
     return out
 
 
@@ -169,7 +176,7 @@ def run_orb(n_days=500):
     path = f"{OUT}/lab_orb.csv"; done = set(pd.read_csv(path).date.astype(str)) if os.path.exists(path) else set(); t0 = time_ = dt.datetime.now()
     for k, day in enumerate(days):
         if str(day) in done: continue
-        c = d[d.date == day].nlargest(60, "gap")
+        c = d[d.date == day].nlargest(100, "gap")  # widest net we can afford: 100 biggest gaps (up or down) each day
         if c.empty: continue
         mb = R.minute_bars(list(c.sym), day)
         rows = orb_day(day, c, mb, cps_pct)
@@ -184,7 +191,8 @@ def orb_table(t):
         g = g.sort_values("date"); dm = g.groupby("date").net.mean(); half = len(dm) // 2
         res.append(dict(side=side, k=k, trades=len(g), per_day=round(len(g) / g.date.nunique(), 1), win=(g.net > 0).mean(), gross=g.Rg.mean(),
                         net=g.net.mean(), net_bad=g.net_bad.mean(), t=tstat(dm), h1=dm.iloc[:half].mean(), h2=dm.iloc[half:].mean(),
-                        top5=g[g["rank"] < 5].net.mean()))
+                        top5=g[g["rank"] < 5].net.mean(),
+                        net_opt=(g.Rg_opt - g.cost_R_opt).mean() if "Rg_opt" in g else float("nan")))
     return pd.DataFrame(res)
 
 
@@ -216,9 +224,9 @@ def report():
     if os.path.exists(f"{OUT}/lab_orb.csv"):
         t = pd.read_csv(f"{OUT}/lab_orb.csv"); o = orb_table(t); o.to_csv(f"{OUT}/lab_orb_summary.csv", index=False)
         L += [f"## Stocks-in-play opening range breakout ({t.date.nunique()} days, {t.date.min()} to {t.date.max()})", "",
-              "| Side | Stop (x ATR) | Trades/day | Win % | Gross R | Net R | Net R (worse costs) | t (daily) | 1st half | 2nd half | Top-5 RVOL only |", "|---|---|---|---|---|---|---|---|---|---|---|"]
+              "| Side | Stop (x ATR) | Trades/day | Win % | Gross R | Net R | Net R (worse costs) | Net R (optimistic entry bar) | t (daily) | 1st half | 2nd half | Top-5 RVOL only |", "|---|---|---|---|---|---|---|---|---|---|---|---|"]
         for r in o.itertuples():
-            L.append(f"| {r.side} | {r.k} | {r.per_day} | {r.win:.0%} | {r.gross:+.3f} | {r.net:+.3f} | {r.net_bad:+.3f} | {r.t} | {r.h1:+.3f} | {r.h2:+.3f} | {r.top5:+.3f} |")
+            L.append(f"| {r.side} | {r.k} | {r.per_day} | {r.win:.0%} | {r.gross:+.3f} | {r.net:+.3f} | {r.net_bad:+.3f} | {r.net_opt:+.3f} | {r.t} | {r.h1:+.3f} | {r.h2:+.3f} | {r.top5:+.3f} |")
         ok = o[(o.net > 0) & (o.net_bad > 0) & (o.t > 2) & (o.h1 > 0) & (o.h2 > 0)]
         L += ["", f"**ORB survivors: {len(ok)}**"] + [f"- {r.side}, stop {r.k} ATR: {r.net:+.3f}R per trade, t={r.t}" for r in ok.itertuples()]
         L += ["", "Cash-account replay, long side only (1% risk per trade, no margin):", "", "| Stop | Account | $/day | Green days | Worst day |", "|---|---|---|---|---|"]
