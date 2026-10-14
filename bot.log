@@ -227,3 +227,42 @@
 10-13 18:44:39 labeled 0 signals with outcomes
 10-13 18:44:39 daily report written
 10-13 18:44:39 bot session end
+10-14 13:33:51 alpaca paper mirror: ON
+10-14 13:33:51 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-14 13:33:51 resumed state from 2026-10-13
+10-14 13:33:51 bot live start (max 5.9h)
+10-14 13:33:51 [$200] EXIT 29 GFR @ 6.8 (next open) total P&L $0.58
+10-14 13:33:55 [$200] ALPACA market sell 29 GFR to flatten
+10-14 13:33:58 [$200] ALPACA result GFR: sim $0.58 vs alpaca $-3.77 (closed)
+10-14 13:33:51 [$350] EXIT 51 GFR @ 6.8 (next open) total P&L $1.02
+10-14 13:34:01 [$350] ALPACA market sell 51 GFR to flatten
+10-14 13:34:04 [$350] ALPACA result GFR: sim $1.02 vs alpaca $-6.63 (closed)
+10-14 13:34:17 market brief written: briefs/2026-10-14.md (25 Benzinga items)
+10-14 13:34:19 scan keep BSP +46.2% rvol 9.4 | [Benzinga] Berkshire Hathaway Doubles Down on Bending Spoons with $330 Million I
+10-14 13:34:20 scan keep MXCT +32.2% rvol 28.8 | [Benzinga] MaxCyte Reports Preliminary Q3 Core Revenue Of ~$8.1M, Up 26% YoY; Ra
+10-14 13:34:20 scan keep LQDA +26.8% rvol 10.1 | [Google News] LQDA Dec 2026 32.500 call (LQDA261218C00032500) interactive stock 
+10-14 13:34:20 scan keep CANG +8.9% rvol 11.3 | [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, Analysis, AI - TheEn
+10-14 13:34:20 scan keep QNCX +8.1% rvol 7.2 | [SEC] 8-K filed 2026-10-09
+10-14 13:34:22 scan keep TV +6.3% rvol 4.3 | [Newswire] Reflect Orbital Purchases Two Skyroot Launches - PR Newswire
+10-14 13:34:23 scan keep IBRX +5.9% rvol 2.7 | [Benzinga] FDA Approves ImmunityBio's Anktiva To Treat Adults With Bacillus Calm
+10-14 13:34:25 scan drop TNXP +5.5% rvol 2.7: no news 24h
+10-14 13:34:26 scan keep GFS +5.3% rvol 3.1 | [Benzinga] Why Is GlobalFoundries Stock Surging Wednesday?
+10-14 13:34:27 new day universe=['BSP', 'MXCT', 'LQDA', 'CANG', 'QNCX', 'TV', 'IBRX', 'GFS']
+10-14 13:33:51 [$400/vwap_pullback] SIGNAL MXCT: VWAP pullback: +31.7%, dipped to VWAP 1.26, reclaimed with green bar; stop 1.24; size 100%
+10-14 13:34:31 [$400] ALPACA paper bracket x2 sent: 66 MXCT limit 1.3 (ids 2)
+10-14 13:35:02 [$400] BUY 79 MXCT @ 1.29 stop 1.24 half@1.34 tgt 1.39 | vwap_pullback | VWAP pullback: +31.7%, dipped to VWAP 1.26, reclaimed with green bar | news: [Benzinga] MaxCyte Reports Preliminary Q3 Core Revenue Of ~$
+10-14 13:39:02 [$250/ema_bounce] SIGNAL IBRX: 9/21 EMA bounce: tagged 21 EMA 10.29, closed back over 9 EMA; stop 10.23; size 100%
+10-14 13:39:06 [$250] ALPACA paper bracket x2 sent: 20 IBRX limit 10.35 (ids 2)
+10-14 13:40:02 [$250] BUY 22 IBRX @ 10.34 stop 10.23 half@10.45 tgt 10.56 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 10.29, closed back over 9 EMA | news: [Benzinga] FDA Approves ImmunityBio's Anktiva To Treat Adult
+10-14 13:40:05 status 200:done 250:pos IBRX 350:done 400:pos MXCT 550:watching 1000:watching
+10-14 13:45:02 [$550/bull_flag] SIGNAL IBRX: Bull flag: 3.0% pole, 1.2% flag on light vol, broke 10.36; stop 10.23; size 100%
+10-14 13:45:06 [$550] ALPACA paper bracket x2 sent: 28 IBRX limit 10.42 (ids 2)
+10-14 13:46:02 [$550] BUY 28 IBRX @ 10.42 stop 10.23 half@10.61 tgt 10.8 | bull_flag | Bull flag: 3.0% pole, 1.2% flag on light vol, broke 10.36 | news: [Benzinga] FDA Approves ImmunityBio's Anktiva To Treat Adult
+10-14 13:48:02 [$250] HALF OFF 11 IBRX @ 10.45 (+1R), stop to breakeven
+10-14 13:48:05 [$250] ALPACA runner stop moved to 10.35
+10-14 13:50:02 [$250] EXIT 11 IBRX @ 10.32 (breakeven) total P&L $0.99
+10-14 13:50:08 [$250] ALPACA result IBRX: sim $0.99 vs alpaca $None (partially open)
+10-14 13:50:08 status 200:done 250:done 350:done 400:pos MXCT 550:pos IBRX 1000:watching
+10-14 13:56:02 [$550] EXIT 28 IBRX @ 10.21 (stop) total P&L $-5.88
+10-14 13:56:07 [$550] ALPACA result IBRX: sim $-5.88 vs alpaca $-4.44 (closed)
+10-14 14:00:05 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
