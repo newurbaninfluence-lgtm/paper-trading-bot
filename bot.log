@@ -266,3 +266,6 @@
 10-14 13:56:02 [$550] EXIT 28 IBRX @ 10.21 (stop) total P&L $-5.88
 10-14 13:56:07 [$550] ALPACA result IBRX: sim $-5.88 vs alpaca $-4.44 (closed)
 10-14 14:00:05 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
+10-14 14:10:05 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
+10-14 14:20:05 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
+10-14 14:30:10 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
