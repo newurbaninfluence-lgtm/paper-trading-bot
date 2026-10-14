@@ -274,3 +274,6 @@
 10-14 14:50:08 [$400] ALPACA result MXCT: sim $-5.53 vs alpaca $-3.3 (closed)
 10-14 14:50:08 status 200:done 250:done 350:done 400:done 550:done 1000:watching
 10-14 15:00:05 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-14 15:10:05 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-14 15:20:05 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-14 15:30:05 status 200:done 250:done 350:done 400:done 550:done 1000:watching
