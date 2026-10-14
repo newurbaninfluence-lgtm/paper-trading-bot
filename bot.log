@@ -269,3 +269,8 @@
 10-14 14:10:05 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
 10-14 14:20:05 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
 10-14 14:30:10 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
+10-14 14:40:05 status 200:done 250:done 350:done 400:pos MXCT 550:done 1000:watching
+10-14 14:50:02 [$400] EXIT 79 MXCT @ 1.22 (stop) total P&L $-5.53
+10-14 14:50:08 [$400] ALPACA result MXCT: sim $-5.53 vs alpaca $-3.3 (closed)
+10-14 14:50:08 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-14 15:00:05 status 200:done 250:done 350:done 400:done 550:done 1000:watching

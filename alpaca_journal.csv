@@ -8,3 +8,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-14,350,eod_squeeze,GFR,1.02,51.0,51.0,6.76,-6.63,closed
 2026-10-14,250,ema_bounce,IBRX,0.99,20.0,10.0,10.33,,partially open
 2026-10-14,550,bull_flag,IBRX,-5.88,28.0,28.0,10.38,-4.44,closed
+2026-10-14,400,vwap_pullback,MXCT,-5.53,66.0,66.0,1.28,-3.3,closed
