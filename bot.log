@@ -374,3 +374,7 @@
 10-15 15:30:04 status 200:done 250:done 350:done 400:done 550:done 1000:watching
 10-15 15:40:03 status 200:done 250:done 350:done 400:done 550:done 1000:watching
 10-15 15:50:03 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-15 16:02:04 fill test: 8 fills, avg buy vs next-bar open -0.211%, vs simulator -0.817%
+10-15 16:02:06 labeled 8 signals with outcomes
+10-15 16:02:07 daily report written
+10-15 16:02:07 bot session end
