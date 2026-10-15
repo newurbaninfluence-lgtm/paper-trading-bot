@@ -365,3 +365,6 @@
 10-15 14:17:02 [$200] EXIT 4 RGC @ 10.68 (target) total P&L $2.88
 10-15 14:17:05 [$200] ALPACA result RGC: sim $2.88 vs alpaca $None (no fill)
 10-15 14:20:03 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-15 14:30:04 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-15 14:40:03 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-15 14:50:03 status 200:done 250:done 350:done 400:done 550:done 1000:watching
