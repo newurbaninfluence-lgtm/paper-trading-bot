@@ -11,3 +11,6 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-14,400,vwap_pullback,MXCT,-5.53,66.0,66.0,1.28,-3.3,closed
 2026-10-15,250,ema_bounce,RGC,-2.7,0.0,0.0,,,no fill
 2026-10-15,400,ema_bounce,RGC,-4.32,0.0,0.0,,,no fill
+2026-10-15,350,bull_flag,RGC,-4.32,0.0,0.0,,,no fill
+2026-10-15,550,bull_flag,RGC,-7.02,0.0,0.0,,,no fill
+2026-10-15,200,vwap_pullback,RGC,2.88,0.0,0.0,,,no fill

@@ -342,3 +342,26 @@
 10-15 13:36:04 [$200] ALPACA entry not filled within 4 min: canceled unfilled part
 10-15 13:36:02 [$200] HALF OFF 4 RGC @ 10.44 (+1R), stop to breakeven
 10-15 13:40:03 status 200:pos RGC 250:done 350:watching 400:done 550:watching 1000:watching
+10-15 13:50:03 status 200:pos RGC 250:done 350:watching 400:done 550:watching 1000:watching
+10-15 13:57:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:57:02 [$350/bull_flag] SIGNAL RGC: Bull flag: 4.5% pole, 1.3% flag on light vol, broke 10.53; stop 10.39; size 100%
+10-15 13:57:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:57:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:57:04 [$350] ALPACA paper bracket x2 sent: 18 RGC limit 10.58 (ids 0)
+10-15 13:57:02 [$550/bull_flag] SIGNAL RGC: Bull flag: 4.5% pole, 1.3% flag on light vol, broke 10.53; stop 10.39; size 100%
+10-15 13:57:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:57:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:57:04 [$550] ALPACA paper bracket x2 sent: 29 RGC limit 10.58 (ids 0)
+10-15 13:58:02 [$350] BUY 16 RGC @ 10.6 stop 10.39 half@10.81 tgt 11.02 | bull_flag | Bull flag: 4.5% pole, 1.3% flag on light vol, broke 10.53 | news: [Newswire] Fengate Private Equity Acquires Majority Stake in
+10-15 13:58:02 [$550] BUY 26 RGC @ 10.6 stop 10.39 half@10.81 tgt 11.02 | bull_flag | Bull flag: 4.5% pole, 1.3% flag on light vol, broke 10.53 | news: [Newswire] Fengate Private Equity Acquires Majority Stake in
+10-15 14:00:03 status 200:pos RGC 250:done 350:pos RGC 400:done 550:pos RGC 1000:watching
+10-15 14:02:03 [$350] ALPACA entry not filled within 4 min: canceled unfilled part
+10-15 14:02:03 [$550] ALPACA entry not filled within 4 min: canceled unfilled part
+10-15 14:06:02 [$350] EXIT 16 RGC @ 10.33 (stop) total P&L $-4.32
+10-15 14:06:05 [$350] ALPACA result RGC: sim $-4.32 vs alpaca $None (no fill)
+10-15 14:06:02 [$550] EXIT 26 RGC @ 10.33 (stop) total P&L $-7.02
+10-15 14:06:07 [$550] ALPACA result RGC: sim $-7.02 vs alpaca $None (no fill)
+10-15 14:10:03 status 200:pos RGC 250:done 350:done 400:done 550:done 1000:watching
+10-15 14:17:02 [$200] EXIT 4 RGC @ 10.68 (target) total P&L $2.88
+10-15 14:17:05 [$200] ALPACA result RGC: sim $2.88 vs alpaca $None (no fill)
+10-15 14:20:03 status 200:done 250:done 350:done 400:done 550:done 1000:watching
