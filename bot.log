@@ -299,3 +299,46 @@
 10-14 17:41:10 labeled 0 signals with outcomes
 10-14 17:41:10 daily report written
 10-14 17:41:10 bot session end
+10-15 13:18:53 alpaca paper mirror: ON
+10-15 13:18:53 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-15 13:18:53 resumed state from 2026-10-14
+10-15 13:18:53 bot live start (max 5.9h)
+10-15 13:19:04 market brief written: briefs/2026-10-15.md (25 Benzinga items)
+10-15 13:19:05 scan keep RGC +32.9% rvol 8.6 | [Newswire] Fengate Private Equity Acquires Majority Stake in Clinical Research o
+10-15 13:19:05 scan drop RXRX: negative news (SEC 424B5 filed 2026-10-15 (possible share offering))
+10-15 13:19:06 scan keep OPK +13.9% rvol 23.9 | [Benzinga] OPKO Health Sheds Diagnostics Businesses in Major Labcorp Deal
+10-15 13:19:07 scan keep ERIC +9.2% rvol 4.5 | [Benzinga] Ericsson Plans Price Hikes As AI Boom Drives Up Equipment Costs
+10-15 13:19:08 scan keep LAC +7.7% rvol 2.1 | [Newswire] ALTA Good Deeds Foundation Awards $120,000 to 20 Community Nonprofits
+10-15 13:19:08 scan keep DNN +6.9% rvol 2.0 | [Newswire] Record Contract Prices Put America’s Domestic Uranium Gap Back in Foc
+10-15 13:19:09 scan keep PATK +6.4% rvol 2.2 | [Google News] Patrick Industries, Inc. (PATK) Stock Forecasts - Yahoo Finance +8
+10-15 13:19:09 scan drop IONQ: negative news (SEC 424B5 filed 2026-10-14 (possible share offering))
+10-15 13:19:10 scan drop BRBR +5.0% rvol 2.1: no news 24h
+10-15 13:19:12 new day universe=['RGC', 'OPK', 'ERIC', 'LAC', 'DNN', 'PATK']
+10-15 13:20:03 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+10-15 13:21:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:21:02 [$250/ema_bounce] SIGNAL RGC: 9/21 EMA bounce: tagged 21 EMA 10.68, closed back over 9 EMA; stop 10.61; size 100%
+10-15 13:21:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:21:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:21:04 [$250] ALPACA paper bracket x2 sent: 8 RGC limit 10.89 (ids 0)
+10-15 13:21:02 [$400/ema_bounce] SIGNAL RGC: 9/21 EMA bounce: tagged 21 EMA 10.68, closed back over 9 EMA; stop 10.61; size 100%
+10-15 13:21:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:21:04 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:21:04 [$400] ALPACA paper bracket x2 sent: 14 RGC limit 10.89 (ids 0)
+10-15 13:22:02 [$250] BUY 15 RGC @ 10.77 stop 10.61 half@10.93 tgt 11.09 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 10.68, closed back over 9 EMA | news: [Newswire] Fengate Private Equity Acquires Majority Stake in
+10-15 13:22:02 [$400] BUY 24 RGC @ 10.77 stop 10.61 half@10.93 tgt 11.09 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 10.68, closed back over 9 EMA | news: [Newswire] Fengate Private Equity Acquires Majority Stake in
+10-15 13:26:03 [$250] ALPACA entry not filled within 4 min: canceled unfilled part
+10-15 13:26:03 [$400] ALPACA entry not filled within 4 min: canceled unfilled part
+10-15 13:27:02 [$250] EXIT 15 RGC @ 10.59 (stop) total P&L $-2.7
+10-15 13:27:06 [$250] ALPACA result RGC: sim $-2.7 vs alpaca $None (no fill)
+10-15 13:27:02 [$400] EXIT 24 RGC @ 10.59 (stop) total P&L $-4.32
+10-15 13:27:08 [$400] ALPACA result RGC: sim $-4.32 vs alpaca $None (no fill)
+10-15 13:30:04 status 200:watching 250:done 350:watching 400:done 550:watching 1000:watching
+10-15 13:32:03 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:32:02 [$200/vwap_pullback] SIGNAL RGC: VWAP pullback: +24.3%, dipped to VWAP 10.06, reclaimed with green bar; stop 9.96; size 100%
+10-15 13:32:03 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:32:03 alpaca POST /orders -> 422 b'{"code":42210000,"message":"asset \\"RGC\\" is not tradable"}'
+10-15 13:32:03 [$200] ALPACA paper bracket x2 sent: 13 RGC limit 10.11 (ids 0)
+10-15 13:33:02 [$200] BUY 8 RGC @ 10.2 stop 9.96 half@10.44 tgt 10.68 | vwap_pullback | VWAP pullback: +24.3%, dipped to VWAP 10.06, reclaimed with green bar | news: [Newswire] Fengate Private Equity Acquires Majority Stake in
+10-15 13:36:04 [$200] ALPACA entry not filled within 4 min: canceled unfilled part
+10-15 13:36:02 [$200] HALF OFF 4 RGC @ 10.44 (+1R), stop to breakeven
+10-15 13:40:03 status 200:pos RGC 250:done 350:watching 400:done 550:watching 1000:watching
