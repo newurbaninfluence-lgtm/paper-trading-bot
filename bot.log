@@ -394,3 +394,19 @@
 10-15 17:22:41 labeled 0 signals with outcomes
 10-15 17:22:41 daily report written
 10-15 17:22:41 bot session end
+10-16 12:54:12 alpaca paper mirror: ON
+10-16 12:54:12 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-16 12:54:12 resumed state from 2026-10-15
+10-16 12:54:12 bot live start (max 5.9h)
+10-16 12:54:15 monthly opex day: no new trades (playbook rule)
+10-16 12:54:22 market brief written: briefs/2026-10-16.md (25 Benzinga items)
+10-16 12:54:23 scan keep SITC +15.9% rvol 9.4 | [Benzinga] SITE Centers (SITC) Stock Jumps 19% After Hours: What’s Driving the S
+10-16 12:54:23 scan keep QNCX +8.1% rvol 8.9 | [SEC] 8-K filed 2026-10-09
+10-16 12:54:24 scan drop ISSC +7.7% rvol 2.1: no news 24h
+10-16 12:54:25 scan keep AA +5.7% rvol 3.3 | [Benzinga] Nasdaq 100 Slides As Micron, SanDisk, CoreWeave Sink: Stock Market To
+10-16 12:54:26 scan drop KELYB +5.1% rvol 2.6: no news 24h
+10-16 12:54:26 scan keep FMC +5.0% rvol 4.2 | [Benzinga] This Workday Analyst Is No Longer Bullish; Here Are Top 5 Downgrades 
+10-16 12:54:27 new day universe=['SITC', 'QNCX', 'AA', 'FMC']
+10-16 13:00:03 status 200:done 250:done 350:done 400:done 550:done 1000:done
+10-16 13:10:02 status 200:done 250:done 350:done 400:done 550:done 1000:done
+10-16 13:20:02 status 200:done 250:done 350:done 400:done 550:done 1000:done
