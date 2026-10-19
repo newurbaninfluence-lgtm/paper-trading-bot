@@ -445,3 +445,26 @@
 10-16 17:07:33 labeled 0 signals with outcomes
 10-16 17:07:33 daily report written
 10-16 17:07:33 bot session end
+10-19 14:49:29 alpaca paper mirror: ON
+10-19 14:49:29 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-19 14:49:29 resumed state from 2026-10-16
+10-19 14:49:29 bot live start (max 5.9h)
+10-19 14:49:37 market brief written: briefs/2026-10-19.md (25 Benzinga items)
+10-19 14:49:38 scan keep IRON +37.7% rvol 17.6 | [Benzinga] BMO Capital Maintains Outperform on Disc Medicine, Raises Price Targe
+10-19 14:49:38 scan keep CLF +18.0% rvol 4.2 | [Benzinga] Stock Market Today: Nasdaq 100 Rises as AI Chip Rout Reverses, SanDis
+10-19 14:49:39 scan keep DH +15.6% rvol 2.7 | [Newswire] ‎دائرة الصحة - أبوظبي "DoH"‎ (@dohsocial) · Abu Dhabi - Instagram
+10-19 14:49:39 scan keep PBLS +11.6% rvol 2.1 | [Benzinga] Parabilis Medicines To Present Updated Clinical Data For Zolucatetide
+10-19 14:49:40 scan drop IFRX +9.1% rvol 3.9: no news 24h
+10-19 14:49:40 scan keep RGC +6.4% rvol 4.1 | [Newswire] Fengate Private Equity Acquires Majority Stake in Clinical Research o
+10-19 14:49:41 scan keep DXC +5.0% rvol 4.9 | [Benzinga] DXC Technology Eyes $2.4 Billion Insurance Unit Sale to Eldridge
+10-19 14:49:42 new day universe=['IRON', 'CLF', 'DH', 'PBLS', 'RGC', 'DXC']
+10-19 14:50:02 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+10-19 14:51:02 [$400/vwap_pullback] SIGNAL PBLS: VWAP pullback: +11.5%, dipped to VWAP 25.32, reclaimed with green bar; stop 25.33; size 100%
+10-19 14:51:04 [$400] ALPACA paper bracket x2 sent: 15 PBLS limit 25.39 (ids 2)
+10-19 14:52:02 [$400] BUY 15 PBLS @ 25.4 stop 25.33 half@25.47 tgt 25.54 | vwap_pullback | VWAP pullback: +11.5%, dipped to VWAP 25.32, reclaimed with green bar | news: [Benzinga] Parabilis Medicines To Present Updated Clinical D
+10-19 14:56:04 [$400] ALPACA entry not filled within 4 min: canceled unfilled part
+10-19 15:00:03 status 200:watching 250:watching 350:watching 400:pos PBLS 550:watching 1000:watching
+10-19 15:10:03 status 200:watching 250:watching 350:watching 400:pos PBLS 550:watching 1000:watching
+10-19 15:13:02 [$400] EXIT 15 PBLS @ 25.25 (stop) total P&L $-2.25
+10-19 15:13:05 [$400] ALPACA result PBLS: sim $-2.25 vs alpaca $None (no fill)
+10-19 15:20:03 status 200:watching 250:watching 350:watching 400:done 550:watching 1000:watching

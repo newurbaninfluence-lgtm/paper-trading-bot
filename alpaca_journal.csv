@@ -14,3 +14,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-15,350,bull_flag,RGC,-4.32,0.0,0.0,,,no fill
 2026-10-15,550,bull_flag,RGC,-7.02,0.0,0.0,,,no fill
 2026-10-15,200,vwap_pullback,RGC,2.88,0.0,0.0,,,no fill
+2026-10-19,400,vwap_pullback,PBLS,-2.25,0.0,0.0,,,no fill
