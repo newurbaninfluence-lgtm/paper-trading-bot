@@ -546,3 +546,9 @@
 10-20 14:40:03 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
 10-20 14:50:03 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
 10-20 15:00:04 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
+10-20 15:10:03 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
+10-20 15:20:03 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
+10-20 15:30:02 [$350/eod_squeeze] SIGNAL TLK: EOD squeeze: +11.4%, within 1% of HOD 11.66, hold to next open; stop 11.59; size 100%
+10-20 15:30:05 [$350] ALPACA paper bracket x2 sent: 29 TLK limit 11.67 (ids 2)
+10-20 15:30:05 status 200:done 250:pos HSAI 350:pending 400:pos HSAI 550:watching 1000:watching
+10-20 15:31:02 [$350] BUY 30 TLK @ 11.66 stop 11.59 half@11.73 tgt 11.8 | eod_squeeze | EOD squeeze: +11.4%, within 1% of HOD 11.66, hold to next open | news: [Newswire] ORCL Stock Price | Oracle Corp. Stock Quote (U.S.
