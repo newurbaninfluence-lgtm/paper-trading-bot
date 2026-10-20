@@ -17,3 +17,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-19,400,vwap_pullback,PBLS,-2.25,0.0,0.0,,,no fill
 2026-10-19,200,eod_squeeze,CLF,-2.03,7.0,7.0,14.44,-1.82,closed
 2026-10-19,350,eod_squeeze,CLF,-3.48,12.0,12.0,14.44,-3.12,closed
+2026-10-20,200,vwap_pullback,CANG,-5.94,30.0,30.0,2.32,-2.1,closed

@@ -17,3 +17,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-19,400,vwap_pullback,PBLS,15,25.4,25.33,25.47,25.54,25.25,stop,-2.25,-0.56,1.0,,1,"VWAP pullback: +11.5%, dipped to VWAP 25.32, reclaimed with green bar | news: [Benzinga] Parabilis Medicines To Present Updated Clinical D"
 2026-10-19,200,eod_squeeze,CLF,7,14.46,14.19,14.73,15.0,14.17,stop,-2.03,-1.01,1.0,,1,"EOD squeeze: +19.1%, within 1% of HOD 14.58, hold to next open | news: [Benzinga] Stock Market Today: Nasdaq 100 Rises as AI Chip R"
 2026-10-19,350,eod_squeeze,CLF,12,14.46,14.19,14.73,15.0,14.17,stop,-3.48,-0.99,1.0,,1,"EOD squeeze: +19.1%, within 1% of HOD 14.58, hold to next open | news: [Benzinga] Stock Market Today: Nasdaq 100 Rises as AI Chip R"
+2026-10-20,200,vwap_pullback,CANG,66,2.32,2.29,2.35,2.38,2.23,stop,-5.94,-2.97,1.0,,1,"VWAP pullback: +8.1%, dipped to VWAP 2.32, reclaimed with green bar | news: [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, "
