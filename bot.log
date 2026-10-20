@@ -543,3 +543,6 @@
 10-20 14:28:02 [$200] EXIT 66 CANG @ 2.23 (stop) total P&L $-5.94
 10-20 14:28:05 [$200] ALPACA result CANG: sim $-5.94 vs alpaca $-2.1 (closed)
 10-20 14:30:03 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
+10-20 14:40:03 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
+10-20 14:50:03 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
+10-20 15:00:04 status 200:done 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
