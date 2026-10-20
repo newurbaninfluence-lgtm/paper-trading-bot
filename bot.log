@@ -509,3 +509,28 @@
 10-19 18:21:23 labeled 0 signals with outcomes
 10-19 18:21:23 daily report written
 10-19 18:21:23 bot session end
+10-20 13:28:57 alpaca paper mirror: ON
+10-20 13:28:57 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-20 13:28:57 resumed state from 2026-10-19
+10-20 13:28:57 bot live start (max 5.9h)
+10-20 13:29:08 market brief written: briefs/2026-10-20.md (25 Benzinga items)
+10-20 13:29:10 scan keep BRZE +51.5% rvol 37.2 | [Benzinga] Why Is Braze Stock Surging on Tuesday? +8-K
+10-20 13:29:10 scan drop CTNM +13.0% rvol 3.5: no news 24h
+10-20 13:29:11 scan drop LION: negative news ([Newswire] City Therapeutics Announces Closing of $230.0 Million Upsiz)
+10-20 13:29:11 scan keep CANG +11.2% rvol 3.5 | [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, Analysis, AI - TheEn
+10-20 13:29:12 scan keep TLK +11.1% rvol 5.6 | [Newswire] ORCL Stock Price | Oracle Corp. Stock Quote (U.S.: NYSE) - MarketWatc
+10-20 13:29:12 scan keep HSAI +9.0% rvol 2.1 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+10-20 13:29:13 scan keep RCUS +8.2% rvol 5.2 | [Benzinga] Arcus Biosciences Reports Casdatifan Kidney Cancer Data, With Nearly 
+10-20 13:29:13 scan keep XPEV +7.4% rvol 2.3 | [Google News] XPEV Stock Climbs As Paris G9L Launch Fuels Global Ambitions - Tim
+10-20 13:29:14 scan keep HE +5.8% rvol 2.2 | [Newswire] Lifezone Announces the Appointment of Ken Chernin as Senior Vice Pres
+10-20 13:29:15 scan keep FOXF +5.3% rvol 2.5 | [Google News] Fox Factory Holding Corp. (NASDAQ:FOXF) Stock Has Average Price Ta
+10-20 13:29:18 new day universe=['BRZE', 'CANG', 'TLK', 'HSAI', 'RCUS', 'XPEV', 'HE', 'FOXF']
+10-20 13:28:57 [$250/ema_bounce] SIGNAL HSAI: 9/21 EMA bounce: tagged 21 EMA 14.04, closed back over 9 EMA; stop 13.96; size 100%
+10-20 13:29:20 [$250] ALPACA paper bracket x2 sent: 15 HSAI limit 14.12 (ids 2)
+10-20 13:28:57 [$400/ema_bounce] SIGNAL HSAI: 9/21 EMA bounce: tagged 21 EMA 14.04, closed back over 9 EMA; stop 13.96; size 100%
+10-20 13:29:20 [$400] ALPACA paper bracket x2 sent: 24 HSAI limit 14.12 (ids 2)
+10-20 13:30:02 [$250] BUY 17 HSAI @ 14.1 stop 13.96 half@14.24 tgt 14.38 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 14.04, closed back over 9 EMA | news: [Newswire] Hesai Group to Report Third Quarter 2026 Financia
+10-20 13:30:02 [$400] BUY 28 HSAI @ 14.1 stop 13.96 half@14.24 tgt 14.38 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 14.04, closed back over 9 EMA | news: [Newswire] Hesai Group to Report Third Quarter 2026 Financia
+10-20 13:30:04 status 200:watching 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
+10-20 13:40:03 status 200:watching 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
+10-20 13:50:04 status 200:watching 250:pos HSAI 350:watching 400:pos HSAI 550:watching 1000:watching
