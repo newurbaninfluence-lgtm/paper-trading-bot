@@ -552,3 +552,13 @@
 10-20 15:30:05 [$350] ALPACA paper bracket x2 sent: 29 TLK limit 11.67 (ids 2)
 10-20 15:30:05 status 200:done 250:pos HSAI 350:pending 400:pos HSAI 550:watching 1000:watching
 10-20 15:31:02 [$350] BUY 30 TLK @ 11.66 stop 11.59 half@11.73 tgt 11.8 | eod_squeeze | EOD squeeze: +11.4%, within 1% of HOD 11.66, hold to next open | news: [Newswire] ORCL Stock Price | Oracle Corp. Stock Quote (U.S.
+10-20 15:40:02 [$250] EXIT 17 HSAI @ 13.94 (stop) total P&L $-2.72
+10-20 15:40:06 [$250] ALPACA result HSAI: sim $-2.72 vs alpaca $-1.95 (closed)
+10-20 15:40:02 [$400] EXIT 28 HSAI @ 13.94 (stop) total P&L $-4.48
+10-20 15:40:09 [$400] ALPACA result HSAI: sim $-4.48 vs alpaca $-3.12 (closed)
+10-20 15:40:09 status 200:done 250:done 350:pos TLK 400:done 550:watching 1000:watching
+10-20 15:50:04 status 200:done 250:done 350:pos TLK 400:done 550:watching 1000:watching
+10-20 16:02:05 fill test: 10 fills, avg buy vs next-bar open +0.032%, vs simulator -0.209%
+10-20 16:02:07 labeled 6 signals with outcomes
+10-20 16:02:07 daily report written
+10-20 16:02:07 bot session end
