@@ -578,3 +578,51 @@
 10-20 17:37:06 labeled 0 signals with outcomes
 10-20 17:37:06 daily report written
 10-20 17:37:06 bot session end
+10-21 10:58:57 alpaca paper mirror: ON
+10-21 10:58:57 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-21 10:58:57 resumed state from 2026-10-20
+10-21 10:58:57 bot live start (max 5.9h)
+10-21 10:58:57 [$350] EXIT 30 TLK @ 11.76 (next open) total P&L $3.0
+10-21 10:58:59 [$350] ALPACA market sell 29 TLK to flatten
+10-21 10:59:01 [$350] ALPACA result TLK: sim $3.0 vs alpaca $4.64 (closed)
+10-21 10:59:13 market brief written: briefs/2026-10-21.md (25 Benzinga items)
+10-21 10:59:14 scan keep AHT +39.9% rvol 3064.4 | [Benzinga] Ashford Hospitality Trust Announces $17 Million Advisory Fee Waiver, 
+10-21 10:59:15 scan keep SMCI +11.0% rvol 3.9 | [Benzinga] Why Is Dell Stock Surging Wednesday? +8-K
+10-21 10:59:15 scan keep GLXY +8.0% rvol 2.0 | [Newswire] Galaxy Gaming Appoints Distinguished Gaming Industry Pioneer John M. 
+10-21 10:59:16 scan keep APPN +8.0% rvol 2.5 | [Google News] Appian Corp (APPN) Shares Surge 5.3% -- What GF Score of 71 Tells 
+10-21 10:59:16 scan drop ISSC +7.7% rvol 4.8: no news 24h
+10-21 10:59:17 scan keep ECHO +7.3% rvol 2.2 | [Newswire] Rockwell Automation Introduces FactoryTalk Conductor, an AI-Native Or
+10-21 10:59:18 scan keep APLD +7.1% rvol 2.1 | [Benzinga] Soluna Holdings and Applied Digital Form Strategic Partnership for Te
+10-21 10:59:18 scan drop CPIX +7.1% rvol 5.6: no news 24h
+10-21 10:59:19 scan keep ROIV +6.4% rvol 3.9 | [Benzinga] Roivant and Priovant Announce Positive Phase 3 Results for Brepocitin
+10-21 10:59:20 scan keep NESR +6.2% rvol 5.1 | [Google News] Is National Energy Services Reunited Corp (NESR) Overvalued Afte -
+10-21 10:59:20 scan keep WGO +6.1% rvol 2.9 | [Benzinga] Winnebago Industries Reports Fourth Quarter and Full Year Fiscal 2026
+10-21 10:59:21 scan keep WFRD +6.1% rvol 2.3 | [Benzinga] Weatherford International Q3 2026 Earnings Call Transcript +8-K
+10-21 10:59:21 scan keep MXCT +5.6% rvol 2.7 | [Benzinga] MaxCyte Reports Preliminary Q3 Core Revenue Of ~$8.1M, Up 26% YoY; Ra
+10-21 10:59:22 scan keep WULF +5.5% rvol 2.2 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+10-21 10:59:23 scan keep TNGX +5.4% rvol 2.0 | [Google News] Tango Therapeutics (TNGX) Has Striking Pancreatic Cancer Data. How
+10-21 10:59:23 scan drop ANNX +5.4% rvol 3.3: no news 24h
+10-21 10:59:24 scan keep CMBT +4.8% rvol 2.1 | [Google News] Barron's lists USD 20.81 target for CMB.TECH stock - AD HOC NEWS
+10-21 10:59:28 new day universe=['AHT', 'SMCI', 'GLXY', 'APPN', 'ECHO', 'APLD', 'ROIV', 'NESR', 'WGO', 'WFRD', 'MXCT', 'WULF']
+10-21 10:58:57 [$250/ema_bounce] SIGNAL AHT: 9/21 EMA bounce: tagged 21 EMA 2.49, closed back over 9 EMA; stop 2.45; size 100%
+10-21 10:59:31 [$250] ALPACA paper bracket x2 sent: 27 AHT limit 2.54 (ids 2)
+10-21 10:58:57 [$400/ema_bounce] SIGNAL AHT: 9/21 EMA bounce: tagged 21 EMA 2.49, closed back over 9 EMA; stop 2.45; size 100%
+10-21 10:59:31 [$400] ALPACA paper bracket x2 sent: 44 AHT limit 2.54 (ids 2)
+10-21 11:00:02 [$250] BUY 31 AHT @ 2.53 stop 2.45 half@2.61 tgt 2.69 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 2.49, closed back over 9 EMA | news: [Benzinga] Ashford Hospitality Trust Announces $17 Million A
+10-21 11:00:02 [$400] BUY 50 AHT @ 2.53 stop 2.45 half@2.61 tgt 2.69 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 2.49, closed back over 9 EMA | news: [Benzinga] Ashford Hospitality Trust Announces $17 Million A
+10-21 11:00:05 status 200:watching 250:pos AHT 350:done 400:pos AHT 550:watching 1000:watching
+10-21 11:05:02 [$250] HALF OFF 15 AHT @ 2.61 (+1R), stop to breakeven
+10-21 11:05:04 [$250] ALPACA runner stop moved to 2.54
+10-21 11:05:02 [$400] HALF OFF 25 AHT @ 2.61 (+1R), stop to breakeven
+10-21 11:05:05 [$400] ALPACA runner stop moved to 2.54
+10-21 11:08:02 [$200/vwap_pullback] SIGNAL WULF: VWAP pullback: +5.5%, dipped to VWAP 12.63, reclaimed with green bar; stop 12.64; size 100%
+10-21 11:08:05 [$200] ALPACA paper bracket x2 sent: 15 WULF limit 12.71 (ids 2)
+10-21 11:09:02 [$200] BUY 15 WULF @ 12.7 stop 12.64 half@12.76 tgt 12.82 | vwap_pullback | VWAP pullback: +5.5%, dipped to VWAP 12.63, reclaimed with green bar | news: [Benzinga] 10 Information Technology Stocks With Whale Alert
+10-21 11:10:02 [$200] EXIT 15 WULF @ 12.62 (stop) total P&L $-1.2
+10-21 11:10:07 [$200] ALPACA result WULF: sim $-1.2 vs alpaca $-0.75 (closed)
+10-21 11:10:07 status 200:done 250:pos AHT 350:done 400:pos AHT 550:watching 1000:watching
+10-21 11:11:02 [$250] EXIT 16 AHT @ 2.69 (target) total P&L $3.76
+10-21 11:11:07 [$250] ALPACA result AHT: sim $3.76 vs alpaca $2.25 (closed)
+10-21 11:11:02 [$400] EXIT 25 AHT @ 2.69 (target) total P&L $6.0
+10-21 11:11:09 [$400] ALPACA result AHT: sim $6.0 vs alpaca $3.73 (closed)
+10-21 11:20:04 status 200:done 250:done 350:done 400:done 550:watching 1000:watching
