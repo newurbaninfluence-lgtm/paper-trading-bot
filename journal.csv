@@ -24,3 +24,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-21,200,vwap_pullback,WULF,15,12.7,12.64,12.76,12.82,12.62,stop,-1.2,-0.6,1.0,,1,"VWAP pullback: +5.5%, dipped to VWAP 12.63, reclaimed with green bar | news: [Benzinga] 10 Information Technology Stocks With Whale Alert"
 2026-10-21,250,ema_bounce,AHT,31,2.53,2.45,2.61,2.69,2.69,target,3.76,1.5,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 2.49, closed back over 9 EMA | news: [Benzinga] Ashford Hospitality Trust Announces $17 Million A"
 2026-10-21,400,ema_bounce,AHT,50,2.53,2.45,2.61,2.69,2.69,target,6.0,1.5,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 2.49, closed back over 9 EMA | news: [Benzinga] Ashford Hospitality Trust Announces $17 Million A"
+2026-10-21,550,afternoon_hod,APLD,20,21.0,20.73,21.27,21.54,21.54,target,8.1,1.47,1.0,,1,"Afternoon HOD: +8.5%, new high 20.94 after 1pm on 1.5x vol | news: [Benzinga] Soluna Holdings and Applied Digital Form Strategi"

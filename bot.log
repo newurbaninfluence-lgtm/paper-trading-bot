@@ -650,3 +650,8 @@
 10-21 14:30:04 status 200:done 250:done 350:done 400:done 550:pos APLD 1000:watching
 10-21 14:34:02 [$550] HALF OFF 10 APLD @ 21.27 (+1R), stop to breakeven
 10-21 14:34:04 [$550] ALPACA runner stop moved to 21.0
+10-21 14:40:05 status 200:done 250:done 350:done 400:done 550:pos APLD 1000:watching
+10-21 14:42:02 [$550] EXIT 10 APLD @ 21.54 (target) total P&L $8.1
+10-21 14:42:06 [$550] ALPACA result APLD: sim $8.1 vs alpaca $9.2 (closed)
+10-21 14:50:04 status 200:done 250:done 350:done 400:done 550:done 1000:watching
+10-21 15:00:04 status 200:done 250:done 350:done 400:done 550:done 1000:watching
