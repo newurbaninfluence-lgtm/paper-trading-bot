@@ -633,3 +633,9 @@
 10-21 12:10:04 status 200:done 250:done 350:done 400:done 550:watching 1000:watching
 10-21 12:20:05 status 200:done 250:done 350:done 400:done 550:watching 1000:watching
 10-21 12:30:04 status 200:done 250:done 350:done 400:done 550:watching 1000:watching
+10-21 12:40:04 status 200:done 250:done 350:done 400:done 550:watching 1000:watching
+10-21 12:50:04 status 200:done 250:done 350:done 400:done 550:watching 1000:watching
+10-21 13:00:02 [$550/afternoon_hod] SIGNAL APLD: Afternoon HOD: +8.5%, new high 20.94 after 1pm on 1.5x vol; stop 20.73; size 100%
+10-21 13:00:05 [$550] ALPACA paper bracket x2 sent: 20 APLD limit 21.0 (ids 2)
+10-21 13:00:05 status 200:done 250:done 350:done 400:done 550:pending 1000:watching
+10-21 13:01:02 [$550] BUY 20 APLD @ 21.0 stop 20.73 half@21.27 tgt 21.54 | afternoon_hod | Afternoon HOD: +8.5%, new high 20.94 after 1pm on 1.5x vol | news: [Benzinga] Soluna Holdings and Applied Digital Form Strategi
