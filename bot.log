@@ -826,3 +826,11 @@
 10-22 16:03:12 labeled 0 signals with outcomes
 10-22 16:03:12 daily report written
 10-22 16:03:12 bot session end
+10-22 17:35:26 alpaca paper mirror: ON
+10-22 17:35:26 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-22 17:35:26 resumed state from 2026-10-22
+10-22 17:35:26 bot live start (max 5.9h)
+10-22 17:35:49 fill test: 42 fills, avg buy vs next-bar open +0.081%, vs simulator -0.164%
+10-22 17:35:52 labeled 0 signals with outcomes
+10-22 17:35:53 daily report written
+10-22 17:35:53 bot session end
