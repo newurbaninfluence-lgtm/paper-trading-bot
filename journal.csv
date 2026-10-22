@@ -27,3 +27,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-21,550,afternoon_hod,APLD,20,21.0,20.73,21.27,21.54,21.54,target,8.1,1.47,1.0,,1,"Afternoon HOD: +8.5%, new high 20.94 after 1pm on 1.5x vol | news: [Benzinga] Soluna Holdings and Applied Digital Form Strategi"
 2026-10-22,350,bull_flag,ZGN,25,13.79,13.68,13.9,14.01,13.65,stop,-3.5,-1.0,1.0,,1,"Bull flag: 3.3% pole, 0.6% flag on light vol, broke 13.77 | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul"
 2026-10-22,550,bull_flag,ZGN,39,13.79,13.68,13.9,14.01,13.65,stop,-5.46,-0.99,1.0,,1,"Bull flag: 3.3% pole, 0.6% flag on light vol, broke 13.77 | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul"
+2026-10-22,200,vwap_pullback,VLY,14,13.59,13.55,13.63,13.67,13.57,breakeven,0.14,0.07,1.0,,1,"VWAP pullback: +4.3%, dipped to VWAP 13.57, reclaimed with green bar | news: [Benzinga] Valley Ntl Q3 2026 Earnings Call Transcript +8-K"
