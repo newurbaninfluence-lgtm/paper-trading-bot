@@ -680,3 +680,13 @@
 10-21 17:42:46 labeled 0 signals with outcomes
 10-21 17:42:46 daily report written
 10-21 17:42:46 bot session end
+10-22 08:39:02 alpaca paper mirror: ON
+10-22 08:39:02 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-22 08:39:02 resumed state from 2026-10-21
+10-22 08:39:02 bot live start (max 5.9h)
+10-22 09:31:14 market brief written: briefs/2026-10-22.md (25 Benzinga items)
+10-22 09:31:15 scan drop NBTX +10.4% rvol 2.4: no news 24h
+10-22 09:31:16 scan keep QS +10.2% rvol 2.3 | [Benzinga] Baird Maintains Neutral on QuantumScape, Lowers Price Target to $6 +8
+10-22 09:31:16 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-22 09:31:16 scan keep CEE +5.5% rvol 21.0 | [Newswire] THIRD QUARTER 2026 - GlobeNewswire
+10-22 09:31:17 new day universe=['QS', 'CEE']
