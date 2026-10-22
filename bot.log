@@ -764,3 +764,11 @@
 10-22 10:26:02 [$550] EXIT 39 ZGN @ 13.65 (stop) total P&L $-5.46
 10-22 10:26:09 [$550] ALPACA result ZGN: sim $-5.46 vs alpaca $-3.53 (closed)
 10-22 10:30:04 status 200:watching 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
+10-22 10:38:02 [$200/vwap_pullback] SIGNAL VLY: VWAP pullback: +4.3%, dipped to VWAP 13.57, reclaimed with green bar; stop 13.55; size 100%
+10-22 10:38:05 [$200] ALPACA paper bracket x2 sent: 14 VLY limit 13.6 (ids 2)
+10-22 10:39:02 [$200] BUY 14 VLY @ 13.59 stop 13.55 half@13.63 tgt 13.67 | vwap_pullback | VWAP pullback: +4.3%, dipped to VWAP 13.57, reclaimed with green bar | news: [Benzinga] Valley Ntl Q3 2026 Earnings Call Transcript +8-K
+10-22 10:40:05 status 200:pos VLY 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
+10-22 10:47:02 [$200] HALF OFF 7 VLY @ 13.63 (+1R), stop to breakeven
+10-22 10:47:05 [$200] ALPACA runner stop moved to 13.6
+10-22 10:50:04 status 200:pos VLY 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
+10-22 11:00:04 status 200:pos VLY 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
