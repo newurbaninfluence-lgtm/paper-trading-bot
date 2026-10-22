@@ -28,3 +28,6 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-22,350,bull_flag,ZGN,-3.5,25.0,25.0,13.77,-2.25,closed
 2026-10-22,550,bull_flag,ZGN,-5.46,39.0,39.0,13.77,-3.53,closed
 2026-10-22,200,vwap_pullback,VLY,0.14,14.0,7.0,13.59,,partially open
+2026-10-22,250,orb15,ZGN,0.54,0.0,0.0,,,no fill
+2026-10-22,400,orb5,ZGN,1.12,0.0,0.0,,,no fill
+2026-10-22,1000,orb5,ZGN,3.08,0.0,0.0,,,no fill

@@ -806,3 +806,15 @@
 10-22 15:10:05 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
 10-22 15:20:06 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
 10-22 15:30:09 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
+10-22 15:40:05 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
+10-22 15:50:05 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
+10-22 15:55:02 [$250] EXIT 6 ZGN @ 13.72 (time) total P&L $0.54
+10-22 15:55:26 [$250] ALPACA result ZGN: sim $0.54 vs alpaca $None (no fill)
+10-22 15:55:02 [$400] EXIT 8 ZGN @ 13.72 (time) total P&L $1.12
+10-22 15:55:29 [$400] ALPACA result ZGN: sim $1.12 vs alpaca $None (no fill)
+10-22 15:55:02 [$1000] EXIT 22 ZGN @ 13.72 (time) total P&L $3.08
+10-22 15:55:32 [$1000] ALPACA result ZGN: sim $3.08 vs alpaca $None (no fill)
+10-22 16:02:22 fill test: 42 fills, avg buy vs next-bar open +0.077%, vs simulator -0.167%
+10-22 16:02:34 labeled 35 signals with outcomes
+10-22 16:02:35 daily report written
+10-22 16:02:35 bot session end
