@@ -25,3 +25,5 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-21,250,ema_bounce,AHT,3.76,27.0,27.0,2.5,2.25,closed
 2026-10-21,400,ema_bounce,AHT,6.0,44.0,44.0,2.5,3.73,closed
 2026-10-21,550,afternoon_hod,APLD,8.1,20.0,20.0,20.945,9.2,closed
+2026-10-22,350,bull_flag,ZGN,-3.5,25.0,25.0,13.77,-2.25,closed
+2026-10-22,550,bull_flag,ZGN,-5.46,39.0,39.0,13.77,-3.53,closed

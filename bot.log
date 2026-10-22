@@ -731,3 +731,36 @@
 10-22 10:00:09 scan keep CATY +4.2% rvol 2.0 | [Benzinga] Cathay General Q3 2026 Earnings Call Transcript +8-K
 10-22 10:00:09 scan keep SSL +4.1% rvol 5.8 | [Google News] eMudhra to exit global SSL/TLS certificate business after controve
 10-22 10:00:12 status 200:watching 250:pos ZGN 350:watching 400:pos ZGN 550:watching 1000:pos ZGN
+10-22 10:04:02 [$350/bull_flag] SIGNAL ZGN: Bull flag: 3.3% pole, 0.6% flag on light vol, broke 13.77; stop 13.68; size 100%
+10-22 10:04:04 [$350] ALPACA paper bracket x2 sent: 25 ZGN limit 13.8 (ids 2)
+10-22 10:04:02 [$550/bull_flag] SIGNAL ZGN: Bull flag: 3.3% pole, 0.6% flag on light vol, broke 13.77; stop 13.68; size 100%
+10-22 10:04:04 [$550] ALPACA paper bracket x2 sent: 39 ZGN limit 13.8 (ids 2)
+10-22 10:05:02 [$350] BUY 25 ZGN @ 13.79 stop 13.68 half@13.9 tgt 14.01 | bull_flag | Bull flag: 3.3% pole, 0.6% flag on light vol, broke 13.77 | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul
+10-22 10:05:02 [$550] BUY 39 ZGN @ 13.79 stop 13.68 half@13.9 tgt 14.01 | bull_flag | Bull flag: 3.3% pole, 0.6% flag on light vol, broke 13.77 | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul
+10-22 10:10:04 status 200:watching 250:pos ZGN 350:pos ZGN 400:pos ZGN 550:pos ZGN 1000:pos ZGN
+10-22 10:15:03 scan keep BHVN +31.1% rvol 62.3 | [Benzinga] Biohaven Announced FDA Accepts NDA Resubmission For VYGLXIA (Troriluz
+10-22 10:15:04 scan keep HTZ +14.9% rvol 4.2 | [Google News] Why Did GME, SPCX, HTZ Stocks Plunge To 52-Week Lows? - Stocktwits
+10-22 10:15:04 scan drop NBTX +11.6% rvol 4.6: no news 24h
+10-22 10:15:04 scan keep SEAT +8.6% rvol 6.4 | [Newswire] QIAGEN and EQT Private Equity announce agreement on a recommended vol
+10-22 10:15:04 scan keep AHT +8.1% rvol 12.0 | [Benzinga] Ashford Hospitality Trust Announces $17 Million Advisory Fee Waiver, 
+10-22 10:15:04 scan keep RTO +7.7% rvol 3.6 | [Benzinga] Rentokil Initial Finance Chief to Step Down in January 2027
+10-22 10:15:04 scan drop ISSC +7.7% rvol 9.5: no news 24h
+10-22 10:15:04 scan keep ZGN +7.5% rvol 2.9 | [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Results
+10-22 10:15:04 scan keep HCSG +7.5% rvol 2.1 | [Google News] Healthcare Services Group Inc (HCSG) (Q3 2026) Earnings Call Highl
+10-22 10:15:04 scan keep KSS +7.2% rvol 2.0 | [Benzinga] Gordon Haskett Upgrades Kohl's to Buy From Hold
+10-22 10:15:04 scan keep BDN +6.9% rvol 4.9 | [Benzinga] Brandywine Realty Trust Reports Third Quarter 2026 Financial Results
+10-22 10:15:04 scan keep CSX +6.3% rvol 4.8 | [Benzinga] Analysts Adjust Price Targets for CSX Corporation +8-K
+10-22 10:15:06 scan drop NWCL +6.1% rvol 2.1: no news 24h
+10-22 10:15:06 scan keep AVEX +6.1% rvol 11.2 | [Benzinga] Oppenheimer Initiates Coverage of AEVEX Corp. with Outperform Rating
+10-22 10:15:06 scan drop HOV +5.7% rvol 4.8: no news 24h
+10-22 10:15:06 scan keep CELC +5.2% rvol 2.0 | [Benzinga] Cantor Fitzgerald Initiates Celcuity at Overweight With $140 Price Ta
+10-22 10:15:06 scan keep VLY +4.8% rvol 3.4 | [Benzinga] Valley Ntl Q3 2026 Earnings Call Transcript +8-K
+10-22 10:15:06 scan keep CMCSA +4.7% rvol 2.8 | [Benzinga] Comcast Q3 2026 Earnings Call Transcript +8-K
+10-22 10:15:06 scan keep TCBI +4.6% rvol 2.3 | [Benzinga] RBC Trims Price Target on Texas Capital Bancshares +8-K
+10-22 10:15:07 scan keep LEN +4.3% rvol 3.0 | [Benzinga] Lennar Announces Grand Opening of King Oaks Community in Georgia
+10-22 10:20:04 status 200:watching 250:pos ZGN 350:pos ZGN 400:pos ZGN 550:pos ZGN 1000:pos ZGN
+10-22 10:26:02 [$350] EXIT 25 ZGN @ 13.65 (stop) total P&L $-3.5
+10-22 10:26:07 [$350] ALPACA result ZGN: sim $-3.5 vs alpaca $-2.25 (closed)
+10-22 10:26:02 [$550] EXIT 39 ZGN @ 13.65 (stop) total P&L $-5.46
+10-22 10:26:09 [$550] ALPACA result ZGN: sim $-5.46 vs alpaca $-3.53 (closed)
+10-22 10:30:04 status 200:watching 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
