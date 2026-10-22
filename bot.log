@@ -690,3 +690,44 @@
 10-22 09:31:16 scan drop ISSC +7.7% rvol 22.0: no news 24h
 10-22 09:31:16 scan keep CEE +5.5% rvol 21.0 | [Newswire] THIRD QUARTER 2026 - GlobeNewswire
 10-22 09:31:17 new day universe=['QS', 'CEE']
+10-22 09:40:02 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+10-22 09:45:03 scan keep BHVN +31.1% rvol 123.6 | [Benzinga] Biohaven Announced FDA Accepts NDA Resubmission For VYGLXIA (Troriluz
+10-22 09:45:04 scan keep AVEX +11.7% rvol 15.5 | [Benzinga] Oppenheimer Initiates Coverage of AEVEX Corp. with Outperform Rating
+10-22 09:45:04 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-22 09:45:04 scan drop NBTX +7.1% rvol 3.8: no news 24h
+10-22 09:45:04 scan keep RTO +6.7% rvol 4.8 | [Benzinga] Rentokil Initial Finance Chief to Step Down in January 2027
+10-22 09:45:05 scan keep CSX +5.8% rvol 4.0 | [Benzinga] Analysts Adjust Price Targets for CSX Corporation +8-K
+10-22 09:45:06 scan keep ZGN +4.8% rvol 3.3 | [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Results
+10-22 09:45:06 scan keep SSL +4.6% rvol 5.4 | [Google News] eMudhra to exit global SSL/TLS certificate business after controve
+10-22 09:45:02 [$400/orb5] SIGNAL ZGN: 5-min ORB: green first 5 min, closed above range high 13.52; stop 13.13; size 100%
+10-22 09:45:09 [$400] ALPACA paper bracket x2 sent: 9 ZGN limit 13.57 (ids 2)
+10-22 09:45:02 [$1000/orb5] SIGNAL ZGN: 5-min ORB: green first 5 min, closed above range high 13.52; stop 13.13; size 100%
+10-22 09:45:10 [$1000] ALPACA paper bracket x2 sent: 22 ZGN limit 13.57 (ids 2)
+10-22 09:46:02 [$400] BUY 8 ZGN @ 13.58 stop 13.13 half@14.03 tgt 14.48 | orb5 | 5-min ORB: green first 5 min, closed above range high 13.52 | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul
+10-22 09:46:02 [$1000] BUY 22 ZGN @ 13.58 stop 13.13 half@14.03 tgt 14.48 | orb5 | 5-min ORB: green first 5 min, closed above range high 13.52 | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul
+10-22 09:47:02 [$250/orb15] SIGNAL ZGN: 15-min ORB: closed above 15-min high 13.56, above VWAP; stop 13.27; size 100%
+10-22 09:47:03 [$250] ALPACA paper bracket x2 sent: 6 ZGN limit 13.65 (ids 2)
+10-22 09:48:02 [$250] BUY 6 ZGN @ 13.63 stop 13.27 half@13.99 tgt 14.35 | orb15 | 15-min ORB: closed above 15-min high 13.56, above VWAP | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul
+10-22 09:50:05 [$400] ALPACA entry not filled within 4 min: canceled unfilled part
+10-22 09:50:06 [$1000] ALPACA entry not filled within 4 min: canceled unfilled part
+10-22 09:50:06 status 200:watching 250:pos ZGN 350:watching 400:pos ZGN 550:watching 1000:pos ZGN
+10-22 09:51:04 [$250] ALPACA entry not filled within 4 min: canceled unfilled part
+10-22 10:00:02 scan keep BHVN +32.6% rvol 87.8 | [Benzinga] Biohaven Announced FDA Accepts NDA Resubmission For VYGLXIA (Troriluz
+10-22 10:00:02 scan drop NBTX +14.0% rvol 4.3: no news 24h
+10-22 10:00:02 scan keep AVEX +8.4% rvol 14.2 | [Benzinga] Oppenheimer Initiates Coverage of AEVEX Corp. with Outperform Rating
+10-22 10:00:02 scan drop ISSC +7.7% rvol 14.3: no news 24h
+10-22 10:00:02 scan keep RTO +7.2% rvol 4.1 | [Benzinga] Rentokil Initial Finance Chief to Step Down in January 2027
+10-22 10:00:03 scan keep HCSG +7.0% rvol 2.4 | [Google News] Healthcare Services Group Inc (HCSG) (Q3 2026) Earnings Call Highl
+10-22 10:00:04 scan keep CELC +6.6% rvol 2.3 | [Benzinga] Cantor Fitzgerald Initiates Celcuity at Overweight With $140 Price Ta
+10-22 10:00:04 scan keep CSX +6.4% rvol 4.3 | [Benzinga] Analysts Adjust Price Targets for CSX Corporation +8-K
+10-22 10:00:04 scan keep ZGN +6.2% rvol 3.2 | [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Results
+10-22 10:00:05 scan keep BDN +5.9% rvol 5.3 | [Benzinga] Brandywine Realty Trust Reports Third Quarter 2026 Financial Results
+10-22 10:00:05 scan keep TCBI +5.6% rvol 2.2 | [Benzinga] RBC Trims Price Target on Texas Capital Bancshares +8-K
+10-22 10:00:06 scan keep SEAT +5.5% rvol 6.2 | [Newswire] QIAGEN and EQT Private Equity announce agreement on a recommended vol
+10-22 10:00:07 scan drop HOV +5.4% rvol 6.4: no news 24h
+10-22 10:00:08 scan keep VLY +5.0% rvol 3.5 | [Benzinga] Valley Ntl Q3 2026 Earnings Call Transcript +8-K
+10-22 10:00:08 scan keep ROIV +4.4% rvol 3.6 | [Benzinga] Roivant and Priovant Announce Positive Phase 3 Results for Brepocitin
+10-22 10:00:08 scan drop KBH +4.4% rvol 2.6: no news 24h
+10-22 10:00:09 scan keep CATY +4.2% rvol 2.0 | [Benzinga] Cathay General Q3 2026 Earnings Call Transcript +8-K
+10-22 10:00:09 scan keep SSL +4.1% rvol 5.8 | [Google News] eMudhra to exit global SSL/TLS certificate business after controve
+10-22 10:00:12 status 200:watching 250:pos ZGN 350:watching 400:pos ZGN 550:watching 1000:pos ZGN
