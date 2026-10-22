@@ -796,3 +796,10 @@
 10-22 14:20:04 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
 10-22 14:30:04 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
 10-22 14:33:02 bot session end
+10-22 14:33:33 alpaca paper mirror: ON
+10-22 14:33:33 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-22 14:33:33 resumed state from 2026-10-22
+10-22 14:33:33 bot live start (max 5.9h)
+10-22 14:40:06 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
+10-22 14:50:05 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
+10-22 15:00:05 status 200:done 250:pos ZGN 350:done 400:pos ZGN 550:done 1000:pos ZGN
