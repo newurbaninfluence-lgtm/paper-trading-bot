@@ -31,3 +31,5 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-22,250,orb15,ZGN,6,13.63,13.27,13.99,14.35,13.72,time,0.54,0.22,1.0,,1,"15-min ORB: closed above 15-min high 13.56, above VWAP | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul"
 2026-10-22,400,orb5,ZGN,8,13.58,13.13,14.03,14.48,13.72,time,1.12,0.28,1.0,,1,"5-min ORB: green first 5 min, closed above range high 13.52 | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul"
 2026-10-22,1000,orb5,ZGN,22,13.58,13.13,14.03,14.48,13.72,time,3.08,0.31,1.0,,1,"5-min ORB: green first 5 min, closed above range high 13.52 | news: [Benzinga] Ermenegildo Zegna Reports Q3 2026 Financial Resul"
+2026-10-23,200,pm_high_break,RITM,18,9.32,9.21,9.43,9.54,9.19,stop,-2.34,-1.17,1.0,,1,"Premarket-high break: closed above PM high 9.28, above VWAP | news: [Benzinga] Rithm Capital Reports Q3 2026 Financial Results E"
+2026-10-23,550,pm_high_break,RITM,50,9.32,9.21,9.43,9.54,9.19,stop,-6.5,-1.18,1.0,,1,"Premarket-high break: closed above PM high 9.28, above VWAP | news: [Benzinga] Rithm Capital Reports Q3 2026 Financial Results E"

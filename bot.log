@@ -844,3 +844,63 @@
 10-23 09:31:25 scan drop ISSC +7.7% rvol 22.0: no news 24h
 10-23 09:31:25 scan keep MTR +6.4% rvol 29.6 | [Newswire] Cooper Standard (@cooperstandard_official) - Instagram +8-K
 10-23 09:31:26 new day universe=['JAKK', 'GRC', 'MTR']
+10-23 09:40:02 [$1000/orb5] SIGNAL GRC: 5-min ORB: green first 5 min, closed above range high 75.50; stop 73.58; size 100%
+10-23 09:40:03 [$1000] ALPACA paper bracket x2 sent: 4 GRC limit 75.89 (ids 2)
+10-23 09:40:03 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:pending
+10-23 09:41:02 [$1000] BUY 5 GRC @ 75.41 stop 73.58 half@77.24 tgt 79.07 | orb5 | 5-min ORB: green first 5 min, closed above range high 75.50 | news: [Benzinga] The Gorman-Rupp Company Increases Quarterly Divid
+10-23 09:45:03 scan keep RHI +14.1% rvol 3.9 | [Benzinga] SLB, American Express And 3 Stocks To Watch Heading Into Friday +8-K
+10-23 09:45:04 scan keep CCI +12.4% rvol 13.1 | [Benzinga] Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Fall Ahead
+10-23 09:45:05 scan keep UWMC +10.1% rvol 2.4 | [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of $205M-$220M And Sal
+10-23 09:45:05 scan keep RNG +9.8% rvol 7.5 | [Benzinga] Procter & Gamble To Rally Over 12%? Here Are 10 Top Analyst Forecasts
+10-23 09:45:05 scan drop NWCL +9.1% rvol 3.6: no news 24h
+10-23 09:45:06 scan keep SIGI +8.7% rvol 4.0 | [Benzinga] Selective Insurance Gr Q3 2026 Earnings Call Transcript +8-K
+10-23 09:45:06 scan keep HSAI +8.2% rvol 4.7 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+10-23 09:45:07 scan keep ZLAB +7.8% rvol 10.1 | [Benzinga] Zai Lab Announces Phase 1b Zoci Plus Atezolizumab Trial Delivers 81.8
+10-23 09:45:07 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-23 09:45:07 scan keep RITM +7.0% rvol 6.5 | [Benzinga] Rithm Capital Reports Q3 2026 Financial Results Exceeding Analyst Est
+10-23 09:45:08 scan keep ITG +6.9% rvol 6.7 | [Benzinga] ITG, Inc. Announces Preliminary Third Quarter 2026 Financial Results 
+10-23 09:45:08 scan keep GRC +6.3% rvol 9.5 | [Benzinga] The Gorman-Rupp Company Increases Quarterly Dividend +8-K
+10-23 09:45:08 scan keep AXTI +6.1% rvol 4.4 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+10-23 09:45:09 scan keep TTMI +5.0% rvol 6.6 | [Benzinga] TTM Technologies Analysts Cut Their Forecasts Following Q3 Results +8
+10-23 09:45:10 scan keep MTG +4.8% rvol 3.4 | [Google News] MGIC Investment Corporation $MTG Shares Sold by Robeco Institution
+10-23 09:45:11 scan keep RDN +4.8% rvol 2.8 | [Google News] Assenagon Asset Management S.A. Sells 59,448 Shares of Radian Grou
+10-23 09:45:12 scan keep NOK +4.6% rvol 4.9 | [Benzinga] Jefferies Maintains Buy Rating on Nokia
+10-23 09:45:12 scan keep ESNT +4.2% rvol 3.6 | [Benzinga] Essentra plc Reports Strong Q3 2026 Trading Update
+10-23 09:46:02 [$200/pm_high_break] SIGNAL RITM: Premarket-high break: closed above PM high 9.28, above VWAP; stop 9.21; size 100%
+10-23 09:46:06 [$200] ALPACA paper bracket x2 sent: 16 RITM limit 9.33 (ids 2)
+10-23 09:46:02 [$550/pm_high_break] SIGNAL RITM: Premarket-high break: closed above PM high 9.28, above VWAP; stop 9.21; size 100%
+10-23 09:46:06 [$550] ALPACA paper bracket x2 sent: 44 RITM limit 9.33 (ids 2)
+10-23 09:47:02 [$200] BUY 18 RITM @ 9.32 stop 9.21 half@9.43 tgt 9.54 | pm_high_break | Premarket-high break: closed above PM high 9.28, above VWAP | news: [Benzinga] Rithm Capital Reports Q3 2026 Financial Results E
+10-23 09:47:02 [$550] BUY 50 RITM @ 9.32 stop 9.21 half@9.43 tgt 9.54 | pm_high_break | Premarket-high break: closed above PM high 9.28, above VWAP | news: [Benzinga] Rithm Capital Reports Q3 2026 Financial Results E
+10-23 09:48:02 [$200] EXIT 18 RITM @ 9.19 (stop) total P&L $-2.34
+10-23 09:48:07 [$200] ALPACA result RITM: sim $-2.34 vs alpaca $None (partially open)
+10-23 09:48:02 [$550] EXIT 50 RITM @ 9.19 (stop) total P&L $-6.5
+10-23 09:48:10 [$550] ALPACA result RITM: sim $-6.5 vs alpaca $None (partially open)
+10-23 09:50:02 [$250/orb15] SIGNAL HSAI: 15-min ORB: closed above 15-min high 13.18, above VWAP; stop 12.97; size 100%
+10-23 09:50:05 [$250] ALPACA paper bracket x2 sent: 10 HSAI limit 13.22 (ids 2)
+10-23 09:50:05 status 200:done 250:pending 350:watching 400:watching 550:done 1000:pos GRC
+10-23 09:51:02 [$250] BUY 15 HSAI @ 13.13 stop 12.97 half@13.29 tgt 13.45 | orb15 | 15-min ORB: closed above 15-min high 13.18, above VWAP | news: [Newswire] Hesai Group to Report Third Quarter 2026 Financia
+10-23 10:00:03 scan keep CCI +12.7% rvol 11.7 | [Benzinga] Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Fall Ahead
+10-23 10:00:03 scan keep RHI +12.0% rvol 4.3 | [Benzinga] SLB, American Express And 3 Stocks To Watch Heading Into Friday +8-K
+10-23 10:00:03 scan drop NWCL +10.5% rvol 2.9: no news 24h
+10-23 10:00:03 scan keep UWMC +9.6% rvol 2.4 | [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of $205M-$220M And Sal
+10-23 10:00:03 scan keep RNG +7.7% rvol 7.5 | [Benzinga] Procter & Gamble To Rally Over 12%? Here Are 10 Top Analyst Forecasts
+10-23 10:00:03 scan drop ISSC +7.7% rvol 14.3: no news 24h
+10-23 10:00:03 scan keep HSAI +7.7% rvol 4.3 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+10-23 10:00:03 scan keep ZLAB +7.2% rvol 8.3 | [Benzinga] Zai Lab Announces Phase 1b Zoci Plus Atezolizumab Trial Delivers 81.8
+10-23 10:00:03 scan keep RITM +6.7% rvol 6.6 | [Benzinga] Rithm Capital Reports Q3 2026 Financial Results Exceeding Analyst Est
+10-23 10:00:03 scan keep GRC +6.2% rvol 7.0 | [Benzinga] The Gorman-Rupp Company Increases Quarterly Dividend +8-K
+10-23 10:00:03 scan keep SIGI +5.7% rvol 4.9 | [Benzinga] Selective Insurance Gr Q3 2026 Earnings Call Transcript +8-K
+10-23 10:00:04 scan keep KOS +5.5% rvol 3.1 | [Google News] Kosmos Energy Ltd. (NYSE:KOS) Stock Now Rated "Reduce" by Sell-Sid
+10-23 10:00:05 scan keep NE +5.3% rvol 2.1 | [Newswire] Merck and Moderna Will Present Results From Landmark Phase 3 INTerpat
+10-23 10:00:05 scan keep AXTI +5.1% rvol 3.8 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+10-23 10:00:06 scan keep VET +5.1% rvol 2.1 | [Newswire] New Penn Foster Research Suggests Better Utilization of Veterinary Te
+10-23 10:00:06 scan keep VG +4.6% rvol 2.2 | [Benzinga] 'QatarEnergy In Advance Talks With Venture Global For Long-Term Deal 
+10-23 10:00:07 scan keep EQNR +4.6% rvol 5.1 | [Benzinga] Wisting Oilfield Partnership Awards Engineering Contract for Producti
+10-23 10:00:07 scan keep WFRD +4.5% rvol 2.3 | [Benzinga] Weatherford International Q3 2026 Earnings Call Transcript +8-K
+10-23 10:00:07 scan keep NOK +4.4% rvol 3.9 | [Benzinga] Jefferies Maintains Buy Rating on Nokia
+10-23 10:00:08 scan keep NC +4.2% rvol 4.3 | [Newswire] Delta Dental Foundation of North Carolina Commits $1 Million to Expan
+10-23 10:00:02 [$400/vwap_pullback] SIGNAL HSAI: VWAP pullback: +7.7%, dipped to VWAP 13.04, reclaimed with green bar; stop 13.04; size 100%
+10-23 10:00:12 [$400] ALPACA paper bracket x2 sent: 30 HSAI limit 13.1 (ids 2)
+10-23 10:00:12 status 200:done 250:pos HSAI 350:watching 400:pending 550:done 1000:pos GRC
+10-23 10:01:02 [$400] BUY 30 HSAI @ 13.12 stop 13.04 half@13.2 tgt 13.28 | vwap_pullback | VWAP pullback: +7.7%, dipped to VWAP 13.04, reclaimed with green bar | news: [Newswire] Hesai Group to Report Third Quarter 2026 Financia
