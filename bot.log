@@ -834,3 +834,13 @@
 10-22 17:35:52 labeled 0 signals with outcomes
 10-22 17:35:53 daily report written
 10-22 17:35:53 bot session end
+10-23 08:40:07 alpaca paper mirror: ON
+10-23 08:40:07 model filter: off; strategies off: ['pm_high_break', 'hod_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-23 08:40:07 resumed state from 2026-10-22
+10-23 08:40:07 bot live start (max 5.9h)
+10-23 09:31:23 market brief written: briefs/2026-10-23.md (25 Benzinga items)
+10-23 09:31:24 scan keep JAKK +8.3% rvol 2.4 | [Benzinga] Jakks Pacific Q3 2026 Earnings Call Transcript +8-K
+10-23 09:31:25 scan keep GRC +7.8% rvol 4.1 | [Benzinga] The Gorman-Rupp Company Increases Quarterly Dividend +8-K
+10-23 09:31:25 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-23 09:31:25 scan keep MTR +6.4% rvol 29.6 | [Newswire] Cooper Standard (@cooperstandard_official) - Instagram +8-K
+10-23 09:31:26 new day universe=['JAKK', 'GRC', 'MTR']
