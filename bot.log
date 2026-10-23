@@ -904,3 +904,37 @@
 10-23 10:00:12 [$400] ALPACA paper bracket x2 sent: 30 HSAI limit 13.1 (ids 2)
 10-23 10:00:12 status 200:done 250:pos HSAI 350:watching 400:pending 550:done 1000:pos GRC
 10-23 10:01:02 [$400] BUY 30 HSAI @ 13.12 stop 13.04 half@13.2 tgt 13.28 | vwap_pullback | VWAP pullback: +7.7%, dipped to VWAP 13.04, reclaimed with green bar | news: [Newswire] Hesai Group to Report Third Quarter 2026 Financia
+10-23 10:03:02 [$400] HALF OFF 15 HSAI @ 13.2 (+1R), stop to breakeven
+10-23 10:03:05 [$400] ALPACA runner stop moved to 13.1
+10-23 10:07:02 [$350/hod_break] SIGNAL UWMC: Gap-and-go: +10.0%, based 21 min, broke HOD 1.26 on 1.5x vol; stop 1.23; size 100%
+10-23 10:07:05 [$350] ALPACA paper bracket x2 sent: 53 UWMC limit 1.29 (ids 2)
+10-23 10:08:02 [$350] BUY 58 UWMC @ 1.29 stop 1.23 half@1.35 tgt 1.41 | hod_break | Gap-and-go: +10.0%, based 21 min, broke HOD 1.26 on 1.5x vol | news: [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of
+10-23 10:10:05 status 200:done 250:pos HSAI 350:pos UWMC 400:pos HSAI 550:done 1000:pos GRC
+10-23 10:11:02 [$400] EXIT 15 HSAI @ 13.04 (breakeven) total P&L $0.0
+10-23 10:11:08 [$400] ALPACA result HSAI: sim $0.0 vs alpaca $0.9 (closed)
+10-23 10:14:02 [$1000] EXIT 5 GRC @ 73.42 (stop) total P&L $-9.95
+10-23 10:14:07 [$1000] ALPACA result GRC: sim $-9.95 vs alpaca $-10.39 (closed)
+10-23 10:15:03 scan drop NWCL +14.5% rvol 2.2: no news 24h
+10-23 10:15:03 scan keep RHI +13.3% rvol 3.7 | [Benzinga] SLB, American Express And 3 Stocks To Watch Heading Into Friday +8-K
+10-23 10:15:03 scan keep CCI +12.0% rvol 9.3 | [Benzinga] Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Fall Ahead
+10-23 10:15:03 scan keep UWMC +10.9% rvol 2.1 | [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of $205M-$220M And Sal
+10-23 10:15:03 scan keep ENVX +8.0% rvol 3.0 | [Benzinga] US Stocks Mixed; Enovix Shares Jump
+10-23 10:15:03 scan drop ISSC +7.7% rvol 9.5: no news 24h
+10-23 10:15:03 scan keep HSAI +7.4% rvol 3.6 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+10-23 10:15:03 scan keep ITG +7.1% rvol 5.9 | [Benzinga] ITG, Inc. Announces Preliminary Third Quarter 2026 Financial Results 
+10-23 10:15:03 scan keep RNG +6.1% rvol 6.4 | [Benzinga] Procter & Gamble To Rally Over 12%? Here Are 10 Top Analyst Forecasts
+10-23 10:15:03 scan keep BORR +6.1% rvol 2.6 | [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027 Visibility Tests Fa
+10-23 10:15:03 scan keep SIGI +6.0% rvol 4.2 | [Benzinga] Selective Insurance Gr Q3 2026 Earnings Call Transcript +8-K
+10-23 10:15:03 scan keep ZLAB +6.0% rvol 7.0 | [Benzinga] Zai Lab Announces Phase 1b Zoci Plus Atezolizumab Trial Delivers 81.8
+10-23 10:15:03 scan keep RITM +5.8% rvol 5.6 | [Benzinga] Rithm Capital Reports Q3 2026 Financial Results Exceeding Analyst Est
+10-23 10:15:03 scan keep KOS +5.7% rvol 3.6 | [Google News] Kosmos Energy Ltd. (NYSE:KOS) Stock Now Rated "Reduce" by Sell-Sid
+10-23 10:15:03 scan keep VET +5.7% rvol 2.2 | [Newswire] New Penn Foster Research Suggests Better Utilization of Veterinary Te
+10-23 10:15:03 scan keep TTMI +5.1% rvol 5.1 | [Benzinga] TTM Technologies Analysts Cut Their Forecasts Following Q3 Results +8
+10-23 10:15:03 scan keep VG +5.0% rvol 2.3 | [Benzinga] 'QatarEnergy In Advance Talks With Venture Global For Long-Term Deal 
+10-23 10:15:03 scan keep EQNR +4.4% rvol 4.8 | [Benzinga] Wisting Oilfield Partnership Awards Engineering Contract for Producti
+10-23 10:15:03 scan keep AXTI +4.2% rvol 2.7 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+10-23 10:15:03 scan keep NOK +4.1% rvol 3.0 | [Benzinga] Jefferies Maintains Buy Rating on Nokia
+10-23 10:20:05 status 200:done 250:pos HSAI 350:pos UWMC 400:done 550:done 1000:done
+10-23 10:27:02 [$350] EXIT 58 UWMC @ 1.2 (stop) total P&L $-5.22
+10-23 10:27:07 [$350] ALPACA result UWMC: sim $-5.22 vs alpaca $-2.12 (closed)
+10-23 10:30:05 status 200:done 250:pos HSAI 350:done 400:done 550:done 1000:done
