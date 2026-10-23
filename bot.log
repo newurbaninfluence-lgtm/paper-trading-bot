@@ -949,3 +949,6 @@
 10-23 11:55:02 [$250] EXIT 15 HSAI @ 12.92 (stop) total P&L $-3.15
 10-23 11:55:08 [$250] ALPACA result HSAI: sim $-3.15 vs alpaca $-2.2 (closed)
 10-23 12:00:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
+10-23 12:10:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
+10-23 12:20:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
+10-23 12:30:06 status 200:done 250:done 350:done 400:done 550:done 1000:done
