@@ -37,3 +37,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-23,1000,orb5,GRC,-9.95,4.0,4.0,75.87,-10.39,closed
 2026-10-23,350,hod_break,UWMC,-5.22,53.0,53.0,1.27,-2.12,closed
 2026-10-23,250,orb15,HSAI,-3.15,10.0,10.0,13.19,-2.2,closed
+2026-10-26,350,bull_flag,EAF,-3.78,14.0,14.0,10.26,-3.27,closed

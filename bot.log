@@ -1063,3 +1063,31 @@
 10-26 10:00:05 scan keep RDY +4.7% rvol 4.1 | [Benzinga] Jefferies Upgrades Dr. Reddy's Laboratories to Hold from Sell
 10-26 10:00:06 scan keep DOW +4.5% rvol 3.0 | [Newswire] ORCL Stock Price | Oracle Corp. Stock Quote (U.S.: NYSE) - MarketWatc
 10-26 10:00:10 status 200:watching 250:pos MLCO 350:watching 400:pos BWMX 550:pos RRC 1000:pos CORT
+10-26 10:10:05 status 200:watching 250:pos MLCO 350:watching 400:pos BWMX 550:pos RRC 1000:pos CORT
+10-26 10:11:02 [$350/bull_flag] SIGNAL EAF: Bull flag: 3.2% pole, 1.0% flag on light vol, broke 10.16; stop 10.05; size 100%
+10-26 10:11:06 [$350] ALPACA paper bracket x2 sent: 14 EAF limit 10.29 (ids 2)
+10-26 10:12:02 [$350] BUY 14 EAF @ 10.29 stop 10.05 half@10.53 tgt 10.77 | bull_flag | Bull flag: 3.2% pole, 1.0% flag on light vol, broke 10.16 | news: [Google News] Where GrafTech International Goes After A 50% 
+10-26 10:15:02 scan keep SGRY +46.1% rvol 116.2 | [Benzinga] Trading Halt: Halt status updated at 9:45:00 AM ET: Quotation Resumpt
+10-26 10:15:02 scan keep XTND +37.7% rvol 82.2 | [Benzinga] XTEND AI Robotics Reports Preliminary 9M Sales Of ~$24.5-$26.5M, AI R
+10-26 10:15:02 scan keep EAF +22.1% rvol 5.4 | [Google News] Where GrafTech International Goes After A 50% Drop - Yahoo Finance
+10-26 10:15:02 scan keep XNCR +20.6% rvol 27.2 | [Benzinga] Xencor Announced Sunday At ESMO,  Phase 1 XmAb819 Data In Advanced Cl
+10-26 10:15:02 scan keep RRC +16.1% rvol 24.3 | [Benzinga] EQT, Range Resources Mega-Merger Set to Create US Gas Juggernaut +8-K
+10-26 10:15:02 scan keep ORKA +11.5% rvol 3.6 | [Benzinga] Oruka Therapeutics Announces Positive Week 16 Results for ORKA-001 fr
+10-26 10:15:02 scan keep WGS +9.5% rvol 2.4 | [Google News] GeneDx Holdings Corp. Estimates – NASDAQ:WGS - TradingView
+10-26 10:15:02 scan keep BWMX +8.5% rvol 10.2 | [Google News] Betterware de México, S.A.P.I. de C.V. Just Missed EPS By 16%: Her
+10-26 10:15:02 scan drop ISSC +7.7% rvol 9.5: no news 24h
+10-26 10:15:02 scan keep LU +7.6% rvol 6.9 | [Newswire] TAGRISSO® (osimertinib) plus savolitinib reduced the risk of disease 
+10-26 10:15:02 scan keep LQDA +7.1% rvol 2.5 | [Google News] LQDA Dec 2026 32.500 call (LQDA261218C00032500) interactive stock 
+10-26 10:15:02 scan keep MLCO +6.4% rvol 2.8 | [Google News] EPrivateClient - Jersey makes changes to reliance and MLCO regimes
+10-26 10:15:02 scan keep CORT +6.1% rvol 2.2 | [Benzinga] Corcept Therapeutics Announces Results From Part A Of Its Phase 2 BEL
+10-26 10:15:02 scan keep ERAS +6.0% rvol 2.3 | [Newswire] Suzanne White (@themomchats) - Instagram
+10-26 10:15:02 scan keep FUN +6.0% rvol 2.0 | [Benzinga] Six Flags Announces Safety Upgrades Following Fatal Roller Coaster In
+10-26 10:15:02 scan keep HHH +5.2% rvol 4.7 | [Google News] Howard Hughes stock surges on S&P SmallCap 600 addition - Investin
+10-26 10:15:02 scan keep DOW +4.7% rvol 2.8 | [Newswire] ORCL Stock Price | Oracle Corp. Stock Quote (U.S.: NYSE) - MarketWatc
+10-26 10:15:02 scan keep HSAI +4.5% rvol 3.1 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+10-26 10:15:02 scan keep RDY +4.4% rvol 3.2 | [Benzinga] Jefferies Upgrades Dr. Reddy's Laboratories to Hold from Sell
+10-26 10:15:03 scan keep VSXY +4.2% rvol 2.4 | [Benzinga] Watching Victorias Secret & Co.; Hearing Investor Business Daily Swin
+10-26 10:20:05 status 200:watching 250:pos MLCO 350:pos EAF 400:pos BWMX 550:pos RRC 1000:pos CORT
+10-26 10:30:02 [$350] EXIT 14 EAF @ 10.02 (stop) total P&L $-3.78
+10-26 10:30:08 [$350] ALPACA result EAF: sim $-3.78 vs alpaca $-3.27 (closed)
+10-26 10:30:08 status 200:watching 250:pos MLCO 350:done 400:pos BWMX 550:pos RRC 1000:pos CORT

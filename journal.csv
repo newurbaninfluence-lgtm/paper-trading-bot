@@ -37,3 +37,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-23,1000,orb5,GRC,5,75.41,73.58,77.24,79.07,73.42,stop,-9.95,-0.99,1.0,,1,"5-min ORB: green first 5 min, closed above range high 75.50 | news: [Benzinga] The Gorman-Rupp Company Increases Quarterly Divid"
 2026-10-23,350,hod_break,UWMC,58,1.29,1.23,1.35,1.41,1.2,stop,-5.22,-1.49,1.0,,1,"Gap-and-go: +10.0%, based 21 min, broke HOD 1.26 on 1.5x vol | news: [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of"
 2026-10-23,250,orb15,HSAI,15,13.13,12.97,13.29,13.45,12.92,stop,-3.15,-1.26,1.0,,1,"15-min ORB: closed above 15-min high 13.18, above VWAP | news: [Newswire] Hesai Group to Report Third Quarter 2026 Financia"
+2026-10-26,350,bull_flag,EAF,14,10.29,10.05,10.53,10.77,10.02,stop,-3.78,-1.08,1.0,,1,"Bull flag: 3.2% pole, 1.0% flag on light vol, broke 10.16 | news: [Google News] Where GrafTech International Goes After A 50% "
