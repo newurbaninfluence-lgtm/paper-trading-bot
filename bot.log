@@ -997,3 +997,18 @@
 10-23 17:24:30 labeled 0 signals with outcomes
 10-23 17:24:31 daily report written
 10-23 17:24:31 bot session end
+10-26 08:51:11 alpaca paper mirror: ON
+10-26 08:51:11 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-26 08:51:11 resumed state from 2026-10-23
+10-26 08:51:11 bot live start (max 5.9h)
+10-26 09:31:25 market brief written: briefs/2026-10-26.md (25 Benzinga items)
+10-26 09:31:27 scan keep XNCR +30.1% rvol 34.9 | [Benzinga] Xencor Announced Sunday At ESMO,  Phase 1 XmAb819 Data In Advanced Cl
+10-26 09:31:28 scan keep CCM +16.0% rvol 8.9 | [Google News] Crescent Cotton Mills Limited Estimates – PSX:CCM - TradingView
+10-26 09:31:28 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-26 09:31:28 scan keep BWMX +6.5% rvol 8.8 | [Google News] Betterware de México, S.A.P.I. de C.V. Just Missed EPS By 16%: Her
+10-26 09:31:29 scan drop BDORY +6.1% rvol 2.4: no news 24h
+10-26 09:31:30 scan drop DXYZ +6.1% rvol 3.1: no news 24h
+10-26 09:31:31 scan drop VCX +5.8% rvol 3.8: no news 24h
+10-26 09:31:31 scan keep NYAX +5.5% rvol 2.3 | [Newswire] Nayax to Report 2026 Q3 Earnings on November 11, 2026 - GlobeNewswire
+10-26 09:31:31 scan keep HSAI +4.3% rvol 2.3 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+10-26 09:31:33 new day universe=['XNCR', 'CCM', 'BWMX', 'NYAX', 'HSAI']
