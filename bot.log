@@ -1104,3 +1104,19 @@
 10-26 15:30:07 status 200:watching 250:pos MLCO 350:done 400:pos BWMX 550:pos RRC 1000:done
 10-26 15:40:07 status 200:watching 250:pos MLCO 350:done 400:pos BWMX 550:pos RRC 1000:done
 10-26 15:50:06 status 200:watching 250:pos MLCO 350:done 400:pos BWMX 550:pos RRC 1000:done
+10-26 15:55:02 [$250] EXIT 17 MLCO @ 3.86 (time) total P&L $-2.04
+10-26 15:55:14 alpaca DELETE /orders/bd704777-bbbf-4412-87f6-89efce44d9a3 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-26 15:55:14 alpaca DELETE /orders/f59d3c11-fad7-4c0b-926a-56e7b11a851c -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-26 15:55:15 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"18","held_for_orders":"18","message":"insufficient qty available for order (requested: 17, available: 0)","related_orders":["57586eda-0ff8-4ed6-9bd2-d1'
+10-26 15:55:18 [$250] ALPACA result MLCO: sim $-2.04 vs alpaca $None (partially open)
+10-26 15:55:02 [$400] EXIT 6 BWMX @ 16.63 (time) total P&L $-2.46
+10-26 15:55:20 [$400] ALPACA result BWMX: sim $-2.46 vs alpaca $None (no fill)
+10-26 15:55:02 [$550] EXIT 3 RRC @ 53.3 (time) total P&L $0.84
+10-26 15:55:21 alpaca DELETE /orders/4152209e-bfeb-4541-9986-6b9005e0ee8e -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-26 15:55:21 alpaca DELETE /orders/e3b73c7e-f63c-4c07-996b-79acd7c13d4a -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-26 15:55:22 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"7","held_for_orders":"7","message":"insufficient qty available for order (requested: 4, available: 0)","related_orders":["8e9053c5-c524-4a74-a7f7-5185b'
+10-26 15:55:25 [$550] ALPACA result RRC: sim $0.84 vs alpaca $None (partially open)
+10-26 16:02:12 fill test: 22 fills, avg buy vs next-bar open +0.136%, vs simulator -0.042%
+10-26 16:02:19 labeled 18 signals with outcomes
+10-26 16:02:20 daily report written
+10-26 16:02:20 bot session end

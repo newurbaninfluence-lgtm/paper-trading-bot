@@ -39,3 +39,6 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-23,250,orb15,HSAI,15,13.13,12.97,13.29,13.45,12.92,stop,-3.15,-1.26,1.0,,1,"15-min ORB: closed above 15-min high 13.18, above VWAP | news: [Newswire] Hesai Group to Report Third Quarter 2026 Financia"
 2026-10-26,350,bull_flag,EAF,14,10.29,10.05,10.53,10.77,10.02,stop,-3.78,-1.08,1.0,,1,"Bull flag: 3.2% pole, 1.0% flag on light vol, broke 10.16 | news: [Google News] Where GrafTech International Goes After A 50% "
 2026-10-26,1000,orb15,CORT,3,91.57,88.56,94.58,97.59,88.43,stop,-9.42,-0.94,1.0,,1,"15-min ORB: closed above 15-min high 91.12, above VWAP | news: [Benzinga] Corcept Therapeutics Announces Results From Part "
+2026-10-26,250,orb15,MLCO,17,3.98,3.84,4.12,4.26,3.86,time,-2.04,-0.82,1.0,,1,"15-min ORB: closed above 15-min high 3.94, above VWAP | news: [Google News] EPrivateClient - Jersey makes changes to relia"
+2026-10-26,400,orb5,BWMX,6,17.04,16.43,17.65,18.26,16.63,time,-2.46,-0.61,1.0,,1,"5-min ORB: green first 5 min, closed above range high 16.90 | news: [Google News] Betterware de México, S.A.P.I. de C.V. Just Mi"
+2026-10-26,550,pm_high_break,RRC,3,53.02,51.63,54.41,55.8,53.3,time,0.84,0.15,1.0,,1,"Premarket-high break: closed above PM high 52.78, above VWAP | news: [Benzinga] EQT, Range Resources Mega-Merger Set to Create US"
