@@ -1012,3 +1012,54 @@
 10-26 09:31:31 scan keep NYAX +5.5% rvol 2.3 | [Newswire] Nayax to Report 2026 Q3 Earnings on November 11, 2026 - GlobeNewswire
 10-26 09:31:31 scan keep HSAI +4.3% rvol 2.3 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
 10-26 09:31:33 new day universe=['XNCR', 'CCM', 'BWMX', 'NYAX', 'HSAI']
+10-26 09:40:03 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+10-26 09:45:02 scan keep XNCR +26.8% rvol 45.1 | [Benzinga] Xencor Announced Sunday At ESMO,  Phase 1 XmAb819 Data In Advanced Cl
+10-26 09:45:03 scan keep EAF +17.2% rvol 6.3 | [Google News] Where GrafTech International Goes After A 50% Drop - Yahoo Finance
+10-26 09:45:04 scan keep RRC +14.3% rvol 29.6 | [Benzinga] EQT, Range Resources Mega-Merger Set to Create US Gas Juggernaut +8-K
+10-26 09:45:05 scan keep WGS +11.3% rvol 3.1 | [Google News] GeneDx Holdings Corp. Estimates – NASDAQ:WGS - TradingView
+10-26 09:45:06 scan keep ORKA +9.2% rvol 2.3 | [Benzinga] Oruka Therapeutics Announces Positive Week 16 Results for ORKA-001 fr
+10-26 09:45:07 scan drop MED: negative news ([Newswire] Stryker completes acquisition of ZuriMED to enhance its sho)
+10-26 09:45:07 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-26 09:45:07 scan keep BWMX +6.6% rvol 14.3 | [Google News] Betterware de México, S.A.P.I. de C.V. Just Missed EPS By 16%: Her
+10-26 09:45:08 scan keep LU +6.1% rvol 8.5 | [Newswire] TAGRISSO® (osimertinib) plus savolitinib reduced the risk of disease 
+10-26 09:45:08 scan keep TSAT +5.7% rvol 3.2 | [Benzinga] CIBC Initiates Coverage on Telesat with Outperformer Rating
+10-26 09:45:09 scan keep HHH +5.6% rvol 5.9 | [Google News] Howard Hughes stock surges on S&P SmallCap 600 addition - Investin
+10-26 09:45:09 scan keep NYAX +5.5% rvol 2.6 | [Newswire] Nayax to Report 2026 Q3 Earnings on November 11, 2026 - GlobeNewswire
+10-26 09:45:10 scan keep CORT +5.5% rvol 2.5 | [Benzinga] Corcept Therapeutics Announces Results From Part A Of Its Phase 2 BEL
+10-26 09:45:10 scan keep MLCO +5.4% rvol 3.7 | [Google News] EPrivateClient - Jersey makes changes to reliance and MLCO regimes
+10-26 09:45:10 scan drop DXYZ +5.3% rvol 6.2: no news 24h
+10-26 09:45:11 scan keep ABOS +4.5% rvol 3.8 | [Benzinga] Acumen Pharmaceuticals Reports Third Quarter 2026 Financial Results a
+10-26 09:45:12 scan keep RDY +4.5% rvol 4.5 | [Benzinga] Jefferies Upgrades Dr. Reddy's Laboratories to Hold from Sell
+10-26 09:48:02 [$1000/orb15] SIGNAL CORT: 15-min ORB: closed above 15-min high 91.12, above VWAP; stop 88.56; size 100%
+10-26 09:48:05 [$1000] ALPACA paper bracket x2 sent: 3 CORT limit 91.21 (ids 2)
+10-26 09:49:02 [$1000] BUY 3 CORT @ 91.57 stop 88.56 half@94.58 tgt 97.59 | orb15 | 15-min ORB: closed above 15-min high 91.12, above VWAP | news: [Benzinga] Corcept Therapeutics Announces Results From Part 
+10-26 09:50:05 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:pos CORT
+10-26 09:51:02 [$550/pm_high_break] SIGNAL RRC: Premarket-high break: closed above PM high 52.78, above VWAP; stop 51.63; size 100%
+10-26 09:51:05 [$550] ALPACA paper bracket x2 sent: 4 RRC limit 52.9 (ids 2)
+10-26 09:52:02 [$550] BUY 3 RRC @ 53.02 stop 51.63 half@54.41 tgt 55.8 | pm_high_break | Premarket-high break: closed above PM high 52.78, above VWAP | news: [Benzinga] EQT, Range Resources Mega-Merger Set to Create US
+10-26 09:52:05 [$1000] ALPACA entry not filled within 4 min: canceled unfilled part
+10-26 09:53:02 [$400/orb5] SIGNAL BWMX: 5-min ORB: green first 5 min, closed above range high 16.90; stop 16.43; size 100%
+10-26 09:53:05 [$400] ALPACA paper bracket x2 sent: 7 BWMX limit 16.97 (ids 2)
+10-26 09:55:02 [$250/orb15] SIGNAL MLCO: 15-min ORB: closed above 15-min high 3.94, above VWAP; stop 3.84; size 100%
+10-26 09:55:05 [$250] ALPACA paper bracket x2 sent: 17 MLCO limit 3.98 (ids 2)
+10-26 09:55:02 [$400] BUY 6 BWMX @ 17.04 stop 16.43 half@17.65 tgt 18.26 | orb5 | 5-min ORB: green first 5 min, closed above range high 16.90 | news: [Google News] Betterware de México, S.A.P.I. de C.V. Just Mi
+10-26 09:56:02 [$250] BUY 17 MLCO @ 3.98 stop 3.84 half@4.12 tgt 4.26 | orb15 | 15-min ORB: closed above 15-min high 3.94, above VWAP | news: [Google News] EPrivateClient - Jersey makes changes to relia
+10-26 09:58:05 [$400] ALPACA entry not filled within 4 min: canceled unfilled part
+10-26 10:00:03 scan keep SGRY +46.2% rvol 78.9 | [Benzinga] Trading Halt: Halt status updated at 9:45:00 AM ET: Quotation Resumpt
+10-26 10:00:03 scan keep EAF +18.9% rvol 6.4 | [Google News] Where GrafTech International Goes After A 50% Drop - Yahoo Finance
+10-26 10:00:03 scan keep XNCR +17.6% rvol 36.8 | [Benzinga] Xencor Announced Sunday At ESMO,  Phase 1 XmAb819 Data In Advanced Cl
+10-26 10:00:03 scan keep RRC +16.8% rvol 28.8 | [Benzinga] EQT, Range Resources Mega-Merger Set to Create US Gas Juggernaut +8-K
+10-26 10:00:03 scan keep XTND +15.0% rvol 23.5 | [Benzinga] XTEND AI Robotics Reports Preliminary 9M Sales Of ~$24.5-$26.5M, AI R
+10-26 10:00:03 scan keep ORKA +12.5% rvol 3.0 | [Benzinga] Oruka Therapeutics Announces Positive Week 16 Results for ORKA-001 fr
+10-26 10:00:03 scan keep BWMX +9.3% rvol 13.0 | [Google News] Betterware de México, S.A.P.I. de C.V. Just Missed EPS By 16%: Her
+10-26 10:00:03 scan keep WGS +8.2% rvol 3.1 | [Google News] GeneDx Holdings Corp. Estimates – NASDAQ:WGS - TradingView
+10-26 10:00:03 scan drop ISSC +7.7% rvol 14.3: no news 24h
+10-26 10:00:03 scan drop MED: negative news ([Newswire] Stryker completes acquisition of ZuriMED to enhance its sho)
+10-26 10:00:03 scan keep MLCO +6.0% rvol 3.2 | [Google News] EPrivateClient - Jersey makes changes to reliance and MLCO regimes
+10-26 10:00:03 scan keep CORT +5.8% rvol 2.7 | [Benzinga] Corcept Therapeutics Announces Results From Part A Of Its Phase 2 BEL
+10-26 10:00:03 scan keep ABOS +5.8% rvol 3.3 | [Benzinga] Acumen Pharmaceuticals Reports Third Quarter 2026 Financial Results a
+10-26 10:00:04 scan keep FUN +5.7% rvol 2.1 | [Benzinga] Six Flags Announces Safety Upgrades Following Fatal Roller Coaster In
+10-26 10:00:05 scan keep ERAS +5.3% rvol 2.1 | [Newswire] Suzanne White (@themomchats) - Instagram
+10-26 10:00:05 scan keep RDY +4.7% rvol 4.1 | [Benzinga] Jefferies Upgrades Dr. Reddy's Laboratories to Hold from Sell
+10-26 10:00:06 scan keep DOW +4.5% rvol 3.0 | [Newswire] ORCL Stock Price | Oracle Corp. Stock Quote (U.S.: NYSE) - MarketWatc
+10-26 10:00:10 status 200:watching 250:pos MLCO 350:watching 400:pos BWMX 550:pos RRC 1000:pos CORT
