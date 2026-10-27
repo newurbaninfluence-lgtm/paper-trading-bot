@@ -42,3 +42,6 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-26,250,orb15,MLCO,-2.04,17.0,0.0,3.97,,partially open
 2026-10-26,400,orb5,BWMX,-2.46,0.0,0.0,,,no fill
 2026-10-26,550,pm_high_break,RRC,0.84,4.0,0.0,52.885,,partially open
+2026-10-27,200,vwap_pullback,CIFR,0.75,14.0,14.0,8.24,1.68,closed
+2026-10-27,350,bull_flag,IREN,-3.5,7.0,7.0,27.1986,-2.58,closed
+2026-10-27,550,bull_flag,IREN,-5.5,12.0,12.0,27.2025,-4.47,closed
