@@ -1289,3 +1289,18 @@
 10-27 15:31:02 [$1000] HALF OFF 5 AMKR @ 39.67 (+1R), stop to breakeven
 10-27 15:31:06 [$1000] ALPACA runner stop moved to 39.16
 10-27 15:40:05 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
+10-27 15:50:04 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
+10-27 15:55:02 [$250] EXIT 3 SOFI @ 16.31 (time) total P&L $1.17
+10-27 15:55:35 [$250] ALPACA result SOFI: sim $1.17 vs alpaca $1.53 (closed)
+10-27 15:55:02 [$400] EXIT 2 AMKR @ 39.7 (time) total P&L $3.5
+10-27 15:55:36 alpaca DELETE /orders/da1458ab-84d7-4df1-9d9e-dd8c8352bce6 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-27 15:55:36 alpaca DELETE /orders/51ddbe88-56ca-40d7-a251-ad886f4c3231 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-27 15:55:38 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"11","held_for_orders":"11","message":"insufficient qty available for order (requested: 3, available: 0)","related_orders":["4a882b44-27ed-4b85-8f48-848'
+10-27 15:55:40 [$400] ALPACA result AMKR: sim $3.5 vs alpaca $None (partially open)
+10-27 15:55:02 [$1000] EXIT 6 AMKR @ 39.7 (time) total P&L $9.64
+10-27 15:55:43 [$1000] ALPACA market sell 8 AMKR to flatten
+10-27 15:55:45 [$1000] ALPACA result AMKR: sim $9.64 vs alpaca $None (partially open)
+10-27 16:02:30 fill test: 58 fills, avg buy vs next-bar open +0.083%, vs simulator -0.164%
+10-27 16:02:49 labeled 49 signals with outcomes
+10-27 16:02:49 daily report written
+10-27 16:02:49 bot session end

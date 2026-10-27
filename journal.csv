@@ -45,3 +45,6 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-27,200,vwap_pullback,CIFR,15,8.28,8.15,8.41,8.54,8.26,breakeven,0.75,0.38,1.0,,1,"VWAP pullback: +7.1%, dipped to VWAP 8.21, reclaimed with green bar | news: [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000)"
 2026-10-27,350,bull_flag,IREN,7,27.31,26.85,27.77,28.23,26.81,stop,-3.5,-1.0,1.0,,1,"Bull flag: 4.2% pole, 1.4% flag on light vol, broke 27.25 | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu"
 2026-10-27,550,bull_flag,IREN,11,27.31,26.85,27.77,28.23,26.81,stop,-5.5,-1.0,1.0,,1,"Bull flag: 4.2% pole, 1.4% flag on light vol, broke 27.25 | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu"
+2026-10-27,250,orb15,SOFI,6,16.29,15.92,16.66,17.03,16.31,time,1.17,0.47,1.0,,1,"15-min ORB: closed above 15-min high 16.17, above VWAP | news: [Benzinga] CORRECTION: SoFi Technologies Raises FY2026 Adj E"
+2026-10-27,400,orb5,AMKR,4,38.81,37.95,39.67,40.53,39.7,time,3.5,0.88,1.0,,1,"5-min ORB: green first 5 min, closed above range high 39.03 | news: [Benzinga] Amkor Technology Stock Is Gaining Tuesday: What's"
+2026-10-27,1000,orb5,AMKR,11,38.81,37.95,39.67,40.53,39.7,time,9.64,0.96,1.0,,1,"5-min ORB: green first 5 min, closed above range high 39.03 | news: [Benzinga] Amkor Technology Stock Is Gaining Tuesday: What's"
