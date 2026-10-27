@@ -1155,3 +1155,64 @@
 10-27 09:31:20 scan keep AZUL +5.7% rvol 4.3 | [Newswire] Ryan Keberle and Urbem Bring the Sounds of Brazil’s Pantanal to New Y
 10-27 09:31:20 scan keep AMKR +5.5% rvol 2.7 | [Benzinga] Amkor Technology Stock Is Gaining Tuesday: What's Going On? +8-K
 10-27 09:31:21 new day universe=['SOFI', 'GLXY', 'AZUL', 'AMKR']
+10-27 09:39:02 [$400/orb5] SIGNAL AMKR: 5-min ORB: green first 5 min, closed above range high 39.03; stop 37.95; size 100%
+10-27 09:39:03 [$400] ALPACA paper bracket x2 sent: 3 AMKR limit 39.16 (ids 2)
+10-27 09:39:02 [$1000/orb5] SIGNAL AMKR: 5-min ORB: green first 5 min, closed above range high 39.03; stop 37.95; size 100%
+10-27 09:39:03 [$1000] ALPACA paper bracket x2 sent: 8 AMKR limit 39.16 (ids 2)
+10-27 09:40:02 [$400] BUY 4 AMKR @ 38.81 stop 37.95 half@39.67 tgt 40.53 | orb5 | 5-min ORB: green first 5 min, closed above range high 39.03 | news: [Benzinga] Amkor Technology Stock Is Gaining Tuesday: What's
+10-27 09:40:02 [$1000] BUY 11 AMKR @ 38.81 stop 37.95 half@39.67 tgt 40.53 | orb5 | 5-min ORB: green first 5 min, closed above range high 39.03 | news: [Benzinga] Amkor Technology Stock Is Gaining Tuesday: What's
+10-27 09:40:03 status 200:watching 250:watching 350:watching 400:pos AMKR 550:watching 1000:pos AMKR
+10-27 09:45:03 scan keep MFIC +23.0% rvol 45.6 | [Benzinga] Ares Capital Corporation to Acquire MidCap Financial Investment Corpo
+10-27 09:45:03 scan keep KNSA +17.4% rvol 12.6 | [Benzinga] Kiniksa Pharmaceuticals Reports Third Quarter 2026 Financial Results 
+10-27 09:45:04 scan keep AARD +16.7% rvol 26.3 | [Newswire]  - GlobeNewswire
+10-27 09:45:04 scan keep JBLU +13.7% rvol 8.0 | [Benzinga] JetBlue Airways Reports Wider Third-Quarter Loss +8-K
+10-27 09:45:05 scan keep IMSR +13.3% rvol 10.8 | [Benzinga] Terrestrial Energy Announces Share Repurchase Program +8-K
+10-27 09:45:05 scan drop BAK +12.8% rvol 7.9: no news 24h
+10-27 09:45:05 scan keep SOFI +11.0% rvol 16.8 | [Benzinga] CORRECTION: SoFi Technologies Raises FY2026 Adj EPS Guidance from $0.
+10-27 09:45:06 scan keep SXC +10.8% rvol 2.5 | [Benzinga] SunCoke Energy Q3 EPS $0.25 Beats $0.12 Estimate, Sales $485.900M Bea
+10-27 09:45:06 scan keep AGBK +9.5% rvol 6.5 | [Google News] AGI (NYSE:AGBK) Shares Up 7.8% - Here's Why - MarketBeat
+10-27 09:45:06 scan keep CIFR +8.8% rvol 2.9 | [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000) Interactive Stock C
+10-27 09:45:07 scan keep PNR +8.6% rvol 3.3 | [Benzinga] Pentair plc Reports Q3 2026 Financial Results and Q4 Outlook +8-K
+10-27 09:45:07 scan keep APLD +8.5% rvol 3.5 | [Benzinga] Soluna Holdings and Applied Digital Form Strategic Partnership for Te
+10-27 09:45:07 scan keep THRM +8.4% rvol 3.7 | [Benzinga] Gentherm Insider Purchases Shares Worth $532,600
+10-27 09:45:08 scan drop GCTS +8.1% rvol 2.2: no news 24h
+10-27 09:45:09 scan drop PMVP +8.0% rvol 3.1: no news 24h
+10-27 09:45:09 scan keep VLRS +7.9% rvol 10.4 | [Benzinga] Volaris Reports Third Quarter 2026 Financial Results
+10-27 09:45:09 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-27 09:45:10 scan keep IREN +7.6% rvol 4.2 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+10-27 09:45:10 scan keep LAC +7.2% rvol 2.5 | [Newswire] ALTA Good Deeds Foundation Awards $120,000 to 20 Community Nonprofits
+10-27 09:45:10 scan keep USAR +7.0% rvol 4.1 | [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,' Says Stick With the
+10-27 09:49:02 [$250/orb15] SIGNAL SOFI: 15-min ORB: closed above 15-min high 16.17, above VWAP; stop 15.92; size 100%
+10-27 09:49:04 [$250] ALPACA paper bracket x2 sent: 6 SOFI limit 16.3 (ids 2)
+10-27 09:50:02 [$250] BUY 6 SOFI @ 16.29 stop 15.92 half@16.66 tgt 17.03 | orb15 | 15-min ORB: closed above 15-min high 16.17, above VWAP | news: [Benzinga] CORRECTION: SoFi Technologies Raises FY2026 Adj E
+10-27 09:50:03 status 200:watching 250:pos SOFI 350:watching 400:pos AMKR 550:watching 1000:pos AMKR
+10-27 10:00:02 scan keep MFIC +22.7% rvol 38.6 | [Benzinga] Ares Capital Corporation to Acquire MidCap Financial Investment Corpo
+10-27 10:00:02 scan keep AARD +18.6% rvol 21.2 | [Newswire]  - GlobeNewswire
+10-27 10:00:02 scan keep KNSA +17.1% rvol 11.9 | [Benzinga] Kiniksa Pharmaceuticals Reports Third Quarter 2026 Financial Results 
+10-27 10:00:02 scan keep JBLU +14.6% rvol 7.5 | [Benzinga] JetBlue Airways Reports Wider Third-Quarter Loss +8-K
+10-27 10:00:02 scan keep SOFI +11.4% rvol 13.7 | [Benzinga] CORRECTION: SoFi Technologies Raises FY2026 Adj EPS Guidance from $0.
+10-27 10:00:02 scan keep AGBK +9.6% rvol 5.8 | [Google News] AGI (NYSE:AGBK) Shares Up 7.8% - Here's Why - MarketBeat
+10-27 10:00:02 scan keep PNR +9.5% rvol 3.2 | [Benzinga] Pentair plc Reports Q3 2026 Financial Results and Q4 Outlook +8-K
+10-27 10:00:02 scan drop GCTS +9.3% rvol 2.2: no news 24h
+10-27 10:00:02 scan drop BAK +8.6% rvol 9.7: no news 24h
+10-27 10:00:03 scan keep PII +8.3% rvol 4.1 | [Benzinga] Polaris Reports Q3 2026 Earnings and Increases Full-Year Guidance +8-
+10-27 10:00:03 scan drop ISSC +7.7% rvol 14.3: no news 24h
+10-27 10:00:04 scan drop SSMR +7.7% rvol 2.5: no news 24h
+10-27 10:00:04 scan keep IMSR +7.7% rvol 9.5 | [Benzinga] Terrestrial Energy Announces Share Repurchase Program +8-K
+10-27 10:00:04 scan keep MXCT +7.6% rvol 4.3 | [Benzinga] MaxCyte Reports Preliminary Q3 Core Revenue Of ~$8.1M, Up 26% YoY; Ra
+10-27 10:00:04 scan keep THRM +7.5% rvol 3.5 | [Benzinga] Gentherm Insider Purchases Shares Worth $532,600
+10-27 10:00:04 scan keep IREN +7.2% rvol 3.9 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+10-27 10:00:04 scan keep MGNX +7.1% rvol 7.8 | [Google News] MGNX,FG,GAIA,JBL,CXM,MDB,NXH | Stock Prices | Quote Comparison - Y
+10-27 10:00:04 scan keep CIFR +7.1% rvol 3.1 | [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000) Interactive Stock C
+10-27 10:00:04 scan keep APLD +7.0% rvol 3.1 | [Benzinga] Soluna Holdings and Applied Digital Form Strategic Partnership for Te
+10-27 10:00:04 scan keep USAR +7.0% rvol 4.1 | [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,' Says Stick With the
+10-27 10:00:02 [$200/vwap_pullback] SIGNAL CIFR: VWAP pullback: +7.1%, dipped to VWAP 8.21, reclaimed with green bar; stop 8.15; size 100%
+10-27 10:00:09 [$200] ALPACA paper bracket x2 sent: 14 CIFR limit 8.29 (ids 2)
+10-27 10:00:02 [$350/bull_flag] SIGNAL IREN: Bull flag: 4.2% pole, 1.4% flag on light vol, broke 27.25; stop 26.85; size 100%
+10-27 10:00:09 [$350] ALPACA paper bracket x2 sent: 7 IREN limit 27.29 (ids 2)
+10-27 10:00:02 [$550/bull_flag] SIGNAL IREN: Bull flag: 4.2% pole, 1.4% flag on light vol, broke 27.25; stop 26.85; size 100%
+10-27 10:00:10 [$550] ALPACA paper bracket x2 sent: 12 IREN limit 27.29 (ids 2)
+10-27 10:00:10 status 200:pending 250:pos SOFI 350:pending 400:pos AMKR 550:pending 1000:pos AMKR
+10-27 10:01:02 [$200] BUY 15 CIFR @ 8.28 stop 8.15 half@8.41 tgt 8.54 | vwap_pullback | VWAP pullback: +7.1%, dipped to VWAP 8.21, reclaimed with green bar | news: [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000)
+10-27 10:01:02 [$350] BUY 7 IREN @ 27.31 stop 26.85 half@27.77 tgt 28.23 | bull_flag | Bull flag: 4.2% pole, 1.4% flag on light vol, broke 27.25 | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu
+10-27 10:01:02 [$550] BUY 11 IREN @ 27.31 stop 26.85 half@27.77 tgt 28.23 | bull_flag | Bull flag: 4.2% pole, 1.4% flag on light vol, broke 27.25 | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu
