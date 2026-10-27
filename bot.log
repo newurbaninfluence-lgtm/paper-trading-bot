@@ -1239,3 +1239,8 @@
 10-27 10:15:02 scan keep PII +6.6% rvol 4.0 | [Benzinga] Polaris Reports Q3 2026 Earnings and Increases Full-Year Guidance +8-
 10-27 10:20:06 status 200:pos CIFR 250:pos SOFI 350:pos IREN 400:pos AMKR 550:pos IREN 1000:pos AMKR
 10-27 10:30:05 status 200:pos CIFR 250:pos SOFI 350:pos IREN 400:pos AMKR 550:pos IREN 1000:pos AMKR
+10-27 10:34:02 [$200] HALF OFF 7 CIFR @ 8.41 (+1R), stop to breakeven
+10-27 10:34:04 [$200] ALPACA runner stop moved to 8.29
+10-27 10:40:04 status 200:pos CIFR 250:pos SOFI 350:pos IREN 400:pos AMKR 550:pos IREN 1000:pos AMKR
+10-27 10:50:04 status 200:pos CIFR 250:pos SOFI 350:pos IREN 400:pos AMKR 550:pos IREN 1000:pos AMKR
+10-27 11:00:05 status 200:pos CIFR 250:pos SOFI 350:pos IREN 400:pos AMKR 550:pos IREN 1000:pos AMKR
