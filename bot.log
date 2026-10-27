@@ -1144,3 +1144,14 @@
 10-26 18:40:06 labeled 0 signals with outcomes
 10-26 18:40:07 daily report written
 10-26 18:40:07 bot session end
+10-27 08:43:06 alpaca paper mirror: ON
+10-27 08:43:06 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-27 08:43:06 resumed state from 2026-10-26
+10-27 08:43:06 bot live start (max 5.9h)
+10-27 09:31:16 market brief written: briefs/2026-10-27.md (25 Benzinga items)
+10-27 09:31:19 scan keep SOFI +8.9% rvol 10.0 | [Benzinga] CORRECTION: SoFi Technologies Raises FY2026 Adj EPS Guidance from $0.
+10-27 09:31:19 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-27 09:31:19 scan keep GLXY +6.2% rvol 2.2 | [Newswire] Galaxy Gaming Appoints Distinguished Gaming Industry Pioneer John M. 
+10-27 09:31:20 scan keep AZUL +5.7% rvol 4.3 | [Newswire] Ryan Keberle and Urbem Bring the Sounds of Brazil’s Pantanal to New Y
+10-27 09:31:20 scan keep AMKR +5.5% rvol 2.7 | [Benzinga] Amkor Technology Stock Is Gaining Tuesday: What's Going On? +8-K
+10-27 09:31:21 new day universe=['SOFI', 'GLXY', 'AZUL', 'AMKR']
