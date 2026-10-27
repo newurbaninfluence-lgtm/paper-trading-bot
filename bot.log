@@ -1281,3 +1281,11 @@
 10-27 14:40:04 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
 10-27 14:50:04 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
 10-27 15:00:05 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
+10-27 15:10:05 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
+10-27 15:20:05 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
+10-27 15:30:05 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
+10-27 15:31:02 [$400] HALF OFF 2 AMKR @ 39.67 (+1R), stop to breakeven
+10-27 15:31:05 [$400] ALPACA runner stop moved to 39.16
+10-27 15:31:02 [$1000] HALF OFF 5 AMKR @ 39.67 (+1R), stop to breakeven
+10-27 15:31:06 [$1000] ALPACA runner stop moved to 39.16
+10-27 15:40:05 status 200:done 250:pos SOFI 350:done 400:pos AMKR 550:done 1000:pos AMKR
