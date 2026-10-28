@@ -53,3 +53,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-28,200,vwap_pullback,HAYW,13,14.54,14.43,14.65,14.76,14.76,target,2.2,1.1,1.0,,1,"VWAP pullback: +11.1%, dipped to VWAP 14.40, reclaimed with green bar | news: [Benzinga] Hayward Holdings Reports Third Quarter Fiscal Yea"
 2026-10-28,400,orb5,STLA,33,4.66,4.54,4.78,4.9,4.64,breakeven,1.58,0.4,1.0,,1,"5-min ORB: green first 5 min, closed above range high 4.63 | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' "
 2026-10-28,1000,orb5,STLA,83,4.66,4.54,4.78,4.9,4.64,breakeven,4.08,0.41,1.0,,1,"5-min ORB: green first 5 min, closed above range high 4.63 | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' "
+2026-10-28,250,orb15,HAYW,5,14.64,14.15,15.13,15.62,14.7,time,0.3,0.12,1.0,,1,"15-min ORB: closed above 15-min high 14.65, above VWAP | news: [Benzinga] Hayward Holdings Reports Third Quarter Fiscal Yea"

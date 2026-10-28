@@ -1471,3 +1471,14 @@
 10-28 15:17:09 [$1000] ALPACA result STLA: sim $4.08 vs alpaca $7.98 (closed)
 10-28 15:20:03 status 200:done 250:pos HAYW 350:done 400:done 550:done 1000:done
 10-28 15:30:04 status 200:done 250:pos HAYW 350:done 400:done 550:done 1000:done
+10-28 15:40:03 status 200:done 250:pos HAYW 350:done 400:done 550:done 1000:done
+10-28 15:50:04 status 200:done 250:pos HAYW 350:done 400:done 550:done 1000:done
+10-28 15:55:02 [$250] EXIT 5 HAYW @ 14.7 (time) total P&L $0.3
+10-28 15:55:35 alpaca DELETE /orders/d614fca0-36be-4548-a68b-a1f13769d334 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-28 15:55:36 alpaca DELETE /orders/40bd5003-e5b6-40d8-a203-46dcd562242a -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-28 15:55:37 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"5","held_for_orders":"5","message":"insufficient qty available for order (requested: 4, available: 0)","related_orders":["8ddf0097-9ea9-4270-a45a-9cf1e'
+10-28 15:55:40 [$250] ALPACA result HAYW: sim $0.3 vs alpaca $None (partially open)
+10-28 16:02:32 fill test: 58 fills, avg buy vs next-bar open +0.152%, vs simulator -0.165%
+10-28 16:02:52 labeled 55 signals with outcomes
+10-28 16:02:53 daily report written
+10-28 16:02:53 bot session end
