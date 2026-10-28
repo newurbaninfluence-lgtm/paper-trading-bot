@@ -1429,3 +1429,8 @@
 10-28 10:40:05 status 200:pos HAYW 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
 10-28 10:50:04 status 200:pos HAYW 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
 10-28 11:00:05 status 200:pos HAYW 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
+10-28 11:10:05 status 200:pos HAYW 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
+10-28 11:15:02 [$200] EXIT 7 HAYW @ 14.76 (target) total P&L $2.2
+10-28 11:15:08 [$200] ALPACA result HAYW: sim $2.2 vs alpaca $1.79 (closed)
+10-28 11:20:05 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
+10-28 11:30:06 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA

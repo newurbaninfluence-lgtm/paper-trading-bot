@@ -50,3 +50,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-27,1000,orb5,AMKR,11,38.81,37.95,39.67,40.53,39.7,time,9.64,0.96,1.0,,1,"5-min ORB: green first 5 min, closed above range high 39.03 | news: [Benzinga] Amkor Technology Stock Is Gaining Tuesday: What's"
 2026-10-28,350,bull_flag,SDGR,11,29.9,29.64,30.16,30.42,30.42,target,4.42,1.26,1.0,,1,"Bull flag: 7.2% pole, 1.2% flag on light vol, broke 30.00 | news: [Benzinga] Schrödinger to Present at UBS Global Healthcare C"
 2026-10-28,550,bull_flag,SDGR,18,29.9,29.64,30.16,30.42,30.42,target,7.02,1.28,1.0,,1,"Bull flag: 7.2% pole, 1.2% flag on light vol, broke 30.00 | news: [Benzinga] Schrödinger to Present at UBS Global Healthcare C"
+2026-10-28,200,vwap_pullback,HAYW,13,14.54,14.43,14.65,14.76,14.76,target,2.2,1.1,1.0,,1,"VWAP pullback: +11.1%, dipped to VWAP 14.40, reclaimed with green bar | news: [Benzinga] Hayward Holdings Reports Third Quarter Fiscal Yea"
