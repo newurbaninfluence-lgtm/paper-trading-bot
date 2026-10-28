@@ -1320,3 +1320,16 @@
 10-27 18:14:38 labeled 0 signals with outcomes
 10-27 18:14:38 daily report written
 10-27 18:14:38 bot session end
+10-28 08:40:00 alpaca paper mirror: ON
+10-28 08:40:00 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-28 08:40:00 resumed state from 2026-10-27
+10-28 08:40:00 bot live start (max 5.9h)
+10-28 09:31:16 market brief written: briefs/2026-10-28.md (25 Benzinga items)
+10-28 09:31:17 scan keep WEN +15.3% rvol 27.2 | [Benzinga] Wendy's 13D Filing Shows Nelson Peltz Reports 16.23% Stake In Co. As 
+10-28 09:31:18 scan drop DPC +10.7% rvol 40.3: no news 24h
+10-28 09:31:19 scan drop WEGZY +9.8% rvol 2.9: no news 24h
+10-28 09:31:19 scan keep STLA +9.5% rvol 8.2 | [Benzinga] Stellantis CEO Says We See Coming An 'important' Inflation On Raw Mat
+10-28 09:31:20 scan keep ULCC +8.0% rvol 3.2 | [Benzinga] Frontier Group Holdings, Inc. Reports Third Quarter 2026 Financial Re
+10-28 09:31:20 scan keep UCTT +5.2% rvol 4.7 | [Benzinga] Coca-Cola To Rally Around 13%? Here Are 10 Top Analyst Forecasts For 
+10-28 09:31:21 scan drop FLEX: negative news ([Newswire] Century Complete Announces November Opening for Belle Lago,)
+10-28 09:31:22 new day universe=['WEN', 'STLA', 'ULCC', 'UCTT']
