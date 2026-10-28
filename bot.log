@@ -1333,3 +1333,55 @@
 10-28 09:31:20 scan keep UCTT +5.2% rvol 4.7 | [Benzinga] Coca-Cola To Rally Around 13%? Here Are 10 Top Analyst Forecasts For 
 10-28 09:31:21 scan drop FLEX: negative news ([Newswire] Century Complete Announces November Opening for Belle Lago,)
 10-28 09:31:22 new day universe=['WEN', 'STLA', 'ULCC', 'UCTT']
+10-28 09:39:02 [$400/orb5] SIGNAL STLA: 5-min ORB: green first 5 min, closed above range high 4.63; stop 4.54; size 100%
+10-28 09:39:04 [$400] ALPACA paper bracket x2 sent: 30 STLA limit 4.67 (ids 2)
+10-28 09:39:02 [$1000/orb5] SIGNAL STLA: 5-min ORB: green first 5 min, closed above range high 4.63; stop 4.54; size 100%
+10-28 09:39:04 [$1000] ALPACA paper bracket x2 sent: 76 STLA limit 4.67 (ids 2)
+10-28 09:40:02 [$400] BUY 33 STLA @ 4.66 stop 4.54 half@4.78 tgt 4.9 | orb5 | 5-min ORB: green first 5 min, closed above range high 4.63 | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' 
+10-28 09:40:02 [$1000] BUY 83 STLA @ 4.66 stop 4.54 half@4.78 tgt 4.9 | orb5 | 5-min ORB: green first 5 min, closed above range high 4.63 | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' 
+10-28 09:40:03 status 200:watching 250:watching 350:watching 400:pos STLA 550:watching 1000:pos STLA
+10-28 09:45:03 scan keep BOOM +29.5% rvol 327.9 | [Benzinga] Galloper Gold Intersects Visible Gold and Completes Phase One Drillin
+10-28 09:45:04 scan keep LUNG +26.7% rvol 35.5 | [Benzinga] Pulmonx Reports Third Quarter 2026 Financial Results +8-K
+10-28 09:45:04 scan keep AXGN +21.9% rvol 23.3 | [Benzinga] Axogen Q3 2026 Earnings Call Transcript +8-K
+10-28 09:45:04 scan keep WEN +17.0% rvol 36.2 | [Benzinga] Wendy's 13D Filing Shows Nelson Peltz Reports 16.23% Stake In Co. As 
+10-28 09:45:05 scan keep SSP +16.4% rvol 11.5 | [Benzinga] The E.W. Scripps Company Raises 2026 Political Advertising Revenue Ou
+10-28 09:45:06 scan keep GMAB +13.5% rvol 17.0 | [Newswire] Genmab Announces Statistically Significant, Clinically Meaningful Imp
+10-28 09:45:06 scan drop EVMN +11.9% rvol 4.2: no news 24h
+10-28 09:45:07 scan keep HAYW +11.8% rvol 4.1 | [Benzinga] Hayward Holdings Reports Third Quarter Fiscal Year 2026 Financial Res
+10-28 09:45:07 scan keep STLA +11.7% rvol 16.8 | [Benzinga] Stellantis CEO Says We See Coming An 'important' Inflation On Raw Mat
+10-28 09:45:08 scan keep RCKY +11.3% rvol 8.2 | [Benzinga] Baird Maintains Neutral on Rocky Brands, Raises Price Target to $52 +
+10-28 09:45:08 scan keep OSW +10.7% rvol 3.5 | [Benzinga] OneSpaWorld Holdings Limited Reports Q3 2026 Financial Results +8-K
+10-28 09:45:08 scan drop WEGZY +9.8% rvol 2.9: no news 24h
+10-28 09:45:08 scan keep UCTT +9.1% rvol 12.3 | [Benzinga] Coca-Cola To Rally Around 13%? Here Are 10 Top Analyst Forecasts For 
+10-28 09:45:09 scan keep PACB +9.0% rvol 2.0 | [Benzinga] PacBio Announces Participation in Upcoming Investor Conferences
+10-28 09:45:09 scan keep GENB +8.9% rvol 5.3 | [Benzinga] Anthropic Announces Strategic Partnership with Generate Biomedicines 
+10-28 09:45:10 scan keep FTV +7.8% rvol 3.2 | [Benzinga] Fortive Corporation Reports Third Quarter 2026 Financial Results and 
+10-28 09:45:10 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-28 09:45:11 scan keep NRC +7.6% rvol 4.7 | [Benzinga] Citizens Maintains Market Outperform on NRC Health, Raises Price Targ
+10-28 09:45:12 scan keep MCRB +7.2% rvol 2.1 | [SEC] 8-K filed 2026-10-26
+10-28 09:45:12 scan keep AZUL +7.2% rvol 3.8 | [Newswire] Ryan Keberle and Urbem Bring the Sounds of Brazil’s Pantanal to New Y
+10-28 09:50:04 status 200:watching 250:watching 350:watching 400:pos STLA 550:watching 1000:pos STLA
+10-28 09:53:02 [$250/orb15] SIGNAL HAYW: 15-min ORB: closed above 15-min high 14.65, above VWAP; stop 14.15; size 100%
+10-28 09:53:04 [$250] ALPACA paper bracket x2 sent: 4 HAYW limit 14.72 (ids 2)
+10-28 09:54:02 [$250] BUY 5 HAYW @ 14.64 stop 14.15 half@15.13 tgt 15.62 | orb15 | 15-min ORB: closed above 15-min high 14.65, above VWAP | news: [Benzinga] Hayward Holdings Reports Third Quarter Fiscal Yea
+10-28 10:00:02 scan keep BOOM +33.4% rvol 288.7 | [Benzinga] Galloper Gold Intersects Visible Gold and Completes Phase One Drillin
+10-28 10:00:02 scan keep LUNG +28.8% rvol 32.9 | [Benzinga] Pulmonx Reports Third Quarter 2026 Financial Results +8-K
+10-28 10:00:02 scan keep AXGN +22.5% rvol 20.6 | [Benzinga] Axogen Q3 2026 Earnings Call Transcript +8-K
+10-28 10:00:02 scan keep GMAB +16.0% rvol 22.8 | [Newswire] Genmab Announces Statistically Significant, Clinically Meaningful Imp
+10-28 10:00:02 scan keep WEN +15.9% rvol 26.6 | [Benzinga] Wendy's 13D Filing Shows Nelson Peltz Reports 16.23% Stake In Co. As 
+10-28 10:00:02 scan keep SSP +15.7% rvol 8.8 | [Benzinga] The E.W. Scripps Company Raises 2026 Political Advertising Revenue Ou
+10-28 10:00:02 scan keep PACB +14.5% rvol 3.2 | [Benzinga] PacBio Announces Participation in Upcoming Investor Conferences
+10-28 10:00:03 scan keep FWRD +14.4% rvol 2.1 | [Newswire] Forward Air Announces Two-Year Definitive Agreement to Retain Signifi
+10-28 10:00:04 scan keep SDGR +12.3% rvol 3.8 | [Benzinga] Schrödinger to Present at UBS Global Healthcare Conference
+10-28 10:00:04 scan keep STLA +12.2% rvol 15.2 | [Benzinga] Stellantis CEO Says We See Coming An 'important' Inflation On Raw Mat
+10-28 10:00:04 scan keep HAYW +12.0% rvol 3.6 | [Benzinga] Hayward Holdings Reports Third Quarter Fiscal Year 2026 Financial Res
+10-28 10:00:04 scan drop EVMN +11.4% rvol 4.4: no news 24h
+10-28 10:00:04 scan keep RCKY +11.3% rvol 6.6 | [Benzinga] Baird Maintains Neutral on Rocky Brands, Raises Price Target to $52 +
+10-28 10:00:04 scan keep OSW +10.8% rvol 3.1 | [Benzinga] OneSpaWorld Holdings Limited Reports Q3 2026 Financial Results +8-K
+10-28 10:00:04 scan keep GENB +10.2% rvol 5.0 | [Benzinga] Anthropic Announces Strategic Partnership with Generate Biomedicines 
+10-28 10:00:04 scan keep UCTT +9.4% rvol 10.5 | [Benzinga] Coca-Cola To Rally Around 13%? Here Are 10 Top Analyst Forecasts For 
+10-28 10:00:05 scan keep FLXS +9.1% rvol 4.0 | [Google News] Flexsteel Industries Inc (FLXS) (Q1 2027) Earnings Call Highlights
+10-28 10:00:06 scan drop CLAR +8.2% rvol 13.0: no news 24h
+10-28 10:00:06 scan keep FTV +7.9% rvol 3.9 | [Benzinga] Fortive Corporation Reports Third Quarter 2026 Financial Results and 
+10-28 10:00:06 scan drop ISSC +7.7% rvol 14.3: no news 24h
+10-28 10:00:09 status 200:watching 250:pos HAYW 350:watching 400:pos STLA 550:watching 1000:pos STLA
