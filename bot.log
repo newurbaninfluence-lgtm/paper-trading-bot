@@ -1464,3 +1464,10 @@
 10-28 14:40:04 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
 10-28 14:50:04 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
 10-28 15:00:04 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
+10-28 15:10:03 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
+10-28 15:17:02 [$400] EXIT 17 STLA @ 4.64 (breakeven) total P&L $1.58
+10-28 15:17:07 [$400] ALPACA result STLA: sim $1.58 vs alpaca $3.15 (closed)
+10-28 15:17:02 [$1000] EXIT 42 STLA @ 4.64 (breakeven) total P&L $4.08
+10-28 15:17:09 [$1000] ALPACA result STLA: sim $4.08 vs alpaca $7.98 (closed)
+10-28 15:20:03 status 200:done 250:pos HAYW 350:done 400:done 550:done 1000:done
+10-28 15:30:04 status 200:done 250:pos HAYW 350:done 400:done 550:done 1000:done
