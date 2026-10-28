@@ -1457,3 +1457,10 @@
 10-28 14:20:05 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
 10-28 14:30:05 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
 10-28 14:34:02 bot session end
+10-28 14:34:34 alpaca paper mirror: ON
+10-28 14:34:34 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-28 14:34:34 resumed state from 2026-10-28
+10-28 14:34:34 bot live start (max 5.9h)
+10-28 14:40:04 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
+10-28 14:50:04 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
+10-28 15:00:04 status 200:done 250:pos HAYW 350:done 400:pos STLA 550:done 1000:pos STLA
