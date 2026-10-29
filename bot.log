@@ -1615,3 +1615,6 @@
 10-29 11:30:02 [$250] EXIT 5 LXU @ 11.1 (stop) total P&L $-2.25
 10-29 11:30:07 [$250] ALPACA result LXU: sim $-2.25 vs alpaca $-2.2 (closed)
 10-29 11:30:07 status 200:done 250:done 350:pos NCLH 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 11:40:05 status 200:done 250:done 350:pos NCLH 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 11:50:04 status 200:done 250:done 350:pos NCLH 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 12:00:04 status 200:done 250:done 350:pos NCLH 400:pos NCLH 550:pos FVRR 1000:pos NCLH
