@@ -1639,3 +1639,10 @@
 10-29 14:37:04 [$550] ALPACA runner stop moved to 8.67
 10-29 14:40:05 status 200:done 250:done 350:done 400:pos NCLH 550:pos FVRR 1000:pos NCLH
 10-29 14:41:02 bot session end
+10-29 14:41:33 alpaca paper mirror: ON
+10-29 14:41:33 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-29 14:41:33 resumed state from 2026-10-29
+10-29 14:41:33 bot live start (max 5.9h)
+10-29 14:50:06 status 200:done 250:done 350:done 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 15:00:06 status 200:done 250:done 350:done 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 15:10:06 status 200:done 250:done 350:done 400:pos NCLH 550:pos FVRR 1000:pos NCLH
