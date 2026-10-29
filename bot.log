@@ -1649,3 +1649,20 @@
 10-29 15:20:06 status 200:done 250:done 350:done 400:pos NCLH 550:pos FVRR 1000:pos NCLH
 10-29 15:30:07 status 200:done 250:done 350:done 400:pos NCLH 550:pos FVRR 1000:pos NCLH
 10-29 15:40:05 status 200:done 250:done 350:done 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 15:50:06 status 200:done 250:done 350:done 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 15:55:02 [$400] EXIT 4 NCLH @ 18.14 (time) total P&L $2.96
+10-29 15:55:29 alpaca DELETE /orders/53ca8148-994f-4371-8dc1-bfb3659aa942 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-29 15:55:30 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"18","held_for_orders":"18","message":"insufficient qty available for order (requested: 4, available: 0)","related_orders":["1fd4efa8-518f-4b76-95b6-643'
+10-29 15:55:33 [$400] ALPACA result NCLH: sim $2.96 vs alpaca $None (partially open)
+10-29 15:55:02 [$550] EXIT 10 FVRR @ 8.97 (time) total P&L $5.52
+10-29 15:55:33 alpaca DELETE /orders/f8b9116a-360f-4a1d-9647-649fc3078589 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-29 15:55:35 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"12","held_for_orders":"12","message":"insufficient qty available for order (requested: 10, available: 0)","related_orders":["ec5ee1bf-8f0a-4d14-980f-cf'
+10-29 15:55:37 [$550] ALPACA result FVRR: sim $5.52 vs alpaca $None (partially open)
+10-29 15:55:02 [$1000] EXIT 11 NCLH @ 18.14 (time) total P&L $7.68
+10-29 15:55:38 alpaca DELETE /orders/f268d4c1-aa1a-41d7-bd4b-2d1ce17a9dfc -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+10-29 15:55:39 alpaca POST /orders -> 403 b'{"available":"4","code":40310000,"existing_qty":"15","held_for_orders":"11","message":"insufficient qty available for order (requested: 11, available: 4)","related_orders":["d9b3bbd9-bfff-4f2f-8d04-f3'
+10-29 15:55:41 [$1000] ALPACA result NCLH: sim $7.68 vs alpaca $None (partially open)
+10-29 16:02:28 fill test: 60 fills, avg buy vs next-bar open +0.137%, vs simulator -0.044%
+10-29 16:02:45 labeled 54 signals with outcomes
+10-29 16:02:46 daily report written
+10-29 16:02:46 bot session end
