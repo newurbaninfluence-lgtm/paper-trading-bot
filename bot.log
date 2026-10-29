@@ -1575,3 +1575,26 @@
 10-29 10:02:02 [$200] EXIT 10 BHC @ 8.21 (breakeven) total P&L $0.3
 10-29 10:02:06 [$200] ALPACA result BHC: sim $0.3 vs alpaca $None (partially open)
 10-29 10:02:02 [$550] BUY 19 FVRR @ 8.67 stop 8.39 half@8.95 tgt 9.23 | failed_breakdown | Failed breakdown: flushed to 8.40 under opening-range low 8.51, reclaimed it | news: [Benzinga] Fiverr Intl Raises FY2026 Sales Guidance from $35
+10-29 10:10:04 status 200:done 250:pos LXU 350:watching 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 10:15:02 scan keep ADT +34.0% rvol 30.3 | [Benzinga] ADT Inc. Expands AI Capabilities Through Oracle Cloud Integration
+10-29 10:15:02 scan keep PRCH +26.5% rvol 14.2 | [Benzinga] Oppenheimer Maintains Outperform on Porch Group, Raises Price Target 
+10-29 10:15:02 scan keep TDOC +24.1% rvol 12.2 | [Benzinga] Stifel Maintains Hold on Teladoc Health, Raises Price Target to $6.5 
+10-29 10:15:02 scan drop MAX: negative news ([Newswire] NuRAN Wireless Secures US$10 Million Non-Dilutive Facility )
+10-29 10:15:02 scan keep BHC +21.9% rvol 15.9 | [Benzinga] Bausch Health Announces Third Quarter 2026 Financial Results and Rais
+10-29 10:15:02 scan keep CVNA +16.7% rvol 6.1 | [Benzinga] US Economy Grew 3.4% in the Third Quarter, Fed's Favorite Inflation G
+10-29 10:15:02 scan keep MESO +14.7% rvol 9.1 | [Newswire] Activity Report for Quarter Ended September 30, 2026 (Appendix 4C) - 
+10-29 10:15:02 scan keep DFIN +13.0% rvol 2.3 | [Benzinga] Donnelley Financial Solns Q3 2026 Earnings Call Transcript +8-K
+10-29 10:15:02 scan drop GEN: negative news ([Newswire] Chartwells K12 Releases New "Wrap & Roll" Limited-Time Offe)
+10-29 10:15:02 scan keep TXT +11.6% rvol 2.9 | [Benzinga] Textron Q3 2026 Earnings Call Transcript +8-K
+10-29 10:15:02 scan keep LXU +11.5% rvol 4.1 | [Benzinga] LSB Industries Q3 EPS $0.22 Misses $0.26 Estimate, Sales $158.602M Mi
+10-29 10:15:02 scan keep NCLH +10.7% rvol 9.3 | [Benzinga] Norwegian Cruise Line Holdings Announces CFO Transition +8-K
+10-29 10:15:02 scan keep UPBD +10.6% rvol 4.9 | [Benzinga] Upbound Group, Inc. Reports Third Quarter 2026 Financial Results +8-K
+10-29 10:15:02 scan keep HAPN +9.5% rvol 4.3 | [Benzinga] Happen Q3 2026 Earnings Call Transcript +8-K
+10-29 10:15:02 scan keep PURR +9.2% rvol 6.4 | [Newswire] lemme - Instagram +8-K
+10-29 10:15:02 scan keep DRS +9.2% rvol 2.4 | [Benzinga] Leonardo DRS Announces Financial Results for Third Quarter 2026 +8-K
+10-29 10:15:02 scan keep BOOM +8.6% rvol 32.8 | [Benzinga] Galloper Gold Intersects Visible Gold and Completes Phase One Drillin
+10-29 10:15:02 scan keep CHDN +8.5% rvol 3.4 | [Benzinga] Churchill Downs Incorporated Appoints Michael Tucker to Board of Dire
+10-29 10:15:03 scan keep VKTX +8.4% rvol 4.3 | [Benzinga] Viking Therapeutics Reports Third Quarter 2026 Financial Results +8-K
+10-29 10:15:03 scan keep SPOK +8.4% rvol 7.2 | [Benzinga] Spok Holdings Affirms FY2026 Sales Guidance of $132.500M-$139.500M +8
+10-29 10:20:05 status 200:done 250:pos LXU 350:watching 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 10:30:04 status 200:done 250:pos LXU 350:watching 400:pos NCLH 550:pos FVRR 1000:pos NCLH
