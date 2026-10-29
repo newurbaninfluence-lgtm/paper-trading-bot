@@ -55,3 +55,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-28,1000,orb5,STLA,83,4.66,4.54,4.78,4.9,4.64,breakeven,4.08,0.41,1.0,,1,"5-min ORB: green first 5 min, closed above range high 4.63 | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' "
 2026-10-28,250,orb15,HAYW,5,14.64,14.15,15.13,15.62,14.7,time,0.3,0.12,1.0,,1,"15-min ORB: closed above 15-min high 14.65, above VWAP | news: [Benzinga] Hayward Holdings Reports Third Quarter Fiscal Yea"
 2026-10-29,200,vwap_pullback,BHC,20,8.28,8.18,8.38,8.48,8.21,breakeven,0.3,0.15,1.0,,1,"VWAP pullback: +19.4%, dipped to VWAP 8.22, reclaimed with green bar | news: [Benzinga] Bausch Health Announces Third Quarter 2026 Financ"
+2026-10-29,250,orb15,LXU,5,11.55,11.13,11.97,12.39,11.1,stop,-2.25,-0.9,1.0,,1,"15-min ORB: closed above 15-min high 11.53, above VWAP | news: [Benzinga] LSB Industries Q3 EPS $0.22 Misses $0.26 Estimate"
