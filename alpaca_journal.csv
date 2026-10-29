@@ -54,3 +54,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-28,400,orb5,STLA,1.58,30.0,30.0,4.63,3.15,closed
 2026-10-28,1000,orb5,STLA,4.08,76.0,76.0,4.63,7.98,closed
 2026-10-28,250,orb15,HAYW,0.3,4.0,0.0,14.67,,partially open
+2026-10-29,200,vwap_pullback,BHC,0.3,18.0,0.0,8.26,,partially open
