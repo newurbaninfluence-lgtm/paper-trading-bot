@@ -1498,3 +1498,18 @@
 10-28 18:35:01 labeled 0 signals with outcomes
 10-28 18:35:02 daily report written
 10-28 18:35:02 bot session end
+10-29 08:46:25 alpaca paper mirror: ON
+10-29 08:46:25 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-29 08:46:25 resumed state from 2026-10-28
+10-29 08:46:25 bot live start (max 5.9h)
+10-29 09:31:35 market brief written: briefs/2026-10-29.md (25 Benzinga items)
+10-29 09:31:36 scan keep PRCH +20.3% rvol 4.4 | [Benzinga] Oppenheimer Maintains Outperform on Porch Group, Raises Price Target 
+10-29 09:31:36 scan drop MAX: negative news ([Newswire] NuRAN Wireless Secures US$10 Million Non-Dilutive Facility )
+10-29 09:31:37 scan keep BHC +18.1% rvol 6.1 | [Benzinga] Bausch Health Announces Third Quarter 2026 Financial Results and Rais
+10-29 09:31:37 scan keep TDOC +15.9% rvol 2.1 | [Benzinga] Stifel Maintains Hold on Teladoc Health, Raises Price Target to $6.5 
+10-29 09:31:38 scan keep CVNA +10.7% rvol 2.2 | [Benzinga] US Economy Grew 3.4% in the Third Quarter, Fed's Favorite Inflation G
+10-29 09:31:38 scan keep NCLH +9.6% rvol 8.6 | [Benzinga] Norwegian Cruise Line Holdings Announces CFO Transition +8-K
+10-29 09:31:38 scan keep ADT +7.9% rvol 59.2 | [Benzinga] ADT Inc. Expands AI Capabilities Through Oracle Cloud Integration
+10-29 09:31:38 scan keep FVRR +7.4% rvol 5.2 | [Benzinga] Fiverr Intl Raises FY2026 Sales Guidance from $356.000M-$372.000M to 
+10-29 09:31:38 scan keep AZUL +4.5% rvol 5.9 | [Newswire] Ryan Keberle and Urbem Bring the Sounds of Brazil’s Pantanal to New Y
+10-29 09:31:40 new day universe=['PRCH', 'BHC', 'TDOC', 'CVNA', 'NCLH', 'ADT', 'FVRR', 'AZUL']
