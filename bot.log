@@ -1598,3 +1598,9 @@
 10-29 10:15:03 scan keep SPOK +8.4% rvol 7.2 | [Benzinga] Spok Holdings Affirms FY2026 Sales Guidance of $132.500M-$139.500M +8
 10-29 10:20:05 status 200:done 250:pos LXU 350:watching 400:pos NCLH 550:pos FVRR 1000:pos NCLH
 10-29 10:30:04 status 200:done 250:pos LXU 350:watching 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 10:40:05 status 200:done 250:pos LXU 350:watching 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 10:50:05 status 200:done 250:pos LXU 350:watching 400:pos NCLH 550:pos FVRR 1000:pos NCLH
+10-29 10:54:02 [$350/hod_break] SIGNAL NCLH: Gap-and-go: +12.7%, based 72 min, broke HOD 18.09 on 1.5x vol; stop 17.94; size 100%
+10-29 10:54:04 [$350] ALPACA paper bracket x2 sent: 18 NCLH limit 18.12 (ids 2)
+10-29 10:55:02 [$350] BUY 19 NCLH @ 18.12 stop 17.94 half@18.3 tgt 18.48 | hod_break | Gap-and-go: +12.7%, based 72 min, broke HOD 18.09 on 1.5x vol | news: [Benzinga] Norwegian Cruise Line Holdings Announces CFO Tran
+10-29 11:00:05 status 200:done 250:pos LXU 350:pos NCLH 400:pos NCLH 550:pos FVRR 1000:pos NCLH
