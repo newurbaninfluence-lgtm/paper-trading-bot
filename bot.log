@@ -1790,3 +1790,8 @@
 10-30 10:57:02 [$550] EXIT 8 SMP @ 42.52 (stop) total P&L $-5.76
 10-30 10:57:06 [$550] ALPACA result SMP: sim $-5.76 vs alpaca $-3.93 (closed)
 10-30 11:00:03 status 200:watching 250:done 350:done 400:done 550:done 1000:pos SMP
+10-30 11:10:03 status 200:watching 250:done 350:done 400:done 550:done 1000:pos SMP
+10-30 11:20:04 status 200:watching 250:done 350:done 400:done 550:done 1000:pos SMP
+10-30 11:28:02 [$1000] EXIT 7 SMP @ 41.21 (stop) total P&L $-10.43
+10-30 11:28:06 [$1000] ALPACA result SMP: sim $-10.43 vs alpaca $None (no fill)
+10-30 11:30:04 status 200:watching 250:done 350:done 400:done 550:done 1000:done
