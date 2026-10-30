@@ -1744,3 +1744,44 @@
 10-30 10:00:03 scan keep BOOM +6.2% rvol 10.9 | [Benzinga] Galloper Gold Intersects Visible Gold and Completes Phase One Drillin
 10-30 10:00:04 scan keep BBIO +6.0% rvol 4.6 | [Benzinga] BridgeBio Pharma Reports Third Quarter 2026 Financial Results +8-K
 10-30 10:00:06 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:pos SMP
+10-30 10:10:05 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:pos SMP
+10-30 10:15:02 scan keep ULH +25.8% rvol 4.5 | [Benzinga] Universal Logistics Holdings, Inc. Reports Third Quarter 2026 Financi
+10-30 10:15:02 scan keep CDNA +21.2% rvol 6.9 | [Benzinga] BTIG Maintains Buy on CareDx, Raises Price Target to $92 +8-K
+10-30 10:15:02 scan keep NFE +20.2% rvol 16.7 | [Benzinga] New Fortress Energy Agrees to Lease 10 Mobile Turbines to U.S. Custom
+10-30 10:15:02 scan keep FMC +20.0% rvol 4.3 | [Benzinga] This Workday Analyst Is No Longer Bullish; Here Are Top 5 Downgrades 
+10-30 10:15:02 scan keep XPOF +17.6% rvol 6.9 | [Benzinga] 'Investor Said to Look to Bid on Club Pilates-Owner Xponential' - Blo
+10-30 10:15:02 scan keep CPRI +17.1% rvol 5.3 | [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Est; Sees Sales $1.005
+10-30 10:15:02 scan keep ACCO +16.9% rvol 16.0 | [Benzinga] ACCO Brands Q3 2026 Earnings Call Transcript +8-K
+10-30 10:15:02 scan keep CVEO +15.4% rvol 30.8 | [Benzinga] Civeo Reports Third Quarter 2026 Results +8-K
+10-30 10:15:02 scan keep SMP +11.9% rvol 2.4 | [Benzinga] Standard Motor Products, Inc. Reports Third Quarter 2026 Financial Re
+10-30 10:15:02 scan keep BTSG +11.6% rvol 3.9 | [Benzinga] BrightSpring Health Services Reports Third Quarter 2026 Financial Res
+10-30 10:15:02 scan keep MEOH +9.5% rvol 7.3 | [Benzinga] Methanex Sees Oct-Nov Average Realized Methanol Price Of ~$525-$550/T
+10-30 10:15:02 scan drop REAL: negative news ([Newswire] Daré Bioscience Surpasses $43 Million in Non-Dilutive Grant)
+10-30 10:15:02 scan keep CURV +9.0% rvol 4.0 | [Newswire] Bloom's Curv 2g Sells Out in New Mexico, Expands Preview to Illinois 
+10-30 10:15:02 scan drop ISSC +7.7% rvol 9.5: no news 24h
+10-30 10:15:02 scan keep EXEL +7.1% rvol 2.1 | [Benzinga] Exelixis Q3 2026 Earnings Call Transcript +8-K
+10-30 10:15:02 scan keep STRZ +7.0% rvol 6.1 | [Benzinga] Starz Entertainment Q3 2026 Earnings Call Transcript +8-K
+10-30 10:15:02 scan keep OLN +6.9% rvol 2.9 | [Benzinga] Olin Corporation Reports Third Quarter 2026 Financial Results +8-K
+10-30 10:15:02 scan drop UTSI +6.6% rvol 2.2: no news 24h
+10-30 10:15:03 scan keep RIVN +5.4% rvol 5.6 | [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI & Autonomy ‘Creatin
+10-30 10:15:04 scan keep SOR +5.3% rvol 3.4 | [Benzinga] Source Capital Raises Monthly Dividend From $0.2083 To $0.23 Per Shar
+10-30 10:15:02 [$250/ema_bounce] SIGNAL CPRI: 9/21 EMA bounce: tagged 21 EMA 18.73, closed back over 9 EMA; stop 18.63; size 100%
+10-30 10:15:06 [$250] ALPACA paper bracket x2 sent: 11 CPRI limit 18.84 (ids 2)
+10-30 10:15:02 [$400/ema_bounce] SIGNAL CPRI: 9/21 EMA bounce: tagged 21 EMA 18.73, closed back over 9 EMA; stop 18.63; size 100%
+10-30 10:15:07 [$400] ALPACA paper bracket x2 sent: 19 CPRI limit 18.84 (ids 2)
+10-30 10:16:02 [$250] BUY 11 CPRI @ 18.84 stop 18.63 half@19.05 tgt 19.26 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 18.73, closed back over 9 EMA | news: [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Es
+10-30 10:16:02 [$400] BUY 19 CPRI @ 18.84 stop 18.63 half@19.05 tgt 19.26 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 18.73, closed back over 9 EMA | news: [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Es
+10-30 10:19:02 [$550/bull_flag] SIGNAL SMP: Bull flag: 6.2% pole, 0.5% flag on light vol, broke 42.83; stop 42.59; size 100%
+10-30 10:19:04 [$550] ALPACA paper bracket x2 sent: 10 SMP limit 43.09 (ids 2)
+10-30 10:20:02 [$550] BUY 8 SMP @ 43.24 stop 42.59 half@43.89 tgt 44.54 | bull_flag | Bull flag: 6.2% pole, 0.5% flag on light vol, broke 42.83 | news: [Benzinga] Standard Motor Products, Inc. Reports Third Quart
+10-30 10:20:03 status 200:watching 250:pos CPRI 350:watching 400:pos CPRI 550:pos SMP 1000:pos SMP
+10-30 10:23:02 [$350/bull_flag] SIGNAL STRZ: Bull flag: 6.6% pole, 1.2% flag on light vol, broke 23.44; stop 23.15; size 100%
+10-30 10:23:04 [$350] ALPACA paper bracket x2 sent: 5 STRZ limit 23.78 (ids 2)
+10-30 10:24:02 [$350] BUY 5 STRZ @ 23.77 stop 23.15 half@24.39 tgt 25.01 | bull_flag | Bull flag: 6.6% pole, 1.2% flag on light vol, broke 23.44 | news: [Benzinga] Starz Entertainment Q3 2026 Earnings Call Transcr
+10-30 10:28:02 [$250] EXIT 11 CPRI @ 18.6 (stop) total P&L $-2.64
+10-30 10:28:06 [$250] ALPACA result CPRI: sim $-2.64 vs alpaca $-1.55 (closed)
+10-30 10:28:02 [$400] EXIT 19 CPRI @ 18.6 (stop) total P&L $-4.56
+10-30 10:28:09 [$400] ALPACA result CPRI: sim $-4.56 vs alpaca $-2.56 (closed)
+10-30 10:29:02 [$350] EXIT 5 STRZ @ 22.92 (stop) total P&L $-4.25
+10-30 10:29:05 [$350] ALPACA result STRZ: sim $-4.25 vs alpaca $-6.0 (closed)
+10-30 10:30:04 status 200:watching 250:done 350:done 400:done 550:pos SMP 1000:pos SMP

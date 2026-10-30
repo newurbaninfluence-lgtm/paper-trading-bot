@@ -60,3 +60,6 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-29,400,orb5,NCLH,2.96,8.0,4.0,17.86,,partially open
 2026-10-29,550,failed_breakdown,FVRR,5.52,19.0,9.0,8.66,,partially open
 2026-10-29,1000,orb5,NCLH,7.68,21.0,10.0,17.86,,partially open
+2026-10-30,250,ema_bounce,CPRI,-2.64,11.0,11.0,18.7909,-1.55,closed
+2026-10-30,400,ema_bounce,CPRI,-4.56,19.0,19.0,18.79,-2.56,closed
+2026-10-30,350,bull_flag,STRZ,-4.25,5.0,5.0,23.77,-6.0,closed
