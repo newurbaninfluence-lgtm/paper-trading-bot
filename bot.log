@@ -1682,3 +1682,12 @@
 10-29 18:44:53 labeled 0 signals with outcomes
 10-29 18:44:54 daily report written
 10-29 18:44:54 bot session end
+10-30 08:39:06 alpaca paper mirror: ON
+10-30 08:39:06 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-30 08:39:06 resumed state from 2026-10-29
+10-30 08:39:06 bot live start (max 5.9h)
+10-30 09:31:17 market brief written: briefs/2026-10-30.md (25 Benzinga items)
+10-30 09:31:18 scan keep ACCO +24.2% rvol 5.4 | [Benzinga] ACCO Brands Q3 2026 Earnings Call Transcript +8-K
+10-30 09:31:19 scan keep CPRI +13.1% rvol 3.3 | [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Est; Sees Sales $1.005
+10-30 09:31:19 scan drop DPC +4.4% rvol 30.2: no news 24h
+10-30 09:31:19 new day universe=['ACCO', 'CPRI']
