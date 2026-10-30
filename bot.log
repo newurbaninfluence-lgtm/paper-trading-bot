@@ -1785,3 +1785,8 @@
 10-30 10:29:02 [$350] EXIT 5 STRZ @ 22.92 (stop) total P&L $-4.25
 10-30 10:29:05 [$350] ALPACA result STRZ: sim $-4.25 vs alpaca $-6.0 (closed)
 10-30 10:30:04 status 200:watching 250:done 350:done 400:done 550:pos SMP 1000:pos SMP
+10-30 10:40:04 status 200:watching 250:done 350:done 400:done 550:pos SMP 1000:pos SMP
+10-30 10:50:04 status 200:watching 250:done 350:done 400:done 550:pos SMP 1000:pos SMP
+10-30 10:57:02 [$550] EXIT 8 SMP @ 42.52 (stop) total P&L $-5.76
+10-30 10:57:06 [$550] ALPACA result SMP: sim $-5.76 vs alpaca $-3.93 (closed)
+10-30 11:00:03 status 200:watching 250:done 350:done 400:done 550:done 1000:pos SMP

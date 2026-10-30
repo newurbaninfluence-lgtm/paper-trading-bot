@@ -63,3 +63,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-30,250,ema_bounce,CPRI,11,18.84,18.63,19.05,19.26,18.6,stop,-2.64,-1.06,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 18.73, closed back over 9 EMA | news: [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Es"
 2026-10-30,400,ema_bounce,CPRI,19,18.84,18.63,19.05,19.26,18.6,stop,-4.56,-1.14,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 18.73, closed back over 9 EMA | news: [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Es"
 2026-10-30,350,bull_flag,STRZ,5,23.77,23.15,24.39,25.01,22.92,stop,-4.25,-1.21,1.0,,1,"Bull flag: 6.6% pole, 1.2% flag on light vol, broke 23.44 | news: [Benzinga] Starz Entertainment Q3 2026 Earnings Call Transcr"
+2026-10-30,550,bull_flag,SMP,8,43.24,42.59,43.89,44.54,42.52,stop,-5.76,-1.05,1.0,,1,"Bull flag: 6.2% pole, 0.5% flag on light vol, broke 42.83 | news: [Benzinga] Standard Motor Products, Inc. Reports Third Quart"
