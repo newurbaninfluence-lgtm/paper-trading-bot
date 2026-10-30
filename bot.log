@@ -1814,3 +1814,15 @@
 10-30 14:20:03 status 200:watching 250:done 350:done 400:done 550:done 1000:done
 10-30 14:30:04 status 200:watching 250:done 350:done 400:done 550:done 1000:done
 10-30 14:34:02 bot session end
+10-30 14:34:30 alpaca paper mirror: ON
+10-30 14:34:30 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'failed_breakdown', 'ema_bounce', 'eod_squeeze', 'vwap_pullback']
+10-30 14:34:30 resumed state from 2026-10-30
+10-30 14:34:30 bot live start (max 5.9h)
+10-30 14:40:03 status 200:watching 250:done 350:done 400:done 550:done 1000:done
+10-30 14:43:02 [$200/vwap_pullback] SIGNAL ACCO: VWAP pullback: +20.9%, dipped to VWAP 5.26, reclaimed with green bar; stop 5.25; size 100%
+10-30 14:43:05 [$200] ALPACA paper bracket x2 sent: 37 ACCO limit 5.3 (ids 2)
+10-30 14:44:02 [$200] BUY 37 ACCO @ 5.28 stop 5.25 half@5.31 tgt 5.34 | vwap_pullback | VWAP pullback: +20.9%, dipped to VWAP 5.26, reclaimed with green bar | news: [Benzinga] ACCO Brands Q3 2026 Earnings Call Transcript +8-K
+10-30 14:45:02 [$200] EXIT 37 ACCO @ 5.23 (stop) total P&L $-1.85
+10-30 14:45:07 [$200] ALPACA result ACCO: sim $-1.85 vs alpaca $-0.37 (closed)
+10-30 14:50:03 status 200:done 250:done 350:done 400:done 550:done 1000:done
+10-30 15:00:04 status 200:done 250:done 350:done 400:done 550:done 1000:done

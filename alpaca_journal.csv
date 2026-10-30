@@ -65,3 +65,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-10-30,350,bull_flag,STRZ,-4.25,5.0,5.0,23.77,-6.0,closed
 2026-10-30,550,bull_flag,SMP,-5.76,10.0,10.0,42.849,-3.93,closed
 2026-10-30,1000,orb5,SMP,-10.43,0.0,0.0,,,no fill
+2026-10-30,200,vwap_pullback,ACCO,-1.85,37.0,37.0,5.26,-0.37,closed

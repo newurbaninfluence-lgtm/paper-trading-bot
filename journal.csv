@@ -65,3 +65,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-10-30,350,bull_flag,STRZ,5,23.77,23.15,24.39,25.01,22.92,stop,-4.25,-1.21,1.0,,1,"Bull flag: 6.6% pole, 1.2% flag on light vol, broke 23.44 | news: [Benzinga] Starz Entertainment Q3 2026 Earnings Call Transcr"
 2026-10-30,550,bull_flag,SMP,8,43.24,42.59,43.89,44.54,42.52,stop,-5.76,-1.05,1.0,,1,"Bull flag: 6.2% pole, 0.5% flag on light vol, broke 42.83 | news: [Benzinga] Standard Motor Products, Inc. Reports Third Quart"
 2026-10-30,1000,orb5,SMP,7,42.7,41.41,43.99,45.28,41.21,stop,-10.43,-1.04,1.0,,1,"5-min ORB: green first 5 min, closed above range high 42.50 | news: [Benzinga] Standard Motor Products, Inc. Reports Third Quart"
+2026-10-30,200,vwap_pullback,ACCO,37,5.28,5.25,5.31,5.34,5.23,stop,-1.85,-0.93,1.0,,1,"VWAP pullback: +20.9%, dipped to VWAP 5.26, reclaimed with green bar | news: [Benzinga] ACCO Brands Q3 2026 Earnings Call Transcript +8-K"
