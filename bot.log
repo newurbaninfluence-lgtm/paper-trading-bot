@@ -1691,3 +1691,56 @@
 10-30 09:31:19 scan keep CPRI +13.1% rvol 3.3 | [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Est; Sees Sales $1.005
 10-30 09:31:19 scan drop DPC +4.4% rvol 30.2: no news 24h
 10-30 09:31:19 new day universe=['ACCO', 'CPRI']
+10-30 09:40:02 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+10-30 09:45:02 scan keep CVEO +21.7% rvol 49.5 | [Benzinga] Civeo Reports Third Quarter 2026 Results +8-K
+10-30 09:45:03 scan keep CDNA +21.1% rvol 7.6 | [Benzinga] BTIG Maintains Buy on CareDx, Raises Price Target to $92 +8-K
+10-30 09:45:03 scan keep ACCO +20.4% rvol 18.5 | [Benzinga] ACCO Brands Q3 2026 Earnings Call Transcript +8-K
+10-30 09:45:03 scan keep CPRI +15.4% rvol 7.6 | [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Est; Sees Sales $1.005
+10-30 09:45:03 scan keep FMC +14.9% rvol 4.1 | [Benzinga] This Workday Analyst Is No Longer Bullish; Here Are Top 5 Downgrades 
+10-30 09:45:03 scan keep NFE +12.4% rvol 6.6 | [Benzinga] New Fortress Energy Agrees to Lease 10 Mobile Turbines to U.S. Custom
+10-30 09:45:04 scan keep ULH +11.7% rvol 5.2 | [Benzinga] Universal Logistics Holdings, Inc. Reports Third Quarter 2026 Financi
+10-30 09:45:04 scan keep SMP +10.9% rvol 3.5 | [Benzinga] Standard Motor Products, Inc. Reports Third Quarter 2026 Financial Re
+10-30 09:45:05 scan keep STRZ +10.4% rvol 8.5 | [Benzinga] Starz Entertainment Q3 2026 Earnings Call Transcript +8-K
+10-30 09:45:05 scan keep BTSG +9.6% rvol 4.8 | [Benzinga] BrightSpring Health Services Reports Third Quarter 2026 Financial Res
+10-30 09:45:06 scan drop CMCM +9.1% rvol 2.6: no news 24h
+10-30 09:45:07 scan keep CNF +8.3% rvol 14.2 | [Newswire] Hyperscale Data Centers Market - Global Opportunity - GlobeNewswire
+10-30 09:45:07 scan drop ISSC +7.7% rvol 22.0: no news 24h
+10-30 09:45:07 scan drop REAL: negative news ([Newswire] Daré Bioscience Surpasses $43 Million in Non-Dilutive Grant)
+10-30 09:45:08 scan keep MEOH +6.6% rvol 5.6 | [Benzinga] Methanex Sees Oct-Nov Average Realized Methanol Price Of ~$525-$550/T
+10-30 09:45:08 scan keep CURV +6.3% rvol 2.0 | [Newswire] Bloom's Curv 2g Sells Out in New Mexico, Expands Preview to Illinois 
+10-30 09:45:09 scan keep OLN +6.2% rvol 2.2 | [Benzinga] Olin Corporation Reports Third Quarter 2026 Financial Results +8-K
+10-30 09:45:10 scan drop BGS +6.0% rvol 2.1: no news 24h
+10-30 09:45:10 scan keep EXEL +5.6% rvol 2.8 | [Benzinga] Exelixis Q3 2026 Earnings Call Transcript +8-K
+10-30 09:45:11 scan keep DXCM +5.5% rvol 4.8 | [Benzinga] StoneX Maintains Buy on DexCom, Raises Price Target to $93 +8-K
+10-30 09:47:02 [$400/orb5] SIGNAL ULH: 5-min ORB: green first 5 min, closed above range high 19.72; stop 19.62; size 100%
+10-30 09:47:04 [$400] ALPACA paper bracket x2 sent: 6 ULH limit 20.26 (ids 2)
+10-30 09:47:02 [$1000/orb5] SIGNAL ULH: 5-min ORB: green first 5 min, closed above range high 19.72; stop 19.62; size 100%
+10-30 09:47:04 [$1000] ALPACA paper bracket x2 sent: 15 ULH limit 20.26 (ids 2)
+10-30 09:50:03 status 200:watching 250:watching 350:watching 400:pending 550:watching 1000:pending
+10-30 09:51:02 [$400] ULH skip at fill (risk/share 0.00)
+10-30 09:51:02 [$1000] ULH skip at fill (risk/share 0.00)
+10-30 09:52:02 [$1000/orb5] SIGNAL SMP: 5-min ORB: green first 5 min, closed above range high 42.50; stop 41.41; size 100%
+10-30 09:52:03 [$1000] ALPACA paper bracket x2 sent: 7 SMP limit 42.72 (ids 2)
+10-30 09:54:02 [$1000] BUY 7 SMP @ 42.7 stop 41.41 half@43.99 tgt 45.28 | orb5 | 5-min ORB: green first 5 min, closed above range high 42.50 | news: [Benzinga] Standard Motor Products, Inc. Reports Third Quart
+10-30 09:56:04 [$1000] ALPACA entry not filled within 4 min: canceled unfilled part
+10-30 10:00:02 scan keep CDNA +25.6% rvol 8.0 | [Benzinga] BTIG Maintains Buy on CareDx, Raises Price Target to $92 +8-K
+10-30 10:00:02 scan keep NFE +23.1% rvol 13.2 | [Benzinga] New Fortress Energy Agrees to Lease 10 Mobile Turbines to U.S. Custom
+10-30 10:00:02 scan keep ACCO +20.6% rvol 19.5 | [Benzinga] ACCO Brands Q3 2026 Earnings Call Transcript +8-K
+10-30 10:00:02 scan keep ULH +19.6% rvol 4.7 | [Benzinga] Universal Logistics Holdings, Inc. Reports Third Quarter 2026 Financi
+10-30 10:00:02 scan keep CVEO +18.3% rvol 42.2 | [Benzinga] Civeo Reports Third Quarter 2026 Results +8-K
+10-30 10:00:02 scan keep FMC +16.7% rvol 4.6 | [Benzinga] This Workday Analyst Is No Longer Bullish; Here Are Top 5 Downgrades 
+10-30 10:00:02 scan keep CPRI +15.7% rvol 6.4 | [Benzinga] Capri Holdings Sees Q3 GAAP EPS $0.95 vs $0.94 Est; Sees Sales $1.005
+10-30 10:00:02 scan keep SMP +13.8% rvol 2.9 | [Benzinga] Standard Motor Products, Inc. Reports Third Quarter 2026 Financial Re
+10-30 10:00:02 scan keep BTSG +12.9% rvol 4.5 | [Benzinga] BrightSpring Health Services Reports Third Quarter 2026 Financial Res
+10-30 10:00:02 scan keep STRZ +12.4% rvol 6.5 | [Benzinga] Starz Entertainment Q3 2026 Earnings Call Transcript +8-K
+10-30 10:00:02 scan keep MEOH +9.4% rvol 8.9 | [Benzinga] Methanex Sees Oct-Nov Average Realized Methanol Price Of ~$525-$550/T
+10-30 10:00:02 scan drop REAL: negative news ([Newswire] Daré Bioscience Surpasses $43 Million in Non-Dilutive Grant)
+10-30 10:00:02 scan keep CURV +8.6% rvol 5.1 | [Newswire] Bloom's Curv 2g Sells Out in New Mexico, Expands Preview to Illinois 
+10-30 10:00:02 scan keep EXEL +8.2% rvol 2.8 | [Benzinga] Exelixis Q3 2026 Earnings Call Transcript +8-K
+10-30 10:00:02 scan drop ISSC +7.7% rvol 14.3: no news 24h
+10-30 10:00:02 scan keep OLN +7.2% rvol 2.4 | [Benzinga] Olin Corporation Reports Third Quarter 2026 Financial Results +8-K
+10-30 10:00:03 scan keep TUSK +6.7% rvol 5.0 | [Benzinga] Mammoth Energy Services, Inc. Reports Third Quarter 2026 Financial an
+10-30 10:00:03 scan drop UTSI +6.6% rvol 3.2: no news 24h
+10-30 10:00:03 scan keep BOOM +6.2% rvol 10.9 | [Benzinga] Galloper Gold Intersects Visible Gold and Completes Phase One Drillin
+10-30 10:00:04 scan keep BBIO +6.0% rvol 4.6 | [Benzinga] BridgeBio Pharma Reports Third Quarter 2026 Financial Results +8-K
+10-30 10:00:06 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:pos SMP
