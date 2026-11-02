@@ -1,0 +1,41 @@
+name: options-lab
+# Options pattern finder (research only, no orders).
+# Hunt on older data, exam on newer data the hunt never saw. Results land in research/*_patterns.md.
+on:
+  schedule:
+    - cron: "0 18 * * 6"      # every Saturday
+  push:
+    paths: [".trigger/options-lab"]  # start a run by committing a change to this file
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: options-lab
+  cancel-in-progress: false
+jobs:
+  options:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q pandas numpy
+      - name: Options (real Alpaca option prices, 0DTE vs weekly)
+        env:
+          TZ: America/New_York
+          ALPACA_KEY: ${{ secrets.KEY }}
+          ALPACA_SECRET: ${{ secrets.SECRET }}
+        run: python -W ignore options_lab.py
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add -A research || true
+          git diff --cached --quiet || git commit -qm "labs: options patterns $(date +%F)"
+          git stash -u -q || true
+          git push -q || (git pull -q --rebase -X theirs && git push -q) || (sleep 30; git pull -q --rebase -X theirs && git push -q)

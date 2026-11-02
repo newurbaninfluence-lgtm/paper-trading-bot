@@ -16,6 +16,6 @@ Paper-only day-trading system. No real money. Runs on GitHub Actions; mirrors tr
 | `markets_lab.py` | Crypto + forex pattern finder (1h / 4h / daily): hunt on older data, exam on newer data -> `research/crypto_*`, `research/forex_*` |
 | `crypto_dl.py`, `fx_dl.py` | Data downloaders (Alpaca crypto bars; Dukascopy FX candles) |
 
-Workflows: `paper-bot` (market days), `research` (Saturdays, or run manually), `labs` (options/crypto/forex pattern finders: Saturdays, or commit a change to `.trigger/labs`).
+Workflows: `paper-bot` (market days), `research` (Saturdays, or run manually), `options-lab` and `markets-lab` (pattern finders: Saturdays, or commit a change to `.trigger/options-lab` or `.trigger/markets-lab`).
 
 Lab rule: a pattern is only worth paper trading if it is strong on the hunt period AND still makes money after costs on the exam period it never saw.
