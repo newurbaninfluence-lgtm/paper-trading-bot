@@ -1958,3 +1958,6 @@
 11-02 10:38:02 [$200] EXIT 18 ATEC @ 7.44 (stop) total P&L $-2.34
 11-02 10:38:09 [$200] ALPACA result ATEC: sim $-2.34 vs alpaca $-2.24 (closed)
 11-02 10:40:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
+11-02 10:50:07 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
+11-02 11:00:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
+11-02 11:10:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
