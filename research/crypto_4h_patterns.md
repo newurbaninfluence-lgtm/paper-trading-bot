@@ -33,5 +33,5 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 - Rules positive on the hunt (after costs): 61 of 261.
 - Of those, still positive on the exam: 26.
 - Best exam result of ANY rule (pure hindsight, for comparison only): +0.993R (big_move_12bars_3.0atr_follow). Picking from the exam itself is the curve-fitting trap.
-- Average rule before costs on the exam: +0.044R; after costs: -0.128R.
-- Buy and hold over the exam period: AVAXUSD -76%, BTCUSD -17%, DOGEUSD -76%, ETHUSD -32%, LINKUSD -44%, LTCUSD -47%, SOLUSD -51%, XRPUSD -41%.
+- Average rule before costs on the exam: +0.042R; after costs: -0.129R.
+- Buy and hold over the exam period: AVAXUSD -77%, BTCUSD -18%, DOGEUSD -77%, ETHUSD -32%, LINKUSD -44%, LTCUSD -48%, SOLUSD -51%, XRPUSD -41%.

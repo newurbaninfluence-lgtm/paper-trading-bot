@@ -19,10 +19,10 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 | 5 | day_fri | with_trend | long | stop2_hold24bars | 482 | -0.070 | -0.9 | 331 | +0.118 | -0.215 | 33% | -2.4 | 1/8 | lost on exam |
 | 6 | breakout_96bars | with_trend | long | stop3_trail_exit_below_ema50 | 658 | -0.133 | -1.3 | 412 | +0.323 | +0.070 | 30% | +0.5 | 5/8 | weak on hunt |
 | 7 | big_move_12bars_3.0atr_follow | with_trend | long | stop2_hold24bars | 426 | -0.144 | -1.6 | 266 | +0.227 | -0.154 | 32% | -1.1 | 2/8 | lost on exam |
-| 8 | big_move_24bars_1.5atr_fade | any | long | stop2_hold24bars | 3109 | -0.184 | -1.8 | 2351 | -0.003 | -0.320 | 34% | -11.4 | 0/8 | lost on exam |
+| 8 | big_move_24bars_1.5atr_fade | any | long | stop2_hold24bars | 3109 | -0.184 | -1.8 | 2352 | -0.004 | -0.321 | 34% | -11.5 | 0/8 | lost on exam |
 | 9 | big_move_24bars_3.0atr_fade | any | long | stop2_hold24bars | 217 | -0.193 | -1.8 | 206 | -0.036 | -0.331 | 30% | -3.1 | 1/8 | lost on exam |
 | 10 | breakout_48bars | with_trend | long | stop3_trail_exit_below_ema50 | 872 | -0.149 | -1.9 | 586 | +0.170 | -0.103 | 26% | -1.0 | 3/8 | lost on exam |
-| 11 | big_move_4bars_3.0atr_follow | any | long | stop3_trail_exit_below_ema50 | 1133 | -0.125 | -1.9 | 850 | +0.089 | -0.166 | 22% | -2.1 | 1/8 | lost on exam |
+| 11 | big_move_4bars_3.0atr_follow | any | long | stop3_trail_exit_below_ema50 | 1133 | -0.125 | -1.9 | 850 | +0.088 | -0.167 | 22% | -2.1 | 1/8 | lost on exam |
 | 12 | big_move_24bars_3.0atr_follow | with_trend | long | stop3_trail_exit_below_ema50 | 235 | -0.248 | -2.1 | 136 | +0.607 | +0.365 | 33% | +1.7 | 7/8 | weak on hunt |
 | 13 | breakout_96bars | any | long | stop3_trail_exit_below_ema50 | 922 | -0.174 | -2.2 | 624 | +0.198 | -0.049 | 25% | -0.5 | 3/8 | lost on exam |
 | 14 | big_move_24bars_1.5atr_follow | with_trend | long | stop3_trail_exit_below_ema50 | 1006 | -0.159 | -2.5 | 650 | +0.192 | -0.085 | 26% | -1.0 | 3/8 | lost on exam |
@@ -34,4 +34,4 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 - Of those, still positive on the exam: 1.
 - Best exam result of ANY rule (pure hindsight, for comparison only): +0.365R (big_move_24bars_3.0atr_follow). Picking from the exam itself is the curve-fitting trap.
 - Average rule before costs on the exam: +0.005R; after costs: -0.353R.
-- Buy and hold over the exam period: AVAXUSD -76%, BTCUSD -18%, DOGEUSD -77%, ETHUSD -32%, LINKUSD -44%, LTCUSD -48%, SOLUSD -51%, XRPUSD -41%.
+- Buy and hold over the exam period: AVAXUSD -77%, BTCUSD -18%, DOGEUSD -77%, ETHUSD -33%, LINKUSD -45%, LTCUSD -48%, SOLUSD -52%, XRPUSD -41%.
