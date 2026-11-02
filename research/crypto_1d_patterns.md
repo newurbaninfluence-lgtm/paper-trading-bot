@@ -17,7 +17,7 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 | 3 | big_move_4bars_3.0atr_follow | with_trend | long | stop2_hold24bars | 48 | +1.806 | +2.5 | 40 | +0.025 | -0.052 | 38% | -0.2 | 3/8 | lost on exam |
 | 4 | breakout_55bars | any | long | stop2_hold24bars | 66 | +1.230 | +2.3 | 44 | +0.111 | +0.033 | 39% | +0.1 | 4/8 | too weak |
 | 5 | breakout_55bars | with_trend | long | stop2_hold24bars | 66 | +1.230 | +2.3 | 44 | +0.111 | +0.033 | 39% | +0.1 | 4/8 | too weak |
-| 6 | day_fri | any | long | stop2_hold24bars | 324 | +0.413 | +2.2 | 241 | -0.071 | -0.127 | 31% | -1.4 | 0/8 | lost on exam |
+| 6 | day_fri | any | long | stop2_hold24bars | 324 | +0.413 | +2.2 | 241 | -0.072 | -0.128 | 31% | -1.4 | 0/8 | lost on exam |
 | 7 | big_move_4bars_3.0atr_follow | any | long | stop2_hold12bars | 54 | +0.730 | +2.1 | 42 | +0.322 | +0.243 | 48% | +1.2 | 5/8 | too weak |
 | 8 | big_move_4bars_3.0atr_follow | with_trend | long | stop2_hold12bars | 54 | +0.730 | +2.1 | 42 | +0.322 | +0.243 | 48% | +1.2 | 5/8 | too weak |
 | 9 | breakout_55bars | with_trend | long | stop2_hold12bars | 79 | +0.493 | +2.1 | 51 | +0.190 | +0.112 | 39% | +0.5 | 6/8 | too weak |
@@ -33,5 +33,5 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 - Rules positive on the hunt (after costs): 145 of 204.
 - Of those, still positive on the exam: 52.
 - Best exam result of ANY rule (pure hindsight, for comparison only): +0.456R (big_move_4bars_3.0atr_follow). Picking from the exam itself is the curve-fitting trap.
-- Average rule before costs on the exam: -0.002R; after costs: -0.067R.
-- Buy and hold over the exam period: AVAXUSD -77%, BTCUSD -18%, DOGEUSD -77%, ETHUSD -32%, LINKUSD -48%, LTCUSD -48%, SOLUSD -51%, XRPUSD -46%.
+- Average rule before costs on the exam: -0.002R; after costs: -0.068R.
+- Buy and hold over the exam period: AVAXUSD -77%, BTCUSD -18%, DOGEUSD -77%, ETHUSD -32%, LINKUSD -48%, LTCUSD -48%, SOLUSD -52%, XRPUSD -46%.
