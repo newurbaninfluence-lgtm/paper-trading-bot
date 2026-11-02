@@ -1851,3 +1851,20 @@
 10-30 18:19:16 labeled 0 signals with outcomes
 10-30 18:19:18 daily report written
 10-30 18:19:18 bot session end
+11-02 09:13:02 alpaca paper mirror: ON
+11-02 09:13:02 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-02 09:13:02 resumed state from 2026-10-30
+11-02 09:13:02 bot live start (max 5.9h)
+11-02 09:31:13 market brief written: briefs/2026-11-02.md (25 Benzinga items)
+11-02 09:31:15 scan keep NXH +12.4% rvol 5.5 | [Benzinga] Neighborhood Intelligence Inks $350M SPAC Business Combination Deal W
+11-02 09:31:15 scan drop ISSC +7.7% rvol 22.0: no news 24h
+11-02 09:31:15 scan keep QURE +6.6% rvol 8.5 | [Newswire] uniQure Announces FDA Acceptance and Priority Review of the - GlobeNe
+11-02 09:31:15 scan keep RIVN +4.3% rvol 3.6 | [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI & Autonomy ‘Creatin
+11-02 09:31:16 new day universe=['NXH', 'QURE', 'RIVN']
+11-02 09:36:02 [$400/orb5] SIGNAL RIVN: 5-min ORB: green first 5 min, closed above range high 13.02; stop 12.68; size 100%
+11-02 09:36:03 [$400] ALPACA paper bracket x2 sent: 9 RIVN limit 13.1 (ids 2)
+11-02 09:36:02 [$1000/orb5] SIGNAL RIVN: 5-min ORB: green first 5 min, closed above range high 13.02; stop 12.68; size 100%
+11-02 09:36:04 [$1000] ALPACA paper bracket x2 sent: 23 RIVN limit 13.1 (ids 2)
+11-02 09:37:02 [$400] BUY 9 RIVN @ 13.09 stop 12.68 half@13.5 tgt 13.91 | orb5 | 5-min ORB: green first 5 min, closed above range high 13.02 | news: [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI
+11-02 09:37:02 [$1000] BUY 24 RIVN @ 13.09 stop 12.68 half@13.5 tgt 13.91 | orb5 | 5-min ORB: green first 5 min, closed above range high 13.02 | news: [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI
+11-02 09:40:03 status 200:watching 250:watching 350:watching 400:pos RIVN 550:watching 1000:pos RIVN
