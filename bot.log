@@ -1961,3 +1961,8 @@
 11-02 10:50:07 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
 11-02 11:00:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
 11-02 11:10:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
+11-02 11:19:02 [$550] EXIT 7 ALK @ 38.71 (breakeven) total P&L $1.89
+11-02 11:19:08 [$550] ALPACA result ALK: sim $1.89 vs alpaca $None (partially open)
+11-02 11:20:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:done 1000:pos RIVN
+11-02 11:30:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:done 1000:pos RIVN
+11-02 11:40:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:done 1000:pos RIVN
