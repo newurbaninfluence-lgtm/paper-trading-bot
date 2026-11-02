@@ -1925,3 +1925,36 @@
 11-02 10:10:06 status 200:pos ATEC 250:pos XPOF 350:pos UPBD 400:pos RIVN 550:pos ALK 1000:pos RIVN
 11-02 10:12:02 [$250] HALF OFF 7 XPOF @ 5.06 (+1R), stop to breakeven
 11-02 10:12:06 [$250] ALPACA runner stop moved to 4.92
+11-02 10:15:02 scan keep EVGO +49.2% rvol 107.0 | [Benzinga] Dow Jumps Over 400 Points; Marriott Posts Upbeat Q3 Earnings
+11-02 10:15:02 scan keep NXH +16.7% rvol 8.6 | [Benzinga] Neighborhood Intelligence Inks $350M SPAC Business Combination Deal W
+11-02 10:15:02 scan keep ULCC +14.6% rvol 4.6 | [Benzinga] Frontier Group Holdings, Inc. Reports Third Quarter 2026 Financial Re
+11-02 10:15:02 scan keep NXT +14.2% rvol 3.1 | [Benzinga] Nextpower Inc. Reports Q2 FY2027 Results, Raises Full-Year Guidance, 
+11-02 10:15:02 scan keep JBLU +11.1% rvol 2.6 | [Benzinga] JetBlue Airways Reports Wider Third-Quarter Loss +8-K
+11-02 10:15:02 scan keep ENPH +10.3% rvol 3.3 | [Google News] Enphase Energy, Inc. (ENPH) Is a Trending Stock: Facts to Know Bef
+11-02 10:15:02 scan keep RIVN +9.2% rvol 6.2 | [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI & Autonomy ‘Creatin
+11-02 10:15:02 scan keep UPBD +9.0% rvol 3.1 | [Benzinga] Upbound Group, Inc. Reports Third Quarter 2026 Financial Results +8-K
+11-02 10:15:02 scan keep ALK +8.7% rvol 2.8 | [Newswire] Actinium Pharmaceuticals Announces Acceptance of ATNM-400 Abstract fo
+11-02 10:15:02 scan drop RUN: negative news ([Newswire] HCA Announces Proposed Public Offering of Senior Notes - Bu)
+11-02 10:15:02 scan keep TEM +8.5% rvol 4.9 | [Benzinga] Tempus AI Reports Third Quarter 2026 Financial Results +8-K
+11-02 10:15:02 scan drop LOAR +8.4% rvol 5.1: no news 24h
+11-02 10:15:03 scan keep JKS +8.3% rvol 2.7 | [Google News] Jinko Holdings Limited (NYSE:JKS) Just Reported, And Analysts Assi
+11-02 10:15:03 scan keep BILI +7.7% rvol 4.9 | [Google News] BILI Q2 2026 Earnings: EPS Beats Consensus at 1.58, but Shares Sli
+11-02 10:15:03 scan keep BYND +7.7% rvol 2.0 | [Google News] BYND Nov 2026 11.500 put (BYND261127P00011500) Interactive Stock C
+11-02 10:15:03 scan keep PLAY +7.5% rvol 2.1 | [Newswire] Parallel - Web Infrastructure for AI Agents - Parallel Web Systems
+11-02 10:15:03 scan keep XPEV +7.5% rvol 3.4 | [Google News] XPEV Stock Climbs As Paris G9L Launch Fuels Global Ambitions - Tim
+11-02 10:15:04 scan keep NWL +7.3% rvol 2.3 | [Benzinga] Deutsche Bank Lowers Newell Brands Price Target to $5 +8-K
+11-02 10:15:04 scan keep ATEC +7.2% rvol 11.3 | [Google News] Wall Street Tech Rout: How Is the ATEC ETF (ASX:ATEC) Holding Up? 
+11-02 10:15:04 scan keep CVNA +6.9% rvol 3.3 | [Benzinga] US Economy Grew 3.4% in the Third Quarter, Fed's Favorite Inflation G
+11-02 10:20:06 status 200:pos ATEC 250:pos XPOF 350:pos UPBD 400:pos RIVN 550:pos ALK 1000:pos RIVN
+11-02 10:21:02 [$350] EXIT 10 UPBD @ 22.34 (stop) total P&L $-3.6
+11-02 10:21:08 [$350] ALPACA result UPBD: sim $-3.6 vs alpaca $-3.51 (closed)
+11-02 10:25:02 [$550] HALF OFF 7 ALK @ 39.1 (+1R), stop to breakeven
+11-02 10:25:07 [$550] ALPACA runner stop moved to 38.88
+11-02 10:26:02 [$400] HALF OFF 4 RIVN @ 13.5 (+1R), stop to breakeven
+11-02 10:26:06 [$400] ALPACA runner stop moved to 13.1
+11-02 10:26:02 [$1000] HALF OFF 12 RIVN @ 13.5 (+1R), stop to breakeven
+11-02 10:26:07 [$1000] ALPACA runner stop moved to 13.1
+11-02 10:30:07 status 200:pos ATEC 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
+11-02 10:38:02 [$200] EXIT 18 ATEC @ 7.44 (stop) total P&L $-2.34
+11-02 10:38:09 [$200] ALPACA result ATEC: sim $-2.34 vs alpaca $-2.24 (closed)
+11-02 10:40:06 status 200:done 250:pos XPOF 350:done 400:pos RIVN 550:pos ALK 1000:pos RIVN
