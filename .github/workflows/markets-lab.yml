@@ -36,15 +36,12 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data/fx/raw
-          key: fx-raw-${{ github.run_id }}
-          restore-keys: fx-raw-
-      - name: Forex (Dukascopy, 1h / 4h / daily)
+          key: fxhd-raw-${{ github.run_id }}
+          restore-keys: fxhd-raw-
+      - name: Forex (histdata.com, 1h / 4h / daily)
         continue-on-error: true
-        env:
-          FX_PACE: "1.0"
-          FX_MINUTES: "200"   # Dukascopy rate-limits hard: stop in time, keep the months we got, resume next run
         run: |
-          python fx_dl.py data/fx EURUSD,GBPUSD,USDJPY,AUDUSD,USDCAD 2023-11-01 $(date -d yesterday +%F)
+          python fx_dl.py data/fx EURUSD,GBPUSD,USDJPY,AUDUSD,USDCAD 2023
           for tf in 1h 4h 1d; do python -W ignore markets_lab.py forex data/fx $tf > /dev/null; done
       - name: Save results
         if: always()

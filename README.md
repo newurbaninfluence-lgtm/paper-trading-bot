@@ -14,7 +14,7 @@ Paper-only day-trading system. No real money. Runs on GitHub Actions; mirrors tr
 | `briefs/DATE.md` | Morning market brief from outlets across the political spectrum |
 | `options_lab.py` | Options pattern finder: SPY/QQQ + big names, ATM calls/puts at real Alpaca option prices, 0DTE vs weekly -> `research/options_patterns.md` |
 | `markets_lab.py` | Crypto + forex pattern finder (1h / 4h / daily): hunt on older data, exam on newer data -> `research/crypto_*`, `research/forex_*` |
-| `crypto_dl.py`, `fx_dl.py` | Data downloaders (Alpaca crypto bars; Dukascopy FX candles) |
+| `crypto_dl.py`, `fx_dl.py` | Data downloaders (Alpaca crypto bars; histdata.com FX 1-minute bars) |
 
 Workflows: `paper-bot` (market days), `research` (Saturdays, or run manually), `options-lab` and `markets-lab` (pattern finders: Saturdays, or commit a change to `.trigger/options-lab` or `.trigger/markets-lab`).
 
