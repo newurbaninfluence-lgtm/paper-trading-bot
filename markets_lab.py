@@ -101,7 +101,12 @@ def stats(rows):
 
 
 def main():
-    data = load(); split = pd.Timestamp(SPLIT, tz="UTC"); rules = fam(); rows = []
+    global SPLIT
+    data = load(); rules = fam(); rows = []
+    first, last = min(d.index[0] for d in data.values()), max(d.index[-1] for d in data.values())
+    if pd.Timestamp(SPLIT, tz="UTC") > last - pd.Timedelta(days=120):   # not enough exam data yet: exam = newest third
+        SPLIT = str((first + (last - first) * 2 / 3).date())
+    split = pd.Timestamp(SPLIT, tz="UTC")
     for (rn, rf), (fn, ff), side, ex in itertools.product(rules.items(), FILTERS.items(), SIDES, EXITS):
         if rn.startswith(("hour_", "day_")) and not ex.startswith("stop2_hold"): continue  # calendar rules: time exits only
         tr, te, per = [], [], {}
