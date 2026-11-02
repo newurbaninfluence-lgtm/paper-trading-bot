@@ -70,3 +70,5 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-02,200,vwap_pullback,ATEC,18,7.57,7.46,7.68,7.79,7.44,stop,-2.34,-1.17,1.0,,1,"VWAP pullback: +7.3%, dipped to VWAP 7.54, reclaimed with green bar | news: [Google News] Wall Street Tech Rout: How Is the ATEC ETF (AS"
 2026-11-02,550,bull_flag,ALK,14,38.77,38.44,39.1,39.43,38.71,breakeven,1.89,0.34,1.0,,1,"Bull flag: 4.3% pole, 0.8% flag on light vol, broke 38.76 | news: [Newswire] Actinium Pharmaceuticals Announces Acceptance of "
 2026-11-02,250,orb15,XPOF,14,4.89,4.72,5.06,5.23,4.87,breakeven,1.05,0.42,1.0,,1,"15-min ORB: closed above 15-min high 4.86, above VWAP | news: [Benzinga] 'Investor Said to Look to Bid on Club Pilates-Own"
+2026-11-02,400,orb5,RIVN,9,13.09,12.68,13.5,13.91,13.07,breakeven,1.54,0.38,1.0,,1,"5-min ORB: green first 5 min, closed above range high 13.02 | news: [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI"
+2026-11-02,1000,orb5,RIVN,24,13.09,12.68,13.5,13.91,13.07,breakeven,4.68,0.47,1.0,,1,"5-min ORB: green first 5 min, closed above range high 13.02 | news: [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI"
