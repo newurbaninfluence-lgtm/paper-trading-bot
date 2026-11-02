@@ -1868,3 +1868,60 @@
 11-02 09:37:02 [$400] BUY 9 RIVN @ 13.09 stop 12.68 half@13.5 tgt 13.91 | orb5 | 5-min ORB: green first 5 min, closed above range high 13.02 | news: [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI
 11-02 09:37:02 [$1000] BUY 24 RIVN @ 13.09 stop 12.68 half@13.5 tgt 13.91 | orb5 | 5-min ORB: green first 5 min, closed above range high 13.02 | news: [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI
 11-02 09:40:03 status 200:watching 250:watching 350:watching 400:pos RIVN 550:watching 1000:pos RIVN
+11-02 09:45:03 scan keep EVGO +48.6% rvol 190.4 | [Benzinga] Dow Jumps Over 400 Points; Marriott Posts Upbeat Q3 Earnings
+11-02 09:45:04 scan keep PERI +31.0% rvol 196.1 | [Benzinga] Perion Lands $420 Million Buyout Deal As Affle Eyes Global Advertisin
+11-02 09:45:04 scan drop LITB +25.4% rvol 39.6: no news 24h
+11-02 09:45:05 scan keep ZKH +21.3% rvol 3.7 | [Newswire] ZKH and Intel Bring Industrial Multimodal AI to the Edge with LingLon
+11-02 09:45:05 scan keep NXH +17.3% rvol 12.2 | [Benzinga] Neighborhood Intelligence Inks $350M SPAC Business Combination Deal W
+11-02 09:45:05 scan keep SEAT +11.3% rvol 2.3 | [Newswire] QIAGEN and EQT Private Equity announce agreement on a recommended vol
+11-02 09:45:05 scan keep ULCC +11.0% rvol 5.3 | [Benzinga] Frontier Group Holdings, Inc. Reports Third Quarter 2026 Financial Re
+11-02 09:45:06 scan keep NXT +10.2% rvol 2.1 | [Benzinga] Nextpower Inc. Reports Q2 FY2027 Results, Raises Full-Year Guidance, 
+11-02 09:45:06 scan keep JBLU +9.8% rvol 3.4 | [Benzinga] JetBlue Airways Reports Wider Third-Quarter Loss +8-K
+11-02 09:45:07 scan keep ATEC +8.7% rvol 3.9 | [Google News] Wall Street Tech Rout: How Is the ATEC ETF (ASX:ATEC) Holding Up? 
+11-02 09:45:07 scan keep XPOF +8.4% rvol 2.3 | [Benzinga] 'Investor Said to Look to Bid on Club Pilates-Owner Xponential' - Blo
+11-02 09:45:08 scan keep ALK +7.9% rvol 3.9 | [Newswire] Actinium Pharmaceuticals Announces Acceptance of ATNM-400 Abstract fo
+11-02 09:45:08 scan drop ISSC +7.7% rvol 22.0: no news 24h
+11-02 09:45:09 scan keep FOIL +7.2% rvol 4.3 | [Google News] Londian Wason New Energy Tech (NYSE:FOIL) - Stock Analysis - Simpl
+11-02 09:45:10 scan keep ENPH +7.1% rvol 3.7 | [Google News] Enphase Energy, Inc. (ENPH) Is a Trending Stock: Facts to Know Bef
+11-02 09:45:10 scan keep XPEV +6.8% rvol 5.4 | [Google News] XPEV Stock Climbs As Paris G9L Launch Fuels Global Ambitions - Tim
+11-02 09:45:10 scan keep RIVN +6.3% rvol 7.3 | [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI & Autonomy ‘Creatin
+11-02 09:45:10 scan keep CVNA +6.2% rvol 3.0 | [Benzinga] US Economy Grew 3.4% in the Third Quarter, Fed's Favorite Inflation G
+11-02 09:45:11 scan keep BILI +6.2% rvol 5.6 | [Google News] BILI Q2 2026 Earnings: EPS Beats Consensus at 1.58, but Shares Sli
+11-02 09:45:11 scan keep ANVS +6.1% rvol 5.4 | [SEC] 8-K filed 2026-10-30
+11-02 09:47:02 [$250/orb15] SIGNAL XPOF: 15-min ORB: closed above 15-min high 4.86, above VWAP; stop 4.72; size 100%
+11-02 09:47:05 [$250] ALPACA paper bracket x2 sent: 12 XPOF limit 4.92 (ids 2)
+11-02 09:48:02 [$250] BUY 14 XPOF @ 4.89 stop 4.72 half@5.06 tgt 5.23 | orb15 | 15-min ORB: closed above 15-min high 4.86, above VWAP | news: [Benzinga] 'Investor Said to Look to Bid on Club Pilates-Own
+11-02 09:50:05 status 200:watching 250:pos XPOF 350:watching 400:pos RIVN 550:watching 1000:pos RIVN
+11-02 09:55:02 [$550/bull_flag] SIGNAL ALK: Bull flag: 4.3% pole, 0.8% flag on light vol, broke 38.76; stop 38.44; size 100%
+11-02 09:55:05 [$550] ALPACA paper bracket x2 sent: 12 ALK limit 38.88 (ids 2)
+11-02 09:56:02 [$550] BUY 14 ALK @ 38.77 stop 38.44 half@39.1 tgt 39.43 | bull_flag | Bull flag: 4.3% pole, 0.8% flag on light vol, broke 38.76 | news: [Newswire] Actinium Pharmaceuticals Announces Acceptance of 
+11-02 10:00:02 scan keep EVGO +52.0% rvol 144.2 | [Benzinga] Dow Jumps Over 400 Points; Marriott Posts Upbeat Q3 Earnings
+11-02 10:00:02 scan keep NXH +16.4% rvol 11.4 | [Benzinga] Neighborhood Intelligence Inks $350M SPAC Business Combination Deal W
+11-02 10:00:04 scan keep PRKS +12.7% rvol 2.6 | [Google News] What Investors Got Wrong About United Parks & Resorts Before The D
+11-02 10:00:04 scan keep NXT +11.9% rvol 3.0 | [Benzinga] Nextpower Inc. Reports Q2 FY2027 Results, Raises Full-Year Guidance, 
+11-02 10:00:04 scan keep ULCC +11.8% rvol 4.6 | [Benzinga] Frontier Group Holdings, Inc. Reports Third Quarter 2026 Financial Re
+11-02 10:00:04 scan keep JBLU +9.8% rvol 3.0 | [Benzinga] JetBlue Airways Reports Wider Third-Quarter Loss +8-K
+11-02 10:00:04 scan keep UPBD +9.7% rvol 3.7 | [Benzinga] Upbound Group, Inc. Reports Third Quarter 2026 Financial Results +8-K
+11-02 10:00:05 scan keep TEM +9.0% rvol 5.6 | [Benzinga] Tempus AI Reports Third Quarter 2026 Financial Results +8-K
+11-02 10:00:06 scan keep PLAY +8.7% rvol 2.6 | [Newswire] Parallel - Web Infrastructure for AI Agents - Parallel Web Systems
+11-02 10:00:07 scan keep BYND +8.5% rvol 2.3 | [Google News] BYND Nov 2026 11.500 put (BYND261127P00011500) Interactive Stock C
+11-02 10:00:08 scan keep CHPT +8.3% rvol 2.1 | [Newswire] CRIF Launches Ahmedabad Chapter of 'Credit Goes to HER' to Advance Wo
+11-02 10:00:08 scan keep ALK +8.1% rvol 3.4 | [Newswire] Actinium Pharmaceuticals Announces Acceptance of ATNM-400 Abstract fo
+11-02 10:00:08 scan keep BILI +8.0% rvol 5.6 | [Google News] BILI Q2 2026 Earnings: EPS Beats Consensus at 1.58, but Shares Sli
+11-02 10:00:08 scan keep ENPH +7.9% rvol 3.5 | [Google News] Enphase Energy, Inc. (ENPH) Is a Trending Stock: Facts to Know Bef
+11-02 10:00:09 scan drop LOAR +7.6% rvol 5.4: no news 24h
+11-02 10:00:09 scan keep ANVS +7.1% rvol 4.9 | [SEC] 8-K filed 2026-10-30
+11-02 10:00:09 scan keep RIVN +7.0% rvol 7.0 | [Benzinga] Rivian Stock Undervalued by 67%: Dan Ives Says AI & Autonomy ‘Creatin
+11-02 10:00:09 scan keep ATEC +7.0% rvol 7.6 | [Google News] Wall Street Tech Rout: How Is the ATEC ETF (ASX:ATEC) Holding Up? 
+11-02 10:00:09 scan keep XPEV +6.8% rvol 4.3 | [Google News] XPEV Stock Climbs As Paris G9L Launch Fuels Global Ambitions - Tim
+11-02 10:00:10 scan drop RUN: negative news ([Newswire] HCA Announces Proposed Public Offering of Senior Notes - Bu)
+11-02 10:00:02 [$350/bull_flag] SIGNAL UPBD: Bull flag: 3.6% pole, 1.3% flag on light vol, broke 22.66; stop 22.37; size 100%
+11-02 10:00:15 [$350] ALPACA paper bracket x2 sent: 9 UPBD limit 22.74 (ids 2)
+11-02 10:00:15 status 200:watching 250:pos XPOF 350:pending 400:pos RIVN 550:pos ALK 1000:pos RIVN
+11-02 10:01:02 [$200/vwap_pullback] SIGNAL ATEC: VWAP pullback: +7.3%, dipped to VWAP 7.54, reclaimed with green bar; stop 7.46; size 100%
+11-02 10:01:07 [$200] ALPACA paper bracket x2 sent: 16 ATEC limit 7.58 (ids 2)
+11-02 10:01:02 [$350] BUY 10 UPBD @ 22.7 stop 22.37 half@23.03 tgt 23.36 | bull_flag | Bull flag: 3.6% pole, 1.3% flag on light vol, broke 22.66 | news: [Benzinga] Upbound Group, Inc. Reports Third Quarter 2026 Fi
+11-02 10:02:02 [$200] BUY 18 ATEC @ 7.57 stop 7.46 half@7.68 tgt 7.79 | vwap_pullback | VWAP pullback: +7.3%, dipped to VWAP 7.54, reclaimed with green bar | news: [Google News] Wall Street Tech Rout: How Is the ATEC ETF (AS
+11-02 10:10:06 status 200:pos ATEC 250:pos XPOF 350:pos UPBD 400:pos RIVN 550:pos ALK 1000:pos RIVN
+11-02 10:12:02 [$250] HALF OFF 7 XPOF @ 5.06 (+1R), stop to breakeven
+11-02 10:12:06 [$250] ALPACA runner stop moved to 4.92
