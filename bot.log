@@ -2108,3 +2108,38 @@
 11-03 10:00:04 scan keep OPRA +8.1% rvol 6.1 | [Benzinga] Opera Reports Preliminary Q3 Sales Of $182.8M, Up 20% YoY, Vs $181M-$
 11-03 10:00:04 scan keep EBS +7.9% rvol 6.1 | [Benzinga] Emergent BioSolutions Q3 2026 Earnings Call Transcript +8-K
 11-03 10:00:07 status 200:watching 250:watching 350:pos GPK 400:done 550:pos GPK 1000:done
+11-03 10:07:02 [$200/vwap_pullback] SIGNAL TE: VWAP pullback: +7.4%, dipped to VWAP 2.74, reclaimed with green bar; stop 2.72; size 100%
+11-03 10:07:06 [$200] ALPACA paper bracket x2 sent: 33 TE limit 2.78 (ids 2)
+11-03 10:08:02 [$200] BUY 50 TE @ 2.76 stop 2.72 half@2.8 tgt 2.84 | vwap_pullback | VWAP pullback: +7.4%, dipped to VWAP 2.74, reclaimed with green bar | news: [Benzinga] Reju Expands Textile Recycling Network with A. Sa
+11-03 10:10:05 status 200:pos TE 250:watching 350:pos GPK 400:done 550:pos GPK 1000:done
+11-03 10:14:02 [$250/ema_bounce] SIGNAL GPK: 9/21 EMA bounce: tagged 21 EMA 10.63, closed back over 9 EMA; stop 10.56; size 100%
+11-03 10:14:05 [$250] ALPACA paper bracket x2 sent: 20 GPK limit 10.68 (ids 2)
+11-03 10:15:03 scan keep AEHR +25.7% rvol 10.7 | [Benzinga] Aehr Stock Surges As CEO Says AI Chip Complexity Is Accelerating Burn
+11-03 10:15:03 scan keep BETA +16.4% rvol 3.5 | [Benzinga] BETA Technologies Q3 2026 Earnings Call Transcript +8-K
+11-03 10:15:03 scan keep GPK +15.0% rvol 3.6 | [Benzinga] Graphic Packaging Holding Company Reports Third Quarter 2026 Financia
+11-03 10:15:03 scan keep SRAD +13.4% rvol 3.9 | [Benzinga] Sportradar Gr Q3 2026 Earnings Call Transcript
+11-03 10:15:03 scan keep GRAB +13.2% rvol 6.1 | [Benzinga] Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as T
+11-03 10:15:03 scan drop HUT: negative news ([Newswire] Jiko Expands Access to T-Bill Offering - GlobeNewswire)
+11-03 10:15:03 scan keep AXTI +11.7% rvol 3.4 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-03 10:15:03 scan keep PENG +10.6% rvol 2.6 | [Benzinga] SK Hynix Acquires 9.1% Stake in Penguin Solutions
+11-03 10:15:03 scan keep RIOT +10.6% rvol 2.1 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-03 10:15:03 scan keep CIFR +10.5% rvol 2.5 | [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000) Interactive Stock C
+11-03 10:15:03 scan keep EBS +9.9% rvol 5.0 | [Benzinga] Emergent BioSolutions Q3 2026 Earnings Call Transcript +8-K
+11-03 10:15:03 scan keep HLF +9.9% rvol 3.3 | [Benzinga] Herbalife Q3 2026 Earnings Call Transcript +8-K
+11-03 10:15:03 scan keep NVTS +9.3% rvol 2.1 | [Google News] Navitas Semiconductor (NVTS) Stock Price, Chart & Analysis - www.d
+11-03 10:15:03 scan keep IREN +9.1% rvol 2.6 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-03 10:15:03 scan keep FISV +8.9% rvol 4.6 | [Benzinga] Fiserv Doubles Down on Cost Cuts, Renews Focus on Buybacks +8-K
+11-03 10:15:03 scan keep TE +8.6% rvol 2.5 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
+11-03 10:15:04 scan keep PTCT +8.0% rvol 4.9 | [Benzinga] PTC Therapeutics Authorizes $500 Million Share Repurchase Program +8-
+11-03 10:15:04 scan keep WULF +7.9% rvol 2.3 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-03 10:15:04 scan keep APLD +7.8% rvol 2.6 | [Benzinga] Soluna Holdings and Applied Digital Form Strategic Partnership for Te
+11-03 10:15:04 scan keep NXT +7.6% rvol 2.6 | [Benzinga] Nextpower Inc. Reports Q2 FY2027 Results, Raises Full-Year Guidance, 
+11-03 10:15:02 [$250] BUY 13 GPK @ 10.75 stop 10.56 half@10.94 tgt 11.13 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 10.63, closed back over 9 EMA | news: [Benzinga] Graphic Packaging Holding Company Reports Third Q
+11-03 10:17:02 [$350] HALF OFF 12 GPK @ 10.78 (+1R), stop to breakeven
+11-03 10:17:06 [$350] ALPACA runner stop moved to 10.65
+11-03 10:17:02 [$550] HALF OFF 19 GPK @ 10.78 (+1R), stop to breakeven
+11-03 10:17:06 [$550] ALPACA runner stop moved to 10.65
+11-03 10:20:06 status 200:pos TE 250:pos GPK 350:pos GPK 400:done 550:pos GPK 1000:done
+11-03 10:22:02 [$200] HALF OFF 25 TE @ 2.8 (+1R), stop to breakeven
+11-03 10:22:05 [$200] ALPACA runner stop moved to 2.78
+11-03 10:30:05 status 200:pos TE 250:pos GPK 350:pos GPK 400:done 550:pos GPK 1000:done
