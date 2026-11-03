@@ -74,3 +74,6 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-02,1000,orb5,RIVN,4.68,23.0,23.0,12.9478,8.0,closed
 2026-11-03,400,orb5,CMPS,-5.32,12.0,12.0,9.48,-4.08,closed
 2026-11-03,1000,orb5,CMPS,-14.06,32.0,32.0,9.48,-10.88,closed
+2026-11-03,350,bull_flag,GPK,5.04,23.0,11.0,10.63,,partially open
+2026-11-03,550,bull_flag,GPK,8.26,36.0,18.0,10.63,,partially open
+2026-11-03,200,vwap_pullback,TE,3.0,33.0,33.0,2.75,1.95,closed

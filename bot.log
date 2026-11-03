@@ -2143,3 +2143,13 @@
 11-03 10:22:02 [$200] HALF OFF 25 TE @ 2.8 (+1R), stop to breakeven
 11-03 10:22:05 [$200] ALPACA runner stop moved to 2.78
 11-03 10:30:05 status 200:pos TE 250:pos GPK 350:pos GPK 400:done 550:pos GPK 1000:done
+11-03 10:35:02 [$250] HALF OFF 6 GPK @ 10.94 (+1R), stop to breakeven
+11-03 10:35:02 [$350] EXIT 12 GPK @ 10.92 (target) total P&L $5.04
+11-03 10:35:08 [$350] ALPACA result GPK: sim $5.04 vs alpaca $None (partially open)
+11-03 10:35:02 [$550] EXIT 20 GPK @ 10.92 (target) total P&L $8.26
+11-03 10:35:11 [$550] ALPACA result GPK: sim $8.26 vs alpaca $None (partially open)
+11-03 10:36:02 [$200] EXIT 25 TE @ 2.84 (target) total P&L $3.0
+11-03 10:36:08 [$200] ALPACA result TE: sim $3.0 vs alpaca $1.95 (closed)
+11-03 10:40:05 status 200:done 250:pos GPK 350:done 400:done 550:done 1000:done
+11-03 10:50:05 status 200:done 250:pos GPK 350:done 400:done 550:done 1000:done
+11-03 11:00:06 status 200:done 250:pos GPK 350:done 400:done 550:done 1000:done
