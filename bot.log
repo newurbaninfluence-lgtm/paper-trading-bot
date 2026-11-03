@@ -2049,3 +2049,62 @@
 11-03 09:31:18 scan drop LIFE: negative news ([Newswire] Cizzle Brands Corporation Announces Filing of French Transl)
 11-03 09:31:19 scan keep FISV +7.0% rvol 3.0 | [Benzinga] Fiserv Doubles Down on Cost Cuts, Renews Focus on Buybacks +8-K
 11-03 09:31:20 new day universe=['HLIT', 'CMCO', 'CWH', 'FISV']
+11-03 09:40:02 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+11-03 09:45:03 scan keep AEHR +20.9% rvol 15.0 | [Benzinga] Aehr Stock Surges As CEO Says AI Chip Complexity Is Accelerating Burn
+11-03 09:45:04 scan keep IBTA +20.0% rvol 15.7 | [Benzinga] Needham Maintains Buy on Ibotta, Raises Price Target to $65 +8-K
+11-03 09:45:05 scan keep BETA +19.4% rvol 3.8 | [Benzinga] BETA Technologies Q3 2026 Earnings Call Transcript +8-K
+11-03 09:45:06 scan keep CVGI +16.7% rvol 7.8 | [Benzinga] Commercial Vehicle Group Q3 2026 Earnings Call Transcript +8-K
+11-03 09:45:06 scan keep GRAB +14.9% rvol 9.7 | [Benzinga] Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as T
+11-03 09:45:06 scan keep CMCO +13.8% rvol 5.3 | [Benzinga] Columbus McKinnon Reports Fiscal Year 2027 Second Quarter Financial R
+11-03 09:45:07 scan keep GPK +13.8% rvol 3.4 | [Benzinga] Graphic Packaging Holding Company Reports Third Quarter 2026 Financia
+11-03 09:45:08 scan keep PENG +11.8% rvol 4.2 | [Benzinga] SK Hynix Acquires 9.1% Stake in Penguin Solutions
+11-03 09:45:08 scan keep SRAD +11.0% rvol 5.5 | [Benzinga] Sportradar Gr Q3 2026 Earnings Call Transcript
+11-03 09:45:09 scan keep CMPS +11.0% rvol 13.4 | [Benzinga] Compass Pathways Q3 EPS $(0.31) Beats $(0.43) Estimate +8-K
+11-03 09:45:09 scan drop GCTS +10.8% rvol 2.3: no news 24h
+11-03 09:45:09 scan keep CIFR +10.3% rvol 2.7 | [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000) Interactive Stock C
+11-03 09:45:10 scan keep HLF +10.2% rvol 2.8 | [Benzinga] Herbalife Q3 2026 Earnings Call Transcript +8-K
+11-03 09:45:10 scan keep HLIT +9.4% rvol 10.2 | [Benzinga] Harmonic Q3 2026 Earnings Call Transcript +8-K
+11-03 09:45:11 scan keep EBS +9.4% rvol 7.0 | [Benzinga] Emergent BioSolutions Q3 2026 Earnings Call Transcript +8-K
+11-03 09:45:11 scan keep FISV +9.1% rvol 6.8 | [Benzinga] Fiserv Doubles Down on Cost Cuts, Renews Focus on Buybacks +8-K
+11-03 09:45:11 scan keep NVTS +9.0% rvol 2.3 | [Google News] Navitas Semiconductor (NVTS) Stock Price, Chart & Analysis - www.d
+11-03 09:45:12 scan drop ABSI +8.4% rvol 2.0: no news 24h
+11-03 09:45:13 scan keep REPL +8.3% rvol 4.3 | [Google News] Is Replimune Group (REPL) Above Fair Value After A 119% Jump? - Si
+11-03 09:45:14 scan drop HUT: negative news ([Newswire] Jiko Expands Access to T-Bill Offering - GlobeNewswire)
+11-03 09:49:02 [$400/orb5] SIGNAL CMPS: 5-min ORB: green first 5 min, closed above range high 9.40; stop 9.19; size 100%
+11-03 09:49:06 [$400] ALPACA paper bracket x2 sent: 12 CMPS limit 9.5 (ids 2)
+11-03 09:49:02 [$1000/orb5] SIGNAL CMPS: 5-min ORB: green first 5 min, closed above range high 9.40; stop 9.19; size 100%
+11-03 09:49:06 [$1000] ALPACA paper bracket x2 sent: 32 CMPS limit 9.5 (ids 2)
+11-03 09:50:02 [$400] BUY 14 CMPS @ 9.46 stop 9.19 half@9.73 tgt 10.0 | orb5 | 5-min ORB: green first 5 min, closed above range high 9.40 | news: [Benzinga] Compass Pathways Q3 EPS $(0.31) Beats $(0.43) Est
+11-03 09:50:02 [$1000] BUY 37 CMPS @ 9.46 stop 9.19 half@9.73 tgt 10.0 | orb5 | 5-min ORB: green first 5 min, closed above range high 9.40 | news: [Benzinga] Compass Pathways Q3 EPS $(0.31) Beats $(0.43) Est
+11-03 09:50:05 status 200:watching 250:watching 350:watching 400:pos CMPS 550:watching 1000:pos CMPS
+11-03 09:55:02 [$400] EXIT 14 CMPS @ 9.08 (stop) total P&L $-5.32
+11-03 09:55:08 [$400] ALPACA result CMPS: sim $-5.32 vs alpaca $-4.08 (closed)
+11-03 09:55:02 [$1000] EXIT 37 CMPS @ 9.08 (stop) total P&L $-14.06
+11-03 09:55:10 [$1000] ALPACA result CMPS: sim $-14.06 vs alpaca $-10.88 (closed)
+11-03 09:56:02 [$350/bull_flag] SIGNAL GPK: Bull flag: 7.9% pole, 1.0% flag on light vol, broke 10.61; stop 10.5; size 100%
+11-03 09:56:06 [$350] ALPACA paper bracket x2 sent: 23 GPK limit 10.65 (ids 2)
+11-03 09:56:02 [$550/bull_flag] SIGNAL GPK: Bull flag: 7.9% pole, 1.0% flag on light vol, broke 10.61; stop 10.5; size 100%
+11-03 09:56:06 [$550] ALPACA paper bracket x2 sent: 36 GPK limit 10.65 (ids 2)
+11-03 09:57:02 [$350] BUY 24 GPK @ 10.64 stop 10.50 half@10.78 tgt 10.92 | bull_flag | Bull flag: 7.9% pole, 1.0% flag on light vol, broke 10.61 | news: [Benzinga] Graphic Packaging Holding Company Reports Third Q
+11-03 09:57:02 [$550] BUY 39 GPK @ 10.64 stop 10.50 half@10.78 tgt 10.92 | bull_flag | Bull flag: 7.9% pole, 1.0% flag on light vol, broke 10.61 | news: [Benzinga] Graphic Packaging Holding Company Reports Third Q
+11-03 10:00:02 scan keep IBTA +25.8% rvol 12.1 | [Benzinga] Needham Maintains Buy on Ibotta, Raises Price Target to $65 +8-K
+11-03 10:00:02 scan keep AEHR +21.6% rvol 12.9 | [Benzinga] Aehr Stock Surges As CEO Says AI Chip Complexity Is Accelerating Burn
+11-03 10:00:02 scan keep CVGI +21.1% rvol 8.1 | [Benzinga] Commercial Vehicle Group Q3 2026 Earnings Call Transcript +8-K
+11-03 10:00:02 scan keep BETA +16.9% rvol 4.0 | [Benzinga] BETA Technologies Q3 2026 Earnings Call Transcript +8-K
+11-03 10:00:02 scan keep CMCO +14.9% rvol 4.8 | [Benzinga] Columbus McKinnon Reports Fiscal Year 2027 Second Quarter Financial R
+11-03 10:00:02 scan keep GPK +14.3% rvol 3.5 | [Benzinga] Graphic Packaging Holding Company Reports Third Quarter 2026 Financia
+11-03 10:00:02 scan keep GRAB +13.6% rvol 7.7 | [Benzinga] Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Mixed as T
+11-03 10:00:03 scan keep TE +11.5% rvol 2.8 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
+11-03 10:00:03 scan keep HLF +11.0% rvol 3.8 | [Benzinga] Herbalife Q3 2026 Earnings Call Transcript +8-K
+11-03 10:00:03 scan drop HUT: negative news ([Newswire] Jiko Expands Access to T-Bill Offering - GlobeNewswire)
+11-03 10:00:03 scan keep SRAD +11.0% rvol 4.7 | [Benzinga] Sportradar Gr Q3 2026 Earnings Call Transcript
+11-03 10:00:03 scan drop GCTS +10.7% rvol 2.1: no news 24h
+11-03 10:00:03 scan keep PENG +10.6% rvol 3.3 | [Benzinga] SK Hynix Acquires 9.1% Stake in Penguin Solutions
+11-03 10:00:03 scan keep CIFR +9.8% rvol 3.1 | [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000) Interactive Stock C
+11-03 10:00:04 scan keep RIOT +9.3% rvol 2.4 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-03 10:00:04 scan keep IREN +8.8% rvol 3.3 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-03 10:00:04 scan keep CMPS +8.6% rvol 11.0 | [Benzinga] Compass Pathways Q3 EPS $(0.31) Beats $(0.43) Estimate +8-K
+11-03 10:00:04 scan keep NVTS +8.1% rvol 2.3 | [Google News] Navitas Semiconductor (NVTS) Stock Price, Chart & Analysis - www.d
+11-03 10:00:04 scan keep OPRA +8.1% rvol 6.1 | [Benzinga] Opera Reports Preliminary Q3 Sales Of $182.8M, Up 20% YoY, Vs $181M-$
+11-03 10:00:04 scan keep EBS +7.9% rvol 6.1 | [Benzinga] Emergent BioSolutions Q3 2026 Earnings Call Transcript +8-K
+11-03 10:00:07 status 200:watching 250:watching 350:pos GPK 400:done 550:pos GPK 1000:done
