@@ -77,3 +77,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-03,350,bull_flag,GPK,24,10.64,10.5,10.78,10.92,10.92,target,5.04,1.44,1.0,,1,"Bull flag: 7.9% pole, 1.0% flag on light vol, broke 10.61 | news: [Benzinga] Graphic Packaging Holding Company Reports Third Q"
 2026-11-03,550,bull_flag,GPK,39,10.64,10.5,10.78,10.92,10.92,target,8.26,1.5,1.0,,1,"Bull flag: 7.9% pole, 1.0% flag on light vol, broke 10.61 | news: [Benzinga] Graphic Packaging Holding Company Reports Third Q"
 2026-11-03,200,vwap_pullback,TE,50,2.76,2.72,2.8,2.84,2.84,target,3.0,1.5,1.0,,1,"VWAP pullback: +7.4%, dipped to VWAP 2.74, reclaimed with green bar | news: [Benzinga] Reju Expands Textile Recycling Network with A. Sa"
+2026-11-03,250,ema_bounce,GPK,13,10.75,10.56,10.94,11.13,11.13,target,3.8,1.52,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 10.63, closed back over 9 EMA | news: [Benzinga] Graphic Packaging Holding Company Reports Third Q"
