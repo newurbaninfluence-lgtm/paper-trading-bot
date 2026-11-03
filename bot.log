@@ -2158,3 +2158,6 @@
 11-03 11:30:06 status 200:done 250:pos GPK 350:done 400:done 550:done 1000:done
 11-03 11:35:02 [$250] EXIT 7 GPK @ 11.13 (target) total P&L $3.8
 11-03 11:35:09 [$250] ALPACA result GPK: sim $3.8 vs alpaca $3.8 (closed)
+11-03 11:40:06 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-03 11:50:06 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-03 12:00:06 status 200:done 250:done 350:done 400:done 550:done 1000:done
