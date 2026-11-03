@@ -2038,3 +2038,14 @@
 11-02 19:58:08 labeled 0 signals with outcomes
 11-02 19:58:09 daily report written
 11-02 19:58:09 bot session end
+11-03 08:38:33 alpaca paper mirror: ON
+11-03 08:38:33 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-03 08:38:33 resumed state from 2026-11-02
+11-03 08:38:33 bot live start (max 5.9h)
+11-03 09:31:15 market brief written: briefs/2026-11-03.md (25 Benzinga items)
+11-03 09:31:17 scan keep HLIT +14.2% rvol 6.0 | [Benzinga] Harmonic Q3 2026 Earnings Call Transcript +8-K
+11-03 09:31:17 scan keep CMCO +11.2% rvol 3.1 | [Benzinga] Columbus McKinnon Reports Fiscal Year 2027 Second Quarter Financial R
+11-03 09:31:18 scan keep CWH +7.6% rvol 2.3 | [Benzinga] Camping World Holdings, Inc. Reports Third Quarter 2026 Financial Res
+11-03 09:31:18 scan drop LIFE: negative news ([Newswire] Cizzle Brands Corporation Announces Filing of French Transl)
+11-03 09:31:19 scan keep FISV +7.0% rvol 3.0 | [Benzinga] Fiserv Doubles Down on Cost Cuts, Renews Focus on Buybacks +8-K
+11-03 09:31:20 new day universe=['HLIT', 'CMCO', 'CWH', 'FISV']
