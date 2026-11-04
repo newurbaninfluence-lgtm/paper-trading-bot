@@ -2331,3 +2331,8 @@
 11-04 10:20:09 [$200] ALPACA result UWMC: sim $-2.73 vs alpaca $-1.44 (closed)
 11-04 10:20:09 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
 11-04 10:30:06 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
+11-04 10:38:02 [$350] HALF OFF 24 VNET @ 3.56 (+1R), stop to breakeven
+11-04 10:38:02 [$550] HALF OFF 39 VNET @ 3.56 (+1R), stop to breakeven
+11-04 10:40:06 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
+11-04 10:50:07 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
+11-04 11:00:05 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
