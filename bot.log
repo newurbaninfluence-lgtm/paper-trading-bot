@@ -2209,3 +2209,29 @@
 11-03 18:23:02 labeled 0 signals with outcomes
 11-03 18:23:04 daily report written
 11-03 18:23:04 bot session end
+11-04 08:38:38 alpaca paper mirror: ON
+11-04 08:38:38 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-04 08:38:38 resumed state from 2026-11-03
+11-04 08:38:38 bot live start (max 5.9h)
+11-04 09:31:22 market brief written: briefs/2026-11-04.md (25 Benzinga items)
+11-04 09:31:22 scan keep TE +18.4% rvol 5.3 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
+11-04 09:31:24 scan keep BRKR +15.6% rvol 2.1 | [Benzinga] Bruker Reports Third Quarter 2026 Financial Results +8-K
+11-04 09:31:25 scan keep TREE +15.3% rvol 2.7 | [Benzinga] LendingTree Reports Third Quarter 2026 Financial Results +8-K
+11-04 09:31:25 scan keep FLNC +15.1% rvol 5.3 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-04 09:31:26 scan keep VRDN +14.8% rvol 4.8 | [Benzinga] Viridian Therapeutics Q3 2026 Earnings Call Transcript +8-K
+11-04 09:31:27 scan keep CSIQ +13.6% rvol 7.2 | [Google News] CSIQ Nov 2026 14.000 call (CSIQ261120C00014000) interactive stock 
+11-04 09:31:27 scan keep CYH +13.0% rvol 3.0 | [Benzinga] Analyst Rating Updates for Community Health Systems
+11-04 09:31:27 scan drop RUN: negative news ([Newswire] HCA Announces Proposed Public Offering of Senior Notes - Bu)
+11-04 09:31:28 scan keep DNLI +11.3% rvol 3.8 | [Benzinga] Wedbush Maintains Outperform on Denali Therapeutics, Raises Price Tar
+11-04 09:31:29 scan keep GLAS +10.7% rvol 2.0 | [Newswire] HSN Holiday Helpers - HSN
+11-04 09:31:29 scan keep RIOT +10.7% rvol 20.9 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-04 09:31:29 scan keep OPEN +10.1% rvol 2.3 | [Newswire] Foot Locker (@footlocker) - Instagram +8-K
+11-04 09:31:29 scan drop DPC +9.5% rvol 17.4: no news 24h
+11-04 09:31:29 scan keep DNA +9.2% rvol 22.1 | [Newswire] MyHeritage Establishes Scientific Advisory Board to Support the Expan
+11-04 09:31:29 scan keep ENPH +9.1% rvol 7.7 | [Google News] Enphase Energy, Inc. (ENPH) Is a Trending Stock: Facts to Know Bef
+11-04 09:31:29 scan keep NVTS +8.9% rvol 5.8 | [Google News] Navitas Semiconductor (NVTS) Stock Price, Chart & Analysis - www.d
+11-04 09:31:29 scan keep JKS +8.8% rvol 3.2 | [Google News] Jinko Holdings Limited (NYSE:JKS) Just Reported, And Analysts Assi
+11-04 09:31:30 scan keep TLRY +8.7% rvol 4.1 | [Google News] Tilray Brands Inc. stock rises Tuesday, outperforms market - Marke
+11-04 09:31:31 scan keep SLDP +8.3% rvol 5.9 | [Benzinga] Solid Power Reports Third-Quarter 2026 Financial Results and Operatio
+11-04 09:31:31 scan keep HSAI +7.7% rvol 2.6 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+11-04 09:31:34 new day universe=['TE', 'BRKR', 'TREE', 'FLNC', 'VRDN', 'CSIQ', 'CYH', 'DNLI', 'GLAS', 'RIOT', 'OPEN', 'DNA']
