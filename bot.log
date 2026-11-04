@@ -2235,3 +2235,65 @@
 11-04 09:31:31 scan keep SLDP +8.3% rvol 5.9 | [Benzinga] Solid Power Reports Third-Quarter 2026 Financial Results and Operatio
 11-04 09:31:31 scan keep HSAI +7.7% rvol 2.6 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
 11-04 09:31:34 new day universe=['TE', 'BRKR', 'TREE', 'FLNC', 'VRDN', 'CSIQ', 'CYH', 'DNLI', 'GLAS', 'RIOT', 'OPEN', 'DNA']
+11-04 09:37:02 [$400/orb5] SIGNAL GLAS: 5-min ORB: green first 5 min, closed above range high 2.61; stop 2.53; size 100%
+11-04 09:37:04 [$400] ALPACA paper bracket x2 sent: 36 GLAS limit 2.64 (ids 2)
+11-04 09:37:02 [$1000/orb5] SIGNAL GLAS: 5-min ORB: green first 5 min, closed above range high 2.61; stop 2.53; size 100%
+11-04 09:37:05 [$1000] ALPACA paper bracket x2 sent: 90 GLAS limit 2.64 (ids 2)
+11-04 09:38:02 [$400] BUY 44 GLAS @ 2.62 stop 2.53 half@2.71 tgt 2.8 | orb5 | 5-min ORB: green first 5 min, closed above range high 2.61 | news: [Newswire] HSN Holiday Helpers - HSN
+11-04 09:38:02 [$1000] BUY 111 GLAS @ 2.62 stop 2.53 half@2.71 tgt 2.8 | orb5 | 5-min ORB: green first 5 min, closed above range high 2.61 | news: [Newswire] HSN Holiday Helpers - HSN
+11-04 09:39:02 [$400] HALF OFF 22 GLAS @ 2.71 (+1R), stop to breakeven
+11-04 09:39:05 [$400] ALPACA runner stop moved to 2.64
+11-04 09:39:02 [$1000] HALF OFF 55 GLAS @ 2.71 (+1R), stop to breakeven
+11-04 09:39:06 [$1000] ALPACA runner stop moved to 2.64
+11-04 09:40:04 status 200:watching 250:watching 350:watching 400:pos GLAS 550:watching 1000:pos GLAS
+11-04 09:41:02 [$400] EXIT 22 GLAS @ 2.8 (target) total P&L $5.94
+11-04 09:41:07 [$400] ALPACA result GLAS: sim $5.94 vs alpaca $None (partially open)
+11-04 09:41:02 [$1000] EXIT 56 GLAS @ 2.8 (target) total P&L $15.03
+11-04 09:41:09 [$1000] ALPACA result GLAS: sim $15.03 vs alpaca $None (partially open)
+11-04 09:45:04 scan keep YOU +24.3% rvol 5.9 | [Benzinga] Clear Secure Q3 2026 Earnings Call Transcript +8-K
+11-04 09:45:04 scan keep KD +23.1% rvol 8.0 | [Benzinga] Kyndryl Hldgs Q2 2027 Earnings Call Transcript +8-K
+11-04 09:45:04 scan keep BRKR +21.1% rvol 8.7 | [Benzinga] Bruker Reports Third Quarter 2026 Financial Results +8-K
+11-04 09:45:04 scan keep SLDP +18.7% rvol 12.8 | [Benzinga] Solid Power Reports Third-Quarter 2026 Financial Results and Operatio
+11-04 09:45:04 scan keep OPEN +18.1% rvol 5.8 | [Newswire] Foot Locker (@footlocker) - Instagram +8-K
+11-04 09:45:04 scan keep TE +17.5% rvol 10.4 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
+11-04 09:45:04 scan keep UWMC +16.3% rvol 4.1 | [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of $205M-$220M And Sal
+11-04 09:45:04 scan keep LQDA +16.1% rvol 6.0 | [Google News] LQDA Dec 2026 32.500 call (LQDA261218C00032500) interactive stock 
+11-04 09:45:05 scan drop LIVN: negative news ([Newswire] LivaNova Reports Third-Quarter 2026 Results; Raises Full-Ye)
+11-04 09:45:06 scan keep VNET +14.4% rvol 3.7 | [Google News] What Investors Got Wrong About VNET Group Before A 68% Slide - Yah
+11-04 09:45:06 scan keep RIOT +14.3% rvol 29.6 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-04 09:45:07 scan keep XYZ +14.3% rvol 10.0 | [Benzinga] Citizens Reiterates Market Perform on Blockto Market Perform +8-K
+11-04 09:45:07 scan keep JELD +13.6% rvol 4.6 | [Benzinga] JELD-WEN Holding, Inc. Reports Third Quarter 2026 Financial Results +
+11-04 09:45:07 scan keep CSIQ +13.6% rvol 16.4 | [Google News] CSIQ Nov 2026 14.000 call (CSIQ261120C00014000) interactive stock 
+11-04 09:45:07 scan keep FLNC +13.6% rvol 10.2 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-04 09:45:07 scan keep CYH +13.4% rvol 10.8 | [Benzinga] Analyst Rating Updates for Community Health Systems
+11-04 09:45:08 scan keep PLUG +12.8% rvol 7.5 | [Benzinga] Why Is Plug Power Stock Gaining Wednesday?
+11-04 09:45:09 scan keep LCID +12.4% rvol 4.2 | [Google News] Lucid Group Advances Over Five Percent Amid Electric Vehicle Secto
+11-04 09:45:09 scan drop RUN: negative news ([Newswire] HCA Announces Proposed Public Offering of Senior Notes - Bu)
+11-04 09:45:09 scan keep TLRY +11.9% rvol 9.9 | [Google News] Tilray Brands Inc. stock rises Tuesday, outperforms market - Marke
+11-04 09:49:02 [$250/orb15] SIGNAL CYH: 15-min ORB: closed above 15-min high 2.34, above VWAP; stop 2.28; size 100%
+11-04 09:49:06 [$250] ALPACA paper bracket x2 sent: 23 CYH limit 2.39 (ids 2)
+11-04 09:50:02 [$250] BUY 27 CYH @ 2.37 stop 2.28 half@2.46 tgt 2.55 | orb15 | 15-min ORB: closed above 15-min high 2.34, above VWAP | news: [Benzinga] Analyst Rating Updates for Community Health Syste
+11-04 09:50:06 status 200:watching 250:pos CYH 350:watching 400:done 550:watching 1000:done
+11-04 09:55:02 [$250] EXIT 27 CYH @ 2.26 (stop) total P&L $-2.97
+11-04 09:55:08 [$250] ALPACA result CYH: sim $-2.97 vs alpaca $-2.07 (closed)
+11-04 10:00:02 scan keep YOU +26.2% rvol 7.0 | [Benzinga] Clear Secure Q3 2026 Earnings Call Transcript +8-K
+11-04 10:00:02 scan keep KD +23.4% rvol 7.6 | [Benzinga] Kyndryl Hldgs Q2 2027 Earnings Call Transcript +8-K
+11-04 10:00:02 scan drop LIVN: negative news ([Newswire] LivaNova Reports Third-Quarter 2026 Results; Raises Full-Ye)
+11-04 10:00:02 scan keep OPEN +16.1% rvol 5.1 | [Newswire] Foot Locker (@footlocker) - Instagram +8-K
+11-04 10:00:02 scan keep UWMC +16.0% rvol 3.6 | [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of $205M-$220M And Sal
+11-04 10:00:02 scan keep FLNC +15.5% rvol 9.5 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-04 10:00:02 scan keep VNET +15.1% rvol 4.0 | [Google News] What Investors Got Wrong About VNET Group Before A 68% Slide - Yah
+11-04 10:00:02 scan keep SLDP +14.7% rvol 10.9 | [Benzinga] Solid Power Reports Third-Quarter 2026 Financial Results and Operatio
+11-04 10:00:02 scan keep XYZ +13.0% rvol 10.8 | [Benzinga] Citizens Reiterates Market Perform on Blockto Market Perform +8-K
+11-04 10:00:03 scan keep PCOR +12.6% rvol 5.6 | [Benzinga] Procore Technologies Q3 2026 Earnings Call Transcript +8-K
+11-04 10:00:03 scan keep RIOT +12.4% rvol 22.1 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-04 10:00:03 scan keep LCID +12.4% rvol 4.6 | [Google News] Lucid Group Advances Over Five Percent Amid Electric Vehicle Secto
+11-04 10:00:04 scan keep CPNG +12.4% rvol 5.9 | [Benzinga] Citigroup Upgrades Coupang to Buy from Neutral +8-K
+11-04 10:00:05 scan keep SMG +12.2% rvol 2.9 | [Benzinga] Scotts Miracle Gro Q4 2026 Earnings Call Transcript +8-K
+11-04 10:00:05 scan keep LQDA +12.2% rvol 6.1 | [Google News] LQDA Dec 2026 32.500 call (LQDA261218C00032500) interactive stock 
+11-04 10:00:05 scan keep MDLN +12.1% rvol 3.8 | [Benzinga] Medline Inc. Reports Third Quarter 2026 Financial Results +8-K
+11-04 10:00:05 scan drop RUN: negative news ([Newswire] HCA Announces Proposed Public Offering of Senior Notes - Bu)
+11-04 10:00:05 scan keep CYH +11.6% rvol 8.5 | [Benzinga] Analyst Rating Updates for Community Health Systems
+11-04 10:00:05 scan keep TE +11.5% rvol 8.7 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
+11-04 10:00:05 scan keep ENPH +10.8% rvol 12.4 | [Google News] Enphase Energy, Inc. (ENPH) Is a Trending Stock: Facts to Know Bef
+11-04 10:00:11 status 200:watching 250:done 350:watching 400:done 550:watching 1000:done

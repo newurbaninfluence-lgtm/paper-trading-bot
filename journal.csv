@@ -78,3 +78,6 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-03,550,bull_flag,GPK,39,10.64,10.5,10.78,10.92,10.92,target,8.26,1.5,1.0,,1,"Bull flag: 7.9% pole, 1.0% flag on light vol, broke 10.61 | news: [Benzinga] Graphic Packaging Holding Company Reports Third Q"
 2026-11-03,200,vwap_pullback,TE,50,2.76,2.72,2.8,2.84,2.84,target,3.0,1.5,1.0,,1,"VWAP pullback: +7.4%, dipped to VWAP 2.74, reclaimed with green bar | news: [Benzinga] Reju Expands Textile Recycling Network with A. Sa"
 2026-11-03,250,ema_bounce,GPK,13,10.75,10.56,10.94,11.13,11.13,target,3.8,1.52,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 10.63, closed back over 9 EMA | news: [Benzinga] Graphic Packaging Holding Company Reports Third Q"
+2026-11-04,400,orb5,GLAS,44,2.62,2.53,2.71,2.8,2.8,target,5.94,1.48,1.0,,1,"5-min ORB: green first 5 min, closed above range high 2.61 | news: [Newswire] HSN Holiday Helpers - HSN"
+2026-11-04,1000,orb5,GLAS,111,2.62,2.53,2.71,2.8,2.8,target,15.03,1.5,1.0,,1,"5-min ORB: green first 5 min, closed above range high 2.61 | news: [Newswire] HSN Holiday Helpers - HSN"
+2026-11-04,250,orb15,CYH,27,2.37,2.28,2.46,2.55,2.26,stop,-2.97,-1.19,1.0,,1,"15-min ORB: closed above 15-min high 2.34, above VWAP | news: [Benzinga] Analyst Rating Updates for Community Health Syste"
