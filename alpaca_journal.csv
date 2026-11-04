@@ -81,3 +81,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-04,400,orb5,GLAS,5.94,36.0,18.0,2.6289,,partially open
 2026-11-04,1000,orb5,GLAS,15.03,90.0,45.0,2.6298,,partially open
 2026-11-04,250,orb15,CYH,-2.97,23.0,23.0,2.37,-2.07,closed
+2026-11-04,200,vwap_pullback,UWMC,-2.73,36.0,36.0,1.85,-1.44,closed

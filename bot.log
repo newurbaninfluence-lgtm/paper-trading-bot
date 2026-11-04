@@ -2297,3 +2297,37 @@
 11-04 10:00:05 scan keep TE +11.5% rvol 8.7 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
 11-04 10:00:05 scan keep ENPH +10.8% rvol 12.4 | [Google News] Enphase Energy, Inc. (ENPH) Is a Trending Stock: Facts to Know Bef
 11-04 10:00:11 status 200:watching 250:done 350:watching 400:done 550:watching 1000:done
+11-04 10:05:02 [$350/bull_flag] SIGNAL VNET: Bull flag: 3.8% pole, 1.2% flag on light vol, broke 3.47; stop 3.42; size 100%
+11-04 10:05:08 [$350] ALPACA paper bracket x2 sent: 41 VNET limit 3.5 (ids 2)
+11-04 10:05:02 [$550/bull_flag] SIGNAL VNET: Bull flag: 3.8% pole, 1.2% flag on light vol, broke 3.47; stop 3.42; size 100%
+11-04 10:05:08 [$550] ALPACA paper bracket x2 sent: 64 VNET limit 3.5 (ids 2)
+11-04 10:06:02 [$350] BUY 49 VNET @ 3.49 stop 3.42 half@3.56 tgt 3.63 | bull_flag | Bull flag: 3.8% pole, 1.2% flag on light vol, broke 3.47 | news: [Google News] What Investors Got Wrong About VNET Group Befo
+11-04 10:06:02 [$550] BUY 78 VNET @ 3.49 stop 3.42 half@3.56 tgt 3.63 | bull_flag | Bull flag: 3.8% pole, 1.2% flag on light vol, broke 3.47 | news: [Google News] What Investors Got Wrong About VNET Group Befo
+11-04 10:10:02 [$200/vwap_pullback] SIGNAL UWMC: VWAP pullback: +15.4%, dipped to VWAP 1.83, reclaimed with green bar; stop 1.81; size 100%
+11-04 10:10:07 [$200] ALPACA paper bracket x2 sent: 36 UWMC limit 1.87 (ids 2)
+11-04 10:10:07 status 200:pending 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
+11-04 10:11:02 [$200] BUY 39 UWMC @ 1.86 stop 1.81 half@1.91 tgt 1.96 | vwap_pullback | VWAP pullback: +15.4%, dipped to VWAP 1.83, reclaimed with green bar | news: [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of
+11-04 10:15:03 scan keep YOU +28.7% rvol 6.5 | [Benzinga] Clear Secure Q3 2026 Earnings Call Transcript +8-K
+11-04 10:15:03 scan keep KD +27.7% rvol 7.1 | [Benzinga] Kyndryl Hldgs Q2 2027 Earnings Call Transcript +8-K
+11-04 10:15:03 scan keep FLNC +18.1% rvol 7.9 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-04 10:15:03 scan keep VNET +17.1% rvol 3.2 | [Google News] What Investors Got Wrong About VNET Group Before A 68% Slide - Yah
+11-04 10:15:03 scan drop LIVN: negative news ([Newswire] LivaNova Reports Third-Quarter 2026 Results; Raises Full-Ye)
+11-04 10:15:03 scan keep LCID +16.4% rvol 4.2 | [Google News] Lucid Group Advances Over Five Percent Amid Electric Vehicle Secto
+11-04 10:15:03 scan keep OPEN +16.0% rvol 3.8 | [Newswire] Foot Locker (@footlocker) - Instagram +8-K
+11-04 10:15:03 scan keep XYZ +15.5% rvol 9.2 | [Benzinga] Citizens Reiterates Market Perform on Blockto Market Perform +8-K
+11-04 10:15:03 scan keep UWMC +15.2% rvol 2.7 | [Benzinga] UWM Holdings Reports Preliminary Q3 Net Income Of $205M-$220M And Sal
+11-04 10:15:03 scan keep SLDP +15.0% rvol 8.3 | [Benzinga] Solid Power Reports Third-Quarter 2026 Financial Results and Operatio
+11-04 10:15:03 scan keep CPNG +14.4% rvol 4.9 | [Benzinga] Citigroup Upgrades Coupang to Buy from Neutral +8-K
+11-04 10:15:03 scan keep PCOR +13.6% rvol 4.6 | [Benzinga] Procore Technologies Q3 2026 Earnings Call Transcript +8-K
+11-04 10:15:03 scan keep RIOT +13.5% rvol 17.4 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-04 10:15:04 scan keep ASST +13.2% rvol 2.9 | [Newswire] Iconic Lambeau Field launches MyVenue in major POS upgrade. - Busines
+11-04 10:15:04 scan keep CSIQ +12.4% rvol 11.6 | [Google News] CSIQ Nov 2026 14.000 call (CSIQ261120C00014000) interactive stock 
+11-04 10:15:04 scan keep TE +12.4% rvol 6.5 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
+11-04 10:15:04 scan keep ENPH +12.0% rvol 9.3 | [Google News] Enphase Energy, Inc. (ENPH) Is a Trending Stock: Facts to Know Bef
+11-04 10:15:04 scan keep PLUG +11.8% rvol 5.5 | [Benzinga] Why Is Plug Power Stock Gaining Wednesday?
+11-04 10:15:04 scan keep TLRY +11.5% rvol 7.4 | [Google News] Tilray Brands Inc. stock rises Tuesday, outperforms market - Marke
+11-04 10:15:04 scan keep HSAI +11.4% rvol 4.6 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+11-04 10:20:02 [$200] EXIT 39 UWMC @ 1.79 (stop) total P&L $-2.73
+11-04 10:20:09 [$200] ALPACA result UWMC: sim $-2.73 vs alpaca $-1.44 (closed)
+11-04 10:20:09 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
+11-04 10:30:06 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
