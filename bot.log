@@ -2336,3 +2336,10 @@
 11-04 10:40:06 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
 11-04 10:50:07 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
 11-04 11:00:05 status 200:done 250:done 350:pos VNET 400:done 550:pos VNET 1000:done
+11-04 11:05:02 [$350] EXIT 25 VNET @ 3.45 (breakeven) total P&L $0.68
+11-04 11:05:08 [$350] ALPACA result VNET: sim $0.68 vs alpaca $-2.05 (closed)
+11-04 11:05:02 [$550] EXIT 39 VNET @ 3.45 (breakeven) total P&L $1.17
+11-04 11:05:11 [$550] ALPACA result VNET: sim $1.17 vs alpaca $-3.2 (closed)
+11-04 11:10:08 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-04 11:20:07 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-04 11:30:06 status 200:done 250:done 350:done 400:done 550:done 1000:done
