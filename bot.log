@@ -2394,3 +2394,23 @@
 11-04 18:40:16 labeled 0 signals with outcomes
 11-04 18:40:17 daily report written
 11-04 18:40:17 bot session end
+11-05 08:38:49 alpaca paper mirror: ON
+11-05 08:38:49 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-05 08:38:49 resumed state from 2026-11-04
+11-05 08:38:49 bot live start (max 5.9h)
+11-05 09:31:28 market brief written: briefs/2026-11-05.md (25 Benzinga items)
+11-05 09:31:30 scan drop XERS: negative news ([Newswire] Cunat Launches $56.2 Million DST Offering for 540-Unit Mult)
+11-05 09:31:30 scan keep FUN +17.9% rvol 6.7 | [Benzinga] Six Flags Announces Safety Upgrades Following Fatal Roller Coaster In
+11-05 09:31:30 scan keep VERX +14.5% rvol 2.3 | [Benzinga] Vertex Analysts Boost Their Forecasts After Better-Than-Expected Q3 R
+11-05 09:31:31 scan keep JOBY +14.5% rvol 3.3 | [Benzinga] These Analysts Slash Their Forecasts On Joby Aviation Following Q3 Re
+11-05 09:31:31 scan drop RUN: negative news ([Newswire] HCA Announces Proposed Public Offering of Senior Notes - Bu)
+11-05 09:31:31 scan keep ARDT +12.4% rvol 2.8 | [Benzinga] Ardent Health Reports Third-Quarter 2026 Financial Results and Raises
+11-05 09:31:32 scan keep IRWD +12.3% rvol 6.7 | [Benzinga] Ironwood Pharmaceuticals Reports Third Quarter 2026 Results and Raise
+11-05 09:31:32 scan keep APPN +10.5% rvol 2.4 | [Google News] Appian Corp (APPN) Shares Surge 5.3% -- What GF Score of 71 Tells 
+11-05 09:31:32 scan keep KC +10.4% rvol 2.6 | [Newswire] KC G.I.F.T. | Grants and free services for Black businesses in Kansas
+11-05 09:31:33 scan keep HGTY +9.9% rvol 49.9 | [Benzinga] Wells Fargo Raises Price Target on Hagerty to $17 From $14 +8-K
+11-05 09:31:34 scan keep PTON +8.8% rvol 3.3 | [Benzinga] Peloton Announces Q1 FY2027 Financial Results +8-K
+11-05 09:31:34 scan keep U +7.4% rvol 15.5 | [Benzinga] Unity Software Sees Q4 Sales $688.000M-$696.000M vs $603.624M Est +8-
+11-05 09:31:35 scan drop HNST +5.5% rvol 2.0: no news 24h
+11-05 09:31:36 scan keep CMTG +5.4% rvol 4.1 | [Google News] Claros Mortgage Trust Inc (CMTG) (Q3 2026) Earnings Call Highlight
+11-05 09:31:41 new day universe=['FUN', 'VERX', 'JOBY', 'ARDT', 'IRWD', 'APPN', 'KC', 'HGTY', 'PTON', 'U', 'CMTG']
