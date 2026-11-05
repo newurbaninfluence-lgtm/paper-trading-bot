@@ -2543,3 +2543,10 @@
 11-05 14:20:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
 11-05 14:30:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
 11-05 14:33:02 bot session end
+11-05 14:33:30 alpaca paper mirror: ON
+11-05 14:33:30 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-05 14:33:30 resumed state from 2026-11-05
+11-05 14:33:30 bot live start (max 5.9h)
+11-05 14:40:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-05 14:50:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-05 15:00:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
