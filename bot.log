@@ -2516,3 +2516,8 @@
 11-05 10:21:06 [$250] ALPACA paper bracket x2 sent: 13 FUN limit 9.34 (ids 2)
 11-05 10:22:02 [$250] BUY 14 FUN @ 9.32 stop 9.15 half@9.49 tgt 9.66 | failed_breakdown | Failed breakdown: flushed to 9.16 under opening-range low 9.18, reclaimed it | news: [Benzinga] Six Flags Announces Safety Upgrades Following Fat
 11-05 10:30:04 status 200:done 250:pos FUN 350:done 400:done 550:done 1000:done
+11-05 10:40:02 [$250] EXIT 14 FUN @ 9.13 (stop) total P&L $-2.66
+11-05 10:40:07 [$250] ALPACA result FUN: sim $-2.66 vs alpaca $-3.12 (closed)
+11-05 10:40:07 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-05 10:50:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-05 11:00:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
