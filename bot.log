@@ -2480,3 +2480,39 @@
 11-05 10:02:08 [$350] ALPACA runner stop moved to 27.23
 11-05 10:02:02 [$550] HALF OFF 10 DLX @ 27.35 (+1R), stop to breakeven
 11-05 10:02:09 [$550] ALPACA runner stop moved to 27.23
+11-05 10:06:02 [$200] EXIT 16 FUN @ 9.36 (stop) total P&L $-2.24
+11-05 10:06:10 [$200] ALPACA result FUN: sim $-2.24 vs alpaca $-1.39 (closed)
+11-05 10:10:02 [$350] EXIT 6 DLX @ 27.06 (breakeven) total P&L $1.14
+11-05 10:10:10 [$350] ALPACA result DLX: sim $1.14 vs alpaca $None (partially open)
+11-05 10:10:02 [$550] EXIT 10 DLX @ 27.06 (breakeven) total P&L $1.9
+11-05 10:10:12 [$550] ALPACA result DLX: sim $1.9 vs alpaca $None (partially open)
+11-05 10:10:12 status 200:done 250:watching 350:done 400:pos ARDT 550:done 1000:pos ARDT
+11-05 10:15:03 scan drop XERS: negative news ([Newswire] Cunat Launches $56.2 Million DST Offering for 540-Unit Mult)
+11-05 10:15:03 scan keep DNUT +25.8% rvol 17.9 | [Benzinga] Krispy Kreme Q3 2026 Earnings Call Transcript +8-K
+11-05 10:15:03 scan keep TBI +25.2% rvol 13.4 | [Benzinga] TrueBlue Q3 2026 Earnings Call Transcript +8-K
+11-05 10:15:03 scan keep ADMA +24.3% rvol 10.3 | [Benzinga] Cantor Fitzgerald Maintains Neutral Rating on ADMA Biologics and Rais
+11-05 10:15:03 scan keep WRBY +23.1% rvol 6.2 | [Benzinga] Warby Parker Reports Q3 2026 Financial Results and Updates Full Year 
+11-05 10:15:03 scan keep LYNX +22.0% rvol 6.4 | [Benzinga] Evercore ISI Group Maintains Outperform on Lyntris, Lowers Price Targ
+11-05 10:15:03 scan keep VCEL +20.7% rvol 6.1 | [Benzinga] Vericel Q3 2026 Earnings Call Transcript +8-K
+11-05 10:15:03 scan keep ARDT +18.8% rvol 5.8 | [Benzinga] Ardent Health Reports Third-Quarter 2026 Financial Results and Raises
+11-05 10:15:03 scan keep ONT +17.7% rvol 2.7 | [Benzinga] Onterris Q3 2026 Earnings Call Transcript +8-K
+11-05 10:15:03 scan keep ENOV +17.2% rvol 3.6 | [Benzinga] Enovis Q3 2026 Earnings Call Transcript +8-K
+11-05 10:15:03 scan drop PTLO +17.2% rvol 9.4: no news 24h
+11-05 10:15:03 scan keep MGNI +17.0% rvol 9.8 | [Benzinga] Susquehanna Maintains Positive on Magnite, Raises Price Target to $35
+11-05 10:15:03 scan keep FUN +15.9% rvol 7.2 | [Benzinga] Six Flags Announces Safety Upgrades Following Fatal Roller Coaster In
+11-05 10:15:03 scan keep DLX +15.3% rvol 3.7 | [Benzinga] Deluxe Q3 2026 Earnings Call Transcript +8-K
+11-05 10:15:03 scan keep PLTK +14.9% rvol 4.6 | [Benzinga] Playtika Holding Q3 2026 Earnings Call Transcript +8-K
+11-05 10:15:03 scan drop EVMN +14.7% rvol 3.2: no news 24h
+11-05 10:15:04 scan keep FIP +13.3% rvol 2.8 | [Benzinga] FERC Approves MARA Holdings' Acquisition of Long Ridge Energy from FT
+11-05 10:15:04 scan keep PGNY +13.2% rvol 2.5 | [Benzinga] Citizens Maintains Market Outperform on Progyny, Raises Price Target 
+11-05 10:15:04 scan keep ACHC +11.8% rvol 7.2 | [Benzinga] Analysts Increase Price Target for Acadia Healthcare +8-K
+11-05 10:15:04 scan keep IRWD +11.7% rvol 6.6 | [Benzinga] Ironwood Pharmaceuticals Reports Third Quarter 2026 Results and Raise
+11-05 10:18:02 [$400] EXIT 3 ARDT @ 15.38 (breakeven) total P&L $1.65
+11-05 10:18:10 [$400] ALPACA result ARDT: sim $1.65 vs alpaca $None (no fill)
+11-05 10:18:02 [$1000] EXIT 8 ARDT @ 15.38 (breakeven) total P&L $4.4
+11-05 10:18:12 [$1000] ALPACA result ARDT: sim $4.4 vs alpaca $None (no fill)
+11-05 10:20:07 status 200:done 250:watching 350:done 400:done 550:done 1000:done
+11-05 10:21:02 [$250/failed_breakdown] SIGNAL FUN: Failed breakdown: flushed to 9.16 under opening-range low 9.18, reclaimed it; stop 9.15; size 100%
+11-05 10:21:06 [$250] ALPACA paper bracket x2 sent: 13 FUN limit 9.34 (ids 2)
+11-05 10:22:02 [$250] BUY 14 FUN @ 9.32 stop 9.15 half@9.49 tgt 9.66 | failed_breakdown | Failed breakdown: flushed to 9.16 under opening-range low 9.18, reclaimed it | news: [Benzinga] Six Flags Announces Safety Upgrades Following Fat
+11-05 10:30:04 status 200:done 250:pos FUN 350:done 400:done 550:done 1000:done
