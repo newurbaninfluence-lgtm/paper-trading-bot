@@ -2602,3 +2602,76 @@
 11-06 09:31:22 scan keep AADX +5.5% rvol 4.3 | [Google News] Bfsg LLC Buys 156,409 Shares of Applied Aerospace & Defense, Inc. 
 11-06 09:31:22 scan drop DDD: negative news (SEC 424B5 filed 2026-11-05 (possible share offering))
 11-06 09:31:24 new day universe=['XYF', 'OKLO', 'EXTR', 'CLVT', 'WULF', 'CORZ', 'FOA', 'RWAY', 'AXTI', 'SMCI', 'AADX']
+11-06 09:36:02 [$400/orb5] SIGNAL EXTR: 5-min ORB: green first 5 min, closed above range high 24.44; stop 24.1; size 100%
+11-06 09:36:04 [$400] ALPACA paper bracket x2 sent: 5 EXTR limit 24.88 (ids 2)
+11-06 09:36:02 [$1000/orb5] SIGNAL EXTR: 5-min ORB: green first 5 min, closed above range high 24.44; stop 24.1; size 100%
+11-06 09:36:04 [$1000] ALPACA paper bracket x2 sent: 12 EXTR limit 24.88 (ids 2)
+11-06 09:37:02 [$400] BUY 4 EXTR @ 24.96 stop 24.10 half@25.82 tgt 26.68 | orb5 | 5-min ORB: green first 5 min, closed above range high 24.44 | news: [Benzinga] Extreme Networks Exploring Sale Of The Company Af
+11-06 09:37:02 [$1000] BUY 11 EXTR @ 24.96 stop 24.10 half@25.82 tgt 26.68 | orb5 | 5-min ORB: green first 5 min, closed above range high 24.44 | news: [Benzinga] Extreme Networks Exploring Sale Of The Company Af
+11-06 09:38:02 [$400] HALF OFF 2 EXTR @ 25.82 (+1R), stop to breakeven
+11-06 09:38:04 alpaca PATCH /orders/c8b3e260-44bf-4609-86af-ad5648e6d708 -> 422 b'{"base_price":"24.88","code":42210000,"message":"stop_loss.stop_price must be \\u003c= base_price - 0.01"}'
+11-06 09:38:04 [$400] ALPACA runner stop moved to 24.88
+11-06 09:38:02 [$1000] HALF OFF 5 EXTR @ 25.82 (+1R), stop to breakeven
+11-06 09:38:05 alpaca PATCH /orders/30b2fae9-641b-45ba-821d-e96a1a9f5395 -> 422 b'{"base_price":"24.88","code":42210000,"message":"stop_loss.stop_price must be \\u003c= base_price - 0.01"}'
+11-06 09:38:05 [$1000] ALPACA runner stop moved to 24.88
+11-06 09:40:02 [$200/pm_high_break] SIGNAL XYF: Premarket-high break: closed above PM high 5.47, above VWAP; stop 5.34; size 100%
+11-06 09:40:04 [$200] ALPACA paper bracket x2 sent: 11 XYF limit 5.51 (ids 2)
+11-06 09:40:05 [$400] ALPACA entry not filled within 4 min: canceled unfilled part
+11-06 09:40:02 [$550/pm_high_break] SIGNAL XYF: Premarket-high break: closed above PM high 5.47, above VWAP; stop 5.34; size 100%
+11-06 09:40:06 [$550] ALPACA paper bracket x2 sent: 32 XYF limit 5.51 (ids 2)
+11-06 09:40:07 [$1000] ALPACA entry not filled within 4 min: canceled unfilled part
+11-06 09:40:07 status 200:pending 250:watching 350:watching 400:pos EXTR 550:pending 1000:pos EXTR
+11-06 09:41:02 [$200] BUY 15 XYF @ 5.47 stop 5.34 half@5.6 tgt 5.73 | pm_high_break | Premarket-high break: closed above PM high 5.47, above VWAP | news: [Google News] A preliminary, non-binding bid for X Financial
+11-06 09:41:02 [$550] BUY 42 XYF @ 5.47 stop 5.34 half@5.6 tgt 5.73 | pm_high_break | Premarket-high break: closed above PM high 5.47, above VWAP | news: [Google News] A preliminary, non-binding bid for X Financial
+11-06 09:45:03 scan keep FROG +26.5% rvol 8.1 | [Benzinga] Piper Sandler Maintains Neutral on JFrog, Raises Price Target to $95 
+11-06 09:45:04 scan keep CLNE +25.8% rvol 15.2 | [Benzinga] Clean Energy Fuels Q3 2026 Earnings Call Transcript +8-K
+11-06 09:45:05 scan keep GOGO +23.2% rvol 8.4 | [Benzinga] Gogo Q3 2026 Earnings Call Transcript
+11-06 09:45:05 scan keep LASR +21.5% rvol 4.6 | [Benzinga] nLIGHT, Inc. Reports Q3 2026 Financial Results and Q4 Guidance +8-K
+11-06 09:45:05 scan keep IREN +20.8% rvol 10.5 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-06 09:45:05 scan keep EXTR +20.8% rvol 14.7 | [Benzinga] Extreme Networks Exploring Sale Of The Company After Interest From Su
+11-06 09:45:06 scan keep AOSL +18.7% rvol 2.7 | [Benzinga] Needham Maintains Buy Rating on Alpha and Omega Semiconductor, Lowers
+11-06 09:45:06 scan keep TMDX +18.4% rvol 9.0 | [Benzinga] TransMedics Group, Inc. Reports Third Quarter 2026 Financial Results 
+11-06 09:45:06 scan keep OKLO +15.9% rvol 6.5 | [Benzinga] Oklo Q3 Cash, Equivalents & Marketable Securities $3.13B
+11-06 09:45:07 scan keep KRMN +15.4% rvol 4.0 | [Benzinga] These Analysts Revise Their Forecasts On Karman After Upbeat Q3 Resul
+11-06 09:45:07 scan keep PENG +13.7% rvol 3.5 | [Benzinga] SK Hynix Acquires 9.1% Stake in Penguin Solutions
+11-06 09:45:08 scan drop FLY: negative news ([Newswire] IUX Officially Launches New Credit Campaign Offering Up to )
+11-06 09:45:08 scan keep FIP +12.6% rvol 2.9 | [Benzinga] FERC Approves MARA Holdings' Acquisition of Long Ridge Energy from FT
+11-06 09:45:08 scan keep DNA +12.5% rvol 2.2 | [Newswire] MyHeritage Establishes Scientific Advisory Board to Support the Expan
+11-06 09:45:08 scan keep ATEN +11.3% rvol 3.4 | [Benzinga] A10 Networks Reports Financial Results for the Third Quarter of 2026 
+11-06 09:45:09 scan keep ICHR +11.1% rvol 2.6 | [Google News] Results: Ichor Holdings, Ltd. Exceeded Expectations And The Consen
+11-06 09:45:09 scan drop GCTS +10.6% rvol 2.5: no news 24h
+11-06 09:45:09 scan drop IONQ: negative news (SEC 424B5 filed 2026-10-14 (possible share offering))
+11-06 09:45:10 scan keep ACDC +9.6% rvol 2.3 | [Benzinga] ProFrac Holding Corp. Reports Third Quarter 2026 Financial Results +8
+11-06 09:45:10 scan drop HUT: negative news ([Newswire] Jiko Expands Access to T-Bill Offering - GlobeNewswire)
+11-06 09:48:02 [$400] EXIT 2 EXTR @ 24.92 (breakeven) total P&L $1.64
+11-06 09:48:06 [$400] ALPACA result EXTR: sim $1.64 vs alpaca $None (no fill)
+11-06 09:48:02 [$1000] EXIT 6 EXTR @ 24.92 (breakeven) total P&L $4.06
+11-06 09:48:09 [$1000] ALPACA result EXTR: sim $4.06 vs alpaca $None (no fill)
+11-06 09:50:04 status 200:pos XYF 250:watching 350:watching 400:done 550:pos XYF 1000:done
+11-06 09:53:02 [$250/orb15] SIGNAL XYF: 15-min ORB: closed above 15-min high 5.50, above VWAP; stop 5.41; size 100%
+11-06 09:53:05 [$250] ALPACA paper bracket x2 sent: 17 XYF limit 5.56 (ids 2)
+11-06 09:57:02 [$250] BUY 25 XYF @ 5.51 stop 5.41 half@5.61 tgt 5.71 | orb15 | 15-min ORB: closed above 15-min high 5.50, above VWAP | news: [Google News] A preliminary, non-binding bid for X Financial
+11-06 09:59:02 [$350/bull_flag] SIGNAL AADX: Bull flag: 6.8% pole, 0.9% flag on light vol, broke 9.01; stop 8.92; size 100%
+11-06 09:59:04 [$350] ALPACA paper bracket x2 sent: 20 AADX limit 9.09 (ids 2)
+11-06 10:00:03 scan keep FROG +31.2% rvol 9.4 | [Benzinga] Piper Sandler Maintains Neutral on JFrog, Raises Price Target to $95 
+11-06 10:00:03 scan keep KRMN +23.6% rvol 4.1 | [Benzinga] These Analysts Revise Their Forecasts On Karman After Upbeat Q3 Resul
+11-06 10:00:03 scan keep LASR +23.5% rvol 3.9 | [Benzinga] nLIGHT, Inc. Reports Q3 2026 Financial Results and Q4 Guidance +8-K
+11-06 10:00:03 scan keep DNA +21.8% rvol 2.8 | [Newswire] MyHeritage Establishes Scientific Advisory Board to Support the Expan
+11-06 10:00:03 scan keep CLNE +21.5% rvol 14.2 | [Benzinga] Clean Energy Fuels Q3 2026 Earnings Call Transcript +8-K
+11-06 10:00:03 scan keep IREN +19.6% rvol 9.6 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-06 10:00:03 scan keep EXTR +19.5% rvol 12.1 | [Benzinga] Extreme Networks Exploring Sale Of The Company After Interest From Su
+11-06 10:00:03 scan keep TMDX +19.2% rvol 9.0 | [Benzinga] TransMedics Group, Inc. Reports Third Quarter 2026 Financial Results 
+11-06 10:00:03 scan drop FLY: negative news ([Newswire] IUX Officially Launches New Credit Campaign Offering Up to )
+11-06 10:00:03 scan keep PENG +17.1% rvol 3.8 | [Benzinga] SK Hynix Acquires 9.1% Stake in Penguin Solutions
+11-06 10:00:03 scan keep OKLO +15.1% rvol 5.6 | [Benzinga] Oklo Q3 Cash, Equivalents & Marketable Securities $3.13B
+11-06 10:00:03 scan drop GCTS +14.5% rvol 2.2: no news 24h
+11-06 10:00:04 scan keep CECO +14.0% rvol 3.5 | [Benzinga] CECO Environmental Announces Participation in Upcoming Investor Confe
+11-06 10:00:08 scan keep SMR +14.0% rvol 2.5 | [Benzinga] Cantor Fitzgerald Maintains Overweight on NuScale Power, Lowers Price
+11-06 10:00:08 scan keep ICHR +12.9% rvol 2.3 | [Google News] Results: Ichor Holdings, Ltd. Exceeded Expectations And The Consen
+11-06 10:00:08 scan keep DIOD +11.1% rvol 3.0 | [Benzinga] Diodes Releases Its API21550/API21552 Series From The RobustISO Famil
+11-06 10:00:09 scan keep MXL +10.7% rvol 2.6 | [Google News] MaxLinear: I Will Continue Buying Despite The Selloff (NASDAQ:MXL)
+11-06 10:00:09 scan keep FIP +10.5% rvol 2.8 | [Benzinga] FERC Approves MARA Holdings' Acquisition of Long Ridge Energy from FT
+11-06 10:00:09 scan drop IONQ: negative news (SEC 424B5 filed 2026-10-14 (possible share offering))
+11-06 10:00:10 scan keep VIAV +10.3% rvol 7.9 | [Benzinga] UBS Maintains Neutral on Viavi Solutions, Lowers Price Target to $33 
+11-06 10:00:02 [$350] BUY 20 AADX @ 9.09 stop 8.92 half@9.26 tgt 9.43 | bull_flag | Bull flag: 6.8% pole, 0.9% flag on light vol, broke 9.01 | news: [Google News] Bfsg LLC Buys 156,409 Shares of Applied Aerosp
+11-06 10:00:13 status 200:pos XYF 250:pos XYF 350:pos AADX 400:done 550:pos XYF 1000:done

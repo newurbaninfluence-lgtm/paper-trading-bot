@@ -90,3 +90,5 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-05,400,orb5,ARDT,1.65,0.0,0.0,,,no fill
 2026-11-05,1000,orb5,ARDT,4.4,0.0,0.0,,,no fill
 2026-11-05,250,failed_breakdown,FUN,-2.66,13.0,13.0,9.32,-3.12,closed
+2026-11-06,400,orb5,EXTR,1.64,0.0,0.0,,,no fill
+2026-11-06,1000,orb5,EXTR,4.06,0.0,0.0,,,no fill
