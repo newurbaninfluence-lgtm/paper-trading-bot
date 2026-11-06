@@ -2675,3 +2675,28 @@
 11-06 10:00:10 scan keep VIAV +10.3% rvol 7.9 | [Benzinga] UBS Maintains Neutral on Viavi Solutions, Lowers Price Target to $33 
 11-06 10:00:02 [$350] BUY 20 AADX @ 9.09 stop 8.92 half@9.26 tgt 9.43 | bull_flag | Bull flag: 6.8% pole, 0.9% flag on light vol, broke 9.01 | news: [Google News] Bfsg LLC Buys 156,409 Shares of Applied Aerosp
 11-06 10:00:13 status 200:pos XYF 250:pos XYF 350:pos AADX 400:done 550:pos XYF 1000:done
+11-06 10:10:05 status 200:pos XYF 250:pos XYF 350:pos AADX 400:done 550:pos XYF 1000:done
+11-06 10:15:03 scan keep FROG +32.5% rvol 9.2 | [Benzinga] Piper Sandler Maintains Neutral on JFrog, Raises Price Target to $95 
+11-06 10:15:03 scan keep KRMN +26.9% rvol 3.7 | [Benzinga] These Analysts Revise Their Forecasts On Karman After Upbeat Q3 Resul
+11-06 10:15:03 scan keep LASR +25.9% rvol 3.2 | [Benzinga] nLIGHT, Inc. Reports Q3 2026 Financial Results and Q4 Guidance +8-K
+11-06 10:15:03 scan keep TMDX +21.3% rvol 7.7 | [Benzinga] TransMedics Group, Inc. Reports Third Quarter 2026 Financial Results 
+11-06 10:15:03 scan keep IREN +19.7% rvol 7.5 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-06 10:15:03 scan drop FLY: negative news ([Newswire] IUX Officially Launches New Credit Campaign Offering Up to )
+11-06 10:15:03 scan keep OKLO +19.5% rvol 4.9 | [Benzinga] Oklo Q3 Cash, Equivalents & Marketable Securities $3.13B
+11-06 10:15:03 scan keep DNA +18.0% rvol 2.7 | [Newswire] MyHeritage Establishes Scientific Advisory Board to Support the Expan
+11-06 10:15:03 scan keep EXTR +17.4% rvol 9.3 | [Benzinga] Extreme Networks Exploring Sale Of The Company After Interest From Su
+11-06 10:15:03 scan keep PENG +16.0% rvol 3.4 | [Benzinga] SK Hynix Acquires 9.1% Stake in Penguin Solutions
+11-06 10:15:03 scan keep SMR +15.1% rvol 2.1 | [Benzinga] Cantor Fitzgerald Maintains Overweight on NuScale Power, Lowers Price
+11-06 10:15:03 scan keep EVC +12.8% rvol 3.8 | [Benzinga] Entravision to Sell Tampa TV Station WFTT-TV for $30 Million +8-K
+11-06 10:15:03 scan drop HNST +12.2% rvol 4.1: no news 24h
+11-06 10:15:03 scan drop IONQ: negative news (SEC 424B5 filed 2026-10-14 (possible share offering))
+11-06 10:15:04 scan keep PLUS +11.4% rvol 2.8 | [Benzinga] ePlus inc. Announces Executive Leadership Transition +8-K
+11-06 10:15:04 scan keep CECO +11.3% rvol 2.9 | [Benzinga] CECO Environmental Announces Participation in Upcoming Investor Confe
+11-06 10:15:04 scan keep DIOD +11.2% rvol 2.6 | [Benzinga] Diodes Releases Its API21550/API21552 Series From The RobustISO Famil
+11-06 10:15:05 scan keep CGON +11.1% rvol 2.0 | [Benzinga] CG Oncology Reports Third Quarter 2026 Financial Results and Provides
+11-06 10:15:05 scan keep HSAI +11.0% rvol 3.4 | [Newswire] Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday
+11-06 10:15:06 scan keep AMPX +10.3% rvol 2.7 | [Google News] Amprius Technologies stock hits 52-week low at 7.26 USD - Investin
+11-06 10:20:04 status 200:pos XYF 250:pos XYF 350:pos AADX 400:done 550:pos XYF 1000:done
+11-06 10:21:02 [$350] HALF OFF 10 AADX @ 9.26 (+1R), stop to breakeven
+11-06 10:21:05 [$350] ALPACA runner stop moved to 9.09
+11-06 10:30:05 status 200:pos XYF 250:pos XYF 350:pos AADX 400:done 550:pos XYF 1000:done
