@@ -2713,3 +2713,10 @@
 11-06 11:00:05 status 200:pos XYF 250:pos XYF 350:done 400:done 550:pos XYF 1000:done
 11-06 11:03:02 [$250] EXIT 13 XYF @ 5.71 (target) total P&L $3.8
 11-06 11:03:07 [$250] ALPACA result XYF: sim $3.8 vs alpaca $None (partially open)
+11-06 11:09:02 [$200] EXIT 8 XYF @ 5.73 (target) total P&L $2.99
+11-06 11:09:07 [$200] ALPACA result XYF: sim $2.99 vs alpaca $None (partially open)
+11-06 11:09:02 [$550] EXIT 21 XYF @ 5.73 (target) total P&L $8.19
+11-06 11:09:10 [$550] ALPACA result XYF: sim $8.19 vs alpaca $None (partially open)
+11-06 11:10:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-06 11:20:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-06 11:30:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
