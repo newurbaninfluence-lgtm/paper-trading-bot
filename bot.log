@@ -2583,3 +2583,22 @@
 11-05 18:38:29 labeled 0 signals with outcomes
 11-05 18:38:31 daily report written
 11-05 18:38:31 bot session end
+11-06 08:39:38 alpaca paper mirror: ON
+11-06 08:39:38 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-06 08:39:38 resumed state from 2026-11-05
+11-06 08:39:38 bot live start (max 5.9h)
+11-06 09:31:16 market brief written: briefs/2026-11-06.md (25 Benzinga items)
+11-06 09:31:17 scan keep XYF +14.2% rvol 18.1 | [Google News] A preliminary, non-binding bid for X Financial (XYF) cites a 28.3%
+11-06 09:31:18 scan keep OKLO +13.7% rvol 3.6 | [Benzinga] Oklo Q3 Cash, Equivalents & Marketable Securities $3.13B
+11-06 09:31:18 scan keep EXTR +13.6% rvol 5.1 | [Benzinga] Extreme Networks Exploring Sale Of The Company After Interest From Su
+11-06 09:31:19 scan keep CLVT +9.9% rvol 34.3 | [Benzinga] Goldman Sachs Maintains Neutral on Clarivate, Lowers Price Target to 
+11-06 09:31:19 scan keep WULF +9.2% rvol 4.8 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-06 09:31:19 scan drop CLAR +9.1% rvol 3.7: no news 24h
+11-06 09:31:19 scan keep CORZ +8.1% rvol 11.5 | [Benzinga] Needham Maintains Buy on Core Scientific, Lowers Price Target to $28 
+11-06 09:31:20 scan keep FOA +7.0% rvol 44.3 | [Google News] Understanding Momentum Shifts in (FOA) - Stock Traders Daily +8-K
+11-06 09:31:21 scan keep RWAY +6.5% rvol 2.7 | [Benzinga] Runway Gwth Fin Q3 2026 Earnings Call Transcript +8-K
+11-06 09:31:21 scan keep AXTI +6.4% rvol 2.8 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-06 09:31:21 scan keep SMCI +6.1% rvol 3.0 | [Benzinga] Why Is Dell Stock Surging Wednesday? +8-K
+11-06 09:31:22 scan keep AADX +5.5% rvol 4.3 | [Google News] Bfsg LLC Buys 156,409 Shares of Applied Aerospace & Defense, Inc. 
+11-06 09:31:22 scan drop DDD: negative news (SEC 424B5 filed 2026-11-05 (possible share offering))
+11-06 09:31:24 new day universe=['XYF', 'OKLO', 'EXTR', 'CLVT', 'WULF', 'CORZ', 'FOA', 'RWAY', 'AXTI', 'SMCI', 'AADX']
