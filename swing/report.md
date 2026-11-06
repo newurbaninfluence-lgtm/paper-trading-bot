@@ -1,46 +1,46 @@
-# Swing paper books (2026-11-04)
+# Swing paper books (2026-11-05)
 
-Signals at today's close (bought at the next open): VRDN (earn_gap), UFPT (earn_gap), PFGC (earn_gap), TREX (earn_gap), YOU (earn_gap), DT (trend_pb), BCI (trend_pb), PLTR (trend_pb), DBC (trend_pb), HGER (trend_pb), SM (trend_pb), TEN (trend_pb), INSW (trend_pb), CVI (trend_pb), ESTC (trend_pb), DAC (trend_pb), VIRT (trend_pb), TX (trend_pb), FLTW (trend_pb), BP (trend_pb), EWT (trend_pb), MATX (trend_pb), OVV (trend_pb), TNK (trend_pb), CHRD (trend_pb), PR (trend_pb), BWET (trend_pb), GSG (trend_pb), BNO (trend_pb), SLB (trend_pb), OXY (trend_pb), XOP (trend_pb), CNQ (trend_pb), DHT (trend_pb), PANW (trend_pb), GEF (trend_pb), AR (trend_pb), IEO (trend_pb), APA (trend_pb), MPC (trend_pb), VDE (trend_pb), CVE (trend_pb), FENY (trend_pb), EOG (trend_pb), CACI (trend_pb), AMG (trend_pb), XLE (trend_pb), CRAK (trend_pb), IXC (trend_pb), IYE (trend_pb), EWTX (trend_pb), E (trend_pb), COP (trend_pb), XOM (trend_pb), USO (trend_pb), CVX (trend_pb), ASX (trend_pb), SU (trend_pb), NTNX (trend_pb), TARS (trend_pb), ATEX (trend_pb), COKE (trend_pb), FRO (trend_pb), STLD (trend_pb), URI (trend_pb), HURN (trend_pb), EQNR (trend_pb), SHEL (trend_pb), PSX (trend_pb), WEX (trend_pb), PBA (trend_pb), RRC (trend_pb), TTE (trend_pb), PAGP (trend_pb), VSAT (trend_pb), OPLN (trend_pb), CLMT (trend_pb), ENTG (trend_pb), SWKS (trend_pb), TRMD (trend_pb), MSM (trend_pb)
+Signals at today's close (bought at the next open): APP (earn_gap), ENOV (earn_gap), EPAM (earn_gap), PRVA (earn_gap), ALGT (earn_gap), PLTR (trend_pb), TX (trend_pb), PANW (trend_pb), DAC (trend_pb), ESTC (trend_pb), TEN (trend_pb), INSW (trend_pb), TNK (trend_pb), NTNX (trend_pb), AMG (trend_pb), CVI (trend_pb), DHT (trend_pb), PR (trend_pb), BP (trend_pb), CRAK (trend_pb), ZS (trend_pb), ATEX (trend_pb), OVV (trend_pb), URI (trend_pb), FXN (trend_pb), UGI (trend_pb), CACI (trend_pb), XOP (trend_pb), VDE (trend_pb), GTLB (trend_pb), FENY (trend_pb), XLE (trend_pb), MPC (trend_pb), VLUE (trend_pb), IRDM (trend_pb), IEO (trend_pb), BWET (trend_pb), IYE (trend_pb), IXC (trend_pb), NUE (trend_pb), IALT (trend_pb), MSGE (trend_pb), SU (trend_pb), ETON (trend_pb), CNQ (trend_pb), FRO (trend_pb), RNG (trend_pb), CIBR (trend_pb), CRWD (trend_pb), GEO (trend_pb), APA (trend_pb), PSX (trend_pb), EOG (trend_pb), PBA (trend_pb), HACK (trend_pb), RRC (trend_pb), E (trend_pb), XOM (trend_pb), MSM (trend_pb), TRMD (trend_pb), CVX (trend_pb), SLDE (trend_pb), TTE (trend_pb), SHEL (trend_pb), SNOW (trend_pb), P (trend_pb), CHRD (trend_pb), SYNA (trend_pb), LPG (trend_pb), COP (trend_pb), PAGP (trend_pb), PI (trend_pb), BUG (trend_pb), IEX (trend_pb), SWKS (trend_pb), OPLN (trend_pb), PAA (trend_pb), MBX (trend_pb), DINO (trend_pb), RS (trend_pb), CAI (trend_pb), LNG (trend_pb), DK (trend_pb), KNTK (trend_pb), FROG (trend_pb), HPE (trend_pb), TRGP (trend_pb), NTAP (trend_pb), SAIC (trend_pb), GH (trend_pb), KOD (trend_pb), DOCU (trend_pb), EQNR (trend_pb), STNG (trend_pb), SKYY (trend_pb), CXW (trend_pb), VAC (trend_pb), WEX (trend_pb), SSNC (trend_pb), TENB (trend_pb), ECO (trend_pb), ZBRA (trend_pb), NDSN (trend_pb), PARR (trend_pb), DFTX (trend_pb), WST (trend_pb), IFF (trend_pb), OKTA (trend_pb), ARKG (trend_pb), J (trend_pb), S (trend_pb), QLYS (trend_pb), TXN (trend_pb), VLO (trend_pb), CLMT (trend_pb), LNC (trend_pb), HRI (trend_pb), HCI (trend_pb), R (trend_pb), IHAK (trend_pb), EXPD (trend_pb), SLAB (trend_pb), SPSC (trend_pb), ILMN (trend_pb)
 
 ## Open positions
 
 | Account | Ticker | Strategy | Entry date | Entry | Stop | Shares | Last | Unrealized |
 |---|---|---|---|---|---|---|---|---|
-| $200 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0293 | 2331.85 | $-0.39 |
-| $200 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.3274 | 96.12 | $2.7 |
-| $200 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.3047 | 51.35 | $0.53 |
-| $200 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.1185 | 203.11 | $-1.0 |
-| $200 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.1527 | 167.62 | $4.08 |
-| $250 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0366 | 2331.85 | $-0.49 |
-| $250 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.4094 | 96.12 | $3.37 |
-| $250 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 0.1757 | 72.03 | $1.63 |
-| $250 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.3809 | 51.35 | $0.66 |
-| $250 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.1481 | 203.11 | $-1.25 |
-| $250 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.1909 | 167.62 | $5.1 |
-| $350 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0512 | 2331.85 | $-0.68 |
-| $350 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.5727 | 96.12 | $4.72 |
-| $350 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 0.4259 | 72.03 | $3.95 |
-| $350 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.5335 | 51.35 | $0.93 |
-| $350 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.2074 | 203.11 | $-1.75 |
-| $350 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.2674 | 167.62 | $7.14 |
-| $400 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0585 | 2331.85 | $-0.78 |
-| $400 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.6546 | 96.12 | $5.39 |
-| $400 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 0.4867 | 72.03 | $4.52 |
-| $400 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.6097 | 51.35 | $1.06 |
-| $400 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.2371 | 203.11 | $-2.0 |
-| $400 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.3056 | 167.62 | $8.17 |
-| $550 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0805 | 2331.85 | $-1.07 |
-| $550 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.9 | 96.12 | $7.42 |
-| $550 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 0.669 | 72.03 | $6.21 |
-| $550 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.8384 | 51.35 | $1.46 |
-| $550 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.326 | 203.11 | $-2.74 |
-| $550 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.4202 | 167.62 | $11.23 |
-| $1000 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.1463 | 2331.85 | $-1.95 |
-| $1000 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 1.6363 | 96.12 | $13.48 |
-| $1000 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 1.2165 | 72.03 | $11.29 |
-| $1000 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 1.5243 | 51.35 | $2.65 |
-| $1000 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.5927 | 203.11 | $-4.99 |
-| $1000 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.764 | 167.62 | $20.41 |
+| $200 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0293 | 2304.72 | $-1.19 |
+| $200 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.3274 | 88.34 | $0.15 |
+| $200 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.3047 | 48.75 | $-0.26 |
+| $200 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.1185 | 201.65 | $-1.17 |
+| $200 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.1527 | 165.73 | $3.79 |
+| $250 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0366 | 2304.72 | $-1.48 |
+| $250 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.4094 | 88.34 | $0.19 |
+| $250 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 0.1757 | 69.77 | $1.23 |
+| $250 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.3809 | 48.75 | $-0.33 |
+| $250 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.1481 | 201.65 | $-1.46 |
+| $250 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.1909 | 165.73 | $4.74 |
+| $350 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0512 | 2304.72 | $-2.07 |
+| $350 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.5727 | 88.34 | $0.26 |
+| $350 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 0.4259 | 69.77 | $2.99 |
+| $350 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.5335 | 48.75 | $-0.46 |
+| $350 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.2074 | 201.65 | $-2.05 |
+| $350 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.2674 | 165.73 | $6.64 |
+| $400 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0585 | 2304.72 | $-2.37 |
+| $400 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.6546 | 88.34 | $0.3 |
+| $400 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 0.4867 | 69.77 | $3.42 |
+| $400 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.6097 | 48.75 | $-0.52 |
+| $400 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.2371 | 201.65 | $-2.34 |
+| $400 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.3056 | 165.73 | $7.59 |
+| $550 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.0805 | 2304.72 | $-3.26 |
+| $550 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 0.9 | 88.34 | $0.41 |
+| $550 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 0.669 | 69.77 | $4.7 |
+| $550 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 0.8384 | 48.75 | $-0.72 |
+| $550 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.326 | 201.65 | $-3.22 |
+| $550 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.4202 | 165.73 | $10.43 |
+| $1000 | FCNCA | earn_gap | 2026-10-26 | 2345.2 | 2281.61 | 0.1463 | 2304.72 | $-5.92 |
+| $1000 | KNSA | earn_gap | 2026-10-28 | 87.88 | 82.25 | 1.6363 | 88.34 | $0.75 |
+| $1000 | PNR | earn_gap | 2026-10-28 | 62.75 | 58.35 | 1.2165 | 69.77 | $8.54 |
+| $1000 | AXGN | earn_gap | 2026-10-29 | 49.61 | 43.49 | 1.5243 | 48.75 | $-1.31 |
+| $1000 | ICLR | earn_gap | 2026-10-29 | 211.53 | 195.79 | 0.5927 | 201.65 | $-5.86 |
+| $1000 | WING | earn_gap | 2026-10-29 | 140.9 | 128.69 | 0.764 | 165.73 | $18.97 |
 
 ## Closed trades
 
@@ -62,6 +62,7 @@ Signals at today's close (bought at the next open): VRDN (earn_gap), UFPT (earn_
 | $200 | SPOT | earn_gap | 2026-10-23 | 2026-10-27 | stop | $-1.88 | -1.01 |
 | $200 | CRAK | trend_pb | 2026-10-26 | 2026-10-28 | stop | $-1.04 | -0.56 |
 | $200 | FLEX | earn_gap | 2026-10-29 | 2026-11-04 | stop | $-1.88 | -1.01 |
+| $200 | UFPT | earn_gap | 2026-11-05 | 2026-11-05 | stop | $-1.86 | -1.01 |
 | $250 | DNTH | trend_pb | 2026-10-12 | 2026-10-15 | stop | $-2.51 | -1.0 |
 | $250 | JAZZ | trend_pb | 2026-10-12 | 2026-10-23 | time | $-0.83 | -0.33 |
 | $250 | AMBQ | trend_pb | 2026-10-12 | 2026-10-14 | stop | $-2.51 | -1.0 |
@@ -78,6 +79,7 @@ Signals at today's close (bought at the next open): VRDN (earn_gap), UFPT (earn_
 | $250 | SPOT | earn_gap | 2026-10-23 | 2026-10-27 | stop | $-2.35 | -1.01 |
 | $250 | CRAK | trend_pb | 2026-10-26 | 2026-10-28 | stop | $-1.3 | -0.56 |
 | $250 | FLEX | earn_gap | 2026-10-29 | 2026-11-04 | stop | $-1.85 | -0.79 |
+| $250 | UFPT | earn_gap | 2026-11-05 | 2026-11-05 | stop | $-1.65 | -0.71 |
 | $350 | DNTH | trend_pb | 2026-10-12 | 2026-10-15 | stop | $-3.52 | -1.01 |
 | $350 | JAZZ | trend_pb | 2026-10-12 | 2026-10-23 | time | $-1.17 | -0.33 |
 | $350 | AMBQ | trend_pb | 2026-10-12 | 2026-10-14 | stop | $-3.52 | -1.01 |
@@ -95,6 +97,7 @@ Signals at today's close (bought at the next open): VRDN (earn_gap), UFPT (earn_
 | $350 | DBA | trend_pb | 2026-10-23 | 2026-10-27 | stop | $-0.21 | -0.06 |
 | $350 | CRAK | trend_pb | 2026-10-26 | 2026-10-28 | stop | $-1.47 | -0.45 |
 | $350 | FLEX | earn_gap | 2026-10-29 | 2026-11-04 | stop | $-1.7 | -0.52 |
+| $350 | UFPT | earn_gap | 2026-11-05 | 2026-11-05 | stop | $-1.52 | -0.47 |
 | $400 | DNTH | trend_pb | 2026-10-12 | 2026-10-15 | stop | $-4.02 | -1.0 |
 | $400 | JAZZ | trend_pb | 2026-10-12 | 2026-10-23 | time | $-1.33 | -0.33 |
 | $400 | AMBQ | trend_pb | 2026-10-12 | 2026-10-14 | stop | $-4.02 | -1.0 |
@@ -112,6 +115,7 @@ Signals at today's close (bought at the next open): VRDN (earn_gap), UFPT (earn_
 | $400 | DBA | trend_pb | 2026-10-23 | 2026-10-27 | stop | $-0.24 | -0.06 |
 | $400 | CRAK | trend_pb | 2026-10-26 | 2026-10-28 | stop | $-1.68 | -0.45 |
 | $400 | FLEX | earn_gap | 2026-10-29 | 2026-11-04 | stop | $-1.94 | -0.52 |
+| $400 | UFPT | earn_gap | 2026-11-05 | 2026-11-05 | stop | $-1.73 | -0.47 |
 | $550 | DNTH | trend_pb | 2026-10-12 | 2026-10-15 | stop | $-5.53 | -1.01 |
 | $550 | JAZZ | trend_pb | 2026-10-12 | 2026-10-23 | time | $-1.83 | -0.33 |
 | $550 | AMBQ | trend_pb | 2026-10-12 | 2026-10-14 | stop | $-5.52 | -1.0 |
@@ -129,6 +133,7 @@ Signals at today's close (bought at the next open): VRDN (earn_gap), UFPT (earn_
 | $550 | DBA | trend_pb | 2026-10-23 | 2026-10-27 | stop | $-0.33 | -0.06 |
 | $550 | CRAK | trend_pb | 2026-10-26 | 2026-10-28 | stop | $-2.3 | -0.45 |
 | $550 | FLEX | earn_gap | 2026-10-29 | 2026-11-04 | stop | $-2.67 | -0.52 |
+| $550 | UFPT | earn_gap | 2026-11-05 | 2026-11-05 | stop | $-2.39 | -0.47 |
 | $1000 | DNTH | trend_pb | 2026-10-12 | 2026-10-15 | stop | $-10.06 | -1.01 |
 | $1000 | JAZZ | trend_pb | 2026-10-12 | 2026-10-23 | time | $-3.33 | -0.33 |
 | $1000 | AMBQ | trend_pb | 2026-10-12 | 2026-10-14 | stop | $-10.04 | -1.0 |
@@ -146,5 +151,6 @@ Signals at today's close (bought at the next open): VRDN (earn_gap), UFPT (earn_
 | $1000 | DBA | trend_pb | 2026-10-23 | 2026-10-27 | stop | $-0.59 | -0.06 |
 | $1000 | CRAK | trend_pb | 2026-10-26 | 2026-10-28 | stop | $-4.19 | -0.45 |
 | $1000 | FLEX | earn_gap | 2026-10-29 | 2026-11-04 | stop | $-4.86 | -0.52 |
+| $1000 | UFPT | earn_gap | 2026-11-05 | 2026-11-05 | stop | $-4.34 | -0.47 |
 
-**Closed P&L: $-199.68**
+**Closed P&L: $-213.17**
