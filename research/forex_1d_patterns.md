@@ -1,4 +1,4 @@
-# Forex pattern finder, 1d bars (2026-11-03)
+# Forex pattern finder, 1d bars (2026-11-07)
 
 Data: 1d bars, 2023-02-27 to 2026-10-30, 5 markets (AUDUSD, EURUSD, GBPUSD, USDCAD, USDJPY).
 **Hunt** period: before 2025-11-01. **Exam** period: 2025-11-01 on (never seen while hunting).
