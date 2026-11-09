@@ -2876,3 +2876,8 @@
 11-09 10:30:04 status 200:pos ULCC 250:pos UAMY 350:done 400:done 550:done 1000:done
 11-09 10:31:02 [$250] EXIT 11 UAMY @ 3.34 (target) total P&L $3.63
 11-09 10:31:12 [$250] ALPACA result UAMY: sim $3.63 vs alpaca $None (partially open)
+11-09 10:40:04 status 200:pos ULCC 250:done 350:done 400:done 550:done 1000:done
+11-09 10:50:02 [$200] HALF OFF 9 ULCC @ 8.22 (+1R), stop to breakeven
+11-09 10:50:05 [$200] ALPACA runner stop moved to 8.12
+11-09 10:50:05 status 200:pos ULCC 250:done 350:done 400:done 550:done 1000:done
+11-09 11:00:05 status 200:pos ULCC 250:done 350:done 400:done 550:done 1000:done
