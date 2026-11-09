@@ -2900,3 +2900,8 @@
 11-09 13:50:04 status 200:pos ULCC 250:done 350:done 400:done 550:done 1000:done
 11-09 14:00:04 status 200:pos ULCC 250:done 350:done 400:done 550:done 1000:done
 11-09 14:10:05 status 200:pos ULCC 250:done 350:done 400:done 550:done 1000:done
+11-09 14:12:02 [$200] EXIT 9 ULCC @ 8.33 (target) total P&L $2.97
+11-09 14:12:06 [$200] ALPACA result ULCC: sim $2.97 vs alpaca $1.44 (closed)
+11-09 14:20:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-09 14:30:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-09 14:34:02 bot session end
