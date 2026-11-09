@@ -98,3 +98,6 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-06,550,pm_high_break,XYF,42,5.47,5.34,5.6,5.73,5.73,target,8.19,1.49,1.0,,1,"Premarket-high break: closed above PM high 5.47, above VWAP | news: [Google News] A preliminary, non-binding bid for X Financial"
 2026-11-09,400,orb5,PPTA,9,20.71,20.31,21.11,21.51,20.28,stop,-3.87,-0.97,1.0,,1,"5-min ORB: green first 5 min, closed above range high 20.66 | news: [Google News] Perpetua Resources (PPTA) Wins $2.9 Billion Lo"
 2026-11-09,1000,orb5,PPTA,24,20.71,20.31,21.11,21.51,20.28,stop,-10.32,-1.03,1.0,,1,"5-min ORB: green first 5 min, closed above range high 20.66 | news: [Google News] Perpetua Resources (PPTA) Wins $2.9 Billion Lo"
+2026-11-09,350,bull_flag,HE,31,9.4,9.29,9.51,9.62,9.27,stop,-4.03,-1.15,1.0,,1,"Bull flag: 6.7% pole, 0.7% flag on light vol, broke 9.36 | news: [Newswire] Lifezone Announces the Appointment of Ken Chernin"
+2026-11-09,550,bull_flag,HE,49,9.4,9.29,9.51,9.62,9.27,stop,-6.37,-1.16,1.0,,1,"Bull flag: 6.7% pole, 0.7% flag on light vol, broke 9.36 | news: [Newswire] Lifezone Announces the Appointment of Ken Chernin"
+2026-11-09,250,orb15,UAMY,22,3.12,3.01,3.23,3.34,3.34,target,3.63,1.45,1.0,,1,"15-min ORB: closed above 15-min high 3.09, above VWAP | news: [Benzinga] United States Antimony Corporation Announces Thir"

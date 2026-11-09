@@ -2844,3 +2844,35 @@
 11-09 10:01:02 [$550] BUY 49 HE @ 9.4 stop 9.29 half@9.51 tgt 9.62 | bull_flag | Bull flag: 6.7% pole, 0.7% flag on light vol, broke 9.36 | news: [Newswire] Lifezone Announces the Appointment of Ken Chernin
 11-09 10:02:02 [$200/vwap_pullback] SIGNAL ULCC: VWAP pullback: +8.9%, dipped to VWAP 8.08, reclaimed with green bar; stop 8.0; size 100%
 11-09 10:02:04 [$200] ALPACA paper bracket x2 sent: 16 ULCC limit 8.12 (ids 2)
+11-09 10:03:02 [$200] BUY 18 ULCC @ 8.11 stop 8.00 half@8.22 tgt 8.33 | vwap_pullback | VWAP pullback: +8.9%, dipped to VWAP 8.08, reclaimed with green bar | news: [Benzinga] Frontier Group Holdings, Inc. Reports Third Quart
+11-09 10:07:02 [$250] HALF OFF 11 UAMY @ 3.23 (+1R), stop to breakeven
+11-09 10:07:04 [$250] ALPACA runner stop moved to 3.13
+11-09 10:10:05 status 200:pos ULCC 250:pos UAMY 350:pos HE 400:done 550:pos HE 1000:done
+11-09 10:15:02 scan keep CECO +24.3% rvol 11.8 | [Benzinga] CECO Environmental Announces Participation in Upcoming Investor Confe
+11-09 10:15:02 scan keep UAMY +17.8% rvol 4.3 | [Benzinga] United States Antimony Corporation Announces Third Quarter 2026 Earni
+11-09 10:15:02 scan keep WRBY +15.8% rvol 5.2 | [Benzinga] Warby Parker Reports Q3 2026 Financial Results and Updates Full Year 
+11-09 10:15:02 scan keep CABA +15.0% rvol 2.7 | [Benzinga] Cabaletta Bio Presents New Phase 1/2 Clinical Data on Resecabtagene A
+11-09 10:15:03 scan keep VSAT +14.8% rvol 2.6 | [Benzinga] Viasat Awarded Phase 1 Contract Under NASA NEXUS Initiative
+11-09 10:15:03 scan keep QXO +14.3% rvol 3.2 | [Benzinga] Brad Jacobs to Lead New Venture While Remaining CEO of QXO, Inc. +8-K
+11-09 10:15:03 scan keep TTD +13.8% rvol 5.0 | [Benzinga] What's Going On With The Trade Desk Stock Monday?
+11-09 10:15:03 scan drop GCTS +13.4% rvol 2.8: no news 24h
+11-09 10:15:03 scan drop FLEX: negative news ([Newswire] Century Complete Announces November Opening for Belle Lago,)
+11-09 10:15:03 scan keep HE +12.6% rvol 3.5 | [Newswire] Lifezone Announces the Appointment of Ken Chernin as Senior Vice Pres
+11-09 10:15:03 scan drop IMVT: negative news ([Benzinga] Immunovant Files Prospectus For Offering Mixed Shelf; Terms)
+11-09 10:15:03 scan keep ASPN +12.4% rvol 2.5 | [Newswire] Menhaden Critics Ignore Weather that Kept Fishermen Off the Water - A
+11-09 10:15:03 scan keep SGRY +11.7% rvol 9.5 | [Benzinga] Trading Halt: Halt status updated at 9:45:00 AM ET: Quotation Resumpt
+11-09 10:15:03 scan keep HLLY +11.7% rvol 3.7 | [Google News] Holley (NYSE:HLLY) Stock Price Target Cut by Telsey Advisory Group
+11-09 10:15:03 scan keep VIR +11.6% rvol 14.7 | [Benzinga] Reported Sunday, Vir’s Elebsiran And Tobevibart Meet Primary Endpoint
+11-09 10:15:03 scan keep AOSL +11.1% rvol 2.1 | [Benzinga] Needham Maintains Buy Rating on Alpha and Omega Semiconductor, Lowers
+11-09 10:15:03 scan keep ASTS +10.3% rvol 4.2 | [Benzinga] Deutsche Bank Upgrades AST SpaceMobile to Buy, Maintains Price Target
+11-09 10:15:03 scan keep CNH +10.2% rvol 2.1 | [Benzinga] CNH Industrial Q3 2026 Earnings Call Transcript +8-K
+11-09 10:15:03 scan keep TIC +10.1% rvol 4.9 | [Benzinga] TIC Solutions Announces Participation in Upcoming Investor Conference
+11-09 10:15:03 scan drop REAL: negative news ([Newswire] Daré Bioscience Surpasses $43 Million in Non-Dilutive Grant)
+11-09 10:20:05 status 200:pos ULCC 250:pos UAMY 350:pos HE 400:done 550:pos HE 1000:done
+11-09 10:24:02 [$350] EXIT 31 HE @ 9.27 (stop) total P&L $-4.03
+11-09 10:24:06 [$350] ALPACA result HE: sim $-4.03 vs alpaca $-2.54 (closed)
+11-09 10:24:02 [$550] EXIT 49 HE @ 9.27 (stop) total P&L $-6.37
+11-09 10:24:08 [$550] ALPACA result HE: sim $-6.37 vs alpaca $-3.43 (closed)
+11-09 10:30:04 status 200:pos ULCC 250:pos UAMY 350:done 400:done 550:done 1000:done
+11-09 10:31:02 [$250] EXIT 11 UAMY @ 3.34 (target) total P&L $3.63
+11-09 10:31:12 [$250] ALPACA result UAMY: sim $3.63 vs alpaca $None (partially open)
