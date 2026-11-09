@@ -2771,3 +2771,12 @@
 11-06 18:08:07 labeled 0 signals with outcomes
 11-06 18:08:08 daily report written
 11-06 18:08:08 bot session end
+11-09 08:39:16 alpaca paper mirror: ON
+11-09 08:39:16 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-09 08:39:16 resumed state from 2026-11-06
+11-09 08:39:16 bot live start (max 5.9h)
+11-09 09:31:32 market brief written: briefs/2026-11-09.md (25 Benzinga items)
+11-09 09:31:32 scan keep CECO +29.5% rvol 4.7 | [Benzinga] CECO Environmental Announces Participation in Upcoming Investor Confe
+11-09 09:31:32 scan keep SGRY +11.6% rvol 5.0 | [Benzinga] Trading Halt: Halt status updated at 9:45:00 AM ET: Quotation Resumpt
+11-09 09:31:33 scan keep PPTA +5.8% rvol 2.1 | [Google News] Perpetua Resources (PPTA) Wins $2.9 Billion Loan Approval. What Co
+11-09 09:31:34 new day universe=['CECO', 'SGRY', 'PPTA']
