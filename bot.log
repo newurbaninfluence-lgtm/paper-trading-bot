@@ -3075,3 +3075,6 @@
 11-10 12:00:04 status 200:done 250:pos CSQR 350:done 400:done 550:pos AMRC 1000:done
 11-10 12:04:02 [$250] EXIT 3 CSQR @ 17.24 (stop) total P&L $-2.07
 11-10 12:04:07 [$250] ALPACA result CSQR: sim $-2.07 vs alpaca $-0.49 (closed)
+11-10 12:10:04 status 200:done 250:done 350:done 400:done 550:pos AMRC 1000:done
+11-10 12:20:04 status 200:done 250:done 350:done 400:done 550:pos AMRC 1000:done
+11-10 12:30:04 status 200:done 250:done 350:done 400:done 550:pos AMRC 1000:done
