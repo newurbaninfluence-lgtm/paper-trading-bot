@@ -2968,3 +2968,59 @@
 11-10 09:31:44 scan keep FWRD +5.4% rvol 2.0 | [Newswire] Forward Air Announces Two-Year Definitive Agreement to Retain Signifi
 11-10 09:31:45 scan drop ISNPY +5.2% rvol 3.9: no news 24h
 11-10 09:31:46 new day universe=['PEPG', 'SECZ', 'SENS', 'KLTR', 'AAON', 'MXCT', 'FWRD']
+11-10 09:36:02 [$400/orb5] SIGNAL PEPG: 5-min ORB: green first 5 min, closed above range high 6.00; stop 6.04; size 100%
+11-10 09:36:04 [$400] ALPACA paper bracket x2 sent: 18 PEPG limit 6.25 (ids 2)
+11-10 09:36:02 [$1000/orb5] SIGNAL PEPG: 5-min ORB: green first 5 min, closed above range high 6.00; stop 6.04; size 100%
+11-10 09:36:05 [$1000] ALPACA paper bracket x2 sent: 46 PEPG limit 6.25 (ids 2)
+11-10 09:37:02 [$400] BUY 19 PEPG @ 6.25 stop 6.04 half@6.46 tgt 6.67 | orb5 | 5-min ORB: green first 5 min, closed above range high 6.00 | news: [Benzinga] PepGen Reports Third Quarter 2026 Financial Resul
+11-10 09:37:02 [$1000] BUY 47 PEPG @ 6.25 stop 6.04 half@6.46 tgt 6.67 | orb5 | 5-min ORB: green first 5 min, closed above range high 6.00 | news: [Benzinga] PepGen Reports Third Quarter 2026 Financial Resul
+11-10 09:40:02 [$400] EXIT 19 PEPG @ 6.02 (stop) total P&L $-4.37
+11-10 09:40:05 [$400] ALPACA result PEPG: sim $-4.37 vs alpaca $-3.14 (closed)
+11-10 09:40:02 [$1000] EXIT 47 PEPG @ 6.02 (stop) total P&L $-10.81
+11-10 09:40:07 [$1000] ALPACA result PEPG: sim $-10.81 vs alpaca $-8.72 (closed)
+11-10 09:40:07 status 200:watching 250:watching 350:watching 400:done 550:watching 1000:done
+11-10 09:45:03 scan keep PEPG +144.4% rvol 1201.9 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-10 09:45:03 scan keep SECZ +36.4% rvol 24.6 | [Benzinga] Citigroup Upgrades Securitize Holdings to Buy, Maintains Price Target
+11-10 09:45:03 scan drop TTEC +36.2% rvol 89.6: no news 24h
+11-10 09:45:03 scan keep ZIP +31.9% rvol 10.7 | [Benzinga] ZipRecruiter Q3 2026 Earnings Call Transcript +8-K
+11-10 09:45:03 scan keep SENS +26.4% rvol 40.5 | [Benzinga] Raymond James Upgrades Senseonics to Market Perform +8-K
+11-10 09:45:03 scan keep AAON +20.4% rvol 9.3 | [Benzinga] AAON, Inc. Declares Quarterly Cash Dividend +8-K
+11-10 09:45:04 scan keep CSQR +15.0% rvol 5.1 | [Benzinga] Csquare, Inc. Reports Third Quarter 2026 Financial Results +8-K
+11-10 09:45:05 scan keep RAIL +13.6% rvol 6.1 | [Benzinga] Railtown AI Launches AI Partner Marketplace +8-K
+11-10 09:45:05 scan keep RXT +13.2% rvol 5.0 | [Benzinga] Rackspace Tech Q3 2026 Earnings Call Transcript +8-K
+11-10 09:45:06 scan keep IH +12.4% rvol 2.9 | [Newswire] Titan Machinery Inc. to Report Fiscal Third Quarter Ended October 31,
+11-10 09:45:06 scan keep AMRC +9.4% rvol 2.4 | [Benzinga] Terrestrial Energy Selected for Ameresco Project at Aberdeen Proving 
+11-10 09:45:06 scan keep MXCT +8.4% rvol 12.2 | [Benzinga] MaxCyte Reports Preliminary Q3 Core Revenue Of ~$8.1M, Up 26% YoY; Ra
+11-10 09:45:07 scan keep MARA +7.3% rvol 3.7 | [Benzinga] Guggenheim Reiterates Neutral on MARA Holdingsto Neutral +8-K
+11-10 09:45:08 scan keep ACAD +6.8% rvol 5.1 | [Benzinga] Acadia Pharmaceuticals to Present Remlifanserin Data at 2026 CTAD Con
+11-10 09:45:08 scan keep AMPY +6.2% rvol 6.8 | [Benzinga] Amplify Energy Reports Third Quarter 2026 Financial and Operating Res
+11-10 09:45:09 scan keep BW +5.8% rvol 7.9 | [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third Quarter 2026 Financi
+11-10 09:45:10 scan keep EMBJ +5.8% rvol 10.5 | [Benzinga] Embraer Q3 2026 Earnings Call Transcript
+11-10 09:45:10 scan keep TRAX +5.8% rvol 2.7 | [Benzinga] Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100  Falls as I
+11-10 09:45:11 scan keep MRCY +5.3% rvol 2.4 | [Benzinga] Petrobras, TransDigm On Deck Tuesday As Oil Profits, Aerospace Demand
+11-10 09:45:11 scan drop SE: negative news ([Newswire] SmartStop Self Storage REIT Announces Pricing of Upsized Of)
+11-10 09:48:02 [$250/orb15] SIGNAL CSQR: 15-min ORB: closed above 15-min high 17.67, above VWAP; stop 17.27; size 100%
+11-10 09:48:05 [$250] ALPACA paper bracket x2 sent: 5 CSQR limit 17.75 (ids 2)
+11-10 09:49:02 [$250] BUY 3 CSQR @ 17.93 stop 17.27 half@18.59 tgt 19.25 | orb15 | 15-min ORB: closed above 15-min high 17.67, above VWAP | news: [Benzinga] Csquare, Inc. Reports Third Quarter 2026 Financia
+11-10 09:50:05 status 200:watching 250:pos CSQR 350:watching 400:done 550:watching 1000:done
+11-10 10:00:02 scan keep PEPG +136.0% rvol 895.0 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-10 10:00:02 scan drop TTEC +43.9% rvol 78.0: no news 24h
+11-10 10:00:02 scan keep SECZ +35.4% rvol 18.9 | [Benzinga] Citigroup Upgrades Securitize Holdings to Buy, Maintains Price Target
+11-10 10:00:02 scan keep SENS +29.5% rvol 32.3 | [Benzinga] Raymond James Upgrades Senseonics to Market Perform +8-K
+11-10 10:00:02 scan keep ZIP +23.2% rvol 11.3 | [Benzinga] ZipRecruiter Q3 2026 Earnings Call Transcript +8-K
+11-10 10:00:02 scan keep AAON +22.3% rvol 11.6 | [Benzinga] AAON, Inc. Declares Quarterly Cash Dividend +8-K
+11-10 10:00:02 scan keep CSQR +17.5% rvol 6.9 | [Benzinga] Csquare, Inc. Reports Third Quarter 2026 Financial Results +8-K
+11-10 10:00:02 scan keep RXT +14.0% rvol 5.5 | [Benzinga] Rackspace Tech Q3 2026 Earnings Call Transcript +8-K
+11-10 10:00:02 scan keep LCID +12.6% rvol 6.0 | [Google News] Lucid Group Advances Over Five Percent Amid Electric Vehicle Secto
+11-10 10:00:02 scan keep MARA +12.2% rvol 4.1 | [Benzinga] Guggenheim Reiterates Neutral on MARA Holdingsto Neutral +8-K
+11-10 10:00:02 scan keep BW +10.6% rvol 7.6 | [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third Quarter 2026 Financi
+11-10 10:00:02 scan keep AMPY +9.6% rvol 5.4 | [Benzinga] Amplify Energy Reports Third Quarter 2026 Financial and Operating Res
+11-10 10:00:02 scan keep AMRC +9.4% rvol 2.1 | [Benzinga] Terrestrial Energy Selected for Ameresco Project at Aberdeen Proving 
+11-10 10:00:03 scan keep KLRA +7.6% rvol 2.2 | [Benzinga] Kailera Therapeutics Announces Upcoming Presentations at ObesityWeek 
+11-10 10:00:04 scan keep DOUG +7.5% rvol 2.1 | [Benzinga] Douglas Elliman Inc. Reports Third Quarter 2026 Financial Results +8-
+11-10 10:00:04 scan keep ASX +7.3% rvol 5.0 | [Benzinga] ASE Technology Unit Signs NT$590 Million Construction and Engineering
+11-10 10:00:05 scan keep DOCN +7.3% rvol 2.4 | [Google News] DigitalOcean Holdings, Inc. $DOCN Stock Sold by Van Berkom & Assoc
+11-10 10:00:05 scan drop SE: negative news ([Newswire] SmartStop Self Storage REIT Announces Pricing of Upsized Of)
+11-10 10:00:05 scan keep TRAX +7.1% rvol 3.4 | [Benzinga] Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100  Falls as I
+11-10 10:00:06 scan keep SMC +7.1% rvol 7.5 | [Benzinga] Summit Midstream Corporation Reports Third Quarter 2026 Financial and
+11-10 10:00:08 status 200:watching 250:pos CSQR 350:watching 400:done 550:watching 1000:done
