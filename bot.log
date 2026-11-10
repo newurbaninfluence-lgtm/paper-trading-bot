@@ -3062,3 +3062,8 @@
 11-10 10:24:02 [$350] EXIT 15 ZIP @ 5.65 (target) total P&L $5.28
 11-10 10:24:06 [$350] ALPACA result ZIP: sim $5.28 vs alpaca $5.34 (closed)
 11-10 10:30:04 status 200:done 250:pos CSQR 350:done 400:done 550:pos AMRC 1000:done
+11-10 10:38:02 [$550] HALF OFF 3 AMRC @ 26.32 (+1R), stop to breakeven
+11-10 10:38:05 [$550] ALPACA runner stop moved to 25.48
+11-10 10:40:04 status 200:done 250:pos CSQR 350:done 400:done 550:pos AMRC 1000:done
+11-10 10:50:04 status 200:done 250:pos CSQR 350:done 400:done 550:pos AMRC 1000:done
+11-10 11:00:04 status 200:done 250:pos CSQR 350:done 400:done 550:pos AMRC 1000:done
