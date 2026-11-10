@@ -3024,3 +3024,41 @@
 11-10 10:00:05 scan keep TRAX +7.1% rvol 3.4 | [Benzinga] Stock Market Today: S&P 500, Dow Futures Gain, Nasdaq 100  Falls as I
 11-10 10:00:06 scan keep SMC +7.1% rvol 7.5 | [Benzinga] Summit Midstream Corporation Reports Third Quarter 2026 Financial and
 11-10 10:00:08 status 200:watching 250:pos CSQR 350:watching 400:done 550:watching 1000:done
+11-10 10:07:02 [$550/pm_high_break] SIGNAL AMRC: Premarket-high break: closed above PM high 25.42, above VWAP; stop 24.76; size 100%
+11-10 10:07:05 [$550] ALPACA paper bracket x2 sent: 7 AMRC limit 25.48 (ids 2)
+11-10 10:08:02 [$550] BUY 7 AMRC @ 25.54 stop 24.76 half@26.32 tgt 27.1 | pm_high_break | Premarket-high break: closed above PM high 25.42, above VWAP | news: [Benzinga] Terrestrial Energy Selected for Ameresco Project 
+11-10 10:10:03 status 200:watching 250:pos CSQR 350:watching 400:done 550:pos AMRC 1000:done
+11-10 10:12:02 [$350/bull_flag] SIGNAL ZIP: Bull flag: 10.2% pole, 0.9% flag on light vol, broke 5.34; stop 5.29; size 100%
+11-10 10:12:05 [$350] ALPACA paper bracket x2 sent: 31 ZIP limit 5.4 (ids 2)
+11-10 10:13:02 [$350] BUY 29 ZIP @ 5.41 stop 5.29 half@5.53 tgt 5.65 | bull_flag | Bull flag: 10.2% pole, 0.9% flag on light vol, broke 5.34 | news: [Benzinga] ZipRecruiter Q3 2026 Earnings Call Transcript +8-
+11-10 10:15:03 scan keep PEPG +153.0% rvol 640.3 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-10 10:15:03 scan drop TTEC +43.7% rvol 62.9: no news 24h
+11-10 10:15:03 scan keep SECZ +40.3% rvol 14.1 | [Benzinga] Citigroup Upgrades Securitize Holdings to Buy, Maintains Price Target
+11-10 10:15:03 scan keep SENS +26.8% rvol 24.9 | [Benzinga] Raymond James Upgrades Senseonics to Market Perform +8-K
+11-10 10:15:03 scan keep ZIP +25.6% rvol 8.6 | [Benzinga] ZipRecruiter Q3 2026 Earnings Call Transcript +8-K
+11-10 10:15:03 scan keep AAON +25.3% rvol 10.3 | [Benzinga] AAON, Inc. Declares Quarterly Cash Dividend +8-K
+11-10 10:15:03 scan keep CSQR +19.4% rvol 6.1 | [Benzinga] Csquare, Inc. Reports Third Quarter 2026 Financial Results +8-K
+11-10 10:15:03 scan keep BW +16.0% rvol 7.3 | [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third Quarter 2026 Financi
+11-10 10:15:03 scan keep RXT +15.4% rvol 4.6 | [Benzinga] Rackspace Tech Q3 2026 Earnings Call Transcript +8-K
+11-10 10:15:03 scan keep LCID +13.0% rvol 6.0 | [Google News] Lucid Group Advances Over Five Percent Amid Electric Vehicle Secto
+11-10 10:15:03 scan keep MARA +12.6% rvol 3.6 | [Benzinga] Guggenheim Reiterates Neutral on MARA Holdingsto Neutral +8-K
+11-10 10:15:04 scan keep IAM +9.5% rvol 3.7 | [Benzinga] Jefferies Initiates Coverage On Iambic Therapeutics with Buy Rating, 
+11-10 10:15:04 scan keep DOUG +8.8% rvol 2.3 | [Benzinga] Douglas Elliman Inc. Reports Third Quarter 2026 Financial Results +8-
+11-10 10:15:04 scan keep RAIL +8.5% rvol 6.2 | [Benzinga] Railtown AI Launches AI Partner Marketplace +8-K
+11-10 10:15:04 scan drop SE: negative news ([Newswire] SmartStop Self Storage REIT Announces Pricing of Upsized Of)
+11-10 10:15:04 scan keep AMPY +8.4% rvol 4.7 | [Benzinga] Amplify Energy Reports Third Quarter 2026 Financial and Operating Res
+11-10 10:15:04 scan keep SMC +8.2% rvol 5.5 | [Benzinga] Summit Midstream Corporation Reports Third Quarter 2026 Financial and
+11-10 10:15:04 scan keep ADTN +8.0% rvol 2.3 | [Benzinga] Telia Estonia Trials Adtran 50G PON Technology
+11-10 10:15:04 scan keep DOCN +7.6% rvol 2.4 | [Google News] DigitalOcean Holdings, Inc. $DOCN Stock Sold by Van Berkom & Assoc
+11-10 10:15:05 scan keep AGLT +6.8% rvol 2.6 | [Google News] Total debt per share of Agility Robotics, Inc. – NASDAQ:AGLT - Tra
+11-10 10:15:02 [$200/pm_high_break] SIGNAL BW: Premarket-high break: closed above PM high 4.39, above VWAP; stop 4.29; size 100%
+11-10 10:15:09 [$200] ALPACA paper bracket x2 sent: 14 BW limit 4.42 (ids 2)
+11-10 10:16:02 [$200] BUY 16 BW @ 4.41 stop 4.29 half@4.53 tgt 4.65 | pm_high_break | Premarket-high break: closed above PM high 4.39, above VWAP | news: [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third 
+11-10 10:19:02 [$200] EXIT 16 BW @ 4.27 (stop) total P&L $-2.24
+11-10 10:19:07 [$200] ALPACA result BW: sim $-2.24 vs alpaca $-1.54 (closed)
+11-10 10:20:05 status 200:done 250:pos CSQR 350:pos ZIP 400:done 550:pos AMRC 1000:done
+11-10 10:21:02 [$350] HALF OFF 14 ZIP @ 5.53 (+1R), stop to breakeven
+11-10 10:21:04 [$350] ALPACA runner stop moved to 5.4
+11-10 10:24:02 [$350] EXIT 15 ZIP @ 5.65 (target) total P&L $5.28
+11-10 10:24:06 [$350] ALPACA result ZIP: sim $5.28 vs alpaca $5.34 (closed)
+11-10 10:30:04 status 200:done 250:pos CSQR 350:done 400:done 550:pos AMRC 1000:done

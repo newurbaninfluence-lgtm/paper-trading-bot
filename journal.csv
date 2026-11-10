@@ -104,3 +104,5 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-09,200,vwap_pullback,ULCC,18,8.11,8.0,8.22,8.33,8.33,target,2.97,1.49,1.0,,1,"VWAP pullback: +8.9%, dipped to VWAP 8.08, reclaimed with green bar | news: [Benzinga] Frontier Group Holdings, Inc. Reports Third Quart"
 2026-11-10,400,orb5,PEPG,19,6.25,6.04,6.46,6.67,6.02,stop,-4.37,-1.09,1.0,,1,"5-min ORB: green first 5 min, closed above range high 6.00 | news: [Benzinga] PepGen Reports Third Quarter 2026 Financial Resul"
 2026-11-10,1000,orb5,PEPG,47,6.25,6.04,6.46,6.67,6.02,stop,-10.81,-1.08,1.0,,1,"5-min ORB: green first 5 min, closed above range high 6.00 | news: [Benzinga] PepGen Reports Third Quarter 2026 Financial Resul"
+2026-11-10,200,pm_high_break,BW,16,4.41,4.29,4.53,4.65,4.27,stop,-2.24,-1.12,1.0,,1,"Premarket-high break: closed above PM high 4.39, above VWAP | news: [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third "
+2026-11-10,350,bull_flag,ZIP,29,5.41,5.29,5.53,5.65,5.65,target,5.28,1.51,1.0,,1,"Bull flag: 10.2% pole, 0.9% flag on light vol, broke 5.34 | news: [Benzinga] ZipRecruiter Q3 2026 Earnings Call Transcript +8-"

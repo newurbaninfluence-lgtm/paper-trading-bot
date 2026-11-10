@@ -104,3 +104,5 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-09,200,vwap_pullback,ULCC,2.97,16.0,16.0,8.09,1.44,closed
 2026-11-10,400,orb5,PEPG,-4.37,18.0,18.0,6.2161,-3.14,closed
 2026-11-10,1000,orb5,PEPG,-10.81,46.0,46.0,6.2143,-8.72,closed
+2026-11-10,200,pm_high_break,BW,-2.24,14.0,14.0,4.4,-1.54,closed
+2026-11-10,350,bull_flag,ZIP,5.28,31.0,31.0,5.3994,5.34,closed
