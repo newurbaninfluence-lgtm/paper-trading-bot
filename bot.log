@@ -2953,3 +2953,18 @@
 11-09 20:30:44 labeled 0 signals with outcomes
 11-09 20:30:46 daily report written
 11-09 20:30:46 bot session end
+11-10 08:39:57 alpaca paper mirror: ON
+11-10 08:39:57 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-10 08:39:57 resumed state from 2026-11-09
+11-10 08:39:57 bot live start (max 5.9h)
+11-10 09:31:41 market brief written: briefs/2026-11-10.md (25 Benzinga items)
+11-10 09:31:42 scan keep PEPG +138.6% rvol 869.4 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-10 09:31:42 scan keep SECZ +32.3% rvol 13.5 | [Benzinga] Citigroup Upgrades Securitize Holdings to Buy, Maintains Price Target
+11-10 09:31:43 scan keep SENS +22.5% rvol 12.1 | [Benzinga] Raymond James Upgrades Senseonics to Market Perform +8-K
+11-10 09:31:43 scan drop TTEC +21.9% rvol 31.3: no news 24h
+11-10 09:31:43 scan keep KLTR +14.7% rvol 21.7 | [Benzinga] Kaltura Announces Financial Results for Third Quarter 2026 +8-K
+11-10 09:31:44 scan keep AAON +10.1% rvol 2.9 | [Benzinga] AAON, Inc. Declares Quarterly Cash Dividend +8-K
+11-10 09:31:44 scan keep MXCT +6.1% rvol 9.1 | [Benzinga] MaxCyte Reports Preliminary Q3 Core Revenue Of ~$8.1M, Up 26% YoY; Ra
+11-10 09:31:44 scan keep FWRD +5.4% rvol 2.0 | [Newswire] Forward Air Announces Two-Year Definitive Agreement to Retain Signifi
+11-10 09:31:45 scan drop ISNPY +5.2% rvol 3.9: no news 24h
+11-10 09:31:46 new day universe=['PEPG', 'SECZ', 'SENS', 'KLTR', 'AAON', 'MXCT', 'FWRD']
