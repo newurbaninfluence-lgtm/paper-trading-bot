@@ -106,3 +106,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-10,1000,orb5,PEPG,47,6.25,6.04,6.46,6.67,6.02,stop,-10.81,-1.08,1.0,,1,"5-min ORB: green first 5 min, closed above range high 6.00 | news: [Benzinga] PepGen Reports Third Quarter 2026 Financial Resul"
 2026-11-10,200,pm_high_break,BW,16,4.41,4.29,4.53,4.65,4.27,stop,-2.24,-1.12,1.0,,1,"Premarket-high break: closed above PM high 4.39, above VWAP | news: [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third "
 2026-11-10,350,bull_flag,ZIP,29,5.41,5.29,5.53,5.65,5.65,target,5.28,1.51,1.0,,1,"Bull flag: 10.2% pole, 0.9% flag on light vol, broke 5.34 | news: [Benzinga] ZipRecruiter Q3 2026 Earnings Call Transcript +8-"
+2026-11-10,250,orb15,CSQR,3,17.93,17.27,18.59,19.25,17.24,stop,-2.07,-0.83,1.0,,1,"15-min ORB: closed above 15-min high 17.67, above VWAP | news: [Benzinga] Csquare, Inc. Reports Third Quarter 2026 Financia"
