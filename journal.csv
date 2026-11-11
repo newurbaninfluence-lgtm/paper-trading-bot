@@ -110,3 +110,6 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-10,550,pm_high_break,AMRC,7,25.54,24.76,26.32,27.1,27.1,target,8.58,1.56,1.0,,1,"Premarket-high break: closed above PM high 25.42, above VWAP | news: [Benzinga] Terrestrial Energy Selected for Ameresco Project "
 2026-11-11,250,orb15,ANGX,13,4.27,4.08,4.46,4.65,4.03,stop,-3.12,-1.25,1.0,,1,"15-min ORB: closed above 15-min high 4.20, above VWAP | news: [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8"
 2026-11-11,1000,orb5,AXTI,7,45.57,44.19,46.95,48.33,44.12,stop,-10.15,-1.02,1.0,,1,"5-min ORB: green first 5 min, closed above range high 45.40 | news: [Benzinga] 10 Information Technology Stocks With Whale Alert"
+2026-11-11,400,orb5,STEM,49,2.6,2.52,2.68,2.76,2.48,stop,-5.88,-1.47,1.0,,1,"5-min ORB: green first 5 min, closed above range high 2.57 | news: [Benzinga] SThree plc Executes Share Buyback"
+2026-11-11,350,bull_flag,RSKD,18,11.0,10.81,11.19,11.38,10.79,stop,-3.78,-1.08,1.0,,1,"Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97 | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript"
+2026-11-11,550,bull_flag,RSKD,28,11.0,10.81,11.19,11.38,10.79,stop,-5.88,-1.07,1.0,,1,"Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97 | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript"

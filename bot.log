@@ -3211,3 +3211,32 @@
 11-11 10:02:02 [$200] BUY 6 RSKD @ 11.0 stop 10.69 half@11.31 tgt 11.62 | vwap_pullback | VWAP pullback: +29.4%, dipped to VWAP 10.67, reclaimed with green bar | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript
 11-11 10:02:02 [$350] BUY 18 RSKD @ 11.0 stop 10.81 half@11.19 tgt 11.38 | bull_flag | Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97 | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript
 11-11 10:02:02 [$550] BUY 28 RSKD @ 11.0 stop 10.81 half@11.19 tgt 11.38 | bull_flag | Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97 | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript
+11-11 10:10:05 status 200:pos RSKD 250:done 350:pos RSKD 400:pos STEM 550:pos RSKD 1000:done
+11-11 10:15:02 scan keep RSKD +28.9% rvol 13.4 | [Benzinga] Riskified Q3 2026 Earnings Call Transcript
+11-11 10:15:02 scan drop BGS +27.4% rvol 19.7: no news 24h
+11-11 10:15:02 scan keep FOSL +27.2% rvol 41.6 | [Benzinga] Top 3 Consumer Stocks That May Fall Off A Cliff This month +8-K
+11-11 10:15:02 scan drop TTEC +22.7% rvol 21.3: no news 24h
+11-11 10:15:02 scan keep PEPG +19.1% rvol 22.6 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-11 10:15:02 scan keep CRWV +19.0% rvol 12.2 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-11 10:15:02 scan keep AZTA +17.5% rvol 3.1 | [Benzinga] Azenta Reports Fourth Quarter and Full Year 2026 Financial Results +8
+11-11 10:15:02 scan keep VNET +16.7% rvol 2.1 | [Google News] What Investors Got Wrong About VNET Group Before A 68% Slide - Yah
+11-11 10:15:02 scan keep FRMI +16.6% rvol 2.6 | [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock
+11-11 10:15:02 scan keep AXTI +15.8% rvol 4.0 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-11 10:15:02 scan keep CAPR +13.8% rvol 2.1 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
+11-11 10:15:02 scan keep CECO +12.0% rvol 3.5 | [Benzinga] CECO Environmental Announces Participation in Upcoming Investor Confe
+11-11 10:15:02 scan keep RXT +11.9% rvol 3.9 | [Benzinga] Rackspace Tech Q3 2026 Earnings Call Transcript +8-K
+11-11 10:15:02 scan keep BW +10.9% rvol 6.6 | [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third Quarter 2026 Financi
+11-11 10:15:02 scan keep DOCN +10.3% rvol 2.3 | [Google News] DigitalOcean Holdings, Inc. $DOCN Stock Sold by Van Berkom & Assoc
+11-11 10:15:02 scan keep AAOI +9.9% rvol 3.1 | [Benzinga] Applied Optoelectronics Remains Under Pressure After Last Week’s Q4 G
+11-11 10:15:02 scan keep ASPN +9.6% rvol 3.2 | [Newswire] Menhaden Critics Ignore Weather that Kept Fishermen Off the Water - A
+11-11 10:15:02 scan drop FLY: negative news ([Newswire] IUX Officially Launches New Credit Campaign Offering Up to )
+11-11 10:15:02 scan keep AEHR +9.2% rvol 2.8 | [Benzinga] Aehr Stock Surges As CEO Says AI Chip Complexity Is Accelerating Burn
+11-11 10:15:02 scan drop VCX +9.1% rvol 4.5: no news 24h
+11-11 10:20:04 status 200:pos RSKD 250:done 350:pos RSKD 400:pos STEM 550:pos RSKD 1000:done
+11-11 10:26:02 [$400] EXIT 49 STEM @ 2.48 (stop) total P&L $-5.88
+11-11 10:26:08 [$400] ALPACA result STEM: sim $-5.88 vs alpaca $-3.94 (closed)
+11-11 10:30:05 status 200:pos RSKD 250:done 350:pos RSKD 400:done 550:pos RSKD 1000:done
+11-11 10:31:02 [$350] EXIT 18 RSKD @ 10.79 (stop) total P&L $-3.78
+11-11 10:31:06 [$350] ALPACA result RSKD: sim $-3.78 vs alpaca $-2.62 (closed)
+11-11 10:31:02 [$550] EXIT 28 RSKD @ 10.79 (stop) total P&L $-5.88
+11-11 10:31:09 [$550] ALPACA result RSKD: sim $-5.88 vs alpaca $-4.12 (closed)
