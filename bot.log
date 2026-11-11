@@ -3146,3 +3146,68 @@
 11-11 09:31:32 scan drop NDMO +5.8% rvol 2.7: no news 24h
 11-11 09:31:33 scan keep MX +5.5% rvol 2.3 | [Newswire] SolidRun Launches NXP i.MX 95 Portfolio with Complete Industrial Ecos
 11-11 09:31:34 new day universe=['CANG', 'FOSL', 'PEPG', 'CRWV', 'BW', 'AXTI', 'ANGX', 'AAOI', 'IREN', 'STEM', 'MX']
+11-11 09:39:02 [$1000/orb5] SIGNAL AXTI: 5-min ORB: green first 5 min, closed above range high 45.40; stop 44.19; size 100%
+11-11 09:39:03 [$1000] ALPACA paper bracket x2 sent: 7 AXTI limit 45.59 (ids 2)
+11-11 09:40:02 [$1000] BUY 7 AXTI @ 45.57 stop 44.19 half@46.95 tgt 48.33 | orb5 | 5-min ORB: green first 5 min, closed above range high 45.40 | news: [Benzinga] 10 Information Technology Stocks With Whale Alert
+11-11 09:40:04 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:pos AXTI
+11-11 09:41:02 [$400/orb5] SIGNAL STEM: 5-min ORB: green first 5 min, closed above range high 2.57; stop 2.52; size 100%
+11-11 09:41:03 [$400] ALPACA paper bracket x2 sent: 50 STEM limit 2.6 (ids 2)
+11-11 09:42:02 [$400] BUY 49 STEM @ 2.6 stop 2.52 half@2.68 tgt 2.76 | orb5 | 5-min ORB: green first 5 min, closed above range high 2.57 | news: [Benzinga] SThree plc Executes Share Buyback
+11-11 09:45:02 scan keep CANG +36.9% rvol 12.4 | [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, Analysis, AI - TheEn
+11-11 09:45:02 scan drop BGS +30.3% rvol 24.7: no news 24h
+11-11 09:45:02 scan keep RSKD +26.1% rvol 19.6 | [Benzinga] Riskified Q3 2026 Earnings Call Transcript
+11-11 09:45:02 scan keep FOSL +22.7% rvol 61.3 | [Benzinga] Top 3 Consumer Stocks That May Fall Off A Cliff This month +8-K
+11-11 09:45:02 scan keep PEPG +19.1% rvol 28.9 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-11 09:45:02 scan drop TTEC +18.3% rvol 26.5: no news 24h
+11-11 09:45:03 scan keep AZTA +17.2% rvol 4.2 | [Benzinga] Azenta Reports Fourth Quarter and Full Year 2026 Financial Results +8
+11-11 09:45:03 scan keep LMRI +15.2% rvol 3.4 | [Benzinga] Lumexa Imaging Holdings, Inc. Reports Third Quarter 2026 Financial Re
+11-11 09:45:03 scan keep CRWV +15.1% rvol 16.3 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-11 09:45:03 scan keep AXTI +14.5% rvol 5.6 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-11 09:45:03 scan keep CECO +13.2% rvol 3.5 | [Benzinga] CECO Environmental Announces Participation in Upcoming Investor Confe
+11-11 09:45:03 scan keep ANGX +12.1% rvol 6.6 | [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8-K
+11-11 09:45:03 scan keep FRMI +11.4% rvol 2.7 | [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock
+11-11 09:45:03 scan keep AEHR +9.7% rvol 3.9 | [Benzinga] Aehr Stock Surges As CEO Says AI Chip Complexity Is Accelerating Burn
+11-11 09:45:03 scan keep VNET +9.6% rvol 2.1 | [Google News] What Investors Got Wrong About VNET Group Before A 68% Slide - Yah
+11-11 09:45:03 scan keep AAOI +9.1% rvol 5.0 | [Benzinga] Applied Optoelectronics Remains Under Pressure After Last Week’s Q4 G
+11-11 09:45:04 scan keep REZI +8.4% rvol 5.0 | [Benzinga] CORRECTION: Resideo Technologies Q3 Adj. EPS $0.52 Beats $0.40 Estima
+11-11 09:45:04 scan keep CAPR +8.3% rvol 2.2 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
+11-11 09:45:04 scan keep BW +8.2% rvol 7.1 | [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third Quarter 2026 Financi
+11-11 09:45:05 scan keep HMH +7.9% rvol 5.6 | [Newswire] PIH Health (@pihhealth) - Instagram
+11-11 09:46:02 [$250/orb15] SIGNAL ANGX: 15-min ORB: closed above 15-min high 4.20, above VWAP; stop 4.08; size 100%
+11-11 09:46:04 [$250] ALPACA paper bracket x2 sent: 13 ANGX limit 4.27 (ids 2)
+11-11 09:47:02 [$250] BUY 13 ANGX @ 4.27 stop 4.08 half@4.46 tgt 4.65 | orb15 | 15-min ORB: closed above 15-min high 4.20, above VWAP | news: [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8
+11-11 09:48:02 [$250] EXIT 13 ANGX @ 4.03 (stop) total P&L $-3.12
+11-11 09:48:06 [$250] ALPACA result ANGX: sim $-3.12 vs alpaca $None (partially open)
+11-11 09:48:02 [$1000] EXIT 7 AXTI @ 44.12 (stop) total P&L $-10.15
+11-11 09:48:08 [$1000] ALPACA result AXTI: sim $-10.15 vs alpaca $-9.98 (closed)
+11-11 09:50:04 status 200:watching 250:done 350:watching 400:pos STEM 550:watching 1000:done
+11-11 10:00:02 scan keep RSKD +27.6% rvol 15.8 | [Benzinga] Riskified Q3 2026 Earnings Call Transcript
+11-11 10:00:02 scan keep FOSL +26.8% rvol 55.5 | [Benzinga] Top 3 Consumer Stocks That May Fall Off A Cliff This month +8-K
+11-11 10:00:02 scan drop BGS +26.1% rvol 26.7: no news 24h
+11-11 10:00:02 scan drop TTEC +24.9% rvol 24.7: no news 24h
+11-11 10:00:02 scan keep PEPG +20.1% rvol 26.0 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-11 10:00:02 scan keep FRMI +19.2% rvol 2.9 | [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock
+11-11 10:00:02 scan keep CRWV +17.5% rvol 14.8 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-11 10:00:02 scan keep AZTA +17.1% rvol 3.9 | [Benzinga] Azenta Reports Fourth Quarter and Full Year 2026 Financial Results +8
+11-11 10:00:02 scan keep BW +15.9% rvol 7.5 | [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third Quarter 2026 Financi
+11-11 10:00:02 scan keep AXTI +14.0% rvol 4.9 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-11 10:00:02 scan keep CECO +11.8% rvol 3.8 | [Benzinga] CECO Environmental Announces Participation in Upcoming Investor Confe
+11-11 10:00:02 scan keep ANGX +11.8% rvol 8.0 | [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8-K
+11-11 10:00:02 scan keep CAPR +10.5% rvol 2.0 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
+11-11 10:00:02 scan keep REZI +10.1% rvol 4.6 | [Benzinga] CORRECTION: Resideo Technologies Q3 Adj. EPS $0.52 Beats $0.40 Estima
+11-11 10:00:02 scan drop FLY: negative news ([Newswire] IUX Officially Launches New Credit Campaign Offering Up to )
+11-11 10:00:02 scan keep AAOI +9.3% rvol 4.0 | [Benzinga] Applied Optoelectronics Remains Under Pressure After Last Week’s Q4 G
+11-11 10:00:02 scan keep AEHR +9.3% rvol 3.4 | [Benzinga] Aehr Stock Surges As CEO Says AI Chip Complexity Is Accelerating Burn
+11-11 10:00:02 scan keep MXL +9.0% rvol 2.1 | [Google News] MaxLinear: I Will Continue Buying Despite The Selloff (NASDAQ:MXL)
+11-11 10:00:03 scan keep FPS +8.8% rvol 2.1 | [Benzinga] JPMorgan Analyst Report on AI Capital Expenditure Cycle
+11-11 10:00:03 scan keep GLXY +8.8% rvol 2.8 | [Newswire] Galaxy Gaming Appoints Distinguished Gaming Industry Pioneer John M. 
+11-11 10:00:06 status 200:watching 250:done 350:watching 400:pos STEM 550:watching 1000:done
+11-11 10:01:02 [$200/vwap_pullback] SIGNAL RSKD: VWAP pullback: +29.4%, dipped to VWAP 10.67, reclaimed with green bar; stop 10.69; size 100%
+11-11 10:01:05 [$200] ALPACA paper bracket x2 sent: 6 RSKD limit 11.01 (ids 2)
+11-11 10:01:02 [$350/bull_flag] SIGNAL RSKD: Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97; stop 10.81; size 100%
+11-11 10:01:05 [$350] ALPACA paper bracket x2 sent: 17 RSKD limit 11.01 (ids 2)
+11-11 10:01:02 [$550/bull_flag] SIGNAL RSKD: Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97; stop 10.81; size 100%
+11-11 10:01:06 [$550] ALPACA paper bracket x2 sent: 28 RSKD limit 11.01 (ids 2)
+11-11 10:02:02 [$200] BUY 6 RSKD @ 11.0 stop 10.69 half@11.31 tgt 11.62 | vwap_pullback | VWAP pullback: +29.4%, dipped to VWAP 10.67, reclaimed with green bar | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript
+11-11 10:02:02 [$350] BUY 18 RSKD @ 11.0 stop 10.81 half@11.19 tgt 11.38 | bull_flag | Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97 | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript
+11-11 10:02:02 [$550] BUY 28 RSKD @ 11.0 stop 10.81 half@11.19 tgt 11.38 | bull_flag | Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97 | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript

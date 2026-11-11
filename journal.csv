@@ -108,3 +108,5 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-10,350,bull_flag,ZIP,29,5.41,5.29,5.53,5.65,5.65,target,5.28,1.51,1.0,,1,"Bull flag: 10.2% pole, 0.9% flag on light vol, broke 5.34 | news: [Benzinga] ZipRecruiter Q3 2026 Earnings Call Transcript +8-"
 2026-11-10,250,orb15,CSQR,3,17.93,17.27,18.59,19.25,17.24,stop,-2.07,-0.83,1.0,,1,"15-min ORB: closed above 15-min high 17.67, above VWAP | news: [Benzinga] Csquare, Inc. Reports Third Quarter 2026 Financia"
 2026-11-10,550,pm_high_break,AMRC,7,25.54,24.76,26.32,27.1,27.1,target,8.58,1.56,1.0,,1,"Premarket-high break: closed above PM high 25.42, above VWAP | news: [Benzinga] Terrestrial Energy Selected for Ameresco Project "
+2026-11-11,250,orb15,ANGX,13,4.27,4.08,4.46,4.65,4.03,stop,-3.12,-1.25,1.0,,1,"15-min ORB: closed above 15-min high 4.20, above VWAP | news: [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8"
+2026-11-11,1000,orb5,AXTI,7,45.57,44.19,46.95,48.33,44.12,stop,-10.15,-1.02,1.0,,1,"5-min ORB: green first 5 min, closed above range high 45.40 | news: [Benzinga] 10 Information Technology Stocks With Whale Alert"
