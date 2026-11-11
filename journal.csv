@@ -113,3 +113,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-11,400,orb5,STEM,49,2.6,2.52,2.68,2.76,2.48,stop,-5.88,-1.47,1.0,,1,"5-min ORB: green first 5 min, closed above range high 2.57 | news: [Benzinga] SThree plc Executes Share Buyback"
 2026-11-11,350,bull_flag,RSKD,18,11.0,10.81,11.19,11.38,10.79,stop,-3.78,-1.08,1.0,,1,"Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97 | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript"
 2026-11-11,550,bull_flag,RSKD,28,11.0,10.81,11.19,11.38,10.79,stop,-5.88,-1.07,1.0,,1,"Bull flag: 6.4% pole, 1.4% flag on light vol, broke 10.97 | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript"
+2026-11-11,200,vwap_pullback,RSKD,6,11.0,10.69,11.31,11.62,10.67,stop,-1.98,-0.99,1.0,,1,"VWAP pullback: +29.4%, dipped to VWAP 10.67, reclaimed with green bar | news: [Benzinga] Riskified Q3 2026 Earnings Call Transcript"

@@ -113,3 +113,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-11,400,orb5,STEM,-5.88,50.0,50.0,2.5788,-3.94,closed
 2026-11-11,350,bull_flag,RSKD,-3.78,17.0,17.0,10.9541,-2.62,closed
 2026-11-11,550,bull_flag,RSKD,-5.88,28.0,28.0,10.9471,-4.12,closed
+2026-11-11,200,vwap_pullback,RSKD,-1.98,6.0,6.0,10.9467,-1.24,closed

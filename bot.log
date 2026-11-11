@@ -3240,3 +3240,8 @@
 11-11 10:31:06 [$350] ALPACA result RSKD: sim $-3.78 vs alpaca $-2.62 (closed)
 11-11 10:31:02 [$550] EXIT 28 RSKD @ 10.79 (stop) total P&L $-5.88
 11-11 10:31:09 [$550] ALPACA result RSKD: sim $-5.88 vs alpaca $-4.12 (closed)
+11-11 10:40:04 status 200:pos RSKD 250:done 350:done 400:done 550:done 1000:done
+11-11 10:42:02 [$200] EXIT 6 RSKD @ 10.67 (stop) total P&L $-1.98
+11-11 10:42:06 [$200] ALPACA result RSKD: sim $-1.98 vs alpaca $-1.24 (closed)
+11-11 10:50:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-11 11:00:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
