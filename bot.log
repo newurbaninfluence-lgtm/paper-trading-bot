@@ -3125,3 +3125,24 @@
 11-10 18:20:28 labeled 0 signals with outcomes
 11-10 18:20:30 daily report written
 11-10 18:20:30 bot session end
+11-11 08:38:49 alpaca paper mirror: ON
+11-11 08:38:49 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-11 08:38:49 resumed state from 2026-11-10
+11-11 08:38:49 bot live start (max 5.9h)
+11-11 09:31:29 market brief written: briefs/2026-11-11.md (25 Benzinga items)
+11-11 09:31:29 scan keep CANG +41.4% rvol 6.1 | [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, Analysis, AI - TheEn
+11-11 09:31:30 scan keep FOSL +25.7% rvol 22.6 | [Benzinga] Top 3 Consumer Stocks That May Fall Off A Cliff This month +8-K
+11-11 09:31:30 scan drop BGS +21.4% rvol 4.5: no news 24h
+11-11 09:31:30 scan keep PEPG +19.0% rvol 12.8 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-11 09:31:30 scan keep CRWV +16.7% rvol 9.3 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-11 09:31:30 scan keep BW +15.5% rvol 3.1 | [Benzinga] Babcock & Wilcox Enterprises, Inc. Reports Third Quarter 2026 Financi
+11-11 09:31:30 scan keep AXTI +11.7% rvol 2.4 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-11 09:31:30 scan keep ANGX +11.0% rvol 2.6 | [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8-K
+11-11 09:31:31 scan keep AAOI +8.0% rvol 2.7 | [Benzinga] Applied Optoelectronics Remains Under Pressure After Last Week’s Q4 G
+11-11 09:31:31 scan keep IREN +7.9% rvol 3.1 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-11 09:31:31 scan drop FLY: negative news ([Newswire] IUX Officially Launches New Credit Campaign Offering Up to )
+11-11 09:31:32 scan keep STEM +6.3% rvol 2.6 | [Benzinga] SThree plc Executes Share Buyback
+11-11 09:31:32 scan drop VCX +6.0% rvol 4.3: no news 24h
+11-11 09:31:32 scan drop NDMO +5.8% rvol 2.7: no news 24h
+11-11 09:31:33 scan keep MX +5.5% rvol 2.3 | [Newswire] SolidRun Launches NXP i.MX 95 Portfolio with Complete Industrial Ecos
+11-11 09:31:34 new day universe=['CANG', 'FOSL', 'PEPG', 'CRWV', 'BW', 'AXTI', 'ANGX', 'AAOI', 'IREN', 'STEM', 'MX']
