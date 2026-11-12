@@ -3410,3 +3410,6 @@
 11-12 11:00:02 [$200] EXIT 17 FRMI @ 2.04 (target) total P&L $3.0
 11-12 11:00:09 [$200] ALPACA result FRMI: sim $3.0 vs alpaca $None (partially open)
 11-12 11:00:09 status 200:done 250:pos MBGL 350:done 400:pos LKFT 550:done 1000:pos LKFT
+11-12 11:10:06 status 200:done 250:pos MBGL 350:done 400:pos LKFT 550:done 1000:pos LKFT
+11-12 11:20:05 status 200:done 250:pos MBGL 350:done 400:pos LKFT 550:done 1000:pos LKFT
+11-12 11:30:05 status 200:done 250:pos MBGL 350:done 400:pos LKFT 550:done 1000:pos LKFT
