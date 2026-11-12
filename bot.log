@@ -3321,3 +3321,47 @@
 11-12 09:31:34 scan drop TWN +7.8% rvol 31.9: no news 24h
 11-12 09:31:35 scan drop TRMK: negative news ([Benzinga] Hancock Whitney Says Trustmark Deal Expected To Be About 7%)
 11-12 09:31:36 new day universe=['ICMB', 'AVEX', 'LUNR', 'TTEK', 'VPG']
+11-12 09:40:03 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+11-12 09:45:02 scan keep ICMB +65.3% rvol 10503.8 | [Benzinga] Investcorp Credit Management (ICMB) Stock Jumps Over 53% After Hours 
+11-12 09:45:02 scan keep AVEX +20.9% rvol 10.8 | [Benzinga] Oppenheimer Initiates Coverage of AEVEX Corp. with Outperform Rating
+11-12 09:45:02 scan keep FRMI +14.6% rvol 22.3 | [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock
+11-12 09:45:02 scan keep LUNR +13.3% rvol 17.8 | [Benzinga] Intuitive Machines Reports Third Quarter 2026 Financial Results +8-K
+11-12 09:45:03 scan keep MBGL +10.8% rvol 2.3 | [Benzinga] Mobility Global Inc. Reports Third Quarter 2026 Financial Results and
+11-12 09:45:04 scan keep TISI +8.1% rvol 12.2 | [Benzinga] Team Q3 2026 Earnings Call Transcript +8-K
+11-12 09:45:04 scan drop DPC +7.5% rvol 3.4: no news 24h
+11-12 09:45:04 scan keep AVAH +6.5% rvol 2.1 | [Benzinga] Aveanna Healthcare Holdings Inc. Announces Third Quarter 2026 Financi
+11-12 09:45:04 scan keep TTEK +6.0% rvol 7.9 | [Benzinga] Stock Market Today: NVDA Stock Sinks Nasdaq, S&P 500 Futures as Board
+11-12 09:45:05 scan drop PLGO: negative news ([Benzinga] Pelagos Insurance Book Value per Diluted Share $26.60 at 30)
+11-12 09:45:05 scan drop BGS +5.2% rvol 10.1: no news 24h
+11-12 09:45:05 scan drop TRMK: negative news ([Benzinga] Hancock Whitney Says Trustmark Deal Expected To Be About 7%)
+11-12 09:45:05 scan keep LKFT +5.0% rvol 6.1 | [Benzinga] Lakefront Biotherapeutics Q3 EPS €(0.04) Beats €(0.19) Estimate, Sale
+11-12 09:45:06 scan keep CAE +5.0% rvol 4.2 | [Benzinga] CAE Seeks Noteholder Consent To Amend C$400M 5.541% Notes Due 2028 In
+11-12 09:45:07 scan keep FIGR +4.3% rvol 8.9 | [Benzinga] Figure Technology Solutions Reports Q3 2026 Financial Results +8-K
+11-12 09:46:02 [$400/orb5] SIGNAL LKFT: 5-min ORB: green first 5 min, closed above range high 35.08; stop 34.08; size 100%
+11-12 09:46:05 [$400] ALPACA paper bracket x2 sent: 3 LKFT limit 35.16 (ids 2)
+11-12 09:46:02 [$1000/orb5] SIGNAL LKFT: 5-min ORB: green first 5 min, closed above range high 35.08; stop 34.08; size 100%
+11-12 09:46:05 [$1000] ALPACA paper bracket x2 sent: 9 LKFT limit 35.16 (ids 2)
+11-12 09:47:02 [$400] BUY 3 LKFT @ 35.22 stop 34.08 half@36.36 tgt 37.5 | orb5 | 5-min ORB: green first 5 min, closed above range high 35.08 | news: [Benzinga] Lakefront Biotherapeutics Q3 EPS €(0.04) Beats €(
+11-12 09:47:02 [$1000] BUY 8 LKFT @ 35.22 stop 34.08 half@36.36 tgt 37.5 | orb5 | 5-min ORB: green first 5 min, closed above range high 35.08 | news: [Benzinga] Lakefront Biotherapeutics Q3 EPS €(0.04) Beats €(
+11-12 09:50:04 status 200:watching 250:watching 350:watching 400:pos LKFT 550:watching 1000:pos LKFT
+11-12 09:51:02 [$250/orb15] SIGNAL MBGL: 15-min ORB: closed above 15-min high 22.62, above VWAP; stop 21.86; size 100%
+11-12 09:51:04 [$250] ALPACA paper bracket x2 sent: 2 MBGL limit 22.71 (ids 2)
+11-12 09:52:02 [$250] BUY 2 MBGL @ 22.73 stop 21.86 half@23.6 tgt 24.47 | orb15 | 15-min ORB: closed above 15-min high 22.62, above VWAP | news: [Benzinga] Mobility Global Inc. Reports Third Quarter 2026 F
+11-12 10:00:03 scan keep ICMB +67.7% rvol 7753.7 | [Benzinga] Investcorp Credit Management (ICMB) Stock Jumps Over 53% After Hours 
+11-12 10:00:03 scan keep AVEX +20.9% rvol 9.4 | [Benzinga] Oppenheimer Initiates Coverage of AEVEX Corp. with Outperform Rating
+11-12 10:00:03 scan keep LUNR +14.9% rvol 14.1 | [Benzinga] Intuitive Machines Reports Third Quarter 2026 Financial Results +8-K
+11-12 10:00:03 scan keep TISI +12.8% rvol 13.3 | [Benzinga] Team Q3 2026 Earnings Call Transcript +8-K
+11-12 10:00:03 scan keep MBGL +11.3% rvol 3.4 | [Benzinga] Mobility Global Inc. Reports Third Quarter 2026 Financial Results and
+11-12 10:00:04 scan keep MSC +10.0% rvol 3.1 | [Newswire] CEOs gather to discuss future of cruise industry at Seatrade Cruise A
+11-12 10:00:04 scan drop CPIX +8.5% rvol 2.4: no news 24h
+11-12 10:00:04 scan keep FRMI +8.3% rvol 16.5 | [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock
+11-12 10:00:04 scan drop DPC +8.1% rvol 3.7: no news 24h
+11-12 10:00:04 scan keep FIGR +6.3% rvol 8.4 | [Benzinga] Figure Technology Solutions Reports Q3 2026 Financial Results +8-K
+11-12 10:00:05 scan keep FLX +5.7% rvol 2.6 | [Newswire] Bentaus, an Energy-First NeoCloud, Deploys DriveNets High-Performance
+11-12 10:00:05 scan drop SQNS +5.2% rvol 3.9: no news 24h
+11-12 10:00:06 scan keep HOS +5.2% rvol 2.6 | [Newswire] BJC Health and St. Luke’s Announce Letter of Intent to Strengthen Hea
+11-12 10:00:07 scan keep SPB +5.1% rvol 3.5 | [Benzinga] TD Cowen Upgrades Superior Plus Following Share Price Decline +8-K
+11-12 10:00:07 scan keep LKFT +4.2% rvol 7.1 | [Benzinga] Lakefront Biotherapeutics Q3 EPS €(0.04) Beats €(0.19) Estimate, Sale
+11-12 10:00:07 scan keep CHA +4.2% rvol 11.6 | [Benzinga] Chagee Declares Special Cash Dividend Of ~$1.95/Share Or ADS; Board A
+11-12 10:00:07 scan keep TMDX +4.1% rvol 2.0 | [Benzinga] TransMedics Group, Inc. Reports Third Quarter 2026 Financial Results 
+11-12 10:00:11 status 200:watching 250:pos MBGL 350:watching 400:pos LKFT 550:watching 1000:pos LKFT
