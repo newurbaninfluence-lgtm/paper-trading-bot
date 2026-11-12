@@ -3426,3 +3426,6 @@
 11-12 12:43:10 [$1000] ALPACA result LKFT: sim $-9.84 vs alpaca $-9.51 (closed)
 11-12 12:50:05 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
 11-12 13:00:05 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
+11-12 13:10:05 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
+11-12 13:20:05 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
+11-12 13:30:09 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
