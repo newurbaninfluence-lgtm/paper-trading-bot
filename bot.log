@@ -3399,3 +3399,14 @@
 11-12 10:31:02 [$200/vwap_pullback] SIGNAL FRMI: VWAP pullback: +5.2%, dipped to VWAP 1.88, reclaimed with green bar; stop 1.86; size 100%
 11-12 10:31:05 [$200] ALPACA paper bracket x2 sent: 26 FRMI limit 1.93 (ids 2)
 11-12 10:32:02 [$200] BUY 33 FRMI @ 1.92 stop 1.86 half@1.98 tgt 2.04 | vwap_pullback | VWAP pullback: +5.2%, dipped to VWAP 1.88, reclaimed with green bar | news: [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges,
+11-12 10:36:02 [$350] EXIT 8 MBGL @ 22.64 (target) total P&L $4.83
+11-12 10:36:07 [$350] ALPACA result MBGL: sim $4.83 vs alpaca $None (partially open)
+11-12 10:36:02 [$550] EXIT 12 MBGL @ 22.64 (target) total P&L $7.56
+11-12 10:36:10 [$550] ALPACA result MBGL: sim $7.56 vs alpaca $None (partially open)
+11-12 10:40:05 status 200:pos FRMI 250:pos MBGL 350:done 400:pos LKFT 550:done 1000:pos LKFT
+11-12 10:50:05 status 200:pos FRMI 250:pos MBGL 350:done 400:pos LKFT 550:done 1000:pos LKFT
+11-12 11:00:02 [$200] HALF OFF 16 FRMI @ 1.98 (+1R), stop to breakeven
+11-12 11:00:06 [$200] ALPACA runner stop moved to 1.93
+11-12 11:00:02 [$200] EXIT 17 FRMI @ 2.04 (target) total P&L $3.0
+11-12 11:00:09 [$200] ALPACA result FRMI: sim $3.0 vs alpaca $None (partially open)
+11-12 11:00:09 status 200:done 250:pos MBGL 350:done 400:pos LKFT 550:done 1000:pos LKFT
