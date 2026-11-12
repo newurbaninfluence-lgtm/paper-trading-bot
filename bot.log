@@ -3446,3 +3446,14 @@
 11-12 15:10:04 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
 11-12 15:20:04 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
 11-12 15:30:04 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
+11-12 15:40:03 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
+11-12 15:50:04 status 200:done 250:pos MBGL 350:done 400:done 550:done 1000:done
+11-12 15:55:02 [$250] EXIT 2 MBGL @ 22.86 (time) total P&L $0.26
+11-12 15:55:25 alpaca DELETE /orders/23930833-21b7-4bdd-86b2-f9288a3f2e97 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-12 15:55:25 alpaca DELETE /orders/19221ad7-2ba2-4d0a-aff9-e395956947f3 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-12 15:55:27 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"3","held_for_orders":"3","message":"insufficient qty available for order (requested: 2, available: 0)","related_orders":["d14e4c87-0d91-48c8-9f88-b4d29'
+11-12 15:55:29 [$250] ALPACA result MBGL: sim $0.26 vs alpaca $None (partially open)
+11-12 16:02:21 fill test: 39 fills, avg buy vs next-bar open +0.362%, vs simulator -0.115%
+11-12 16:02:33 labeled 39 signals with outcomes
+11-12 16:02:36 daily report written
+11-12 16:02:36 bot session end

@@ -119,3 +119,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-12,200,vwap_pullback,FRMI,33,1.92,1.86,1.98,2.04,2.04,target,3.0,1.5,1.0,,1,"VWAP pullback: +5.2%, dipped to VWAP 1.88, reclaimed with green bar | news: [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges,"
 2026-11-12,400,orb5,LKFT,3,35.22,34.08,36.36,37.5,33.99,stop,-3.69,-0.92,1.0,,1,"5-min ORB: green first 5 min, closed above range high 35.08 | news: [Benzinga] Lakefront Biotherapeutics Q3 EPS €(0.04) Beats €("
 2026-11-12,1000,orb5,LKFT,8,35.22,34.08,36.36,37.5,33.99,stop,-9.84,-0.98,1.0,,1,"5-min ORB: green first 5 min, closed above range high 35.08 | news: [Benzinga] Lakefront Biotherapeutics Q3 EPS €(0.04) Beats €("
+2026-11-12,250,orb15,MBGL,2,22.73,21.86,23.6,24.47,22.86,time,0.26,0.1,1.0,,1,"15-min ORB: closed above 15-min high 22.62, above VWAP | news: [Benzinga] Mobility Global Inc. Reports Third Quarter 2026 F"
