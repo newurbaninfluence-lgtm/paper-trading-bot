@@ -3307,3 +3307,17 @@
 11-11 19:43:41 labeled 0 signals with outcomes
 11-11 19:43:43 daily report written
 11-11 19:43:43 bot session end
+11-12 08:39:21 alpaca paper mirror: ON
+11-12 08:39:21 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-12 08:39:21 resumed state from 2026-11-11
+11-12 08:39:21 bot live start (max 5.9h)
+11-12 09:31:31 market brief written: briefs/2026-11-12.md (25 Benzinga items)
+11-12 09:31:32 scan keep ICMB +62.1% rvol 9461.2 | [Benzinga] Investcorp Credit Management (ICMB) Stock Jumps Over 53% After Hours 
+11-12 09:31:32 scan keep AVEX +16.9% rvol 4.4 | [Benzinga] Oppenheimer Initiates Coverage of AEVEX Corp. with Outperform Rating
+11-12 09:31:32 scan keep LUNR +15.8% rvol 10.7 | [Benzinga] Intuitive Machines Reports Third Quarter 2026 Financial Results +8-K
+11-12 09:31:32 scan drop EVMN +9.9% rvol 35.6: no news 24h
+11-12 09:31:33 scan keep TTEK +9.9% rvol 2.3 | [Benzinga] Stock Market Today: NVDA Stock Sinks Nasdaq, S&P 500 Futures as Board
+11-12 09:31:33 scan keep VPG +9.2% rvol 13.9 | [Newswire] Marriott Vacations Worldwide Corporation to Host 2026 Investor Day in
+11-12 09:31:34 scan drop TWN +7.8% rvol 31.9: no news 24h
+11-12 09:31:35 scan drop TRMK: negative news ([Benzinga] Hancock Whitney Says Trustmark Deal Expected To Be About 7%)
+11-12 09:31:36 new day universe=['ICMB', 'AVEX', 'LUNR', 'TTEK', 'VPG']
