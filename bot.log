@@ -3481,3 +3481,73 @@
 11-12 18:38:51 labeled 0 signals with outcomes
 11-12 18:38:53 daily report written
 11-12 18:38:53 bot session end
+11-13 10:11:08 alpaca paper mirror: ON
+11-13 10:11:08 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-13 10:11:08 resumed state from 2026-11-12
+11-13 10:11:08 bot live start (max 5.9h)
+11-13 10:11:17 market brief written: briefs/2026-11-13.md (25 Benzinga items)
+11-13 10:11:19 scan keep NMAX +34.4% rvol 15.5 | [Benzinga] Newsmax Delivers Its Strongest Quarter Since Going Public +8-K
+11-13 10:11:19 scan keep LFTO +26.2% rvol 30.3 | [Benzinga] RBC Raises Price Target on Liftoff Mobile to $38 From $35 +8-K
+11-13 10:11:20 scan drop BIRD: negative news ([Newswire] Vir Biotechnology Announces Pricing of Public Offering of C)
+11-13 10:11:21 scan keep HAWK +17.7% rvol 10.0 | [Benzinga] Piper Sandler Maintains Overweight on Hawkeye 360, Raises Price Targe
+11-13 10:11:21 scan keep SEAT +16.0% rvol 3.0 | [Newswire] QIAGEN and EQT Private Equity announce agreement on a recommended vol
+11-13 10:11:21 scan keep LUCK +15.4% rvol 5.3 | [Newswire] HSN Holiday Helpers - HSN
+11-13 10:11:22 scan keep CDXS +13.8% rvol 4.2 | [Benzinga] Codexis Reports Third Quarter 2026 Financial Results +8-K
+11-13 10:11:22 scan keep STN +12.6% rvol 6.7 | [Benzinga] Stantec Reports Third Quarter 2026 Financial Results
+11-13 10:11:23 scan drop ZEPP +9.9% rvol 6.7: no news 24h
+11-13 10:11:24 scan keep WSE +8.3% rvol 14.4 | [Newswire] Wise Group plc H1 Results for Fiscal Year 2027 - GlobeNewswire
+11-13 10:11:24 scan keep NU +7.7% rvol 3.3 | [Benzinga] Stock Market Today: Dow Jones, S&P 500, Nasdaq 100  Futures Rise as N
+11-13 10:11:25 scan keep ECC +6.8% rvol 7.4 | [Benzinga] Eagle Point Credit Co Q3 Adj. EPS $0.31 Beats $0.17 Estimate +8-K
+11-13 10:11:26 scan keep CLBT +6.7% rvol 3.2 | [Benzinga] Cellebrite Reports Third-Quarter 2026 Financial Results
+11-13 10:11:26 scan keep INTR +5.8% rvol 3.0 | [Benzinga] Inter & Co Reports Third Quarter 2026 Financial Results
+11-13 10:11:27 scan keep UNIT +5.7% rvol 2.0 | [Benzinga] Top 3 Tech And Telecom Stocks Which Could Rescue Your Portfolio In No
+11-13 10:11:27 scan keep ITG +5.7% rvol 2.6 | [Benzinga] ITG, Inc. Announces Preliminary Third Quarter 2026 Financial Results 
+11-13 10:11:28 scan keep JBSS +5.3% rvol 2.2 | [Benzinga] John B. Sanfilippo & Son, Inc. Announces Share Repurchase Program and
+11-13 10:11:28 scan keep KLAR +4.7% rvol 2.2 | [Benzinga] Klarna Appoints Chris Koegel as Chief Financial Officer
+11-13 10:11:29 scan keep SHG +4.4% rvol 2.5 | [Google News] Korea’s pension fund, the largest shareholder of Shinhan Financial
+11-13 10:11:32 new day universe=['NMAX', 'LFTO', 'HAWK', 'SEAT', 'LUCK', 'CDXS', 'STN', 'WSE', 'NU', 'ECC', 'CLBT', 'INTR']
+11-13 10:15:03 scan keep NMAX +33.7% rvol 14.7 | [Benzinga] Newsmax Delivers Its Strongest Quarter Since Going Public +8-K
+11-13 10:15:03 scan keep LFTO +24.7% rvol 28.6 | [Benzinga] RBC Raises Price Target on Liftoff Mobile to $38 From $35 +8-K
+11-13 10:15:03 scan keep SEAT +20.8% rvol 3.2 | [Newswire] QIAGEN and EQT Private Equity announce agreement on a recommended vol
+11-13 10:15:03 scan keep HAWK +17.0% rvol 9.4 | [Benzinga] Piper Sandler Maintains Overweight on Hawkeye 360, Raises Price Targe
+11-13 10:15:03 scan keep LUCK +15.1% rvol 6.9 | [Newswire] HSN Holiday Helpers - HSN
+11-13 10:15:03 scan keep CDXS +14.8% rvol 3.9 | [Benzinga] Codexis Reports Third Quarter 2026 Financial Results +8-K
+11-13 10:15:03 scan drop BIRD: negative news ([Newswire] Vir Biotechnology Announces Pricing of Public Offering of C)
+11-13 10:15:03 scan keep STN +13.1% rvol 6.3 | [Benzinga] Stantec Reports Third Quarter 2026 Financial Results
+11-13 10:15:03 scan drop ZEPP +9.7% rvol 6.2: no news 24h
+11-13 10:15:03 scan keep WSE +7.9% rvol 13.4 | [Newswire] Wise Group plc H1 Results for Fiscal Year 2027 - GlobeNewswire
+11-13 10:15:03 scan keep NU +7.2% rvol 3.2 | [Benzinga] Stock Market Today: Dow Jones, S&P 500, Nasdaq 100  Futures Rise as N
+11-13 10:15:03 scan keep CLBT +6.9% rvol 3.0 | [Benzinga] Cellebrite Reports Third-Quarter 2026 Financial Results
+11-13 10:15:03 scan keep ECC +6.6% rvol 7.2 | [Benzinga] Eagle Point Credit Co Q3 Adj. EPS $0.31 Beats $0.17 Estimate +8-K
+11-13 10:15:03 scan keep JBSS +5.4% rvol 2.2 | [Benzinga] John B. Sanfilippo & Son, Inc. Announces Share Repurchase Program and
+11-13 10:15:03 scan keep INTR +5.2% rvol 3.0 | [Benzinga] Inter & Co Reports Third Quarter 2026 Financial Results
+11-13 10:15:03 scan keep SHG +4.5% rvol 2.3 | [Google News] Korea’s pension fund, the largest shareholder of Shinhan Financial
+11-13 10:15:03 scan keep KLAR +4.4% rvol 2.1 | [Benzinga] Klarna Appoints Chris Koegel as Chief Financial Officer
+11-13 10:15:02 [$250/ema_bounce] SIGNAL HAWK: 9/21 EMA bounce: tagged 21 EMA 17.09, closed back over 9 EMA; stop 17.0; size 100%
+11-13 10:15:06 [$250] ALPACA paper bracket x2 sent: 9 HAWK limit 17.25 (ids 2)
+11-13 10:15:02 [$400/ema_bounce] SIGNAL HAWK: 9/21 EMA bounce: tagged 21 EMA 17.09, closed back over 9 EMA; stop 17.0; size 100%
+11-13 10:15:07 [$400] ALPACA paper bracket x2 sent: 15 HAWK limit 17.25 (ids 2)
+11-13 10:16:02 [$200/vwap_pullback] SIGNAL INTR: VWAP pullback: +5.5%, dipped to VWAP 4.16, reclaimed with green bar; stop 4.16; size 100%
+11-13 10:16:05 [$200] ALPACA paper bracket x2 sent: 36 INTR limit 4.21 (ids 2)
+11-13 10:16:02 [$250] BUY 13 HAWK @ 17.19 stop 17.00 half@17.38 tgt 17.57 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 17.09, closed back over 9 EMA | news: [Benzinga] Piper Sandler Maintains Overweight on Hawkeye 360
+11-13 10:16:02 [$400] BUY 21 HAWK @ 17.19 stop 17.00 half@17.38 tgt 17.57 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 17.09, closed back over 9 EMA | news: [Benzinga] Piper Sandler Maintains Overweight on Hawkeye 360
+11-13 10:17:02 [$200] BUY 47 INTR @ 4.2 stop 4.16 half@4.24 tgt 4.28 | vwap_pullback | VWAP pullback: +5.5%, dipped to VWAP 4.16, reclaimed with green bar | news: [Benzinga] Inter & Co Reports Third Quarter 2026 Financial R
+11-13 10:20:04 status 200:pos INTR 250:pos HAWK 350:watching 400:pos HAWK 550:watching 1000:watching
+11-13 10:21:02 [$350/hod_break] SIGNAL NMAX: Gap-and-go: +36.3%, based 48 min, broke HOD 9.92 on 1.5x vol; stop 9.64; size 100%
+11-13 10:21:04 [$350] ALPACA paper bracket x2 sent: 10 NMAX limit 9.97 (ids 2)
+11-13 10:21:02 [$1000/hod_break] SIGNAL NMAX: Gap-and-go: +36.3%, based 48 min, broke HOD 9.92 on 1.5x vol; stop 9.64; size 100%
+11-13 10:21:05 [$1000] ALPACA paper bracket x2 sent: 30 NMAX limit 9.97 (ids 2)
+11-13 10:22:02 [$200] EXIT 47 INTR @ 4.14 (stop) total P&L $-2.82
+11-13 10:22:06 [$200] ALPACA result INTR: sim $-2.82 vs alpaca $-1.08 (closed)
+11-13 10:22:02 [$350] BUY 11 NMAX @ 9.94 stop 9.64 half@10.24 tgt 10.54 | hod_break | Gap-and-go: +36.3%, based 48 min, broke HOD 9.92 on 1.5x vol | news: [Benzinga] Newsmax Delivers Its Strongest Quarter Since Goin
+11-13 10:22:02 [$1000] BUY 33 NMAX @ 9.94 stop 9.64 half@10.24 tgt 10.54 | hod_break | Gap-and-go: +36.3%, based 48 min, broke HOD 9.92 on 1.5x vol | news: [Benzinga] Newsmax Delivers Its Strongest Quarter Since Goin
+11-13 10:23:02 [$250] EXIT 13 HAWK @ 16.97 (stop) total P&L $-2.86
+11-13 10:23:07 [$250] ALPACA result HAWK: sim $-2.86 vs alpaca $-2.04 (closed)
+11-13 10:23:02 [$400] EXIT 21 HAWK @ 16.97 (stop) total P&L $-4.62
+11-13 10:23:09 [$400] ALPACA result HAWK: sim $-4.62 vs alpaca $-2.82 (closed)
+11-13 10:30:05 status 200:done 250:done 350:pos NMAX 400:done 550:watching 1000:pos NMAX
+11-13 10:37:02 [$350] EXIT 11 NMAX @ 9.62 (stop) total P&L $-3.52
+11-13 10:37:07 [$350] ALPACA result NMAX: sim $-3.52 vs alpaca $-3.2 (closed)
+11-13 10:37:02 [$1000] EXIT 33 NMAX @ 9.62 (stop) total P&L $-10.56
+11-13 10:37:09 [$1000] ALPACA result NMAX: sim $-10.56 vs alpaca $-9.6 (closed)
+11-13 10:40:05 status 200:done 250:done 350:done 400:done 550:watching 1000:done

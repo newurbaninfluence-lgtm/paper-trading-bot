@@ -120,3 +120,8 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-12,400,orb5,LKFT,-3.69,3.0,3.0,35.11,-3.18,closed
 2026-11-12,1000,orb5,LKFT,-9.84,9.0,9.0,35.11,-9.51,closed
 2026-11-12,250,orb15,MBGL,0.26,2.0,0.0,22.69,,partially open
+2026-11-13,200,vwap_pullback,INTR,-2.82,36.0,36.0,4.19,-1.08,closed
+2026-11-13,250,ema_bounce,HAWK,-2.86,9.0,9.0,17.24,-2.04,closed
+2026-11-13,400,ema_bounce,HAWK,-4.62,15.0,15.0,17.24,-2.82,closed
+2026-11-13,350,hod_break,NMAX,-3.52,10.0,10.0,9.94,-3.2,closed
+2026-11-13,1000,hod_break,NMAX,-10.56,30.0,30.0,9.94,-9.6,closed
