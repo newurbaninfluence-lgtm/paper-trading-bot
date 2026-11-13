@@ -3560,3 +3560,8 @@
 11-13 11:20:04 status 200:done 250:done 350:done 400:done 550:pos CDXS 1000:done
 11-13 11:30:04 status 200:done 250:done 350:done 400:done 550:pos CDXS 1000:done
 11-13 11:40:05 status 200:done 250:done 350:done 400:done 550:pos CDXS 1000:done
+11-13 11:50:04 status 200:done 250:done 350:done 400:done 550:pos CDXS 1000:done
+11-13 12:00:04 status 200:done 250:done 350:done 400:done 550:pos CDXS 1000:done
+11-13 12:10:05 status 200:done 250:done 350:done 400:done 550:pos CDXS 1000:done
+11-13 12:15:02 [$550] EXIT 137 CDXS @ 1.11 (stop) total P&L $-8.22
+11-13 12:15:07 [$550] ALPACA result CDXS: sim $-8.22 vs alpaca $-3.2 (closed)

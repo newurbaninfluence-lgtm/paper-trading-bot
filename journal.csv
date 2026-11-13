@@ -125,3 +125,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-13,400,ema_bounce,HAWK,21,17.19,17.0,17.38,17.57,16.97,stop,-4.62,-1.16,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 17.09, closed back over 9 EMA | news: [Benzinga] Piper Sandler Maintains Overweight on Hawkeye 360"
 2026-11-13,350,hod_break,NMAX,11,9.94,9.64,10.24,10.54,9.62,stop,-3.52,-1.01,1.0,,1,"Gap-and-go: +36.3%, based 48 min, broke HOD 9.92 on 1.5x vol | news: [Benzinga] Newsmax Delivers Its Strongest Quarter Since Goin"
 2026-11-13,1000,hod_break,NMAX,33,9.94,9.64,10.24,10.54,9.62,stop,-10.56,-1.06,1.0,,1,"Gap-and-go: +36.3%, based 48 min, broke HOD 9.92 on 1.5x vol | news: [Benzinga] Newsmax Delivers Its Strongest Quarter Since Goin"
+2026-11-13,550,bull_flag,CDXS,137,1.17,1.13,1.21,1.25,1.11,stop,-8.22,-1.49,1.0,,1,"Bull flag: 5.8% pole, 1.3% flag on light vol, broke 1.16 | news: [Benzinga] Codexis Reports Third Quarter 2026 Financial Resu"
