@@ -3587,3 +3587,7 @@
 11-13 15:30:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
 11-13 15:40:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
 11-13 15:50:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-13 16:02:10 fill test: 24 fills, avg buy vs next-bar open +0.144%, vs simulator -0.293%
+11-13 16:02:16 labeled 21 signals with outcomes
+11-13 16:02:18 daily report written
+11-13 16:02:18 bot session end
