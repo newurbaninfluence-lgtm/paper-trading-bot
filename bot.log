@@ -3618,3 +3618,62 @@
 11-16 09:31:35 scan keep FF +12.9% rvol 5.9 | [Newswire] FF EAI Robotics Ecosystem Inc. (FFR) CEO YT Jia Shares Weekly Updates
 11-16 09:31:36 scan drop ATAT +4.4% rvol 2.7: no news 24h
 11-16 09:31:37 new day universe=['CGON', 'CLW', 'CANG', 'FF']
+11-16 09:38:02 [$400/orb5] SIGNAL CANG: 5-min ORB: green first 5 min, closed above range high 1.75; stop 1.71; size 100%
+11-16 09:38:03 [$400] ALPACA paper bracket x2 sent: 51 CANG limit 1.79 (ids 2)
+11-16 09:38:02 [$1000/orb5] SIGNAL CANG: 5-min ORB: green first 5 min, closed above range high 1.75; stop 1.71; size 100%
+11-16 09:38:03 [$1000] ALPACA paper bracket x2 sent: 128 CANG limit 1.79 (ids 2)
+11-16 09:39:02 [$400] BUY 66 CANG @ 1.77 stop 1.71 half@1.83 tgt 1.89 | orb5 | 5-min ORB: green first 5 min, closed above range high 1.75 | news: [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, 
+11-16 09:39:02 [$1000] BUY 166 CANG @ 1.77 stop 1.71 half@1.83 tgt 1.89 | orb5 | 5-min ORB: green first 5 min, closed above range high 1.75 | news: [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, 
+11-16 09:40:04 status 200:watching 250:watching 350:watching 400:pos CANG 550:watching 1000:pos CANG
+11-16 09:44:02 [$400] HALF OFF 33 CANG @ 1.83 (+1R), stop to breakeven
+11-16 09:44:03 [$400] ALPACA runner stop moved to 1.79
+11-16 09:44:02 [$1000] HALF OFF 83 CANG @ 1.83 (+1R), stop to breakeven
+11-16 09:44:03 [$1000] ALPACA runner stop moved to 1.79
+11-16 09:45:02 scan keep CANG +21.5% rvol 8.3 | [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, Analysis, AI - TheEn
+11-16 09:45:02 scan keep CLW +15.4% rvol 11.3 | [Benzinga] Clearwater Paper Appoints Matt Passarello as Chief Financial Officer 
+11-16 09:45:02 scan keep FF +15.0% rvol 11.3 | [Newswire] FF EAI Robotics Ecosystem Inc. (FFR) CEO YT Jia Shares Weekly Updates
+11-16 09:45:02 scan keep MCRB +13.4% rvol 5.2 | [SEC] 8-K filed 2026-10-26
+11-16 09:45:02 scan keep CGON +10.9% rvol 37.5 | [Benzinga] CG Oncology Reports Third Quarter 2026 Financial Results and Provides
+11-16 09:45:03 scan keep HPP +10.6% rvol 2.2 | [Newswire] Hudson Pacific Properties Announces 2026 Analyst and Investor Day - B
+11-16 09:45:03 scan keep XTND +10.6% rvol 3.6 | [Benzinga] XTEND AI Robotics Reports Preliminary 9M Sales Of ~$24.5-$26.5M, AI R
+11-16 09:45:04 scan keep TU +10.3% rvol 26.0 | [Benzinga] Telus Confirms Board Of Directors Has Received An Unsolicited, Non-Bi
+11-16 09:45:05 scan keep TSN +10.3% rvol 5.2 | [Benzinga] Tyson Foods Reports Fourth Quarter 2026 Financial Results +8-K
+11-16 09:45:06 scan keep HTHT +7.7% rvol 5.6 | [Benzinga] H World Group Raises FY2026 Sales Guidance from $3.763B-$3.907B to $3
+11-16 09:45:07 scan drop KYNB +7.0% rvol 4.1: no news 24h
+11-16 09:45:07 scan keep BGSF +6.6% rvol 4.2 | [Google News] BGSF Earnings Call Highlights Cost Cuts Amid Uneven Demand - The G
+11-16 09:45:08 scan keep NCMI +6.1% rvol 2.1 | [Benzinga] NVIDIA To $200? Here Are 10 Top Analyst Forecasts For Monday
+11-16 09:45:09 scan keep BEKE +6.0% rvol 3.1 | [Benzinga] KE Holdings Q3 Adj. EPS $0.35 Beats $0.23 Estimate, Sales $3.131B Bea
+11-16 09:45:09 scan keep BXDC +5.8% rvol 8.0 | [Benzinga] Blackstone Digital Infrastructure Trust Announces $5 Billion Acquisit
+11-16 09:45:10 scan keep ENHA +5.4% rvol 2.6 | [Newswire] Alpha Tau Announces New Positive Interim Results from its U.S. Alpha 
+11-16 09:45:10 scan keep ZVRA +5.2% rvol 5.6 | [Benzinga] Guggenheim Maintains Buy on Zevra Therapeutics, Lowers Price Target t
+11-16 09:45:10 scan keep XPEV +5.2% rvol 7.0 | [Google News] XPEV Stock Climbs As Paris G9L Launch Fuels Global Ambitions - Tim
+11-16 09:45:11 scan keep MMED +4.7% rvol 2.9 | [Benzinga] FDA Clears MiniMed Fit™ Tubeless Insulin Pump +8-K
+11-16 09:47:02 [$400] EXIT 33 CANG @ 1.63 (breakeven) total P&L $-2.64
+11-16 09:47:06 [$400] ALPACA result CANG: sim $-2.64 vs alpaca $None (partially open)
+11-16 09:47:02 [$1000] EXIT 83 CANG @ 1.63 (breakeven) total P&L $-6.64
+11-16 09:47:08 [$1000] ALPACA result CANG: sim $-6.64 vs alpaca $None (partially open)
+11-16 09:49:02 [$250/orb15] SIGNAL FF: 15-min ORB: closed above 15-min high 3.38, above VWAP; stop 3.28; size 100%
+11-16 09:49:05 [$250] ALPACA paper bracket x2 sent: 17 FF limit 3.42 (ids 2)
+11-16 09:50:02 [$250] BUY 19 FF @ 3.41 stop 3.28 half@3.54 tgt 3.67 | orb15 | 15-min ORB: closed above 15-min high 3.38, above VWAP | news: [Newswire] FF EAI Robotics Ecosystem Inc. (FFR) CEO YT Jia S
+11-16 09:50:04 status 200:watching 250:pos FF 350:watching 400:done 550:watching 1000:done
+11-16 10:00:02 scan drop ZEPP +17.1% rvol 4.2: no news 24h
+11-16 10:00:02 scan keep FF +15.4% rvol 13.6 | [Newswire] FF EAI Robotics Ecosystem Inc. (FFR) CEO YT Jia Shares Weekly Updates
+11-16 10:00:02 scan keep CLW +13.9% rvol 9.2 | [Benzinga] Clearwater Paper Appoints Matt Passarello as Chief Financial Officer 
+11-16 10:00:02 scan keep XTND +12.3% rvol 5.4 | [Benzinga] XTEND AI Robotics Reports Preliminary 9M Sales Of ~$24.5-$26.5M, AI R
+11-16 10:00:02 scan keep TU +11.7% rvol 26.1 | [Benzinga] Telus Confirms Board Of Directors Has Received An Unsolicited, Non-Bi
+11-16 10:00:02 scan keep CANG +11.5% rvol 8.9 | [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, Analysis, AI - TheEn
+11-16 10:00:02 scan keep CGON +11.3% rvol 31.1 | [Benzinga] CG Oncology Reports Third Quarter 2026 Financial Results and Provides
+11-16 10:00:02 scan keep MCRB +10.7% rvol 6.1 | [SEC] 8-K filed 2026-10-26
+11-16 10:00:02 scan keep TSN +9.8% rvol 5.8 | [Benzinga] Tyson Foods Reports Fourth Quarter 2026 Financial Results +8-K
+11-16 10:00:02 scan keep HTHT +7.8% rvol 5.0 | [Benzinga] H World Group Raises FY2026 Sales Guidance from $3.763B-$3.907B to $3
+11-16 10:00:02 scan keep SENS +7.5% rvol 3.1 | [Benzinga] Raymond James Upgrades Senseonics to Market Perform +8-K
+11-16 10:00:02 scan keep BXDC +6.9% rvol 7.9 | [Benzinga] Blackstone Digital Infrastructure Trust Announces $5 Billion Acquisit
+11-16 10:00:02 scan keep DH +6.5% rvol 3.4 | [Newswire] ‎دائرة الصحة - أبوظبي "DoH"‎ (@dohsocial) · Abu Dhabi - Instagram
+11-16 10:00:02 scan keep HPP +6.4% rvol 2.4 | [Newswire] Hudson Pacific Properties Announces 2026 Analyst and Investor Day - B
+11-16 10:00:02 scan keep ZVRA +6.3% rvol 5.3 | [Benzinga] Guggenheim Maintains Buy on Zevra Therapeutics, Lowers Price Target t
+11-16 10:00:02 scan keep NCMI +6.1% rvol 2.2 | [Benzinga] NVIDIA To $200? Here Are 10 Top Analyst Forecasts For Monday
+11-16 10:00:02 scan drop VCX +5.6% rvol 4.9: no news 24h
+11-16 10:00:02 scan keep XPEV +5.3% rvol 6.9 | [Google News] XPEV Stock Climbs As Paris G9L Launch Fuels Global Ambitions - Tim
+11-16 10:00:02 scan keep BEKE +5.2% rvol 2.9 | [Benzinga] KE Holdings Q3 Adj. EPS $0.35 Beats $0.23 Estimate, Sales $3.131B Bea
+11-16 10:00:03 scan keep TSCO +5.2% rvol 2.6 | [Newswire] Newsroom - Business Wire
+11-16 10:00:06 status 200:watching 250:pos FF 350:watching 400:done 550:watching 1000:done
