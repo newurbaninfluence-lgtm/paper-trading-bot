@@ -3725,3 +3725,10 @@
 11-16 12:10:05 status 200:pos FF 250:pos FF 350:done 400:done 550:done 1000:done
 11-16 12:20:05 status 200:pos FF 250:pos FF 350:done 400:done 550:done 1000:done
 11-16 12:30:05 status 200:pos FF 250:pos FF 350:done 400:done 550:done 1000:done
+11-16 12:40:05 status 200:pos FF 250:pos FF 350:done 400:done 550:done 1000:done
+11-16 12:50:02 [$200] EXIT 22 FF @ 3.26 (stop) total P&L $-2.42
+11-16 12:50:07 [$200] ALPACA result FF: sim $-2.42 vs alpaca $-1.98 (closed)
+11-16 12:50:02 [$250] EXIT 19 FF @ 3.26 (stop) total P&L $-2.85
+11-16 12:50:09 [$250] ALPACA result FF: sim $-2.85 vs alpaca $-2.38 (closed)
+11-16 12:50:09 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-16 13:00:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
