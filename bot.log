@@ -3790,3 +3790,25 @@
 11-16 20:51:54 labeled 0 signals with outcomes
 11-16 20:51:57 daily report written
 11-16 20:51:57 bot session end
+11-17 08:38:39 alpaca paper mirror: ON
+11-17 08:38:39 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-17 08:38:39 resumed state from 2026-11-16
+11-17 08:38:39 bot live start (max 5.9h)
+11-17 09:31:17 market brief written: briefs/2026-11-17.md (25 Benzinga items)
+11-17 09:31:19 scan drop BGH +100.0% rvol 2.6: no news 24h
+11-17 09:31:19 scan keep LUCK +29.8% rvol 192.0 | [Newswire] HSN Holiday Helpers - HSN
+11-17 09:31:19 scan keep SJT +11.4% rvol 30.3 | [Google News] Why Is San Juan Basin Royalty (NYSE:SJT) Up 43% Since Sept 18? - k
+11-17 09:31:19 scan keep SMWB +11.0% rvol 2.0 | [Benzinga] Similarweb Scheduled to Report Q3 2026 Financial Results
+11-17 09:31:19 scan keep FOIL +8.4% rvol 14.1 | [Google News] Londian Wason New Energy Tech (NYSE:FOIL) - Stock Analysis - Simpl
+11-17 09:31:19 scan keep CANG +8.1% rvol 6.2 | [Newswire] TheEnergyMag | Energy, Compute, Markets, Stocks, Analysis, AI - TheEn
+11-17 09:31:19 scan keep GLAS +8.1% rvol 20.3 | [Newswire] HSN Holiday Helpers - HSN
+11-17 09:31:20 scan keep FUBO +7.6% rvol 3.2 | [Benzinga] FuboTV Reports Fiscal 2026 Financial Results +8-K
+11-17 09:31:21 scan keep ADIG +7.5% rvol 2.5 | [Google News] ADI Global Distribution (ADIG) executive Lane bought 5,241 shares 
+11-17 09:31:21 scan keep HPP +7.4% rvol 37.5 | [Newswire] Hudson Pacific Properties Announces 2026 Analyst and Investor Day - B
+11-17 09:31:22 scan keep SPMC +7.4% rvol 47.8 | [Google News] CABA,PFX,ELUT,ZBIO,HYPD,SELF,ENTX,BBWI,SRBK,MAIA,PCF,MDRR,GAIA,SPM
+11-17 09:31:22 scan keep AVEX +7.1% rvol 20.1 | [Benzinga] Oppenheimer Initiates Coverage of AEVEX Corp. with Outperform Rating
+11-17 09:31:22 scan keep IH +6.1% rvol 5.4 | [Newswire] Titan Machinery Inc. to Report Fiscal Third Quarter Ended October 31,
+11-17 09:31:22 scan keep NKE +5.2% rvol 2.8 | [Benzinga] NIKE, Inc. Schedules Capital Markets Day +8-K
+11-17 09:31:22 scan keep CNC +4.9% rvol 31.2 | [Benzinga] Bernstein Adjusts Price Target on Centene to $90 From $79
+11-17 09:31:23 scan keep NIO +4.0% rvol 3.7 | [Benzinga] NIO Inc. Schedules Third Quarter 2026 Earnings Release
+11-17 09:31:25 new day universe=['LUCK', 'SJT', 'SMWB', 'FOIL', 'CANG', 'GLAS', 'FUBO', 'ADIG', 'HPP', 'SPMC', 'AVEX', 'IH']
