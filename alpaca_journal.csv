@@ -134,3 +134,7 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-16,250,orb15,FF,-2.85,17.0,17.0,3.4,-2.38,closed
 2026-11-17,400,orb5,GLAS,-5.28,50.0,50.0,1.65,-1.76,closed
 2026-11-17,1000,orb5,GLAS,-13.28,125.0,125.0,1.65,-4.44,closed
+2026-11-17,250,orb15,AVEX,-2.16,15.0,15.0,13.6227,-1.84,closed
+2026-11-17,200,vwap_pullback,OPEN,-2.73,33.0,33.0,1.23,-1.32,closed
+2026-11-17,350,bull_flag,ADIG,-4.2,13.0,13.0,10.1,-3.25,closed
+2026-11-17,550,bull_flag,ADIG,-6.72,20.0,20.0,10.1,-5.0,closed
