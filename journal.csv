@@ -132,3 +132,5 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-16,550,bull_flag,DH,91,1.43,1.37,1.49,1.55,1.32,stop,-10.01,-1.82,1.0,,1,"Bull flag: 5.2% pole, 1.4% flag on light vol, broke 1.40 | news: [Newswire] ‎دائرة الصحة - أبوظبي ""DoH""‎ (@dohsocial) · Abu D"
 2026-11-16,200,vwap_pullback,FF,22,3.37,3.28,3.46,3.55,3.26,stop,-2.42,-1.21,1.0,,1,"VWAP pullback: +15.2%, dipped to VWAP 3.32, reclaimed with green bar | news: [Newswire] FF EAI Robotics Ecosystem Inc. (FFR) CEO YT Jia S"
 2026-11-16,250,orb15,FF,19,3.41,3.28,3.54,3.67,3.26,stop,-2.85,-1.14,1.0,,1,"15-min ORB: closed above 15-min high 3.38, above VWAP | news: [Newswire] FF EAI Robotics Ecosystem Inc. (FFR) CEO YT Jia S"
+2026-11-17,400,orb5,GLAS,66,1.68,1.62,1.74,1.8,1.6,stop,-5.28,-1.32,1.0,,1,"5-min ORB: green first 5 min, closed above range high 1.66 | news: [Newswire] HSN Holiday Helpers - HSN"
+2026-11-17,1000,orb5,GLAS,166,1.68,1.62,1.74,1.8,1.6,stop,-13.28,-1.33,1.0,,1,"5-min ORB: green first 5 min, closed above range high 1.66 | news: [Newswire] HSN Holiday Helpers - HSN"
