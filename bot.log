@@ -3945,3 +3945,57 @@
 11-18 09:31:38 market brief written: briefs/2026-11-18.md (25 Benzinga items)
 11-18 09:31:40 scan keep BLSH +9.0% rvol 2.7 | [Benzinga] Bullish Reports Third Quarter 2026 Financial Results
 11-18 09:31:41 new day universe=['BLSH']
+11-18 09:40:02 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+11-18 09:45:03 scan drop BRBR +22.7% rvol 8.7: no news 24h
+11-18 09:45:03 scan keep BORR +9.1% rvol 3.8 | [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027 Visibility Tests Fa
+11-18 09:45:03 scan keep ANGX +8.6% rvol 7.0 | [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8-K
+11-18 09:45:03 scan drop RXRX: negative news (SEC 424B5 filed 2026-10-15 (possible share offering))
+11-18 09:45:04 scan keep IIIV +8.2% rvol 5.7 | [Benzinga] i3 Verticals Reports Fourth Quarter and Full Fiscal Year 2026 Financi
+11-18 09:45:04 scan keep OPEN +8.1% rvol 3.7 | [Newswire] Foot Locker (@footlocker) - Instagram +8-K
+11-18 09:45:05 scan keep PRAA +7.6% rvol 3.4 | [Google News] Pra Group chairman Steven Fredrickson buys $295,000 in stock - Inv
+11-18 09:45:06 scan keep FIRY +7.4% rvol 4.2 | [Google News] What Investors Are Watching at Firy (NYSE:FIRY) After Revenue Grow
+11-18 09:45:06 scan keep CSHR +7.0% rvol 5.3 | [Benzinga] CoinShares Board Approves Repurchase Of Up To $40M Of Ordinary Shares
+11-18 09:45:07 scan keep BEAM +6.5% rvol 2.2 | [Newswire] Post & Beam Brings Three Classic California Wines to the Holiday Tabl
+11-18 09:45:08 scan keep CALM +6.2% rvol 3.9 | [Benzinga] Cal-Maine Foods Shuts Florida Facility Following Avian Influenza Dete
+11-18 09:45:09 scan drop SVRA +5.9% rvol 6.4: no news 24h
+11-18 09:45:09 scan keep NFE +5.6% rvol 2.3 | [Benzinga] New Fortress Energy Agrees to Lease 10 Mobile Turbines to U.S. Custom
+11-18 09:45:09 scan keep LYFT +5.4% rvol 2.4 | [Newswire] Parallel - Web Infrastructure for AI Agents - Parallel Web Systems
+11-18 09:45:10 scan keep PONY +5.0% rvol 11.0 | [Benzinga] Pony.ai Reports Third Quarter 2026 Financial Results
+11-18 09:45:11 scan drop OFRM +5.0% rvol 2.0: no news 24h
+11-18 09:45:12 scan keep CRSP +4.5% rvol 2.4 | [Google News] Is CRISPR Therapeutics (CRSP) Undervalued As CTX310 Data Meets a S
+11-18 09:45:13 scan keep IRTC +4.4% rvol 2.9 | [Benzinga] iRhythm Enters $100 Million Accelerated Share Repurchase Agreement +8
+11-18 09:45:14 scan keep PRVA +4.0% rvol 11.4 | [Benzinga] Privia Health Reports 2025 Medicare Shared Savings Program Results an
+11-18 09:46:02 [$250/orb15] SIGNAL LYFT: 15-min ORB: closed above 15-min high 17.66, above VWAP; stop 17.15; size 100%
+11-18 09:46:05 [$250] ALPACA paper bracket x2 sent: 4 LYFT limit 17.77 (ids 2)
+11-18 09:46:02 [$1000/orb15] SIGNAL LYFT: 15-min ORB: closed above 15-min high 17.66, above VWAP; stop 17.15; size 100%
+11-18 09:46:05 [$1000] ALPACA paper bracket x2 sent: 16 LYFT limit 17.77 (ids 2)
+11-18 09:47:02 [$250] BUY 4 LYFT @ 17.77 stop 17.15 half@18.39 tgt 19.01 | orb15 | 15-min ORB: closed above 15-min high 17.66, above VWAP | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par
+11-18 09:47:02 [$1000] BUY 16 LYFT @ 17.77 stop 17.15 half@18.39 tgt 19.01 | orb15 | 15-min ORB: closed above 15-min high 17.66, above VWAP | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par
+11-18 09:50:04 status 200:watching 250:pos LYFT 350:watching 400:watching 550:watching 1000:pos LYFT
+11-18 10:00:02 scan drop BRBR +21.3% rvol 9.0: no news 24h
+11-18 10:00:02 scan keep FIRY +13.6% rvol 7.0 | [Google News] What Investors Are Watching at Firy (NYSE:FIRY) After Revenue Grow
+11-18 10:00:02 scan keep USAR +12.8% rvol 3.6 | [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,' Says Stick With the
+11-18 10:00:02 scan drop ABSI +10.9% rvol 2.7: no news 24h
+11-18 10:00:04 scan keep LAES +10.1% rvol 2.8 | [Benzinga] Susquehanna Securities Files Amended Schedule 13G for SEALSQ Corp
+11-18 10:00:04 scan keep OPEN +10.0% rvol 3.6 | [Newswire] Foot Locker (@footlocker) - Instagram +8-K
+11-18 10:00:04 scan keep CAPR +9.3% rvol 4.4 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
+11-18 10:00:04 scan keep BORR +9.2% rvol 6.4 | [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027 Visibility Tests Fa
+11-18 10:00:04 scan keep CSHR +9.2% rvol 4.1 | [Benzinga] CoinShares Board Approves Repurchase Of Up To $40M Of Ordinary Shares
+11-18 10:00:04 scan drop RXRX: negative news (SEC 424B5 filed 2026-10-15 (possible share offering))
+11-18 10:00:04 scan drop MP: negative news ([Newswire] Ardagh Metal Packaging S.A. Launches €1,250 Million Senior )
+11-18 10:00:05 scan drop OWLT +8.0% rvol 4.1: no news 24h
+11-18 10:00:05 scan keep ANGX +8.0% rvol 5.5 | [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8-K
+11-18 10:00:06 scan drop ANRO +7.9% rvol 2.5: no news 24h
+11-18 10:00:06 scan keep KURA +7.6% rvol 2.8 | [Newswire] 100 Locations of Revolving Joy: Kura Sushi USA Reaches Triple-Digit M
+11-18 10:00:06 scan keep LYFT +7.1% rvol 2.8 | [Newswire] Parallel - Web Infrastructure for AI Agents - Parallel Web Systems
+11-18 10:00:06 scan keep BEAM +6.5% rvol 2.8 | [Newswire] Post & Beam Brings Three Classic California Wines to the Holiday Tabl
+11-18 10:00:06 scan keep IRTC +6.1% rvol 3.3 | [Benzinga] iRhythm Enters $100 Million Accelerated Share Repurchase Agreement +8
+11-18 10:00:06 scan drop SVRA +6.0% rvol 6.1: no news 24h
+11-18 10:00:06 scan drop OFRM +5.7% rvol 2.8: no news 24h
+11-18 10:00:10 status 200:watching 250:pos LYFT 350:watching 400:watching 550:watching 1000:pos LYFT
+11-18 10:01:02 [$350/bull_flag] SIGNAL BORR: Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53; stop 3.47; size 100%
+11-18 10:01:06 [$350] ALPACA paper bracket x2 sent: 36 BORR limit 3.57 (ids 2)
+11-18 10:01:02 [$550/bull_flag] SIGNAL BORR: Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53; stop 3.47; size 100%
+11-18 10:01:06 [$550] ALPACA paper bracket x2 sent: 57 BORR limit 3.57 (ids 2)
+11-18 10:02:02 [$350] BUY 38 BORR @ 3.56 stop 3.47 half@3.65 tgt 3.74 | bull_flag | Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53 | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027
+11-18 10:02:02 [$550] BUY 61 BORR @ 3.56 stop 3.47 half@3.65 tgt 3.74 | bull_flag | Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53 | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027
