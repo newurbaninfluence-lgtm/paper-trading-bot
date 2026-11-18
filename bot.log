@@ -4036,3 +4036,6 @@
 11-18 10:32:08 [$350] ALPACA result BORR: sim $-4.56 vs alpaca $-2.55 (closed)
 11-18 10:32:02 [$550] EXIT 61 BORR @ 3.44 (stop) total P&L $-7.32
 11-18 10:32:10 [$550] ALPACA result BORR: sim $-7.32 vs alpaca $-4.43 (closed)
+11-18 10:40:06 status 200:done 250:pos LYFT 350:done 400:done 550:done 1000:pos LYFT
+11-18 10:50:05 status 200:done 250:pos LYFT 350:done 400:done 550:done 1000:pos LYFT
+11-18 11:00:06 status 200:done 250:pos LYFT 350:done 400:done 550:done 1000:pos LYFT
