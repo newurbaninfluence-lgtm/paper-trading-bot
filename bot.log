@@ -3999,3 +3999,40 @@
 11-18 10:01:06 [$550] ALPACA paper bracket x2 sent: 57 BORR limit 3.57 (ids 2)
 11-18 10:02:02 [$350] BUY 38 BORR @ 3.56 stop 3.47 half@3.65 tgt 3.74 | bull_flag | Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53 | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027
 11-18 10:02:02 [$550] BUY 61 BORR @ 3.56 stop 3.47 half@3.65 tgt 3.74 | bull_flag | Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53 | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027
+11-18 10:10:06 status 200:watching 250:pos LYFT 350:pos BORR 400:watching 550:pos BORR 1000:pos LYFT
+11-18 10:11:02 [$200/vwap_pullback] SIGNAL LYFT: VWAP pullback: +5.4%, dipped to VWAP 17.56, reclaimed with green bar; stop 17.57; size 100%
+11-18 10:11:08 [$200] ALPACA paper bracket x2 sent: 11 LYFT limit 17.64 (ids 2)
+11-18 10:11:02 [$400/vwap_pullback] SIGNAL LYFT: VWAP pullback: +5.4%, dipped to VWAP 17.56, reclaimed with green bar; stop 17.57; size 100%
+11-18 10:11:08 [$400] ALPACA paper bracket x2 sent: 22 LYFT limit 17.64 (ids 2)
+11-18 10:12:02 [$200] BUY 11 LYFT @ 17.64 stop 17.57 half@17.71 tgt 17.78 | vwap_pullback | VWAP pullback: +5.4%, dipped to VWAP 17.56, reclaimed with green bar | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par
+11-18 10:12:02 [$400] BUY 22 LYFT @ 17.64 stop 17.57 half@17.71 tgt 17.78 | vwap_pullback | VWAP pullback: +5.4%, dipped to VWAP 17.56, reclaimed with green bar | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par
+11-18 10:15:02 scan drop BRBR +19.4% rvol 8.0: no news 24h
+11-18 10:15:02 scan keep FIRY +13.6% rvol 6.2 | [Google News] What Investors Are Watching at Firy (NYSE:FIRY) After Revenue Grow
+11-18 10:15:02 scan drop ABSI +12.9% rvol 2.7: no news 24h
+11-18 10:15:02 scan keep CSHR +11.7% rvol 3.2 | [Benzinga] CoinShares Board Approves Repurchase Of Up To $40M Of Ordinary Shares
+11-18 10:15:02 scan keep CAPR +11.3% rvol 4.0 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
+11-18 10:15:03 scan keep HUYA +10.9% rvol 2.2 | [Google News] Did HUYA's Fall Catch You Out? What Investors Missed - Yahoo Finan
+11-18 10:15:03 scan keep BORR +10.5% rvol 5.9 | [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027 Visibility Tests Fa
+11-18 10:15:03 scan keep ANGX +9.8% rvol 4.3 | [Benzinga] Angel Studios Q3 2026 Earnings Call Transcript +8-K
+11-18 10:15:03 scan keep LAES +9.7% rvol 2.5 | [Benzinga] Susquehanna Securities Files Amended Schedule 13G for SEALSQ Corp
+11-18 10:15:03 scan keep USAR +9.6% rvol 4.1 | [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,' Says Stick With the
+11-18 10:15:03 scan drop RXRX: negative news (SEC 424B5 filed 2026-10-15 (possible share offering))
+11-18 10:15:03 scan keep OPEN +9.3% rvol 3.3 | [Newswire] Foot Locker (@footlocker) - Instagram +8-K
+11-18 10:15:03 scan keep IRTC +7.7% rvol 3.3 | [Benzinga] iRhythm Enters $100 Million Accelerated Share Repurchase Agreement +8
+11-18 10:15:03 scan keep KURA +7.6% rvol 2.4 | [Newswire] 100 Locations of Revolving Joy: Kura Sushi USA Reaches Triple-Digit M
+11-18 10:15:03 scan drop ANRO +7.4% rvol 2.3: no news 24h
+11-18 10:15:03 scan drop SVRA +7.4% rvol 5.5: no news 24h
+11-18 10:15:03 scan drop MP: negative news ([Newswire] Ardagh Metal Packaging S.A. Launches €1,250 Million Senior )
+11-18 10:15:03 scan keep NFE +7.2% rvol 2.2 | [Benzinga] New Fortress Energy Agrees to Lease 10 Mobile Turbines to U.S. Custom
+11-18 10:15:03 scan keep BEAM +6.7% rvol 2.6 | [Newswire] Post & Beam Brings Three Classic California Wines to the Holiday Tabl
+11-18 10:15:04 scan drop SRRK +6.4% rvol 2.6: no news 24h
+11-18 10:16:02 [$200] EXIT 11 LYFT @ 17.54 (stop) total P&L $-1.1
+11-18 10:16:08 [$200] ALPACA result LYFT: sim $-1.1 vs alpaca $-0.51 (closed)
+11-18 10:16:02 [$400] EXIT 22 LYFT @ 17.54 (stop) total P&L $-2.2
+11-18 10:16:10 [$400] ALPACA result LYFT: sim $-2.2 vs alpaca $-1.02 (closed)
+11-18 10:20:05 status 200:done 250:pos LYFT 350:pos BORR 400:done 550:pos BORR 1000:pos LYFT
+11-18 10:30:06 status 200:done 250:pos LYFT 350:pos BORR 400:done 550:pos BORR 1000:pos LYFT
+11-18 10:32:02 [$350] EXIT 38 BORR @ 3.44 (stop) total P&L $-4.56
+11-18 10:32:08 [$350] ALPACA result BORR: sim $-4.56 vs alpaca $-2.55 (closed)
+11-18 10:32:02 [$550] EXIT 61 BORR @ 3.44 (stop) total P&L $-7.32
+11-18 10:32:10 [$550] ALPACA result BORR: sim $-7.32 vs alpaca $-4.43 (closed)
