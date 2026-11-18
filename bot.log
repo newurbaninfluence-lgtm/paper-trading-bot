@@ -3938,3 +3938,10 @@
 11-17 19:58:01 labeled 0 signals with outcomes
 11-17 19:58:03 daily report written
 11-17 19:58:03 bot session end
+11-18 08:38:29 alpaca paper mirror: ON
+11-18 08:38:29 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-18 08:38:29 resumed state from 2026-11-17
+11-18 08:38:29 bot live start (max 5.9h)
+11-18 09:31:38 market brief written: briefs/2026-11-18.md (25 Benzinga items)
+11-18 09:31:40 scan keep BLSH +9.0% rvol 2.7 | [Benzinga] Bullish Reports Third Quarter 2026 Financial Results
+11-18 09:31:41 new day universe=['BLSH']
