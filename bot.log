@@ -4071,3 +4071,19 @@
 11-18 15:10:05 status 200:done 250:pos LYFT 350:done 400:done 550:done 1000:pos LYFT
 11-18 15:20:06 status 200:done 250:pos LYFT 350:done 400:done 550:done 1000:pos LYFT
 11-18 15:30:05 status 200:done 250:pos LYFT 350:done 400:done 550:done 1000:pos LYFT
+11-18 15:40:05 status 200:done 250:pos LYFT 350:done 400:done 550:done 1000:pos LYFT
+11-18 15:50:05 status 200:done 250:pos LYFT 350:done 400:done 550:done 1000:pos LYFT
+11-18 15:55:02 [$250] EXIT 4 LYFT @ 17.61 (time) total P&L $-0.64
+11-18 15:55:21 alpaca DELETE /orders/4c834915-c6d4-4486-82ba-1b609508a6a5 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-18 15:55:21 alpaca DELETE /orders/a0c3e4f6-26f2-4d8d-86e4-487caecabffe -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-18 15:55:22 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"22","held_for_orders":"22","message":"insufficient qty available for order (requested: 4, available: 0)","related_orders":["e6c7bd58-c15c-4350-aeac-0d1'
+11-18 15:55:25 [$250] ALPACA result LYFT: sim $-0.64 vs alpaca $None (partially open)
+11-18 15:55:02 [$1000] EXIT 16 LYFT @ 17.61 (time) total P&L $-2.56
+11-18 15:55:25 alpaca DELETE /orders/a4c0bd90-4092-4199-88bf-4f33cc64298b -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-18 15:55:26 alpaca DELETE /orders/c8ad0043-04fd-4180-8669-442d59933d84 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-18 15:55:27 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"22","held_for_orders":"22","message":"insufficient qty available for order (requested: 16, available: 0)","related_orders":["e6c7bd58-c15c-4350-aeac-0d'
+11-18 15:55:29 [$1000] ALPACA result LYFT: sim $-2.56 vs alpaca $None (partially open)
+11-18 16:02:20 fill test: 42 fills, avg buy vs next-bar open +0.202%, vs simulator -0.309%
+11-18 16:02:32 labeled 42 signals with outcomes
+11-18 16:02:35 daily report written
+11-18 16:02:35 bot session end

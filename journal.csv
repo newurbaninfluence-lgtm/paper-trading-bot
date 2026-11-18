@@ -142,3 +142,5 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-18,400,vwap_pullback,LYFT,22,17.64,17.57,17.71,17.78,17.54,stop,-2.2,-0.55,1.0,,1,"VWAP pullback: +5.4%, dipped to VWAP 17.56, reclaimed with green bar | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par"
 2026-11-18,350,bull_flag,BORR,38,3.56,3.47,3.65,3.74,3.44,stop,-4.56,-1.3,1.0,,1,"Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53 | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027"
 2026-11-18,550,bull_flag,BORR,61,3.56,3.47,3.65,3.74,3.44,stop,-7.32,-1.33,1.0,,1,"Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53 | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027"
+2026-11-18,250,orb15,LYFT,4,17.77,17.15,18.39,19.01,17.61,time,-0.64,-0.26,1.0,,1,"15-min ORB: closed above 15-min high 17.66, above VWAP | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par"
+2026-11-18,1000,orb15,LYFT,16,17.77,17.15,18.39,19.01,17.61,time,-2.56,-0.26,1.0,,1,"15-min ORB: closed above 15-min high 17.66, above VWAP | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par"
