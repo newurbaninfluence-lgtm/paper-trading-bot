@@ -4111,3 +4111,14 @@
 11-18 19:22:20 labeled 0 signals with outcomes
 11-18 19:22:23 daily report written
 11-18 19:22:23 bot session end
+11-19 08:38:35 alpaca paper mirror: ON
+11-19 08:38:35 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-19 08:38:35 resumed state from 2026-11-18
+11-19 08:38:35 bot live start (max 5.9h)
+11-19 09:31:13 market brief written: briefs/2026-11-19.md (25 Benzinga items)
+11-19 09:31:16 scan keep PDD +8.7% rvol 8.2 | [Benzinga] PDD Holdings Announces Third Quarter 2026 Unaudited Financial Results
+11-19 09:31:16 scan keep RIOT +8.3% rvol 2.2 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-19 09:31:17 scan keep AMBA +7.8% rvol 2.2 | [Google News] Stocks to watch on Thursday: WMT, AMBA, WSM & more (SPX:) - Seekin
+11-19 09:31:17 scan keep TU +6.9% rvol 3.4 | [Benzinga] Telus Confirms Board Of Directors Has Received An Unsolicited, Non-Bi
+11-19 09:31:17 scan keep IREN +6.5% rvol 2.8 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-19 09:31:18 new day universe=['PDD', 'RIOT', 'AMBA', 'TU', 'IREN']
