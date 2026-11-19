@@ -4122,3 +4122,61 @@
 11-19 09:31:17 scan keep TU +6.9% rvol 3.4 | [Benzinga] Telus Confirms Board Of Directors Has Received An Unsolicited, Non-Bi
 11-19 09:31:17 scan keep IREN +6.5% rvol 2.8 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
 11-19 09:31:18 new day universe=['PDD', 'RIOT', 'AMBA', 'TU', 'IREN']
+11-19 09:37:02 [$400/orb5] SIGNAL TU: 5-min ORB: green first 5 min, closed above range high 10.28; stop 10.01; size 100%
+11-19 09:37:03 [$400] ALPACA paper bracket x2 sent: 12 TU limit 10.32 (ids 2)
+11-19 09:37:02 [$1000/orb5] SIGNAL TU: 5-min ORB: green first 5 min, closed above range high 10.28; stop 10.01; size 100%
+11-19 09:37:03 [$1000] ALPACA paper bracket x2 sent: 32 TU limit 10.32 (ids 2)
+11-19 09:38:02 [$400] BUY 12 TU @ 10.32 stop 10.01 half@10.63 tgt 10.94 | orb5 | 5-min ORB: green first 5 min, closed above range high 10.28 | news: [Benzinga] Telus Confirms Board Of Directors Has Received An
+11-19 09:38:02 [$1000] BUY 32 TU @ 10.32 stop 10.01 half@10.63 tgt 10.94 | orb5 | 5-min ORB: green first 5 min, closed above range high 10.28 | news: [Benzinga] Telus Confirms Board Of Directors Has Received An
+11-19 09:40:03 status 200:watching 250:watching 350:watching 400:pos TU 550:watching 1000:pos TU
+11-19 09:45:03 scan keep SEAT +99.2% rvol 16233.0 | [Newswire] QIAGEN and EQT Private Equity announce agreement on a recommended vol
+11-19 09:45:03 scan keep KRNT +16.7% rvol 15.0 | [Benzinga] Kornit Digital Reports Third Quarter 2026 Financial Results
+11-19 09:45:03 scan keep AMBA +12.6% rvol 4.1 | [Google News] Stocks to watch on Thursday: WMT, AMBA, WSM & more (SPX:) - Seekin
+11-19 09:45:03 scan keep PDD +11.1% rvol 17.6 | [Benzinga] PDD Holdings Announces Third Quarter 2026 Unaudited Financial Results
+11-19 09:45:03 scan keep USAR +10.8% rvol 5.4 | [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,' Says Stick With the
+11-19 09:45:03 scan drop HY: negative news ([Benzinga] Hyster-Yale Prices $135 Million Convertible Senior Notes Of)
+11-19 09:45:04 scan keep TROX +9.5% rvol 5.8 | [Benzinga] Tronox Issues Company Update Regarding Creditor Engagement +8-K
+11-19 09:45:04 scan keep VVV +9.2% rvol 3.6 | [Benzinga] Valvoline Inc. Reports Fourth Quarter and Fiscal Year 2026 Results +8
+11-19 09:45:04 scan drop IONQ: negative news (SEC 424B5 filed 2026-10-14 (possible share offering))
+11-19 09:45:05 scan keep NTSK +8.8% rvol 3.3 | [Google News] Netskope (NTSK) is Gaining Serious Wall Street Attention - Yahoo F
+11-19 09:45:05 scan keep CRWV +8.7% rvol 4.3 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-19 09:45:05 scan drop DDD: negative news (SEC 424B5 filed 2026-11-05 (possible share offering))
+11-19 09:45:05 scan keep RXT +8.6% rvol 2.1 | [Benzinga] Rackspace Tech Q3 2026 Earnings Call Transcript +8-K
+11-19 09:45:05 scan keep TIGR +8.6% rvol 9.0 | [Google News] TIGR Dec 2026 3.000 put (TIGR261218P00003000) interactive stock ch
+11-19 09:45:05 scan keep TU +8.0% rvol 11.8 | [Benzinga] Telus Confirms Board Of Directors Has Received An Unsolicited, Non-Bi
+11-19 09:45:05 scan keep APLD +8.0% rvol 2.8 | [Benzinga] Soluna Holdings and Applied Digital Form Strategic Partnership for Te
+11-19 09:45:06 scan keep INTC +7.9% rvol 2.5 | [Benzinga] Fubon Securities Adjusts Price Target on Intel
+11-19 09:45:06 scan keep QBTS +7.8% rvol 2.3 | [Newswire] Deadline Alert: D-Wave Quantum, Inc. Investors Have Until - GlobeNews
+11-19 09:45:06 scan keep AXTI +7.8% rvol 4.1 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-19 09:45:06 scan keep IREN +7.8% rvol 5.6 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-19 09:49:02 [$250/orb15] SIGNAL TU: 15-min ORB: closed above 15-min high 10.33, above VWAP; stop 10.15; size 100%
+11-19 09:49:04 [$250] ALPACA paper bracket x2 sent: 10 TU limit 10.4 (ids 2)
+11-19 09:50:02 [$250] BUY 9 TU @ 10.42 stop 10.15 half@10.69 tgt 10.96 | orb15 | 15-min ORB: closed above 15-min high 10.33, above VWAP | news: [Benzinga] Telus Confirms Board Of Directors Has Received An
+11-19 09:50:04 status 200:watching 250:pos TU 350:watching 400:pos TU 550:watching 1000:pos TU
+11-19 09:58:02 [$350/bull_flag] SIGNAL USAR: Bull flag: 4.5% pole, 1.4% flag on light vol, broke 7.25; stop 7.14; size 100%
+11-19 09:58:04 [$350] ALPACA paper bracket x2 sent: 23 USAR limit 7.29 (ids 2)
+11-19 09:58:02 [$550/bull_flag] SIGNAL USAR: Bull flag: 4.5% pole, 1.4% flag on light vol, broke 7.25; stop 7.14; size 100%
+11-19 09:58:04 [$550] ALPACA paper bracket x2 sent: 36 USAR limit 7.29 (ids 2)
+11-19 09:59:02 [$350] BUY 26 USAR @ 7.27 stop 7.14 half@7.4 tgt 7.53 | bull_flag | Bull flag: 4.5% pole, 1.4% flag on light vol, broke 7.25 | news: [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,'
+11-19 09:59:02 [$550] BUY 42 USAR @ 7.27 stop 7.14 half@7.4 tgt 7.53 | bull_flag | Bull flag: 4.5% pole, 1.4% flag on light vol, broke 7.25 | news: [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,'
+11-19 10:00:03 scan keep SEAT +51.6% rvol 11764.3 | [Newswire] QIAGEN and EQT Private Equity announce agreement on a recommended vol
+11-19 10:00:03 scan keep KRNT +16.0% rvol 14.8 | [Benzinga] Kornit Digital Reports Third Quarter 2026 Financial Results
+11-19 10:00:05 scan keep AESI +13.6% rvol 2.3 | [Google News] Atlas Energy Solutions Inc. (AESI) Stock Forecasts - Yahoo Finance
+11-19 10:00:05 scan keep AMBA +12.0% rvol 4.1 | [Google News] Stocks to watch on Thursday: WMT, AMBA, WSM & more (SPX:) - Seekin
+11-19 10:00:05 scan keep PDD +11.5% rvol 16.4 | [Benzinga] PDD Holdings Announces Third Quarter 2026 Unaudited Financial Results
+11-19 10:00:05 scan keep EMPD +11.3% rvol 4.4 | [Benzinga] Empery Digital Inc. Participates in $750 Million Financing for Chrono
+11-19 10:00:05 scan keep TROX +10.8% rvol 5.0 | [Benzinga] Tronox Issues Company Update Regarding Creditor Engagement +8-K
+11-19 10:00:05 scan keep PURR +10.7% rvol 2.2 | [Newswire] lemme - Instagram +8-K
+11-19 10:00:05 scan drop DDD: negative news (SEC 424B5 filed 2026-11-05 (possible share offering))
+11-19 10:00:05 scan keep USAR +10.1% rvol 5.3 | [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,' Says Stick With the
+11-19 10:00:05 scan keep NTSK +10.0% rvol 3.7 | [Google News] Netskope (NTSK) is Gaining Serious Wall Street Attention - Yahoo F
+11-19 10:00:05 scan keep TU +9.8% rvol 10.2 | [Benzinga] Telus Confirms Board Of Directors Has Received An Unsolicited, Non-Bi
+11-19 10:00:05 scan keep VVV +9.6% rvol 3.7 | [Benzinga] Valvoline Inc. Reports Fourth Quarter and Fiscal Year 2026 Results +8
+11-19 10:00:05 scan keep LUNG +8.6% rvol 2.6 | [Benzinga] Pulmonx Reports Third Quarter 2026 Financial Results +8-K
+11-19 10:00:05 scan keep PEPG +8.3% rvol 2.5 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-19 10:00:05 scan keep CAPR +8.0% rvol 3.3 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
+11-19 10:00:05 scan keep TIGR +8.0% rvol 6.7 | [Google News] TIGR Dec 2026 3.000 put (TIGR261218P00003000) interactive stock ch
+11-19 10:00:06 scan keep MAGN +7.7% rvol 3.7 | [Benzinga] Magnera Reports Fourth Quarter and Fiscal Year 2026 Results
+11-19 10:00:06 scan keep INTC +7.6% rvol 2.4 | [Benzinga] Fubon Securities Adjusts Price Target on Intel
+11-19 10:00:07 scan keep INBX +7.3% rvol 2.6 | [Google News] Inhibrx Biosciences stock: Ozekibart posts 62.7% response rate - a
+11-19 10:00:10 status 200:watching 250:pos TU 350:pos USAR 400:pos TU 550:pos USAR 1000:pos TU
