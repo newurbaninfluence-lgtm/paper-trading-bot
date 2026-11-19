@@ -4255,3 +4255,17 @@
 11-19 15:10:06 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
 11-19 15:20:06 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
 11-19 15:30:09 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
+11-19 15:40:07 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
+11-19 15:50:05 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
+11-19 15:55:02 [$400] EXIT 6 TU @ 10.84 (time) total P&L $4.98
+11-19 15:55:25 alpaca DELETE /orders/8c967a0e-07e4-4236-9e32-0ef1d6fa6924 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-19 15:55:26 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"30","held_for_orders":"30","message":"insufficient qty available for order (requested: 6, available: 0)","related_orders":["3aa585ab-4c32-4320-af9e-c6b'
+11-19 15:55:29 [$400] ALPACA result TU: sim $4.98 vs alpaca $None (partially open)
+11-19 15:55:02 [$1000] EXIT 16 TU @ 10.84 (time) total P&L $13.28
+11-19 15:55:29 alpaca DELETE /orders/9b05f9df-4d18-40d6-91af-0c387dd2b0e2 -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-19 15:55:31 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"29","held_for_orders":"29","message":"insufficient qty available for order (requested: 16, available: 0)","related_orders":["1fd89a88-7050-403e-bf43-30'
+11-19 15:55:33 [$1000] ALPACA result TU: sim $13.28 vs alpaca $None (partially open)
+11-19 16:02:23 fill test: 45 fills, avg buy vs next-bar open +0.100%, vs simulator -0.151%
+11-19 16:02:39 labeled 44 signals with outcomes
+11-19 16:02:42 daily report written
+11-19 16:02:42 bot session end

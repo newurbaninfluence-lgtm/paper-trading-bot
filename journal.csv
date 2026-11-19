@@ -148,3 +148,5 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-19,550,bull_flag,USAR,42,7.27,7.14,7.4,7.53,7.12,stop,-6.3,-1.15,1.0,,1,"Bull flag: 4.5% pole, 1.4% flag on light vol, broke 7.25 | news: [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,'"
 2026-11-19,200,vwap_pullback,IREN,7,16.24,15.97,16.51,16.78,15.95,stop,-2.03,-1.01,1.0,,1,"VWAP pullback: +6.4%, dipped to VWAP 16.20, reclaimed with green bar | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu"
 2026-11-19,250,orb15,TU,9,10.42,10.15,10.69,10.96,10.4,breakeven,0.98,0.39,1.0,,1,"15-min ORB: closed above 15-min high 10.33, above VWAP | news: [Benzinga] Telus Confirms Board Of Directors Has Received An"
+2026-11-19,400,orb5,TU,12,10.32,10.01,10.63,10.94,10.84,time,4.98,1.25,1.0,,1,"5-min ORB: green first 5 min, closed above range high 10.28 | news: [Benzinga] Telus Confirms Board Of Directors Has Received An"
+2026-11-19,1000,orb5,TU,32,10.32,10.01,10.63,10.94,10.84,time,13.28,1.33,1.0,,1,"5-min ORB: green first 5 min, closed above range high 10.28 | news: [Benzinga] Telus Confirms Board Of Directors Has Received An"
