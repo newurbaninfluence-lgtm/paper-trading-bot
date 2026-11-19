@@ -4226,3 +4226,6 @@
 11-19 11:30:02 [$250] EXIT 5 TU @ 10.4 (breakeven) total P&L $0.98
 11-19 11:30:08 [$250] ALPACA result TU: sim $0.98 vs alpaca $None (partially open)
 11-19 11:30:08 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
+11-19 11:40:04 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
+11-19 11:50:08 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
+11-19 12:00:04 status 200:done 250:done 350:done 400:pos TU 550:done 1000:pos TU
