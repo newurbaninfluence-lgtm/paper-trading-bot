@@ -4180,3 +4180,41 @@
 11-19 10:00:06 scan keep INTC +7.6% rvol 2.4 | [Benzinga] Fubon Securities Adjusts Price Target on Intel
 11-19 10:00:07 scan keep INBX +7.3% rvol 2.6 | [Google News] Inhibrx Biosciences stock: Ozekibart posts 62.7% response rate - a
 11-19 10:00:10 status 200:watching 250:pos TU 350:pos USAR 400:pos TU 550:pos USAR 1000:pos TU
+11-19 10:04:02 [$200/vwap_pullback] SIGNAL IREN: VWAP pullback: +6.4%, dipped to VWAP 16.20, reclaimed with green bar; stop 15.97; size 100%
+11-19 10:04:04 [$200] ALPACA paper bracket x2 sent: 7 IREN limit 16.24 (ids 2)
+11-19 10:05:02 [$200] BUY 7 IREN @ 16.24 stop 15.97 half@16.51 tgt 16.78 | vwap_pullback | VWAP pullback: +6.4%, dipped to VWAP 16.20, reclaimed with green bar | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu
+11-19 10:06:02 [$350] EXIT 26 USAR @ 7.12 (stop) total P&L $-3.9
+11-19 10:06:06 [$350] ALPACA result USAR: sim $-3.9 vs alpaca $-2.76 (closed)
+11-19 10:06:02 [$550] EXIT 42 USAR @ 7.12 (stop) total P&L $-6.3
+11-19 10:06:09 [$550] ALPACA result USAR: sim $-6.3 vs alpaca $-4.32 (closed)
+11-19 10:08:02 [$200] EXIT 7 IREN @ 15.95 (stop) total P&L $-2.03
+11-19 10:08:06 [$200] ALPACA result IREN: sim $-2.03 vs alpaca $-1.72 (closed)
+11-19 10:10:04 status 200:done 250:pos TU 350:done 400:pos TU 550:done 1000:pos TU
+11-19 10:15:02 scan keep SEAT +59.8% rvol 8177.1 | [Newswire] QIAGEN and EQT Private Equity announce agreement on a recommended vol
+11-19 10:15:02 scan keep EMPD +20.1% rvol 8.5 | [Benzinga] Empery Digital Inc. Participates in $750 Million Financing for Chrono
+11-19 10:15:02 scan keep AARD +18.7% rvol 3.2 | [Newswire]  - GlobeNewswire
+11-19 10:15:02 scan keep KRNT +17.7% rvol 12.6 | [Benzinga] Kornit Digital Reports Third Quarter 2026 Financial Results
+11-19 10:15:02 scan keep AESI +15.0% rvol 2.4 | [Google News] Atlas Energy Solutions Inc. (AESI) Stock Forecasts - Yahoo Finance
+11-19 10:15:02 scan keep AMBA +12.5% rvol 3.6 | [Google News] Stocks to watch on Thursday: WMT, AMBA, WSM & more (SPX:) - Seekin
+11-19 10:15:02 scan keep CAPR +12.4% rvol 2.9 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
+11-19 10:15:02 scan keep PEPG +12.0% rvol 2.4 | [Benzinga] PepGen Reports Third Quarter 2026 Financial Results and Recent Corpor
+11-19 10:15:02 scan keep PDD +11.8% rvol 13.0 | [Benzinga] PDD Holdings Announces Third Quarter 2026 Unaudited Financial Results
+11-19 10:15:02 scan keep LUNG +11.5% rvol 2.7 | [Benzinga] Pulmonx Reports Third Quarter 2026 Financial Results +8-K
+11-19 10:15:02 scan keep MAGN +10.9% rvol 3.3 | [Benzinga] Magnera Reports Fourth Quarter and Fiscal Year 2026 Results
+11-19 10:15:02 scan keep VVV +10.9% rvol 3.1 | [Benzinga] Valvoline Inc. Reports Fourth Quarter and Fiscal Year 2026 Results +8
+11-19 10:15:02 scan keep NTSK +10.8% rvol 3.2 | [Google News] Netskope (NTSK) is Gaining Serious Wall Street Attention - Yahoo F
+11-19 10:15:02 scan keep TU +10.5% rvol 7.9 | [Benzinga] Telus Confirms Board Of Directors Has Received An Unsolicited, Non-Bi
+11-19 10:15:02 scan keep PURR +10.1% rvol 2.0 | [Newswire] lemme - Instagram +8-K
+11-19 10:15:02 scan keep INBX +10.0% rvol 2.7 | [Google News] Inhibrx Biosciences stock: Ozekibart posts 62.7% response rate - a
+11-19 10:15:03 scan keep FUTU +8.8% rvol 6.4 | [Benzinga] Futu Holdings Limited Announces Third Quarter 2026 Financial Results
+11-19 10:15:03 scan keep TROX +8.7% rvol 4.0 | [Benzinga] Tronox Issues Company Update Regarding Creditor Engagement +8-K
+11-19 10:15:03 scan keep TIGR +8.5% rvol 5.1 | [Google News] TIGR Dec 2026 3.000 put (TIGR261218P00003000) interactive stock ch
+11-19 10:15:03 scan drop SVRA +8.4% rvol 9.0: no news 24h
+11-19 10:20:04 status 200:done 250:pos TU 350:done 400:pos TU 550:done 1000:pos TU
+11-19 10:28:02 [$250] HALF OFF 4 TU @ 10.69 (+1R), stop to breakeven
+11-19 10:28:05 [$250] ALPACA runner stop moved to 10.4
+11-19 10:28:02 [$400] HALF OFF 6 TU @ 10.63 (+1R), stop to breakeven
+11-19 10:28:05 [$400] ALPACA runner stop moved to 10.32
+11-19 10:28:02 [$1000] HALF OFF 16 TU @ 10.63 (+1R), stop to breakeven
+11-19 10:28:05 [$1000] ALPACA runner stop moved to 10.32
+11-19 10:30:05 status 200:done 250:pos TU 350:done 400:pos TU 550:done 1000:pos TU

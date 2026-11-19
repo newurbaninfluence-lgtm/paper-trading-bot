@@ -144,3 +144,6 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-18,550,bull_flag,BORR,61,3.56,3.47,3.65,3.74,3.44,stop,-7.32,-1.33,1.0,,1,"Bull flag: 5.5% pole, 1.2% flag on light vol, broke 3.53 | news: [Google News] Borr Drilling (BORR) Wins New Rig Work As 2027"
 2026-11-18,250,orb15,LYFT,4,17.77,17.15,18.39,19.01,17.61,time,-0.64,-0.26,1.0,,1,"15-min ORB: closed above 15-min high 17.66, above VWAP | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par"
 2026-11-18,1000,orb15,LYFT,16,17.77,17.15,18.39,19.01,17.61,time,-2.56,-0.26,1.0,,1,"15-min ORB: closed above 15-min high 17.66, above VWAP | news: [Newswire] Parallel - Web Infrastructure for AI Agents - Par"
+2026-11-19,350,bull_flag,USAR,26,7.27,7.14,7.4,7.53,7.12,stop,-3.9,-1.11,1.0,,1,"Bull flag: 4.5% pole, 1.4% flag on light vol, broke 7.25 | news: [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,'"
+2026-11-19,550,bull_flag,USAR,42,7.27,7.14,7.4,7.53,7.12,stop,-6.3,-1.15,1.0,,1,"Bull flag: 4.5% pole, 1.4% flag on light vol, broke 7.25 | news: [Benzinga] Jim Cramer Calls Celsius 'A Second-Rate Monster,'"
+2026-11-19,200,vwap_pullback,IREN,7,16.24,15.97,16.51,16.78,15.95,stop,-2.03,-1.01,1.0,,1,"VWAP pullback: +6.4%, dipped to VWAP 16.20, reclaimed with green bar | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu"

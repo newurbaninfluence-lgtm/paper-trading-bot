@@ -144,3 +144,6 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-18,550,bull_flag,BORR,-7.32,57.0,57.0,3.5477,-4.43,closed
 2026-11-18,250,orb15,LYFT,-0.64,4.0,0.0,17.755,,partially open
 2026-11-18,1000,orb15,LYFT,-2.56,16.0,0.0,17.7587,,partially open
+2026-11-19,350,bull_flag,USAR,-3.9,23.0,23.0,7.26,-2.76,closed
+2026-11-19,550,bull_flag,USAR,-6.3,36.0,36.0,7.26,-4.32,closed
+2026-11-19,200,vwap_pullback,IREN,-2.03,7.0,7.0,16.2114,-1.72,closed
