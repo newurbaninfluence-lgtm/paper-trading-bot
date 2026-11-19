@@ -4218,3 +4218,6 @@
 11-19 10:28:02 [$1000] HALF OFF 16 TU @ 10.63 (+1R), stop to breakeven
 11-19 10:28:05 [$1000] ALPACA runner stop moved to 10.32
 11-19 10:30:05 status 200:done 250:pos TU 350:done 400:pos TU 550:done 1000:pos TU
+11-19 10:40:05 status 200:done 250:pos TU 350:done 400:pos TU 550:done 1000:pos TU
+11-19 10:50:05 status 200:done 250:pos TU 350:done 400:pos TU 550:done 1000:pos TU
+11-19 11:00:05 status 200:done 250:pos TU 350:done 400:pos TU 550:done 1000:pos TU
