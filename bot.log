@@ -4293,3 +4293,13 @@
 11-19 19:36:52 labeled 0 signals with outcomes
 11-19 19:36:55 daily report written
 11-19 19:36:55 bot session end
+11-20 08:38:42 alpaca paper mirror: ON
+11-20 08:38:42 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-20 08:38:42 resumed state from 2026-11-19
+11-20 08:38:42 bot live start (max 5.9h)
+11-20 09:31:13 monthly opex day: no new trades (playbook rule)
+11-20 09:31:21 market brief written: briefs/2026-11-20.md (25 Benzinga items)
+11-20 09:31:23 scan keep GAP +12.3% rvol 2.3 | [Benzinga] Gap Inc. Reports Third Quarter Fiscal 2026 Financial Results +8-K
+11-20 09:31:23 scan drop DPC +7.1% rvol 29.7: no news 24h
+11-20 09:31:23 scan keep CAPR +6.8% rvol 6.3 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
+11-20 09:31:24 new day universe=['GAP', 'CAPR']
