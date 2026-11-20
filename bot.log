@@ -4303,3 +4303,6 @@
 11-20 09:31:23 scan drop DPC +7.1% rvol 29.7: no news 24h
 11-20 09:31:23 scan keep CAPR +6.8% rvol 6.3 | [Benzinga] Caprock Mining Corp. Announces Assay Results from Destiny Gold Proper
 11-20 09:31:24 new day universe=['GAP', 'CAPR']
+11-20 09:40:03 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-20 09:50:02 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-20 10:00:03 status 200:done 250:done 350:done 400:done 550:done 1000:done
