@@ -1,6 +1,6 @@
-# Crypto pattern finder, 1d bars (2026-11-14)
+# Crypto pattern finder, 1d bars (2026-11-21)
 
-Data: 1d bars, 2022-02-19 to 2026-11-14, 8 markets (AVAXUSD, BTCUSD, DOGEUSD, ETHUSD, LINKUSD, LTCUSD, SOLUSD, XRPUSD).
+Data: 1d bars, 2022-02-19 to 2026-11-21, 8 markets (AVAXUSD, BTCUSD, DOGEUSD, ETHUSD, LINKUSD, LTCUSD, SOLUSD, XRPUSD).
 **Hunt** period: before 2025-01-01. **Exam** period: 2025-01-01 on (never seen while hunting).
 Costs: 0.30% per side (Alpaca crypto fee + slippage), long only (Alpaca can't short crypto).
 Rules tested: 294. R = profit in units of the risk per trade (1R = the stop distance). Net = after costs.
@@ -12,17 +12,17 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 
 | # | Rule | Filter | Side | Exit | Hunt trades | Hunt net R | Hunt t | Exam trades | Exam gross R | Exam net R | Exam win % | Exam t | Markets up | Verdict |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | day_tue | any | long | stop2_hold12bars | 562 | +0.260 | +2.5 | 444 | -0.030 | -0.088 | 35% | -1.4 | 0/8 | lost on exam |
+| 1 | day_tue | any | long | stop2_hold12bars | 562 | +0.260 | +2.5 | 452 | -0.044 | -0.102 | 34% | -1.7 | 0/8 | lost on exam |
 | 2 | big_move_4bars_3.0atr_follow | any | long | stop2_hold24bars | 48 | +1.806 | +2.5 | 40 | +0.025 | -0.052 | 38% | -0.2 | 3/8 | lost on exam |
 | 3 | big_move_4bars_3.0atr_follow | with_trend | long | stop2_hold24bars | 48 | +1.806 | +2.5 | 40 | +0.025 | -0.052 | 38% | -0.2 | 3/8 | lost on exam |
 | 4 | breakout_55bars | any | long | stop2_hold24bars | 66 | +1.230 | +2.3 | 44 | +0.111 | +0.033 | 39% | +0.1 | 4/8 | too weak |
 | 5 | breakout_55bars | with_trend | long | stop2_hold24bars | 66 | +1.230 | +2.3 | 44 | +0.111 | +0.033 | 39% | +0.1 | 4/8 | too weak |
-| 6 | day_fri | any | long | stop2_hold24bars | 324 | +0.413 | +2.2 | 250 | -0.126 | -0.181 | 29% | -2.0 | 0/8 | lost on exam |
+| 6 | day_fri | any | long | stop2_hold24bars | 324 | +0.413 | +2.2 | 258 | -0.120 | -0.174 | 31% | -2.0 | 0/8 | lost on exam |
 | 7 | big_move_4bars_3.0atr_follow | any | long | stop2_hold12bars | 54 | +0.730 | +2.1 | 42 | +0.322 | +0.243 | 48% | +1.2 | 5/8 | too weak |
 | 8 | big_move_4bars_3.0atr_follow | with_trend | long | stop2_hold12bars | 54 | +0.730 | +2.1 | 42 | +0.322 | +0.243 | 48% | +1.2 | 5/8 | too weak |
 | 9 | breakout_55bars | with_trend | long | stop2_hold12bars | 79 | +0.493 | +2.1 | 51 | +0.190 | +0.112 | 39% | +0.5 | 6/8 | too weak |
 | 10 | breakout_55bars | any | long | stop2_hold12bars | 79 | +0.493 | +2.1 | 51 | +0.190 | +0.112 | 39% | +0.5 | 6/8 | too weak |
-| 11 | day_thu | any | long | stop2_hold24bars | 314 | +0.382 | +2.1 | 243 | -0.007 | -0.061 | 39% | -0.7 | 2/8 | lost on exam |
+| 11 | day_thu | any | long | stop2_hold24bars | 314 | +0.382 | +2.1 | 251 | -0.024 | -0.077 | 37% | -0.9 | 2/8 | lost on exam |
 | 12 | day_thu | with_trend | long | stop2_hold24bars | 179 | +0.845 | +2.1 | 120 | +0.181 | +0.111 | 38% | +0.7 | 3/8 | too weak |
 | 13 | big_move_12bars_1.5atr_follow | with_trend | long | stop2_hold24bars | 116 | +1.233 | +2.1 | 79 | -0.083 | -0.158 | 32% | -0.9 | 3/8 | lost on exam |
 | 14 | day_sun | with_trend | long | stop2_hold24bars | 186 | +0.793 | +2.1 | 124 | -0.059 | -0.125 | 32% | -0.9 | 3/8 | lost on exam |
@@ -33,5 +33,5 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 - Rules positive on the hunt (after costs): 145 of 204.
 - Of those, still positive on the exam: 51.
 - Best exam result of ANY rule (pure hindsight, for comparison only): +0.456R (big_move_4bars_3.0atr_follow). Picking from the exam itself is the curve-fitting trap.
-- Average rule before costs on the exam: -0.015R; after costs: -0.080R.
-- Buy and hold over the exam period: AVAXUSD -81%, BTCUSD -33%, DOGEUSD -82%, ETHUSD -48%, LINKUSD -60%, LTCUSD -58%, SOLUSD -64%, XRPUSD -61%.
+- Average rule before costs on the exam: -0.017R; after costs: -0.082R.
+- Buy and hold over the exam period: AVAXUSD -83%, BTCUSD -36%, DOGEUSD -83%, ETHUSD -50%, LINKUSD -60%, LTCUSD -62%, SOLUSD -64%, XRPUSD -60%.

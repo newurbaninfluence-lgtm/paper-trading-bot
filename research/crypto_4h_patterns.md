@@ -1,6 +1,6 @@
-# Crypto pattern finder, 4h bars (2026-11-14)
+# Crypto pattern finder, 4h bars (2026-11-21)
 
-Data: 4h bars, 2022-02-19 to 2026-11-14, 8 markets (AVAXUSD, BTCUSD, DOGEUSD, ETHUSD, LINKUSD, LTCUSD, SOLUSD, XRPUSD).
+Data: 4h bars, 2022-02-19 to 2026-11-21, 8 markets (AVAXUSD, BTCUSD, DOGEUSD, ETHUSD, LINKUSD, LTCUSD, SOLUSD, XRPUSD).
 **Hunt** period: before 2025-01-01. **Exam** period: 2025-01-01 on (never seen while hunting).
 Costs: 0.30% per side (Alpaca crypto fee + slippage), long only (Alpaca can't short crypto).
 Rules tested: 306. R = profit in units of the risk per trade (1R = the stop distance). Net = after costs.
@@ -24,7 +24,7 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 | 10 | breakout_48bars | with_trend | long | stop3_trail_exit_below_ema50 | 269 | +0.496 | +1.6 | 190 | +0.183 | +0.063 | 31% | +0.5 | 4/8 | weak on hunt |
 | 11 | big_move_12bars_1.5atr_follow | any | long | stop3_trail_exit_below_ema50 | 635 | +0.261 | +1.5 | 505 | +0.026 | -0.097 | 21% | -1.4 | 1/8 | lost on exam |
 | 12 | big_move_24bars_1.5atr_follow | any | long | stop3_trail_exit_below_ema50 | 465 | +0.259 | +1.5 | 319 | +0.036 | -0.088 | 23% | -1.0 | 2/8 | lost on exam |
-| 13 | breakout_24bars | any | long | stop3_trail_exit_below_ema50 | 548 | +0.298 | +1.4 | 444 | +0.019 | -0.104 | 21% | -1.2 | 1/8 | lost on exam |
+| 13 | breakout_24bars | any | long | stop3_trail_exit_below_ema50 | 548 | +0.298 | +1.4 | 445 | +0.018 | -0.105 | 21% | -1.2 | 1/8 | lost on exam |
 | 14 | breakout_48bars | any | long | stop3_trail_exit_below_ema50 | 345 | +0.448 | +1.4 | 244 | +0.094 | -0.025 | 27% | -0.2 | 4/8 | lost on exam |
 | 15 | breakout_96bars | with_trend | long | stop2_hold24bars | 299 | +0.579 | +1.4 | 175 | +0.384 | +0.208 | 34% | +1.2 | 6/8 | weak on hunt |
 
@@ -33,5 +33,5 @@ Luck check: on fake random-walk data this finder still lets roughly 1 rule in 20
 - Rules positive on the hunt (after costs): 61 of 261.
 - Of those, still positive on the exam: 26.
 - Best exam result of ANY rule (pure hindsight, for comparison only): +0.993R (big_move_12bars_3.0atr_follow). Picking from the exam itself is the curve-fitting trap.
-- Average rule before costs on the exam: +0.033R; after costs: -0.139R.
-- Buy and hold over the exam period: AVAXUSD -80%, BTCUSD -32%, DOGEUSD -82%, ETHUSD -47%, LINKUSD -56%, LTCUSD -58%, SOLUSD -63%, XRPUSD -57%.
+- Average rule before costs on the exam: +0.032R; after costs: -0.139R.
+- Buy and hold over the exam period: AVAXUSD -82%, BTCUSD -36%, DOGEUSD -83%, ETHUSD -50%, LINKUSD -57%, LTCUSD -62%, SOLUSD -63%, XRPUSD -56%.
