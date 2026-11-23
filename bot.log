@@ -4466,3 +4466,31 @@
 11-23 10:01:02 [$250/failed_breakdown] SIGNAL GLXY: Failed breakdown: flushed to 13.02 under opening-range low 13.29, reclaimed it; stop 13.01; size 100%
 11-23 10:01:06 [$250] ALPACA paper bracket x2 sent: 6 GLXY limit 13.4 (ids 2)
 11-23 10:02:02 [$250] BUY 6 GLXY @ 13.39 stop 13.01 half@13.77 tgt 14.15 | failed_breakdown | Failed breakdown: flushed to 13.02 under opening-range low 13.29, reclaimed it | news: [Newswire] Galaxy Gaming Appoints Distinguished Gaming Indus
+11-23 10:10:05 status 200:done 250:pos GLXY 350:watching 400:done 550:done 1000:done
+11-23 10:12:02 [$350/bull_flag] SIGNAL NVTS: Bull flag: 4.5% pole, 1.3% flag on light vol, broke 7.50; stop 7.4; size 100%
+11-23 10:12:05 [$350] ALPACA paper bracket x2 sent: 24 NVTS limit 7.54 (ids 2)
+11-23 10:13:02 [$350] BUY 26 NVTS @ 7.53 stop 7.40 half@7.66 tgt 7.79 | bull_flag | Bull flag: 4.5% pole, 1.3% flag on light vol, broke 7.50 | news: [Google News] Navitas Semiconductor (NVTS) Stock Price, Char
+11-23 10:15:03 scan keep IREN +30.9% rvol 8.2 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-23 10:15:03 scan keep AXTI +29.6% rvol 5.4 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-23 10:15:03 scan keep APLD +25.8% rvol 6.5 | [Benzinga] Soluna Holdings and Applied Digital Form Strategic Partnership for Te
+11-23 10:15:03 scan drop PMVP +25.6% rvol 10.4: no news 24h
+11-23 10:15:03 scan keep NVTS +25.4% rvol 3.4 | [Google News] Navitas Semiconductor (NVTS) Stock Price, Chart & Analysis - www.d
+11-23 10:15:03 scan keep CRWV +24.0% rvol 7.7 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-23 10:15:03 scan keep MXL +23.5% rvol 2.2 | [Google News] MaxLinear: I Will Continue Buying Despite The Selloff (NASDAQ:MXL)
+11-23 10:15:03 scan keep ASX +22.6% rvol 5.5 | [Benzinga] ASE Technology Unit Signs NT$590 Million Construction and Engineering
+11-23 10:15:03 scan keep FRMI +22.3% rvol 2.6 | [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock
+11-23 10:15:03 scan keep AAOI +21.7% rvol 4.5 | [Benzinga] Applied Optoelectronics Remains Under Pressure After Last Week’s Q4 G
+11-23 10:15:03 scan keep UMC +21.1% rvol 5.4 | [Google News] Why is United Microelectronics stock surging today? - Investing.co
+11-23 10:15:03 scan keep GLXY +20.2% rvol 4.9 | [Newswire] Galaxy Gaming Appoints Distinguished Gaming Industry Pioneer John M. 
+11-23 10:15:03 scan keep SMCI +19.8% rvol 4.7 | [Benzinga] Why Is Dell Stock Surging Wednesday? +8-K
+11-23 10:15:03 scan keep CBRS +19.1% rvol 4.1 | [Benzinga] Cerebras Systems Insider Sold Shares Worth $2,926,744
+11-23 10:15:03 scan keep SYM +19.1% rvol 7.0 | [Google News] SYM Nov 2026 41.500 call (SYM261127C00041500) interactive stock ch
+11-23 10:15:03 scan keep CIFR +18.7% rvol 2.8 | [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000) Interactive Stock C
+11-23 10:15:03 scan keep TTMI +18.0% rvol 3.2 | [Benzinga] TTM Technologies Analysts Cut Their Forecasts Following Q3 Results +8
+11-23 10:15:03 scan drop HUT: negative news ([Newswire] Jiko Expands Access to T-Bill Offering - GlobeNewswire)
+11-23 10:15:03 scan keep PURR +17.5% rvol 2.5 | [Newswire] lemme - Instagram +8-K
+11-23 10:15:03 scan keep SNDK +17.4% rvol 4.8 | [Benzinga] Morgan Stanley Adjusts Price Target on Sandisk to $218 From $218.75
+11-23 10:20:05 status 200:done 250:pos GLXY 350:pos NVTS 400:done 550:done 1000:done
+11-23 10:22:02 [$350] HALF OFF 13 NVTS @ 7.66 (+1R), stop to breakeven
+11-23 10:22:06 [$350] ALPACA runner stop moved to 7.54
+11-23 10:30:07 status 200:done 250:pos GLXY 350:pos NVTS 400:done 550:done 1000:done
