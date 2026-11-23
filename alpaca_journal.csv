@@ -150,3 +150,7 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-19,250,orb15,TU,0.98,10.0,5.0,10.38,,partially open
 2026-11-19,400,orb5,TU,4.98,12.0,6.0,10.3,,partially open
 2026-11-19,1000,orb5,TU,13.28,32.0,16.0,10.3,,partially open
+2026-11-23,400,orb5,IREN,-4.16,7.0,7.0,15.6471,-3.23,closed
+2026-11-23,1000,orb5,IREN,-10.4,19.0,19.0,15.5721,-7.45,closed
+2026-11-23,200,pm_high_break,IREN,-1.92,3.0,3.0,15.62,-1.62,closed
+2026-11-23,550,pm_high_break,IREN,-5.12,8.0,8.0,15.5962,-4.14,closed

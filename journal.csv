@@ -150,3 +150,7 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-19,250,orb15,TU,9,10.42,10.15,10.69,10.96,10.4,breakeven,0.98,0.39,1.0,,1,"15-min ORB: closed above 15-min high 10.33, above VWAP | news: [Benzinga] Telus Confirms Board Of Directors Has Received An"
 2026-11-19,400,orb5,TU,12,10.32,10.01,10.63,10.94,10.84,time,4.98,1.25,1.0,,1,"5-min ORB: green first 5 min, closed above range high 10.28 | news: [Benzinga] Telus Confirms Board Of Directors Has Received An"
 2026-11-19,1000,orb5,TU,32,10.32,10.01,10.63,10.94,10.84,time,13.28,1.33,1.0,,1,"5-min ORB: green first 5 min, closed above range high 10.28 | news: [Benzinga] Telus Confirms Board Of Directors Has Received An"
+2026-11-23,400,orb5,IREN,8,15.7,15.2,16.2,16.7,15.18,stop,-4.16,-1.04,1.0,,1,"5-min ORB: green first 5 min, closed above range high 15.59 | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu"
+2026-11-23,1000,orb5,IREN,20,15.7,15.2,16.2,16.7,15.18,stop,-10.4,-1.04,1.0,,1,"5-min ORB: green first 5 min, closed above range high 15.59 | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu"
+2026-11-23,200,pm_high_break,IREN,3,15.7,15.08,16.32,16.94,15.06,stop,-1.92,-0.96,1.0,,1,"Premarket-high break: closed above PM high 15.62, above VWAP | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu"
+2026-11-23,550,pm_high_break,IREN,8,15.7,15.08,16.32,16.94,15.06,stop,-5.12,-0.93,1.0,,1,"Premarket-high break: closed above PM high 15.62, above VWAP | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu"

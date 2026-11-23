@@ -4400,3 +4400,69 @@
 11-23 09:31:42 scan keep CRCL +12.7% rvol 3.0 | [Google News] Circle Rises 7% As Broad-Market Rebound Lifts Stocks - StocksToTra
 11-23 09:31:42 scan keep SLDP +11.9% rvol 2.2 | [Benzinga] Solid Power Reports Third-Quarter 2026 Financial Results and Operatio
 11-23 09:31:45 new day universe=['CRWV', 'IREN', 'AAOI', 'ASX', 'SNDK', 'UMC', 'GLXY', 'HPE', 'SMCI', 'BMNR', 'MSTR', 'ASTS']
+11-23 09:37:02 [$200/pm_high_break] SIGNAL IREN: Premarket-high break: closed above PM high 15.62, above VWAP; stop 15.08; size 100%
+11-23 09:37:05 [$200] ALPACA paper bracket x2 sent: 3 IREN limit 15.7 (ids 2)
+11-23 09:37:02 [$400/orb5] SIGNAL IREN: 5-min ORB: green first 5 min, closed above range high 15.59; stop 15.2; size 100%
+11-23 09:37:05 [$400] ALPACA paper bracket x2 sent: 7 IREN limit 15.7 (ids 2)
+11-23 09:37:02 [$550/pm_high_break] SIGNAL IREN: Premarket-high break: closed above PM high 15.62, above VWAP; stop 15.08; size 100%
+11-23 09:37:06 [$550] ALPACA paper bracket x2 sent: 8 IREN limit 15.7 (ids 2)
+11-23 09:37:02 [$1000/orb5] SIGNAL IREN: 5-min ORB: green first 5 min, closed above range high 15.59; stop 15.2; size 100%
+11-23 09:37:06 [$1000] ALPACA paper bracket x2 sent: 19 IREN limit 15.7 (ids 2)
+11-23 09:38:02 [$200] BUY 3 IREN @ 15.7 stop 15.08 half@16.32 tgt 16.94 | pm_high_break | Premarket-high break: closed above PM high 15.62, above VWAP | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu
+11-23 09:38:02 [$400] BUY 8 IREN @ 15.7 stop 15.20 half@16.2 tgt 16.7 | orb5 | 5-min ORB: green first 5 min, closed above range high 15.59 | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu
+11-23 09:38:02 [$550] BUY 8 IREN @ 15.7 stop 15.08 half@16.32 tgt 16.94 | pm_high_break | Premarket-high break: closed above PM high 15.62, above VWAP | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu
+11-23 09:38:02 [$1000] BUY 20 IREN @ 15.7 stop 15.20 half@16.2 tgt 16.7 | orb5 | 5-min ORB: green first 5 min, closed above range high 15.59 | news: [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bu
+11-23 09:40:06 status 200:pos IREN 250:watching 350:watching 400:pos IREN 550:pos IREN 1000:pos IREN
+11-23 09:43:02 [$400] EXIT 8 IREN @ 15.18 (stop) total P&L $-4.16
+11-23 09:43:07 [$400] ALPACA result IREN: sim $-4.16 vs alpaca $-3.23 (closed)
+11-23 09:43:02 [$1000] EXIT 20 IREN @ 15.18 (stop) total P&L $-10.4
+11-23 09:43:09 [$1000] ALPACA result IREN: sim $-10.4 vs alpaca $-7.45 (closed)
+11-23 09:45:02 scan keep IREN +27.9% rvol 13.0 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-23 09:45:02 scan keep AXTI +26.3% rvol 7.1 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-23 09:45:02 scan keep APLD +25.8% rvol 10.1 | [Benzinga] Soluna Holdings and Applied Digital Form Strategic Partnership for Te
+11-23 09:45:02 scan drop PMVP +25.6% rvol 12.8: no news 24h
+11-23 09:45:02 scan keep CRWV +23.0% rvol 11.5 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-23 09:45:02 scan keep NVTS +22.4% rvol 5.2 | [Google News] Navitas Semiconductor (NVTS) Stock Price, Chart & Analysis - www.d
+11-23 09:45:02 scan keep AAOI +21.2% rvol 7.1 | [Benzinga] Applied Optoelectronics Remains Under Pressure After Last Week’s Q4 G
+11-23 09:45:02 scan keep MXL +20.1% rvol 2.6 | [Google News] MaxLinear: I Will Continue Buying Despite The Selloff (NASDAQ:MXL)
+11-23 09:45:02 scan keep ASX +19.6% rvol 6.3 | [Benzinga] ASE Technology Unit Signs NT$590 Million Construction and Engineering
+11-23 09:45:02 scan keep UMC +19.3% rvol 7.8 | [Google News] Why is United Microelectronics stock surging today? - Investing.co
+11-23 09:45:02 scan keep FRMI +19.0% rvol 3.2 | [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock
+11-23 09:45:02 scan drop HUT: negative news ([Newswire] Jiko Expands Access to T-Bill Offering - GlobeNewswire)
+11-23 09:45:02 scan keep GLXY +18.4% rvol 6.3 | [Newswire] Galaxy Gaming Appoints Distinguished Gaming Industry Pioneer John M. 
+11-23 09:45:02 scan keep PURR +18.3% rvol 3.5 | [Newswire] lemme - Instagram +8-K
+11-23 09:45:03 scan keep SYM +18.2% rvol 11.9 | [Google News] SYM Nov 2026 41.500 call (SYM261127C00041500) interactive stock ch
+11-23 09:45:03 scan keep CBRS +18.1% rvol 5.0 | [Benzinga] Cerebras Systems Insider Sold Shares Worth $2,926,744
+11-23 09:45:03 scan keep MARA +18.0% rvol 3.8 | [Benzinga] Guggenheim Reiterates Neutral on MARA Holdingsto Neutral +8-K
+11-23 09:45:04 scan keep XE +18.0% rvol 3.1 | [Google News] X-Energy (Nasdaq:XE) - Stock Analysis - Simply Wall St
+11-23 09:45:04 scan keep VNET +17.9% rvol 6.1 | [Google News] What Investors Got Wrong About VNET Group Before A 68% Slide - Yah
+11-23 09:45:04 scan keep SNDK +17.9% rvol 7.3 | [Benzinga] Morgan Stanley Adjusts Price Target on Sandisk to $218 From $218.75
+11-23 09:46:02 [$200] EXIT 3 IREN @ 15.06 (stop) total P&L $-1.92
+11-23 09:46:08 [$200] ALPACA result IREN: sim $-1.92 vs alpaca $-1.62 (closed)
+11-23 09:46:02 [$550] EXIT 8 IREN @ 15.06 (stop) total P&L $-5.12
+11-23 09:46:10 [$550] ALPACA result IREN: sim $-5.12 vs alpaca $-4.14 (closed)
+11-23 09:50:06 status 200:done 250:watching 350:watching 400:done 550:done 1000:done
+11-23 10:00:02 scan keep IREN +30.8% rvol 10.9 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-23 10:00:02 scan keep AXTI +26.7% rvol 6.5 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-23 10:00:02 scan drop PMVP +25.6% rvol 12.5: no news 24h
+11-23 10:00:02 scan keep APLD +25.2% rvol 8.1 | [Benzinga] Soluna Holdings and Applied Digital Form Strategic Partnership for Te
+11-23 10:00:02 scan keep CRWV +23.7% rvol 10.1 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-23 10:00:02 scan keep NVTS +23.3% rvol 4.4 | [Google News] Navitas Semiconductor (NVTS) Stock Price, Chart & Analysis - www.d
+11-23 10:00:02 scan keep AAOI +21.9% rvol 5.9 | [Benzinga] Applied Optoelectronics Remains Under Pressure After Last Week’s Q4 G
+11-23 10:00:02 scan keep MXL +21.9% rvol 2.6 | [Google News] MaxLinear: I Will Continue Buying Despite The Selloff (NASDAQ:MXL)
+11-23 10:00:02 scan keep ASX +20.2% rvol 6.2 | [Benzinga] ASE Technology Unit Signs NT$590 Million Construction and Engineering
+11-23 10:00:02 scan keep CBRS +20.1% rvol 4.9 | [Benzinga] Cerebras Systems Insider Sold Shares Worth $2,926,744
+11-23 10:00:02 scan keep UMC +19.6% rvol 7.0 | [Google News] Why is United Microelectronics stock surging today? - Investing.co
+11-23 10:00:02 scan keep SMCI +18.9% rvol 6.0 | [Benzinga] Why Is Dell Stock Surging Wednesday? +8-K
+11-23 10:00:02 scan keep FRMI +18.5% rvol 3.5 | [Benzinga] Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock
+11-23 10:00:02 scan keep GLXY +18.4% rvol 6.0 | [Newswire] Galaxy Gaming Appoints Distinguished Gaming Industry Pioneer John M. 
+11-23 10:00:02 scan keep SYM +18.4% rvol 9.2 | [Google News] SYM Nov 2026 41.500 call (SYM261127C00041500) interactive stock ch
+11-23 10:00:02 scan keep CIFR +17.6% rvol 3.6 | [Google News] CIFR Nov 2026 12.000 put (CIFR261127P00012000) Interactive Stock C
+11-23 10:00:02 scan keep MARA +17.4% rvol 3.4 | [Benzinga] Guggenheim Reiterates Neutral on MARA Holdingsto Neutral +8-K
+11-23 10:00:02 scan drop HUT: negative news ([Newswire] Jiko Expands Access to T-Bill Offering - GlobeNewswire)
+11-23 10:00:03 scan keep OUST +17.0% rvol 4.0 | [Google News] Shopify CEO says Jensen Huang's ouster was 'choreographed' and cal
+11-23 10:00:03 scan keep QBTS +16.6% rvol 4.5 | [Newswire] Deadline Alert: D-Wave Quantum, Inc. Investors Have Until - GlobeNews
+11-23 10:00:08 status 200:done 250:watching 350:watching 400:done 550:done 1000:done
+11-23 10:01:02 [$250/failed_breakdown] SIGNAL GLXY: Failed breakdown: flushed to 13.02 under opening-range low 13.29, reclaimed it; stop 13.01; size 100%
+11-23 10:01:06 [$250] ALPACA paper bracket x2 sent: 6 GLXY limit 13.4 (ids 2)
+11-23 10:02:02 [$250] BUY 6 GLXY @ 13.39 stop 13.01 half@13.77 tgt 14.15 | failed_breakdown | Failed breakdown: flushed to 13.02 under opening-range low 13.29, reclaimed it | news: [Newswire] Galaxy Gaming Appoints Distinguished Gaming Indus
