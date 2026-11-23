@@ -4374,3 +4374,29 @@
 11-20 18:58:56 labeled 0 signals with outcomes
 11-20 18:58:57 daily report written
 11-20 18:58:57 bot session end
+11-23 08:38:56 alpaca paper mirror: ON
+11-23 08:38:56 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-23 08:38:56 resumed state from 2026-11-20
+11-23 08:38:56 bot live start (max 5.9h)
+11-23 09:31:34 market brief written: briefs/2026-11-23.md (25 Benzinga items)
+11-23 09:31:35 scan keep CRWV +28.1% rvol 6.5 | [Benzinga] Nvidia To $200? Here Are 10 Top Analyst Forecasts For Wednesday +8-K
+11-23 09:31:35 scan keep IREN +25.5% rvol 7.3 | [Benzinga] Ed Yardeni Says AI Bubble Is Deflating Without Bursting Amid Increasi
+11-23 09:31:35 scan keep AAOI +24.6% rvol 4.4 | [Benzinga] Applied Optoelectronics Remains Under Pressure After Last Week’s Q4 G
+11-23 09:31:35 scan keep ASX +24.1% rvol 2.6 | [Benzinga] ASE Technology Unit Signs NT$590 Million Construction and Engineering
+11-23 09:31:36 scan keep SNDK +22.3% rvol 4.6 | [Benzinga] Morgan Stanley Adjusts Price Target on Sandisk to $218 From $218.75
+11-23 09:31:37 scan keep UMC +21.1% rvol 2.4 | [Google News] Why is United Microelectronics stock surging today? - Investing.co
+11-23 09:31:37 scan keep GLXY +20.9% rvol 2.4 | [Newswire] Galaxy Gaming Appoints Distinguished Gaming Industry Pioneer John M. 
+11-23 09:31:38 scan keep HPE +19.3% rvol 2.3 | [Newswire] Cohesity Joins OpenAI Daybreak Defense Network to Strengthen Product 
+11-23 09:31:38 scan keep SMCI +19.1% rvol 4.4 | [Benzinga] Why Is Dell Stock Surging Wednesday? +8-K
+11-23 09:31:38 scan keep BMNR +17.6% rvol 2.1 | [Benzinga] Bitmine Immersion Technologies Announces Halt to Weekly Ethereum Purc
+11-23 09:31:38 scan drop IONQ: negative news (SEC 424B5 filed 2026-10-14 (possible share offering))
+11-23 09:31:39 scan keep MSTR +15.9% rvol 3.6 | [Google News] MSTR Stock Jumps In Premarket As Bitcoin Reclaims $61K After Bruta
+11-23 09:31:39 scan keep ASTS +15.4% rvol 2.9 | [Benzinga] Deutsche Bank Upgrades AST SpaceMobile to Buy, Maintains Price Target
+11-23 09:31:39 scan keep WULF +15.3% rvol 2.6 | [Benzinga] 10 Information Technology Stocks With Whale Alerts In Today’s Session
+11-23 09:31:39 scan keep INTC +14.6% rvol 2.2 | [Benzinga] Fubon Securities Adjusts Price Target on Intel
+11-23 09:31:40 scan keep CBRS +13.8% rvol 2.1 | [Benzinga] Cerebras Systems Insider Sold Shares Worth $2,926,744
+11-23 09:31:41 scan drop RKLB +13.1% rvol 2.3: no news 24h
+11-23 09:31:41 scan keep LAES +12.8% rvol 4.1 | [Benzinga] Susquehanna Securities Files Amended Schedule 13G for SEALSQ Corp
+11-23 09:31:42 scan keep CRCL +12.7% rvol 3.0 | [Google News] Circle Rises 7% As Broad-Market Rebound Lifts Stocks - StocksToTra
+11-23 09:31:42 scan keep SLDP +11.9% rvol 2.2 | [Benzinga] Solid Power Reports Third-Quarter 2026 Financial Results and Operatio
+11-23 09:31:45 new day universe=['CRWV', 'IREN', 'AAOI', 'ASX', 'SNDK', 'UMC', 'GLXY', 'HPE', 'SMCI', 'BMNR', 'MSTR', 'ASTS']
