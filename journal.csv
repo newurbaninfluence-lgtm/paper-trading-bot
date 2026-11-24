@@ -160,3 +160,4 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-24,400,vwap_pullback,EMBC,44,7.44,7.35,7.53,7.62,7.33,stop,-4.84,-1.21,1.0,,1,"VWAP pullback: +29.9%, dipped to VWAP 7.46, reclaimed with green bar | news: [Benzinga] Embecta Reports Fiscal Fourth Quarter and Full Ye"
 2026-11-24,350,bull_flag,KC,26,6.57,6.44,6.7,6.83,6.42,stop,-3.9,-1.11,1.0,,1,"Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51 | news: [Newswire] KC G.I.F.T. | Grants and free services for Black "
 2026-11-24,550,bull_flag,KC,42,6.57,6.44,6.7,6.83,6.42,stop,-6.3,-1.15,1.0,,1,"Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51 | news: [Newswire] KC G.I.F.T. | Grants and free services for Black "
+2026-11-24,250,ema_bounce,NAMS,8,22.9,22.6,23.2,23.5,23.5,target,3.6,1.44,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 22.73, closed back over 9 EMA | news: [Newswire] Gene Solutions Brings Molecular Precision to Nati"

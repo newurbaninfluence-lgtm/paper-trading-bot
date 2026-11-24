@@ -4670,3 +4670,9 @@
 11-24 10:22:04 [$1000] ALPACA paper bracket x2 sent: 19 SNY limit 51.11 (ids 2)
 11-24 10:23:02 [$1000] BUY 19 SNY @ 51.17 stop 50.68 half@51.66 tgt 52.15 | orb15 | 15-min ORB: closed above 15-min high 51.06, above VWAP | news: [Benzinga] Sanofi to Acquire Insmed for $41 Billion
 11-24 10:30:05 status 200:done 250:pos NAMS 350:done 400:done 550:done 1000:pos SNY
+11-24 10:36:02 [$250] HALF OFF 4 NAMS @ 23.2 (+1R), stop to breakeven
+11-24 10:40:02 [$250] EXIT 4 NAMS @ 23.5 (target) total P&L $3.6
+11-24 10:40:06 [$250] ALPACA result NAMS: sim $3.6 vs alpaca $None (no fill)
+11-24 10:40:06 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 10:50:05 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 11:00:05 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
