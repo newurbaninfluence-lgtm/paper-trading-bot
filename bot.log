@@ -4577,3 +4577,52 @@
 11-24 08:38:49 bot live start (max 5.9h)
 11-24 09:31:27 market brief written: briefs/2026-11-24.md (25 Benzinga items)
 11-24 09:31:27 new day universe=[]
+11-24 09:40:02 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+11-24 09:45:02 scan keep EMBC +32.2% rvol 14.7 | [Benzinga] Embecta Reports Fiscal Fourth Quarter and Full Year 2026 Financial Re
+11-24 09:45:03 scan keep ALTG +28.0% rvol 46.3 | [Benzinga] Alta Equipment Group Enters Definitive Agreement to Acquire Jackson G
+11-24 09:45:03 scan drop LVWR +22.9% rvol 13.0: no news 24h
+11-24 09:45:04 scan keep MPLT +16.0% rvol 3.2 | [Google News] At a weighted average of $6 a share, George Pavlov buys 20,000 sha
+11-24 09:45:04 scan keep COGT +15.5% rvol 15.4 | [Benzinga] Cogent Biosciences Announces FDA Approval and Launch of EKITNA™ (bezu
+11-24 09:45:04 scan keep KSS +14.4% rvol 6.3 | [Benzinga] Gordon Haskett Upgrades Kohl's to Buy From Hold
+11-24 09:45:05 scan keep AMTM +14.0% rvol 17.1 | [Benzinga] Amentum Reports Fiscal Q4 Results and Authorizes $500 Million Share R
+11-24 09:45:05 scan keep PINS +13.0% rvol 4.5 | [Newswire] C3 AI to Announce Financial Results for Fiscal Second Quarter 2027 on
+11-24 09:45:06 scan keep CMP +12.2% rvol 5.8 | [Benzinga] Compass Minerals Reports Fiscal Q4 2026 Financial Results +8-K
+11-24 09:45:06 scan keep TEX +10.5% rvol 6.1 | [Benzinga] BofA Securities Adjusts Terex Price Target to $58 +8-K
+11-24 09:45:06 scan keep CCCC +9.9% rvol 4.2 | [Benzinga] C4 Therapeutics to Participate in the 9th Annual Evercore Healthcare 
+11-24 09:45:07 scan keep SIND +9.2% rvol 7.6 | [Newswire] Sinda Ltd. Authorizes Up to $50 Million Share Repurchase Program - Bu
+11-24 09:45:07 scan keep SNY +9.1% rvol 28.6 | [Benzinga] Sanofi to Acquire Insmed for $41 Billion
+11-24 09:45:08 scan drop DNTH +8.4% rvol 2.0: no news 24h
+11-24 09:45:08 scan keep FOSL +8.3% rvol 2.6 | [Benzinga] Top 3 Consumer Stocks That May Fall Off A Cliff This month +8-K
+11-24 09:45:08 scan keep ALXO +8.1% rvol 2.6 | [Benzinga] ALX Oncology Appoints Siddhartha Mitra as Chief Medical Officer +8-K
+11-24 09:45:09 scan keep GMRS +7.9% rvol 2.6 | [Benzinga] GMR Solutions Inc. Announces $75 Million Share Repurchase Authorizati
+11-24 09:45:09 scan drop ANRO +7.7% rvol 2.4: no news 24h
+11-24 09:45:09 scan keep SYM +7.6% rvol 7.2 | [Google News] SYM Nov 2026 41.500 call (SYM261127C00041500) interactive stock ch
+11-24 09:45:09 scan keep CPNG +7.5% rvol 2.8 | [Benzinga] Citigroup Upgrades Coupang to Buy from Neutral +8-K
+11-24 09:50:03 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+11-24 10:00:02 scan drop LVWR +74.0% rvol 48.2: no news 24h
+11-24 10:00:02 scan keep EMBC +34.2% rvol 19.0 | [Benzinga] Embecta Reports Fiscal Fourth Quarter and Full Year 2026 Financial Re
+11-24 10:00:02 scan keep COGT +17.5% rvol 12.5 | [Benzinga] Cogent Biosciences Announces FDA Approval and Launch of EKITNA™ (bezu
+11-24 10:00:02 scan keep PINS +15.2% rvol 4.6 | [Newswire] C3 AI to Announce Financial Results for Fiscal Second Quarter 2027 on
+11-24 10:00:02 scan keep AMTM +13.8% rvol 15.0 | [Benzinga] Amentum Reports Fiscal Q4 Results and Authorizes $500 Million Share R
+11-24 10:00:02 scan keep CCCC +13.8% rvol 5.8 | [Benzinga] C4 Therapeutics to Participate in the 9th Annual Evercore Healthcare 
+11-24 10:00:02 scan keep ALXO +13.3% rvol 3.0 | [Benzinga] ALX Oncology Appoints Siddhartha Mitra as Chief Medical Officer +8-K
+11-24 10:00:02 scan keep FLNC +12.9% rvol 25.0 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-24 10:00:02 scan keep KSS +12.5% rvol 5.2 | [Benzinga] Gordon Haskett Upgrades Kohl's to Buy From Hold
+11-24 10:00:02 scan drop ANNX +11.5% rvol 2.6: no news 24h
+11-24 10:00:03 scan drop KLC +11.1% rvol 5.1: no news 24h
+11-24 10:00:03 scan keep CMP +10.1% rvol 4.6 | [Benzinga] Compass Minerals Reports Fiscal Q4 2026 Financial Results +8-K
+11-24 10:00:04 scan keep NAMS +9.3% rvol 3.6 | [Newswire] Gene Solutions Brings Molecular Precision to Nationwide Women's Cance
+11-24 10:00:04 scan keep CABA +9.3% rvol 2.5 | [Benzinga] Cabaletta Bio Presents New Phase 1/2 Clinical Data on Resecabtagene A
+11-24 10:00:04 scan keep KC +8.8% rvol 2.9 | [Newswire] KC G.I.F.T. | Grants and free services for Black businesses in Kansas
+11-24 10:00:04 scan keep GLOB +8.8% rvol 4.3 | [Benzinga] Citigroup Maintains Neutral Rating on Globant, Lowers Price Target
+11-24 10:00:04 scan keep TGLS +8.7% rvol 5.0 | [Benzinga] Tecnoglass to Join S&P SmallCap 600
+11-24 10:00:04 scan keep SNY +8.6% rvol 21.5 | [Benzinga] Sanofi to Acquire Insmed for $41 Billion
+11-24 10:00:04 scan keep CPNG +7.8% rvol 2.6 | [Benzinga] Citigroup Upgrades Coupang to Buy from Neutral +8-K
+11-24 10:00:05 scan keep BMRN +7.7% rvol 4.2 | [Google News] Can BioMarin Pharmaceutical (NASDAQ:BMRN) Rise Above The Broader P
+11-24 10:00:02 [$350/bull_flag] SIGNAL KC: Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51; stop 6.44; size 100%
+11-24 10:00:09 [$350] ALPACA paper bracket x2 sent: 26 KC limit 6.57 (ids 2)
+11-24 10:00:02 [$550/bull_flag] SIGNAL KC: Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51; stop 6.44; size 100%
+11-24 10:00:10 [$550] ALPACA paper bracket x2 sent: 42 KC limit 6.57 (ids 2)
+11-24 10:00:10 status 200:watching 250:watching 350:pending 400:watching 550:pending 1000:watching
+11-24 10:01:02 [$350] BUY 26 KC @ 6.57 stop 6.44 half@6.7 tgt 6.83 | bull_flag | Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51 | news: [Newswire] KC G.I.F.T. | Grants and free services for Black 
+11-24 10:01:02 [$550] BUY 42 KC @ 6.57 stop 6.44 half@6.7 tgt 6.83 | bull_flag | Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51 | news: [Newswire] KC G.I.F.T. | Grants and free services for Black 
