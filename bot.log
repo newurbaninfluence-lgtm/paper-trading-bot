@@ -4700,3 +4700,10 @@
 11-24 14:20:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
 11-24 14:30:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
 11-24 14:33:02 bot session end
+11-24 14:33:49 alpaca paper mirror: ON
+11-24 14:33:49 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-24 14:33:49 resumed state from 2026-11-24
+11-24 14:33:49 bot live start (max 5.9h)
+11-24 14:40:03 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 14:50:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 15:00:03 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
