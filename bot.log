@@ -4710,3 +4710,13 @@
 11-24 15:10:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
 11-24 15:20:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
 11-24 15:30:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 15:40:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 15:50:03 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 15:55:02 [$1000] EXIT 10 SNY @ 51.71 (time) total P&L $9.81
+11-24 15:55:28 alpaca DELETE /orders/bcb663a4-a84a-449f-9e8e-5a423a95e95a -> 422 b'{"code":42210000,"message":"order pending cancel"}'
+11-24 15:55:29 alpaca POST /orders -> 403 b'{"available":"0","code":40310000,"existing_qty":"13","held_for_orders":"13","message":"insufficient qty available for order (requested: 10, available: 0)","related_orders":["61898c60-12d7-475a-a879-6b'
+11-24 15:55:32 [$1000] ALPACA result SNY: sim $9.81 vs alpaca $None (partially open)
+11-24 16:02:26 fill test: 54 fills, avg buy vs next-bar open +0.170%, vs simulator -0.232%
+11-24 16:02:40 labeled 51 signals with outcomes
+11-24 16:02:42 daily report written
+11-24 16:02:42 bot session end
