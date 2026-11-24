@@ -4691,3 +4691,9 @@
 11-24 13:10:05 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
 11-24 13:20:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
 11-24 13:30:05 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 13:40:05 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 13:50:05 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 14:00:05 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
+11-24 14:03:02 [$1000] HALF OFF 9 SNY @ 51.66 (+1R), stop to breakeven
+11-24 14:03:05 [$1000] ALPACA runner stop moved to 51.11
+11-24 14:10:04 status 200:done 250:done 350:done 400:done 550:done 1000:pos SNY
