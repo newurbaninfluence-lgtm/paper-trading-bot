@@ -4626,3 +4626,47 @@
 11-24 10:00:10 status 200:watching 250:watching 350:pending 400:watching 550:pending 1000:watching
 11-24 10:01:02 [$350] BUY 26 KC @ 6.57 stop 6.44 half@6.7 tgt 6.83 | bull_flag | Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51 | news: [Newswire] KC G.I.F.T. | Grants and free services for Black 
 11-24 10:01:02 [$550] BUY 42 KC @ 6.57 stop 6.44 half@6.7 tgt 6.83 | bull_flag | Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51 | news: [Newswire] KC G.I.F.T. | Grants and free services for Black 
+11-24 10:03:02 [$200/vwap_pullback] SIGNAL EMBC: VWAP pullback: +29.9%, dipped to VWAP 7.46, reclaimed with green bar; stop 7.35; size 100%
+11-24 10:03:05 [$200] ALPACA paper bracket x2 sent: 13 EMBC limit 7.5 (ids 2)
+11-24 10:03:02 [$400/vwap_pullback] SIGNAL EMBC: VWAP pullback: +29.9%, dipped to VWAP 7.46, reclaimed with green bar; stop 7.35; size 100%
+11-24 10:03:05 [$400] ALPACA paper bracket x2 sent: 27 EMBC limit 7.5 (ids 2)
+11-24 10:04:02 [$200] BUY 22 EMBC @ 7.44 stop 7.35 half@7.53 tgt 7.62 | vwap_pullback | VWAP pullback: +29.9%, dipped to VWAP 7.46, reclaimed with green bar | news: [Benzinga] Embecta Reports Fiscal Fourth Quarter and Full Ye
+11-24 10:04:02 [$400] BUY 44 EMBC @ 7.44 stop 7.35 half@7.53 tgt 7.62 | vwap_pullback | VWAP pullback: +29.9%, dipped to VWAP 7.46, reclaimed with green bar | news: [Benzinga] Embecta Reports Fiscal Fourth Quarter and Full Ye
+11-24 10:06:02 [$200] EXIT 22 EMBC @ 7.33 (stop) total P&L $-2.42
+11-24 10:06:06 [$200] ALPACA result EMBC: sim $-2.42 vs alpaca $-1.82 (closed)
+11-24 10:06:02 [$400] EXIT 44 EMBC @ 7.33 (stop) total P&L $-4.84
+11-24 10:06:08 [$400] ALPACA result EMBC: sim $-4.84 vs alpaca $-3.78 (closed)
+11-24 10:10:04 status 200:done 250:watching 350:pos KC 400:done 550:pos KC 1000:watching
+11-24 10:11:02 [$350] EXIT 26 KC @ 6.42 (stop) total P&L $-3.9
+11-24 10:11:06 [$350] ALPACA result KC: sim $-3.9 vs alpaca $-2.89 (closed)
+11-24 10:11:02 [$550] EXIT 42 KC @ 6.42 (stop) total P&L $-6.3
+11-24 10:11:08 [$550] ALPACA result KC: sim $-6.3 vs alpaca $-5.16 (closed)
+11-24 10:13:02 [$250/ema_bounce] SIGNAL NAMS: 9/21 EMA bounce: tagged 21 EMA 22.73, closed back over 9 EMA; stop 22.6; size 100%
+11-24 10:13:04 [$250] ALPACA paper bracket x2 sent: 9 NAMS limit 22.87 (ids 2)
+11-24 10:14:02 [$250] BUY 8 NAMS @ 22.9 stop 22.60 half@23.2 tgt 23.5 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 22.73, closed back over 9 EMA | news: [Newswire] Gene Solutions Brings Molecular Precision to Nati
+11-24 10:15:03 scan drop LVWR +30.6% rvol 52.3: no news 24h
+11-24 10:15:03 scan keep EMBC +28.5% rvol 16.5 | [Benzinga] Embecta Reports Fiscal Fourth Quarter and Full Year 2026 Financial Re
+11-24 10:15:03 scan keep COGT +17.4% rvol 9.6 | [Benzinga] Cogent Biosciences Announces FDA Approval and Launch of EKITNA™ (bezu
+11-24 10:15:03 scan keep ALXO +17.2% rvol 2.6 | [Benzinga] ALX Oncology Appoints Siddhartha Mitra as Chief Medical Officer +8-K
+11-24 10:15:03 scan keep AMTM +16.1% rvol 14.0 | [Benzinga] Amentum Reports Fiscal Q4 Results and Authorizes $500 Million Share R
+11-24 10:15:03 scan keep CCCC +14.9% rvol 6.0 | [Benzinga] C4 Therapeutics to Participate in the 9th Annual Evercore Healthcare 
+11-24 10:15:03 scan keep KSS +13.0% rvol 4.6 | [Benzinga] Gordon Haskett Upgrades Kohl's to Buy From Hold
+11-24 10:15:03 scan keep PINS +12.3% rvol 4.3 | [Newswire] C3 AI to Announce Financial Results for Fiscal Second Quarter 2027 on
+11-24 10:15:03 scan keep CMP +11.5% rvol 4.3 | [Benzinga] Compass Minerals Reports Fiscal Q4 2026 Financial Results +8-K
+11-24 10:15:03 scan drop ANNX +10.6% rvol 2.4: no news 24h
+11-24 10:15:03 scan keep GLOB +10.4% rvol 4.5 | [Benzinga] Citigroup Maintains Neutral Rating on Globant, Lowers Price Target
+11-24 10:15:03 scan keep NAMS +9.4% rvol 2.7 | [Newswire] Gene Solutions Brings Molecular Precision to Nationwide Women's Cance
+11-24 10:15:03 scan drop PMVP +9.2% rvol 4.8: no news 24h
+11-24 10:15:03 scan keep SNY +8.9% rvol 15.5 | [Benzinga] Sanofi to Acquire Insmed for $41 Billion
+11-24 10:15:03 scan keep SYM +8.8% rvol 5.5 | [Google News] SYM Nov 2026 41.500 call (SYM261127C00041500) interactive stock ch
+11-24 10:15:03 scan keep CPNG +8.5% rvol 2.1 | [Benzinga] Citigroup Upgrades Coupang to Buy from Neutral +8-K
+11-24 10:15:03 scan keep IMNM +8.4% rvol 2.4 | [Google News] IMNM,CABA,PFX,FFIN,ELUT,HYPD,ZBIO,AVBC,ALT,BLCO,VSNT,TSLX,LAKE,FRS
+11-24 10:15:03 scan keep FLNC +8.3% rvol 18.7 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-24 10:15:03 scan keep TGLS +8.2% rvol 4.3 | [Benzinga] Tecnoglass to Join S&P SmallCap 600
+11-24 10:15:03 scan keep CABA +7.8% rvol 2.0 | [Benzinga] Cabaletta Bio Presents New Phase 1/2 Clinical Data on Resecabtagene A
+11-24 10:17:05 [$250] ALPACA entry not filled within 4 min: canceled unfilled part
+11-24 10:20:04 status 200:done 250:pos NAMS 350:done 400:done 550:done 1000:watching
+11-24 10:22:02 [$1000/orb15] SIGNAL SNY: 15-min ORB: closed above 15-min high 51.06, above VWAP; stop 50.68; size 100%
+11-24 10:22:04 [$1000] ALPACA paper bracket x2 sent: 19 SNY limit 51.11 (ids 2)
+11-24 10:23:02 [$1000] BUY 19 SNY @ 51.17 stop 50.68 half@51.66 tgt 52.15 | orb15 | 15-min ORB: closed above 15-min high 51.06, above VWAP | news: [Benzinga] Sanofi to Acquire Insmed for $41 Billion
+11-24 10:30:05 status 200:done 250:pos NAMS 350:done 400:done 550:done 1000:pos SNY
