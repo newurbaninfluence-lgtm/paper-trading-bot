@@ -4752,3 +4752,10 @@
 11-24 21:27:38 labeled 0 signals with outcomes
 11-24 21:27:42 daily report written
 11-24 21:27:42 bot session end
+11-25 08:38:45 alpaca paper mirror: ON
+11-25 08:38:45 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-25 08:38:45 resumed state from 2026-11-24
+11-25 08:38:45 bot live start (max 5.9h)
+11-25 09:31:24 market brief written: briefs/2026-11-25.md (25 Benzinga items)
+11-25 09:31:24 scan drop LVWR +4.3% rvol 3.0: no news 24h
+11-25 09:31:24 new day universe=[]
