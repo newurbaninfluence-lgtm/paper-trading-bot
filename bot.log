@@ -4807,3 +4807,22 @@
 11-25 10:01:06 [$350] ALPACA result HPQ: sim $-3.64 vs alpaca $None (partially open)
 11-25 10:01:02 [$550] EXIT 11 HPQ @ 30.59 (stop) total P&L $-5.72
 11-25 10:01:08 [$550] ALPACA result HPQ: sim $-5.72 vs alpaca $None (partially open)
+11-25 10:10:03 status 200:watching 250:watching 350:done 400:done 550:done 1000:done
+11-25 10:15:02 scan keep HPQ +11.0% rvol 5.4 | [Benzinga] HP Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results and 
+11-25 10:15:02 scan keep BZ +9.0% rvol 2.8 | [Newswire] KANZHUN LIMITED Announces Third Quarter 2026 Unaudited Financial Resu
+11-25 10:15:02 scan drop KYNB +8.0% rvol 3.3: no news 24h
+11-25 10:15:02 scan drop ISSC +7.7% rvol 9.5: no news 24h
+11-25 10:15:02 scan keep MCRB +6.8% rvol 2.7 | [SEC] 8-K filed 2026-10-26
+11-25 10:15:02 scan keep KSS +6.5% rvol 3.8 | [Benzinga] Gordon Haskett Upgrades Kohl's to Buy From Hold
+11-25 10:15:02 scan keep ZKH +5.8% rvol 3.2 | [Newswire] ZKH and Intel Bring Industrial Multimodal AI to the Edge with LingLon
+11-25 10:15:03 scan keep BG +5.2% rvol 2.3 | [Newswire] Vivian Tu | Your Rich BFF (@your.richbff) - Instagram +8-K
+11-25 10:15:03 scan drop OTLY +4.9% rvol 5.9: no news 24h
+11-25 10:15:03 scan keep BHR +4.3% rvol 2.8 | [Google News] Braemar Hotels Releases Preliminary Twelve-Month Luxury Portfolio 
+11-25 10:15:03 scan drop BIPC +4.2% rvol 53.7: no news 24h
+11-25 10:15:03 scan keep STLA +4.2% rvol 3.5 | [Benzinga] Stellantis CEO Says We See Coming An 'important' Inflation On Raw Mat
+11-25 10:15:03 scan keep LI +4.2% rvol 9.8 | [Benzinga] Li Auto Inc. Announces Unaudited Third Quarter 2026 Financial Results
+11-25 10:20:03 status 200:watching 250:watching 350:done 400:done 550:done 1000:done
+11-25 10:22:02 [$250/ema_bounce] SIGNAL BZ: 9/21 EMA bounce: tagged 21 EMA 13.84, closed back over 9 EMA; stop 13.76; size 100%
+11-25 10:22:03 [$250] ALPACA paper bracket x2 sent: 16 BZ limit 13.92 (ids 2)
+11-25 10:23:02 [$250] BUY 16 BZ @ 13.91 stop 13.76 half@14.06 tgt 14.21 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 13.84, closed back over 9 EMA | news: [Newswire] KANZHUN LIMITED Announces Third Quarter 2026 Unau
+11-25 10:30:04 status 200:watching 250:pos BZ 350:done 400:done 550:done 1000:done
