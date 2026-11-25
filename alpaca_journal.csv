@@ -167,3 +167,4 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-25,350,bull_flag,HPQ,-3.64,6.0,0.0,31.0883,,partially open
 2026-11-25,550,bull_flag,HPQ,-5.72,10.0,0.0,31.077,,partially open
 2026-11-25,200,vwap_pullback,BZ,1.26,14.0,7.0,13.82,,partially open
+2026-11-25,250,ema_bounce,BZ,1.04,16.0,16.0,13.9075,1.48,closed
