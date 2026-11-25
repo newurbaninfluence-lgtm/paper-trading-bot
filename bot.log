@@ -4826,3 +4826,15 @@
 11-25 10:22:03 [$250] ALPACA paper bracket x2 sent: 16 BZ limit 13.92 (ids 2)
 11-25 10:23:02 [$250] BUY 16 BZ @ 13.91 stop 13.76 half@14.06 tgt 14.21 | ema_bounce | 9/21 EMA bounce: tagged 21 EMA 13.84, closed back over 9 EMA | news: [Newswire] KANZHUN LIMITED Announces Third Quarter 2026 Unau
 11-25 10:30:04 status 200:watching 250:pos BZ 350:done 400:done 550:done 1000:done
+11-25 10:34:02 [$200/vwap_pullback] SIGNAL BZ: VWAP pullback: +8.4%, dipped to VWAP 13.79, reclaimed with green bar; stop 13.77; size 100%
+11-25 10:34:04 [$200] ALPACA paper bracket x2 sent: 14 BZ limit 13.84 (ids 2)
+11-25 10:35:02 [$200] BUY 14 BZ @ 13.83 stop 13.77 half@13.89 tgt 13.95 | vwap_pullback | VWAP pullback: +8.4%, dipped to VWAP 13.79, reclaimed with green bar | news: [Newswire] KANZHUN LIMITED Announces Third Quarter 2026 Unau
+11-25 10:37:02 [$200] HALF OFF 7 BZ @ 13.89 (+1R), stop to breakeven
+11-25 10:37:04 [$200] ALPACA runner stop moved to 13.84
+11-25 10:40:02 [$200] EXIT 7 BZ @ 13.95 (target) total P&L $1.26
+11-25 10:40:05 [$200] ALPACA result BZ: sim $1.26 vs alpaca $None (partially open)
+11-25 10:40:05 status 200:done 250:pos BZ 350:done 400:done 550:done 1000:done
+11-25 10:50:04 status 200:done 250:pos BZ 350:done 400:done 550:done 1000:done
+11-25 10:55:02 [$250] HALF OFF 8 BZ @ 14.06 (+1R), stop to breakeven
+11-25 10:55:03 [$250] ALPACA runner stop moved to 13.92
+11-25 11:00:04 status 200:done 250:pos BZ 350:done 400:done 550:done 1000:done
