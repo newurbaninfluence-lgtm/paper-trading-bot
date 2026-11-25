@@ -4759,3 +4759,51 @@
 11-25 09:31:24 market brief written: briefs/2026-11-25.md (25 Benzinga items)
 11-25 09:31:24 scan drop LVWR +4.3% rvol 3.0: no news 24h
 11-25 09:31:24 new day universe=[]
+11-25 09:40:03 status 200:watching 250:watching 350:watching 400:watching 550:watching 1000:watching
+11-25 09:45:02 scan keep BHR +11.0% rvol 3.1 | [Google News] Braemar Hotels Releases Preliminary Twelve-Month Luxury Portfolio 
+11-25 09:45:02 scan drop CMCM +10.1% rvol 11.6: no news 24h
+11-25 09:45:03 scan keep BZ +9.2% rvol 3.3 | [Newswire] KANZHUN LIMITED Announces Third Quarter 2026 Unaudited Financial Resu
+11-25 09:45:04 scan keep EVCM +9.0% rvol 2.2 | [Google News] EverCommerce CFO Ryan Siurek Reports Two RSU Tax-Withholding Share
+11-25 09:45:04 scan keep HPQ +8.7% rvol 6.7 | [Benzinga] HP Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results and 
+11-25 09:45:04 scan drop ISSC +7.7% rvol 22.0: no news 24h
+11-25 09:45:05 scan drop OTLY +5.3% rvol 7.4: no news 24h
+11-25 09:45:05 scan drop BIPC +4.2% rvol 123.9: no news 24h
+11-25 09:48:02 [$400/orb5] SIGNAL EVCM: 5-min ORB: green first 5 min, closed above range high 5.79; stop 5.65; size 100%
+11-25 09:48:03 [$400] ALPACA paper bracket x2 sent: 19 EVCM limit 5.85 (ids 2)
+11-25 09:48:02 [$1000/orb5] SIGNAL EVCM: 5-min ORB: green first 5 min, closed above range high 5.79; stop 5.65; size 100%
+11-25 09:48:03 [$1000] ALPACA paper bracket x2 sent: 49 EVCM limit 5.85 (ids 2)
+11-25 09:50:02 [$400] BUY 49 EVCM @ 5.73 stop 5.65 half@5.81 tgt 5.89 | orb5 | 5-min ORB: green first 5 min, closed above range high 5.79 | news: [Google News] EverCommerce CFO Ryan Siurek Reports Two RSU T
+11-25 09:50:02 [$1000] BUY 124 EVCM @ 5.73 stop 5.65 half@5.81 tgt 5.89 | orb5 | 5-min ORB: green first 5 min, closed above range high 5.79 | news: [Google News] EverCommerce CFO Ryan Siurek Reports Two RSU T
+11-25 09:50:02 status 200:watching 250:watching 350:watching 400:pos EVCM 550:watching 1000:pos EVCM
+11-25 09:52:02 [$400] HALF OFF 24 EVCM @ 5.81 (+1R), stop to breakeven
+11-25 09:52:03 [$400] ALPACA runner stop moved to 5.85
+11-25 09:52:02 [$1000] HALF OFF 62 EVCM @ 5.81 (+1R), stop to breakeven
+11-25 09:52:03 [$1000] ALPACA runner stop moved to 5.85
+11-25 09:53:02 [$400] EXIT 25 EVCM @ 5.71 (breakeven) total P&L $1.42
+11-25 09:53:05 [$400] ALPACA result EVCM: sim $1.42 vs alpaca $None (partially open)
+11-25 09:53:02 [$1000] EXIT 62 EVCM @ 5.71 (breakeven) total P&L $3.72
+11-25 09:53:07 [$1000] ALPACA result EVCM: sim $3.72 vs alpaca $None (partially open)
+11-25 09:58:02 [$350/bull_flag] SIGNAL HPQ: Bull flag: 4.8% pole, 1.3% flag on light vol, broke 31.06; stop 30.64; size 100%
+11-25 09:58:03 [$350] ALPACA paper bracket x2 sent: 6 HPQ limit 31.18 (ids 2)
+11-25 09:58:02 [$550/bull_flag] SIGNAL HPQ: Bull flag: 4.8% pole, 1.3% flag on light vol, broke 31.06; stop 30.64; size 100%
+11-25 09:58:03 [$550] ALPACA paper bracket x2 sent: 10 HPQ limit 31.18 (ids 2)
+11-25 09:59:02 [$350] BUY 7 HPQ @ 31.11 stop 30.64 half@31.58 tgt 32.05 | bull_flag | Bull flag: 4.8% pole, 1.3% flag on light vol, broke 31.06 | news: [Benzinga] HP Inc. Reports Fiscal 2026 Fourth Quarter and Fu
+11-25 09:59:02 [$550] BUY 11 HPQ @ 31.11 stop 30.64 half@31.58 tgt 32.05 | bull_flag | Bull flag: 4.8% pole, 1.3% flag on light vol, broke 31.06 | news: [Benzinga] HP Inc. Reports Fiscal 2026 Fourth Quarter and Fu
+11-25 10:00:02 scan keep HPQ +11.4% rvol 6.6 | [Benzinga] HP Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results and 
+11-25 10:00:02 scan drop CMCM +11.3% rvol 7.8: no news 24h
+11-25 10:00:02 scan keep BZ +10.5% rvol 3.1 | [Newswire] KANZHUN LIMITED Announces Third Quarter 2026 Unaudited Financial Resu
+11-25 10:00:02 scan drop OTLY +8.1% rvol 6.3: no news 24h
+11-25 10:00:02 scan drop ISSC +7.7% rvol 14.3: no news 24h
+11-25 10:00:02 scan keep EVCM +7.7% rvol 2.4 | [Google News] EverCommerce CFO Ryan Siurek Reports Two RSU Tax-Withholding Share
+11-25 10:00:02 scan keep BHR +7.5% rvol 3.0 | [Google News] Braemar Hotels Releases Preliminary Twelve-Month Luxury Portfolio 
+11-25 10:00:02 scan keep MCRB +7.4% rvol 3.1 | [SEC] 8-K filed 2026-10-26
+11-25 10:00:02 scan keep ZKH +7.2% rvol 3.2 | [Newswire] ZKH and Intel Bring Industrial Multimodal AI to the Edge with LingLon
+11-25 10:00:03 scan keep IQMX +5.3% rvol 7.1 | [Google News] IQM Quantum Computers Oyj (HLSE:IQMX) - Stock Analysis - Simply Wa
+11-25 10:00:03 scan keep KSS +4.9% rvol 4.2 | [Benzinga] Gordon Haskett Upgrades Kohl's to Buy From Hold
+11-25 10:00:03 scan keep STLA +4.6% rvol 3.9 | [Benzinga] Stellantis CEO Says We See Coming An 'important' Inflation On Raw Mat
+11-25 10:00:03 scan drop BIPC +4.2% rvol 80.5: no news 24h
+11-25 10:00:07 status 200:watching 250:watching 350:pos HPQ 400:done 550:pos HPQ 1000:done
+11-25 10:01:02 [$350] EXIT 7 HPQ @ 30.59 (stop) total P&L $-3.64
+11-25 10:01:06 [$350] ALPACA result HPQ: sim $-3.64 vs alpaca $None (partially open)
+11-25 10:01:02 [$550] EXIT 11 HPQ @ 30.59 (stop) total P&L $-5.72
+11-25 10:01:08 [$550] ALPACA result HPQ: sim $-5.72 vs alpaca $None (partially open)

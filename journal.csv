@@ -162,3 +162,7 @@ date,account,strategy,ticker,shares,entry,stop,half_at,target,exit,exit_reason,p
 2026-11-24,550,bull_flag,KC,42,6.57,6.44,6.7,6.83,6.42,stop,-6.3,-1.15,1.0,,1,"Bull flag: 4.4% pole, 0.8% flag on light vol, broke 6.51 | news: [Newswire] KC G.I.F.T. | Grants and free services for Black "
 2026-11-24,250,ema_bounce,NAMS,8,22.9,22.6,23.2,23.5,23.5,target,3.6,1.44,1.0,,1,"9/21 EMA bounce: tagged 21 EMA 22.73, closed back over 9 EMA | news: [Newswire] Gene Solutions Brings Molecular Precision to Nati"
 2026-11-24,1000,orb15,SNY,19,51.17,50.68,51.66,52.15,51.71,time,9.81,0.98,1.0,,1,"15-min ORB: closed above 15-min high 51.06, above VWAP | news: [Benzinga] Sanofi to Acquire Insmed for $41 Billion"
+2026-11-25,400,orb5,EVCM,49,5.73,5.65,5.81,5.89,5.71,breakeven,1.42,0.36,1.0,,1,"5-min ORB: green first 5 min, closed above range high 5.79 | news: [Google News] EverCommerce CFO Ryan Siurek Reports Two RSU T"
+2026-11-25,1000,orb5,EVCM,124,5.73,5.65,5.81,5.89,5.71,breakeven,3.72,0.37,1.0,,1,"5-min ORB: green first 5 min, closed above range high 5.79 | news: [Google News] EverCommerce CFO Ryan Siurek Reports Two RSU T"
+2026-11-25,350,bull_flag,HPQ,7,31.11,30.64,31.58,32.05,30.59,stop,-3.64,-1.04,1.0,,1,"Bull flag: 4.8% pole, 1.3% flag on light vol, broke 31.06 | news: [Benzinga] HP Inc. Reports Fiscal 2026 Fourth Quarter and Fu"
+2026-11-25,550,bull_flag,HPQ,11,31.11,30.64,31.58,32.05,30.59,stop,-5.72,-1.04,1.0,,1,"Bull flag: 4.8% pole, 1.3% flag on light vol, broke 31.06 | news: [Benzinga] HP Inc. Reports Fiscal 2026 Fourth Quarter and Fu"

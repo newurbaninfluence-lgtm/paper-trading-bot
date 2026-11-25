@@ -162,3 +162,7 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-24,550,bull_flag,KC,-6.3,42.0,42.0,6.5679,-5.16,closed
 2026-11-24,250,ema_bounce,NAMS,3.6,0.0,0.0,,,no fill
 2026-11-24,1000,orb15,SNY,9.81,19.0,9.0,51.11,,partially open
+2026-11-25,400,orb5,EVCM,1.42,19.0,10.0,5.84,,partially open
+2026-11-25,1000,orb5,EVCM,3.72,49.0,25.0,5.84,,partially open
+2026-11-25,350,bull_flag,HPQ,-3.64,6.0,0.0,31.0883,,partially open
+2026-11-25,550,bull_flag,HPQ,-5.72,10.0,0.0,31.077,,partially open
