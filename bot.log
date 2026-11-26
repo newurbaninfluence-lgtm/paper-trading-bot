@@ -4910,3 +4910,9 @@
 11-25 20:46:36 labeled 0 signals with outcomes
 11-25 20:46:39 daily report written
 11-25 20:46:39 bot session end
+11-26 16:52:26 alpaca paper mirror: ON
+11-26 16:52:26 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-26 16:52:26 resumed state from 2026-11-25
+11-26 16:52:26 bot live start (max 5.9h)
+11-26 16:52:26 market closed today (holiday/weekend)
+11-26 16:52:26 bot session end
