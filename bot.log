@@ -5062,3 +5062,6 @@
 11-27 11:35:07 [$400] ALPACA result STLA: sim $1.32 vs alpaca $None (partially open)
 11-27 11:35:02 [$1000] EXIT 83 STLA @ 3.89 (breakeven) total P&L $3.32
 11-27 11:35:09 [$1000] ALPACA result STLA: sim $3.32 vs alpaca $None (partially open)
+11-27 11:40:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-27 11:50:04 status 200:done 250:done 350:done 400:done 550:done 1000:done
+11-27 12:00:05 status 200:done 250:done 350:done 400:done 550:done 1000:done
