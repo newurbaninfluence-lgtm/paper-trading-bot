@@ -4928,3 +4928,25 @@
 11-26 20:43:20 bot live start (max 5.9h)
 11-26 20:43:20 market closed today (holiday/weekend)
 11-26 20:43:20 bot session end
+11-27 08:38:26 alpaca paper mirror: ON
+11-27 08:38:26 model filter: off; strategies off: ['hod_break', 'pm_high_break', 'orb15', 'orb5', 'afternoon_hod', 'bull_flag', 'ema_bounce', 'failed_breakdown', 'eod_squeeze', 'vwap_pullback']
+11-27 08:38:26 resumed state from 2026-11-25
+11-27 08:38:26 bot live start (max 5.9h)
+11-27 09:31:26 early close today: exits at 12:55:00
+11-27 09:31:34 market brief written: briefs/2026-11-27.md (25 Benzinga items)
+11-27 09:31:35 scan keep BBD +17.8% rvol 11.3 | [Benzinga] Luiz Carlos Trabuco Cappi Appointed Minister of Finance
+11-27 09:31:35 scan keep INTR +15.7% rvol 5.9 | [Benzinga] Inter & Co Reports Third Quarter 2026 Financial Results
+11-27 09:31:35 scan keep IQMX +10.9% rvol 4.1 | [Google News] IQM Quantum Computers Oyj (HLSE:IQMX) - Stock Analysis - Simply Wa
+11-27 09:31:36 scan keep TIMB +10.6% rvol 3.1 | [Newswire] AB Invalda INVL unaudited financial information for 9 months of 2026 
+11-27 09:31:37 scan keep PBR +9.2% rvol 2.9 | [Google News] Petrobras (Derivatives) Price | PBR Price Today, Live Chart, USD c
+11-27 09:31:38 scan keep YPF +8.1% rvol 2.8 | [Google News] YPF Mar 2027 80.000 call (YPF270319C00080000) interactive stock ch
+11-27 09:31:38 scan keep NU +7.8% rvol 2.3 | [Benzinga] Stock Market Today: Dow Jones, S&P 500, Nasdaq 100  Futures Rise as N
+11-27 09:31:39 scan keep TMC +7.5% rvol 3.2 | [Google News] TMC the metals (TMC) CEO Barron bought 20,000 shares for $33.4K at
+11-27 09:31:39 scan keep VALE +6.7% rvol 2.2 | [Newswire] Suspension of Mining and Processing Activities at the Tucumã Operatio
+11-27 09:31:40 scan drop PSLV +6.5% rvol 2.9: no news 24h
+11-27 09:31:40 scan keep STLA +6.4% rvol 2.2 | [Benzinga] Stellantis CEO Says We See Coming An 'important' Inflation On Raw Mat
+11-27 09:31:41 scan keep BMA +6.3% rvol 2.1 | [Benzinga] Banco Macro Announces Results for the Third Quarter of 2026
+11-27 09:31:41 scan keep SNDK +6.0% rvol 3.1 | [Benzinga] Morgan Stanley Adjusts Price Target on Sandisk to $218 From $218.75
+11-27 09:31:41 scan keep FLNC +5.7% rvol 2.2 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-27 09:31:41 scan keep LAES +5.2% rvol 4.1 | [Benzinga] Susquehanna Securities Files Amended Schedule 13G for SEALSQ Corp
+11-27 09:31:42 new day universe=['BBD', 'INTR', 'IQMX', 'TIMB', 'PBR', 'YPF', 'NU', 'TMC', 'VALE', 'STLA', 'BMA', 'SNDK']
