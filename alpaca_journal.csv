@@ -169,3 +169,8 @@ date,account,strategy,ticker,sim_pnl,alp_shares_in,alp_shares_out,alp_avg_entry,
 2026-11-25,200,vwap_pullback,BZ,1.26,14.0,7.0,13.82,,partially open
 2026-11-25,250,ema_bounce,BZ,1.04,16.0,16.0,13.9075,1.48,closed
 2026-11-27,350,bull_flag,PICS,-4.18,26.0,26.0,5.9,-3.64,closed
+2026-11-27,200,vwap_pullback,STLA,0.21,36.0,36.0,3.91,1.62,closed
+2026-11-27,250,orb15,STLA,0.31,45.0,23.0,3.91,,partially open
+2026-11-27,550,pm_high_break,LAES,8.22,73.0,36.0,1.21,,partially open
+2026-11-27,400,orb5,STLA,1.32,53.0,27.0,3.9,,partially open
+2026-11-27,1000,orb5,STLA,3.32,133.0,67.0,3.9,,partially open
