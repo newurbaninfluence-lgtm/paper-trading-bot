@@ -5005,3 +5005,31 @@
 11-27 10:01:02 [$200/vwap_pullback] SIGNAL STLA: VWAP pullback: +6.7%, dipped to VWAP 3.88, reclaimed with green bar; stop 3.88; size 100%
 11-27 10:01:05 [$200] ALPACA paper bracket x2 sent: 36 STLA limit 3.93 (ids 2)
 11-27 10:02:02 [$200] BUY 49 STLA @ 3.92 stop 3.88 half@3.96 tgt 4.0 | vwap_pullback | VWAP pullback: +6.7%, dipped to VWAP 3.88, reclaimed with green bar | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' 
+11-27 10:07:02 [$550/pm_high_break] SIGNAL LAES: Premarket-high break: closed above PM high 1.20, above VWAP; stop 1.16; size 100%
+11-27 10:07:04 [$550] ALPACA paper bracket x2 sent: 73 LAES limit 1.24 (ids 2)
+11-27 10:08:02 [$550] BUY 91 LAES @ 1.22 stop 1.16 half@1.28 tgt 1.34 | pm_high_break | Premarket-high break: closed above PM high 1.20, above VWAP | news: [Benzinga] Susquehanna Securities Files Amended Schedule 13G
+11-27 10:10:04 status 200:pos STLA 250:pos STLA 350:watching 400:pos STLA 550:pos LAES 1000:pos STLA
+11-27 10:15:02 scan keep XP +19.0% rvol 6.7 | [Google News] XP: 3 Key Takeaways for Long-Term Investors - The Globe and Mail
+11-27 10:15:02 scan keep IQMX +18.3% rvol 7.5 | [Google News] IQM Quantum Computers Oyj (HLSE:IQMX) - Stock Analysis - Simply Wa
+11-27 10:15:02 scan keep BBD +17.9% rvol 10.4 | [Benzinga] Luiz Carlos Trabuco Cappi Appointed Minister of Finance
+11-27 10:15:02 scan keep INTR +17.2% rvol 8.4 | [Benzinga] Inter & Co Reports Third Quarter 2026 Financial Results
+11-27 10:15:02 scan keep LAES +16.8% rvol 4.1 | [Benzinga] Susquehanna Securities Files Amended Schedule 13G for SEALSQ Corp
+11-27 10:15:02 scan drop ELPC +13.6% rvol 3.4: no news 24h
+11-27 10:15:02 scan keep ITUB +13.1% rvol 5.0 | [Benzinga] Itaú Unibanco Joins B3 and Other Financial Firms to Launch 'Open BRL'
+11-27 10:15:02 scan keep BYND +13.0% rvol 7.8 | [Google News] BYND Nov 2026 11.500 put (BYND261127P00011500) Interactive Stock C
+11-27 10:15:02 scan keep SBS +12.3% rvol 5.7 | [Newswire] 74Software announces proposed efficiency measures to support SBS's tr
+11-27 10:15:02 scan keep VERA +11.4% rvol 5.6 | [Newswire] Target's Cyber Monday Sale Helps Families Save Big on Thousands of Mu
+11-27 10:15:02 scan keep PICS +10.7% rvol 3.8 | [Newswire] Ontario International Airport | flyONT - Instagram
+11-27 10:15:02 scan keep AYA +10.4% rvol 3.7 | [Google News] Aya Gold & Silver Inc. (TSX:AYA): What an Elevated One-Year Beta o
+11-27 10:15:02 scan keep SNDK +10.4% rvol 3.5 | [Benzinga] Morgan Stanley Adjusts Price Target on Sandisk to $218 From $218.75
+11-27 10:15:02 scan keep KNTK +9.9% rvol 5.1 | [Google News] Targa Resources Is Reportedly Eyeing Kinetik as Data Centers Drive
+11-27 10:15:02 scan drop UGP +9.3% rvol 5.0: no news 24h
+11-27 10:15:02 scan keep FLNC +9.0% rvol 3.9 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-27 10:15:02 scan keep TIMB +8.8% rvol 3.6 | [Newswire] AB Invalda INVL unaudited financial information for 9 months of 2026 
+11-27 10:15:02 scan keep QBTS +8.6% rvol 2.4 | [Newswire] Deadline Alert: D-Wave Quantum, Inc. Investors Have Until - GlobeNews
+11-27 10:15:03 scan keep DAVA +8.3% rvol 3.5 | [Newswire] DAVA 4-DAY DEADLINE ALERT: Endava plc Investors Encouraged - GlobeNew
+11-27 10:15:04 scan keep SUPV +8.2% rvol 3.2 | [Google News] Grupo Supervielle Targets 20% Real Return on Equity by 2031 With L
+11-27 10:20:04 status 200:pos STLA 250:pos STLA 350:watching 400:pos STLA 550:pos LAES 1000:pos STLA
+11-27 10:30:04 status 200:pos STLA 250:pos STLA 350:watching 400:pos STLA 550:pos LAES 1000:pos STLA
+11-27 10:33:02 [$350/bull_flag] SIGNAL PICS: Bull flag: 4.1% pole, 1.4% flag on light vol, broke 5.89; stop 5.8; size 100%
+11-27 10:33:04 [$350] ALPACA paper bracket x2 sent: 26 PICS limit 5.93 (ids 2)
