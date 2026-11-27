@@ -5033,3 +5033,19 @@
 11-27 10:30:04 status 200:pos STLA 250:pos STLA 350:watching 400:pos STLA 550:pos LAES 1000:pos STLA
 11-27 10:33:02 [$350/bull_flag] SIGNAL PICS: Bull flag: 4.1% pole, 1.4% flag on light vol, broke 5.89; stop 5.8; size 100%
 11-27 10:33:04 [$350] ALPACA paper bracket x2 sent: 26 PICS limit 5.93 (ids 2)
+11-27 10:34:02 [$350] BUY 38 PICS @ 5.89 stop 5.80 half@5.98 tgt 6.07 | bull_flag | Bull flag: 4.1% pole, 1.4% flag on light vol, broke 5.89 | news: [Newswire] Ontario International Airport | flyONT - Instagra
+11-27 10:35:02 [$200] HALF OFF 24 STLA @ 3.96 (+1R), stop to breakeven
+11-27 10:35:04 [$200] ALPACA runner stop moved to 3.93
+11-27 10:35:02 [$250] HALF OFF 31 STLA @ 3.96 (+1R), stop to breakeven
+11-27 10:35:05 [$250] ALPACA runner stop moved to 3.94
+11-27 10:36:02 [$400] HALF OFF 33 STLA @ 3.97 (+1R), stop to breakeven
+11-27 10:36:05 [$400] ALPACA runner stop moved to 3.92
+11-27 10:36:02 [$1000] HALF OFF 83 STLA @ 3.97 (+1R), stop to breakeven
+11-27 10:36:05 [$1000] ALPACA runner stop moved to 3.92
+11-27 10:40:04 status 200:pos STLA 250:pos STLA 350:pos PICS 400:pos STLA 550:pos LAES 1000:pos STLA
+11-27 10:44:02 [$350] EXIT 38 PICS @ 5.78 (stop) total P&L $-4.18
+11-27 10:44:06 [$350] ALPACA result PICS: sim $-4.18 vs alpaca $-3.64 (closed)
+11-27 10:44:02 [$550] HALF OFF 45 LAES @ 1.28 (+1R), stop to breakeven
+11-27 10:44:06 [$550] ALPACA runner stop moved to 1.24
+11-27 10:50:04 status 200:pos STLA 250:pos STLA 350:done 400:pos STLA 550:pos LAES 1000:pos STLA
+11-27 11:00:04 status 200:pos STLA 250:pos STLA 350:done 400:pos STLA 550:pos LAES 1000:pos STLA
