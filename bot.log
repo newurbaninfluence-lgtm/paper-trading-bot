@@ -4950,3 +4950,58 @@
 11-27 09:31:41 scan keep FLNC +5.7% rvol 2.2 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
 11-27 09:31:41 scan keep LAES +5.2% rvol 4.1 | [Benzinga] Susquehanna Securities Files Amended Schedule 13G for SEALSQ Corp
 11-27 09:31:42 new day universe=['BBD', 'INTR', 'IQMX', 'TIMB', 'PBR', 'YPF', 'NU', 'TMC', 'VALE', 'STLA', 'BMA', 'SNDK']
+11-27 09:40:02 [$400/orb5] SIGNAL STLA: 5-min ORB: green first 5 min, closed above range high 3.89; stop 3.85; size 100%
+11-27 09:40:04 [$400] ALPACA paper bracket x2 sent: 53 STLA limit 3.92 (ids 2)
+11-27 09:40:02 [$1000/orb5] SIGNAL STLA: 5-min ORB: green first 5 min, closed above range high 3.89; stop 3.85; size 100%
+11-27 09:40:04 [$1000] ALPACA paper bracket x2 sent: 133 STLA limit 3.92 (ids 2)
+11-27 09:40:04 status 200:watching 250:watching 350:watching 400:pending 550:watching 1000:pending
+11-27 09:41:02 [$400] BUY 66 STLA @ 3.91 stop 3.85 half@3.97 tgt 4.03 | orb5 | 5-min ORB: green first 5 min, closed above range high 3.89 | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' 
+11-27 09:41:02 [$1000] BUY 166 STLA @ 3.91 stop 3.85 half@3.97 tgt 4.03 | orb5 | 5-min ORB: green first 5 min, closed above range high 3.89 | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' 
+11-27 09:45:03 scan keep TE +17.0% rvol 2.0 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
+11-27 09:45:03 scan keep BBD +16.5% rvol 16.0 | [Benzinga] Luiz Carlos Trabuco Cappi Appointed Minister of Finance
+11-27 09:45:04 scan keep XP +16.1% rvol 9.5 | [Google News] XP: 3 Key Takeaways for Long-Term Investors - The Globe and Mail
+11-27 09:45:04 scan keep INTR +15.5% rvol 13.0 | [Benzinga] Inter & Co Reports Third Quarter 2026 Financial Results
+11-27 09:45:04 scan keep VERA +15.3% rvol 8.8 | [Newswire] Target's Cyber Monday Sale Helps Families Save Big on Thousands of Mu
+11-27 09:45:05 scan drop ELPC +14.3% rvol 4.9: no news 24h
+11-27 09:45:06 scan drop LZM +13.3% rvol 4.4: no news 24h
+11-27 09:45:07 scan keep ITUB +12.6% rvol 5.7 | [Benzinga] Itaú Unibanco Joins B3 and Other Financial Firms to Launch 'Open BRL'
+11-27 09:45:08 scan keep SBS +12.4% rvol 8.9 | [Newswire] 74Software announces proposed efficiency measures to support SBS's tr
+11-27 09:45:08 scan drop TTEC +11.1% rvol 3.4: no news 24h
+11-27 09:45:08 scan drop UGP +10.4% rvol 4.6: no news 24h
+11-27 09:45:08 scan keep IQMX +10.1% rvol 8.8 | [Google News] IQM Quantum Computers Oyj (HLSE:IQMX) - Stock Analysis - Simply Wa
+11-27 09:45:09 scan keep PICS +9.3% rvol 4.5 | [Newswire] Ontario International Airport | flyONT - Instagram
+11-27 09:45:10 scan keep AYA +9.3% rvol 3.4 | [Google News] Aya Gold & Silver Inc. (TSX:AYA): What an Elevated One-Year Beta o
+11-27 09:45:10 scan keep TIMB +9.0% rvol 5.4 | [Newswire] AB Invalda INVL unaudited financial information for 9 months of 2026 
+11-27 09:45:11 scan keep TUYA +8.7% rvol 5.4 | [Google News] Tuya Inc. (7850.F) Seasonal Returns Chart - Yahoo Finance - Yahoo!
+11-27 09:45:11 scan keep HTZ +8.6% rvol 2.3 | [Google News] Why Did GME, SPCX, HTZ Stocks Plunge To 52-Week Lows? - Stocktwits
+11-27 09:45:12 scan drop ASPE +8.5% rvol 2.4: no news 24h
+11-27 09:45:13 scan drop DFTX +8.3% rvol 4.1: no news 24h
+11-27 09:45:13 scan keep BYND +8.3% rvol 5.1 | [Google News] BYND Nov 2026 11.500 put (BYND261127P00011500) Interactive Stock C
+11-27 09:49:02 [$250/orb15] SIGNAL STLA: 15-min ORB: closed above 15-min high 3.90, above VWAP; stop 3.88; size 100%
+11-27 09:49:04 [$250] ALPACA paper bracket x2 sent: 45 STLA limit 3.94 (ids 2)
+11-27 09:50:02 [$250] BUY 62 STLA @ 3.92 stop 3.88 half@3.96 tgt 4.0 | orb15 | 15-min ORB: closed above 15-min high 3.90, above VWAP | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' 
+11-27 09:50:04 status 200:watching 250:pos STLA 350:watching 400:pos STLA 550:watching 1000:pos STLA
+11-27 10:00:02 scan keep XP +18.5% rvol 8.7 | [Google News] XP: 3 Key Takeaways for Long-Term Investors - The Globe and Mail
+11-27 10:00:02 scan keep INTR +17.6% rvol 10.6 | [Benzinga] Inter & Co Reports Third Quarter 2026 Financial Results
+11-27 10:00:02 scan keep IQMX +16.7% rvol 8.5 | [Google News] IQM Quantum Computers Oyj (HLSE:IQMX) - Stock Analysis - Simply Wa
+11-27 10:00:02 scan keep BBD +16.3% rvol 13.5 | [Benzinga] Luiz Carlos Trabuco Cappi Appointed Minister of Finance
+11-27 10:00:02 scan keep BYND +14.6% rvol 7.8 | [Google News] BYND Nov 2026 11.500 put (BYND261127P00011500) Interactive Stock C
+11-27 10:00:02 scan keep TE +13.8% rvol 2.2 | [Benzinga] Reju Expands Textile Recycling Network with A. Sampaio Partnership
+11-27 10:00:02 scan keep ITUB +12.9% rvol 5.9 | [Benzinga] Itaú Unibanco Joins B3 and Other Financial Firms to Launch 'Open BRL'
+11-27 10:00:02 scan drop ELPC +12.9% rvol 4.4: no news 24h
+11-27 10:00:02 scan keep VERA +12.5% rvol 7.7 | [Newswire] Target's Cyber Monday Sale Helps Families Save Big on Thousands of Mu
+11-27 10:00:02 scan keep SBS +12.2% rvol 7.6 | [Newswire] 74Software announces proposed efficiency measures to support SBS's tr
+11-27 10:00:02 scan drop LZM +12.1% rvol 3.8: no news 24h
+11-27 10:00:02 scan keep LAES +10.7% rvol 4.4 | [Benzinga] Susquehanna Securities Files Amended Schedule 13G for SEALSQ Corp
+11-27 10:00:02 scan drop UGP +10.3% rvol 5.7: no news 24h
+11-27 10:00:02 scan keep PICS +10.2% rvol 4.7 | [Newswire] Ontario International Airport | flyONT - Instagram
+11-27 10:00:03 scan keep PAGS +9.1% rvol 2.2 | [Google News] PagSeguro (PAGS) Stock Jumps 12.4% Premarket Without Company New -
+11-27 10:00:03 scan keep AYA +9.0% rvol 4.3 | [Google News] Aya Gold & Silver Inc. (TSX:AYA): What an Elevated One-Year Beta o
+11-27 10:00:03 scan keep TIMB +8.9% rvol 4.4 | [Newswire] AB Invalda INVL unaudited financial information for 9 months of 2026 
+11-27 10:00:04 scan keep KNTK +8.9% rvol 5.3 | [Google News] Targa Resources Is Reportedly Eyeing Kinetik as Data Centers Drive
+11-27 10:00:04 scan keep TUYA +8.4% rvol 5.2 | [Google News] Tuya Inc. (7850.F) Seasonal Returns Chart - Yahoo Finance - Yahoo!
+11-27 10:00:04 scan keep FLNC +8.2% rvol 4.5 | [Benzinga] Goldman Sachs Maintains Neutral on Fluence Energy, Lowers Price Targe
+11-27 10:00:06 status 200:watching 250:pos STLA 350:watching 400:pos STLA 550:watching 1000:pos STLA
+11-27 10:01:02 [$200/vwap_pullback] SIGNAL STLA: VWAP pullback: +6.7%, dipped to VWAP 3.88, reclaimed with green bar; stop 3.88; size 100%
+11-27 10:01:05 [$200] ALPACA paper bracket x2 sent: 36 STLA limit 3.93 (ids 2)
+11-27 10:02:02 [$200] BUY 49 STLA @ 3.92 stop 3.88 half@3.96 tgt 4.0 | vwap_pullback | VWAP pullback: +6.7%, dipped to VWAP 3.88, reclaimed with green bar | news: [Benzinga] Stellantis CEO Says We See Coming An 'important' 
