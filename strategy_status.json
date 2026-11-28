@@ -5,23 +5,23 @@
   "orb15": "off",
   "orb5": "off",
   "afternoon_hod": "off",
-  "bull_flag": "off",
   "ema_bounce": "off",
+  "bull_flag": "off",
   "failed_breakdown": "off",
   "eod_squeeze": "off",
   "vwap_pullback": "off"
  },
  "why": {
-  "hod_break": "loses -0.14R/trade over 721 trades",
-  "pm_high_break": "loses -0.16R/trade over 712 trades",
-  "orb15": "decay: last 50 live signals avg -0.17R",
+  "hod_break": "loses -0.14R/trade over 732 trades",
+  "pm_high_break": "loses -0.17R/trade over 722 trades",
+  "orb15": "decay: last 50 live signals avg -0.34R",
   "orb5": "decay: last 50 live signals avg -0.49R",
-  "afternoon_hod": "decay: last 50 live signals avg -0.56R",
-  "bull_flag": "decay: last 50 live signals avg -0.63R",
-  "ema_bounce": "decay: last 50 live signals avg -0.68R",
-  "failed_breakdown": "loses -0.26R/trade over 2712 trades",
-  "eod_squeeze": "loses -0.31R/trade over 788 trades",
-  "vwap_pullback": "decay: last 50 live signals avg -0.62R"
+  "afternoon_hod": "decay: last 50 live signals avg -0.54R",
+  "ema_bounce": "decay: last 50 live signals avg -0.45R",
+  "bull_flag": "decay: last 50 live signals avg -0.70R",
+  "failed_breakdown": "decay: last 50 live signals avg -0.30R",
+  "eod_squeeze": "loses -0.31R/trade over 790 trades",
+  "vwap_pullback": "decay: last 50 live signals avg -0.40R"
  },
- "updated": "2026-11-21"
+ "updated": "2026-11-28"
 }
